@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.view.MButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rect_rounded_corner"
+    android:focusable="false"
+    app:customButtonTypeFace="@string/systemMediumFont"
+    android:focusableInTouchMode="false"
+    android:textSize="@dimen/_15ssp"
+    android:textAllCaps="true"
+    app:heightOfButton="@dimen/all_btn_height"
+    android:textColor="@color/btn_text_color_type1"
+    />

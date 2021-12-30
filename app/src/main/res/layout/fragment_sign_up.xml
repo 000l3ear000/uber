@@ -1,0 +1,308 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fadeScrollbars="false"
+    android:fillViewport="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.fragments.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/imgClose"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentEnd="true"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    app:srcCompat="@drawable/ic_clear" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_20sdp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    app:srcCompat="@drawable/ic_signin_signup" />
+
+                <com.view.MTextView
+                    android:id="@+id/titleTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_22sdp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sign Up"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_32ssp"
+                    app:customTypeFace="@string/systemRegular" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/nameArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/fNameBox"
+                    layout="@layout/editbox_form_design"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/lNameBox"
+                    layout="@layout/editbox_form_design"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <include
+                android:id="@+id/emailBox"
+                layout="@layout/editbox_form_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <include
+
+                android:id="@+id/passwordBox"
+                layout="@layout/editbox_form_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <RelativeLayout
+                android:id="@+id/mobileNoArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:gravity="start"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:id="@+id/yearSelectArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <ImageView
+                        android:gravity="start"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        android:id="@+id/countryimage"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:clickable="false"
+                        app:srcCompat="@drawable/ic_card_default" />
+
+                    <include
+                        android:gravity="start"
+                        android:id="@+id/countryBox"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <ImageView
+                        android:layout_marginStart="@dimen/_minus10sdp"
+                        android:layout_toEndOf="@id/countryBox"
+                        android:layout_marginTop="@dimen/_24sdp"
+                        android:id="@+id/countrydropimage"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:clickable="false"
+                        app:srcCompat="@drawable/ic_down_arrow" />
+                    <ImageView
+                        android:id="@+id/countrydropimagerror"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginBottom="25dp"
+                        android:clickable="false"
+                        android:tint="#bfbfbf"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+                <include
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@id/yearSelectArea"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/mobileBox"
+                    layout="@layout/editbox_form_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+
+                android:id="@+id/inviteCodeArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <include
+                    android:id="@+id/invitecodeBox"
+                    layout="@layout/editbox_form_design"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.70" />
+
+
+                <ImageView
+
+                    android:id="@+id/inviteQueryImg"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="-40dp"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_referral_icon" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkboxTermsCond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@color/appThemeColor_2"
+                android:textColor="#272727"
+                android:textSize="@dimen/txt_size_16"
+                android:theme="@style/MyCheckBox"
+                android:visibility="gone" />
+
+            <com.view.MTextView
+                android:id="@+id/txtTermsCond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/systemLightFont" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:gravity="end">
+
+
+            <LinearLayout
+                android:id="@+id/btnArea"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/all_btn_height"
+                android:background="@drawable/login_border"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal"
+                android:paddingStart="40dp">
+
+
+                <com.view.MTextView
+                    android:id="@+id/btnTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textAllCaps="true"
+                    android:textColor="@color/appThemeColor_TXT_1"
+                    android:textSize="@dimen/_15ssp"
+                    android:visibility="visible"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+                <ImageView
+                    android:id="@+id/btnImg"
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/ic_right_arrow" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/signbootomHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_12"
+                app:customTypeFace="@string/systemLightFont" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

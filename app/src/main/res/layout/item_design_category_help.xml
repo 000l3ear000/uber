@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutBackground"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.view.MTextView
+            android:id="@+id/titleTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:textAlignment="viewStart"
+            />
+
+        <ImageView
+            android:id="@+id/imagearrow"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="0"
+            android:rotation="-90"
+            android:tint="#c7c7cc"
+            app:srcCompat="@drawable/ic_arrow_point_to_down" />
+    </LinearLayout>
+    <View
+        android:id="@+id/seperationLine"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#f1f1f1" />
+</LinearLayout>

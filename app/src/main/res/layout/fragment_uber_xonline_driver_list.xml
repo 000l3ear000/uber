@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appThemeColor_TXT_1"
+    android:orientation="vertical">
+
+    <include layout="@layout/design_toolbar_main"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/olDriversRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" />
+
+        <com.view.MTextView
+            android:id="@+id/noOlDriverTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#1C1C1C"
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

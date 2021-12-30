@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/left_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/appThemeColor_TXT_1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true">
+
+        <com.view.SelectableRoundedImageView
+            android:id="@+id/userImgView"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_gravity="start"
+            android:layout_marginStart="14dp"
+            android:scaleType="centerCrop"
+            app:sriv_border_color="@color/appThemeColor_1"
+            app:sriv_border_width="2dip"
+            app:sriv_left_bottom_corner_radius="20dip"
+            app:sriv_left_top_corner_radius="20dip"
+            app:sriv_oval="true"
+            app:sriv_right_bottom_corner_radius="20dip"
+            app:sriv_right_top_corner_radius="20dip" />
+
+        <com.view.MTextView
+            android:id="@+id/userNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical|start"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_toStartOf="@+id/imgSetting"
+            android:layout_toEndOf="@+id/userImgView"
+            android:ellipsize="marquee"
+            android:includeFontPadding="false"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textAlignment="viewStart"
+
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/_13ssp"
+            app:customTypeFace="@string/systemSemiBold" />
+
+        <com.view.MTextView
+            android:id="@+id/walletbalncetxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userNameTxt"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_toEndOf="@+id/userImgView"
+            android:gravity="bottom|start"
+            android:includeFontPadding="false"
+            android:padding="@dimen/_3sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <ImageView
+            android:id="@+id/imgSetting"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/_5sdp"
+
+            android:tint="@color/black"
+            app:srcCompat="@mipmap/ic_setting" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backimageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_shape_combind" />
+
+        <ListView
+
+
+            android:id="@+id/menuListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingTop="@dimen/_45sdp"
+            android:paddingBottom="@dimen/_50sdp" />
+
+        <LinearLayout
+            android:id="@+id/logoutarea"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+
+            android:paddingStart="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/logoutimage"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="10dp"
+                android:clickable="false"
+                android:rotationY="@integer/angle_rtl_180"
+                android:src="@mipmap/ic_menu_logout"
+                android:tint="@color/appThemeColor_TXT_1" />
+
+            <com.view.MTextView
+                android:gravity="center_vertical"
+                android:id="@+id/logoutTxt"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:layout_gravity="start|center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="Logout"
+                android:textAlignment="viewStart"
+                android:textColor="@color/appThemeColor_TXT_1"
+                android:textSize="@dimen/_12ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

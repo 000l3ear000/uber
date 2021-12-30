@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.view.LoopingCirclePageIndicator
+            android:id="@+id/bannerCirclePageIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_weight="0"
+            android:padding="10dp"
+            android:visibility="visible"
+            app:fillColor="@color/appThemeColor_1"
+            app:pageColor="@color/gray"
+            app:strokeWidth="0dp" />
+
+        <LinearLayout
+            android:id="@+id/languageCurrancyArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/languagearea"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/round_shape"
+                android:backgroundTint="@color/Green"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:id="@+id/languageText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="ENG"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/appThemeColor_TXT_1"
+                    android:textSize="@dimen/_11ssp"
+                    app:customTypeFace="@string/systemSemiBold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/currencyarea"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:background="@drawable/round_shape"
+                android:backgroundTint="@color/Darkblack"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:id="@+id/currancyText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="USD"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/appThemeColor_TXT_1"
+                    android:textSize="@dimen/_11ssp"
+                    app:customTypeFace="@string/systemSemiBold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Bem-vindo(a) \nao app do usuário."
+                android:textColor="@color/Darkblack"
+                android:textSize="30dp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Desfrute da melhor experiência que um aplicativo possa lhe oferecer! Segurança, preço baixo e conforto."
+                android:textColor="@color/Green"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:id="@+id/loginbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/new_splash_btn_shape"
+                    android:backgroundTint="@color/Darkblack"
+                    android:gravity="center"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:singleLine="true"
+                    android:text="Login"
+                    android:textAllCaps="true"
+                    android:textColor="@color/appThemeColor_TXT_2"
+                    android:textSize="17sp"
+                    app:customTypeFace="@string/systemSemiBold" />
+
+                <com.view.MTextView
+                    android:id="@+id/registerbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/new_splash_btn_shape"
+                    android:backgroundTint="@color/Green"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Register"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:customTypeFace="@string/systemSemiBold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.view.anim.loader.AVLoadingIndicatorView
+            android:id="@+id/loaderView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_100sdp"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            app:indicator="BallPulse"
+            app:indicator_color="@color/appThemeColor_1" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

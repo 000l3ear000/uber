@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/_55sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="@dimen/_8sdp">
+
+        <RelativeLayout
+            android:background="@color/appThemeColor_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layoutShape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_35sdp"
+                android:background="@drawable/ic_shape"
+                android:minHeight="@dimen/_55sdp"
+                android:orientation="horizontal">
+
+                <com.view.SelectableRoundedImageView
+                    android:id="@+id/menuImage"
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_55sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:scaleType="fitXY"
+                    app:sriv_left_bottom_corner_radius="@dimen/_5sdp"
+                    app:sriv_left_top_corner_radius="@dimen/_5sdp"
+                    app:sriv_right_bottom_corner_radius="@dimen/_5sdp"
+                    app:sriv_right_top_corner_radius="@dimen/_5sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.view.MTextView
+                                android:id="@+id/itemNameTxtView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:ellipsize="marquee"
+                                android:gravity="start|center_vertical"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textAlignment="viewStart"
+                                android:textColor="#141414"
+                                android:textSize="@dimen/_15ssp"
+                                app:customTypeFace="@string/systemMediumFont" />
+
+                            <com.view.MTextView
+                                android:id="@+id/itemMenuNameTxtView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:ellipsize="marquee"
+                                android:gravity="start|center_vertical"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textAlignment="viewStart"
+                                android:textColor="#666666"
+                                android:textSize="@dimen/txt_size_12"
+                                android:visibility="gone"
+                                app:customTypeFace="@string/systemRegular" />
+
+                            <com.view.MTextView
+                                android:id="@+id/itemstrikePriceTxtView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="start|center_vertical"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/txt_size_12"
+                                android:visibility="gone"
+                                app:customTypeFace="@string/systemRegular" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <com.view.MTextView
+                                    android:id="@+id/itemPriceTxtView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start|center_vertical"
+                                    android:text=""
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/appThemeColor_1"
+                                    android:textSize="@dimen/_15ssp"
+                                    app:customTypeFace="@string/systemSemiBold" />
+
+                                <com.view.MTextView
+                                    android:id="@+id/hourTxt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="center|start"
+                                    android:text=""
+                                    android:textAlignment="viewStart"
+                                    android:textColor="#656565"
+                                    android:textSize="@dimen/_11ssp"
+                                    app:customTypeFace="@string/systemRegular" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <com.view.MTextView
+                            android:id="@+id/QTYNumberTxtView"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="#141414"
+                            android:textSize="@dimen/_11ssp"
+                            android:visibility="visible"
+                            app:customTypeFace="@string/systemMediumFont" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/img_delete"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:minHeight="@dimen/_55sdp">
+
+                <ImageView
+                    android:id="@+id/cancelImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:tint="#ffffff"
+                    app:srcCompat="@drawable/ic_clear" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

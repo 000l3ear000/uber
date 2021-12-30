@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:minHeight="@dimen/_40sdp"
+        android:id="@+id/recentAdapterView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@+id/imageabackArea"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/round_shape"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp">
+
+            <ImageView
+                android:id="@+id/roundImage"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_17sdp"
+                android:layout_gravity="center"
+                android:tint="@color/appThemeColor_TXT_1"
+                app:srcCompat="@drawable/ic_recent_location" />
+
+        </LinearLayout>
+
+
+        <com.view.MTextView
+            android:id="@+id/recentAddrTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_weight="1"
+            android:maxLines="3"
+            android:gravity="start|center"
+            android:text=""
+            app:customTypeFace="@string/systemLightFont"
+            android:textSize="@dimen/_12ssp"
+            android:textAlignment="viewStart" />
+
+        <ImageView
+            android:id="@+id/recarrowImage"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            app:srcCompat="@drawable/ic_arrow" />
+    </LinearLayout>
+</LinearLayout>

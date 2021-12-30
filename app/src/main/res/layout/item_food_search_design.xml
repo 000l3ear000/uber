@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/tempView"
+            android:layout_marginBottom="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/viewArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/presImage"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"
+                android:clickable="false"
+                app:srcCompat="@drawable/ic_medicine"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/vegImageView"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"
+                android:clickable="false"
+                android:src="@drawable/veg"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/nonvegImageView"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"
+                android:clickable="false"
+                android:src="@drawable/nonveg"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.view.MTextView
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:ellipsize="marquee"
+                            android:gravity="start|center"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_14"
+                            app:customTypeFace="@string/robotomediumFont" />
+
+                        <com.view.MTextView
+                            android:id="@+id/desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:text=""
+                            android:textColor="#a0a0a0"
+                            android:textSize="@dimen/txt_size_12"
+                            app:customTypeFace="@string/robotolightFont" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.view.MTextView
+                                android:id="@+id/price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:text=""
+                                android:textColor="@color/appThemeColor_1"
+                                android:textSize="@dimen/txt_size_12"
+                                android:textStyle="bold"
+                                app:customTypeFace="@string/robotobold" />
+
+                            <com.view.MTextView
+                                android:id="@+id/offerPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/txt_size_12"
+                                app:customTypeFace="@string/robotobold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rightImgView"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:id="@+id/itemImage"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:visibility="visible"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:id="@+id/expandImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <View
+        android:layout_below="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/disable_color" />
+
+</RelativeLayout>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DialogBGView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:clickable="true">
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ratingDesignCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:clipToPadding="true"
+        android:visibility="visible"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="2dp"
+        card_view:cardMaxElevation="0dp"
+        card_view:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f4"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/ratingViewww"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="0"
+                        android:gravity="start|center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="27dp"
+                            android:paddingStart="-15dp"
+                            android:paddingEnd="-15dp"
+                            android:src="@mipmap/ic_star"
+                            android:tint="@color/white" />
+
+                        <TextView
+                            android:id="@+id/restaurantRateTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="27dp"
+                            android:layout_marginTop="-2dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:paddingStart="-1dp"
+                            android:paddingEnd="5dp"
+                            android:text="4.4"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/txt_size_14"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/ratingheade11rTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingStart="15dp"
+                        android:text="Reviews"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_16" />
+
+                    <ImageView
+                        android:id="@+id/ratingDialogCloseBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_close_icon_" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/ratingDialogRecycView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+    <!--cc696969-->
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/informationDesignCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:clipToPadding="true"
+        android:visibility="gone"
+
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="2dp"
+        card_view:cardMaxElevation="0dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/infoInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/titleDailogTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:gravity="start|center"
+                android:maxLines="2"
+                android:paddingStart="15dp"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_16"
+                app:customTypeFace="@string/robotobold" />
+
+            <com.view.MTextView
+                android:id="@+id/addressDailogTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="@color/white"
+                android:gravity="start|center"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_12"
+                android:visibility="visible"
+                app:customTypeFace="@string/robotomediumFont" />
+
+            <com.view.MTextView
+                android:id="@+id/openingHourTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:gravity="start|center"
+                android:paddingStart="15dp"
+                android:text="Opening Hours"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_16"
+                app:customTypeFace="@string/robotobold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:id="@+id/timeHTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="start"
+                    android:paddingStart="15dp"
+                    android:text="Monday-Sunday"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray_holo_dark"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/robotomediumFont" />
+
+                <com.view.MTextView
+                    android:id="@+id/timeVTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="start|center"
+                    android:paddingEnd="15dp"
+                    android:text="11:00 - 22:30"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray_holo_dark"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/robotomediumFont" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:id="@+id/timeSatTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="start"
+                    android:paddingStart="15dp"
+                    android:text="Monday-Sunday"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray_holo_dark"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/robotomediumFont" />
+
+                <com.view.MTextView
+                    android:id="@+id/timeVSatTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="start"
+                    android:paddingEnd="15dp"
+                    android:text="11:00 - 22:30"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/gray_holo_dark"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/robotomediumFont" />
+            </LinearLayout>
+
+
+            <include
+                android:id="@+id/closeBtn"
+                layout="@layout/btn_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="close" />
+            <!--
+                <com.view.MButton
+                    android:id="@+id/closeBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+
+                    android:background="@color/appThemeColor_1"
+                    android:gravity="center"
+                    android:text="close"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textStyle="bold" />-->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

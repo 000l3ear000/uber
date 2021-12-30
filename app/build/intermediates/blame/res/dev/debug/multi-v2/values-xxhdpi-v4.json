@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\melevicar-user\\app\\build\\intermediates\\incremental\\mergeDevDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\aabdaa7a83a0978f5eefc9050b38cdd8\\jetified-ColoredShadowImageView-1.1.0\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "38",
+                        "endOffsets": "89"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "110",
+                        "endColumns": "38",
+                        "endOffsets": "144"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\2c0e2b7ce8e1cc8d4bee577713c8a722\\jetified-twitter-core-3.3.0\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

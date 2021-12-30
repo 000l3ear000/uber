@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f0f0f0"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <!--    <com.view.MaterialTabs-->
+    <!--        -->
+    <!--        android:id="@+id/material_tabs"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_gravity="start"-->
+    <!--        android:background="#F0F4F5"-->
+    <!--        android:focusable="true"-->
+    <!--        android:focusableInTouchMode="true"-->
+    <!--        app:mtIndicatorColor="@color/black"-->
+    <!--        app:mtPaddingMiddle="false"-->
+    <!--        app:mtSameWeightTabs="true"-->
+    <!--        app:mtTabPaddingLeftRight="20dp"-->
+    <!--        app:mtTextColorSelected="#242424"-->
+    <!--        app:mtTextColorUnSelected="#878787" />-->
+
+    <View
+        android:id="@+id/bgview"
+        android:layout_below="@id/toolbar_include"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@color/appThemeColor_1" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@id/tablayoutArea"
+        android:layout_marginTop="@dimen/_minus15sdp"
+        android:id="@+id/appLogin_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_below="@id/bgview"
+        android:background="@color/transparent_full"
+        android:id="@+id/tablayoutArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp">
+        <include layout="@layout/tablayout_design" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

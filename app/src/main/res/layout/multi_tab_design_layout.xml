@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/roundrect"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@+id/tabArea1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background_selected"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.view.MTextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoSizeMaxTextSize="@dimen/_12ssp"
+                android:autoSizeMinTextSize="@dimen/_8ssp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="Route"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:freezesText="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/tabArea2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoSizeMaxTextSize="@dimen/_12ssp"
+                android:autoSizeMinTextSize="@dimen/_8ssp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="Service"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:freezesText="true"
+                android:textAlignment="center"
+                android:textSize="@dimen/_12ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabArea3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoSizeMaxTextSize="@dimen/_12ssp"
+                android:autoSizeMinTextSize="@dimen/_8ssp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="Price"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:freezesText="true"
+                android:textAlignment="center"
+                android:textSize="@dimen/_12ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/multi_tab_dark_color"
+        android:visibility="gone" />
+
+    <!-- <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:visibility="visible">
+
+
+     <LinearLayout
+           android:id="@+id/tabArea1"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="35dp"
+               android:layout_gravity="center">
+
+               <ImageView
+                   android:id="@+id/iv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="35dp"
+                   android:layout_alignParentEnd="true" />
+
+
+               <com.view.MTextView
+                   android:id="@+id/tv1"
+                   android:layout_width="match_parent"
+                   android:layout_height="35dp"
+                   android:layout_gravity="center"
+                   android:layout_marginEnd="15dp"
+                   android:gravity="center"
+                   android:maxLines="2"
+                   android:minLines="1"
+                   android:paddingStart="5dp"
+                   android:text="1. Route"
+                   android:textAlignment="center" />
+
+
+           </RelativeLayout>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:id="@+id/tabArea2"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="35dp"
+               android:layout_gravity="center">
+
+               <ImageView
+                   android:id="@+id/iv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="35dp"
+                   android:layout_alignParentEnd="true" />
+
+
+               <com.view.MTextView
+                   android:id="@+id/tv2"
+                   android:layout_width="match_parent"
+                   android:layout_height="35dp"
+                   android:layout_gravity="center"
+                   android:layout_marginEnd="15dp"
+                   android:gravity="center"
+                   android:maxLines="2"
+                   android:minLines="1"
+                   android:paddingStart="5dp"
+                   android:text="2. Service"
+                   android:textAlignment="center" />
+
+
+           </RelativeLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/tabArea3"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="35dp"
+               android:layout_gravity="center">
+
+               <ImageView
+                   android:id="@+id/iv3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="35dp"
+                   android:layout_alignParentEnd="true"
+                   android:visibility="gone" />
+
+
+               <com.view.MTextView
+                   android:id="@+id/tv3"
+                   android:layout_width="match_parent"
+                   android:layout_height="35dp"
+                   android:layout_gravity="center"
+                   android:layout_marginEnd="15dp"
+                   android:gravity="center"
+                   android:maxLines="2"
+                   android:minLines="1"
+                   android:paddingStart="5dp"
+                   android:text="3. Price"
+                   android:textAlignment="center" />
+
+
+           </RelativeLayout>
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_holo_light" />
+
+        -->
+</LinearLayout>

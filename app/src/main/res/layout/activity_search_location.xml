@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_search_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#f2f2f4">
+
+    <!--Book For Someone Else Element-->
+    <LinearLayout
+        android:id="@+id/headerArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone">
+
+        <include layout="@layout/design_book_someone_details" />
+    </LinearLayout>
+    <!--Book For Someone Else Element-->
+
+    <RelativeLayout
+        android:id="@+id/contentArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerArea">
+
+        <LinearLayout
+            android:id="@+id/headerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/searchLocArea"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/appThemeColor_1"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/searchFrameArea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/search_shape"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_gravity="start|center"
+                        app:srcCompat="@drawable/ic_search_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:id="@+id/searchTxt"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center"
+                        android:background="@drawable/search_shape"
+                        android:hint=""
+                        android:imeOptions="actionSearch"
+                        android:padding="5dp"
+                        android:paddingEnd="25dp"
+                        android:singleLine="true"
+                        android:textAlignment="viewStart" />
+
+                    <ImageView
+                        android:id="@+id/imageCancel"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="end|center"
+                        android:layout_marginEnd="10dp"
+                        android:src="@mipmap/ic_cancel_cab_request"
+                        android:tint="@android:color/black" />
+
+
+                    <com.view.anim.loader.AVLoadingIndicatorView
+
+                        android:layout_gravity="end|center"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/loaderView"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:visibility="gone"
+                        app:indicator="BallPulse"
+                        app:indicator_color="@color/Gray" />
+
+
+                </FrameLayout>
+
+                <com.view.MTextView
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:id="@+id/cancelTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:padding="5dp"
+                    android:textAllCaps="true"
+                    android:text="Cancel"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_size_14"
+                    app:customTypeFace="roboto_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/stopOverSubPointsArea"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70sdp"
+                        android:background="@color/appThemeColor_1"
+                        android:visibility="visible" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:elevation="@dimen/_5sdp"
+                        android:maxHeight="@dimen/_120sdp"
+                        app:cardCornerRadius="@dimen/_10sdp">
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/stopOverPointsSubRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5ssp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_8sdp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                    </androidx.cardview.widget.CardView>
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <com.view.MyScrollView
+            android:id="@+id/dataArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headerview">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/placesarea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/placesInfoArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/placearea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_45sdp"
+                                android:orientation="horizontal">
+
+                                <com.view.MTextView
+                                    android:id="@+id/locPlacesTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|start"
+                                    android:gravity="start|center"
+                                    android:paddingStart="@dimen/_10sdp"
+                                    android:text="Places"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/txt_size_16"
+                                    android:textStyle="bold"
+                                    app:customTypeFace="@string/systemSemiBold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/homeWorkArea"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+                                    android:gravity="center"
+                                    android:minHeight="@dimen/_40sdp"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:id="@+id/homeImgBack"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:background="@drawable/round_shape"
+                                        android:layout_marginStart="@dimen/_10sdp"
+                                        android:layout_marginEnd="@dimen/_10sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:layout_height="@dimen/_30sdp">
+
+                                        <ImageView
+                                            android:id="@+id/homeroundImage"
+                                            android:layout_width="@dimen/_17sdp"
+                                            android:layout_height="@dimen/_17sdp"
+                                            android:layout_gravity="center"
+                                            android:tint="@color/appThemeColor_TXT_1"
+                                            app:srcCompat="@drawable/ic_home_address" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/homeLocArea"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <com.view.MTextView
+                                            android:id="@+id/homePlaceTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="start|center_vertical"
+                                            android:maxLines="1"
+                                            android:text="Add Home"
+                                            android:textAlignment="viewStart"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/_12ssp"
+                                            app:customTypeFace="@string/systemRegular" />
+
+                                        <com.view.MTextView
+                                            android:id="@+id/homePlaceHTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="start|center_vertical"
+                                            android:maxLines="2"
+                                            android:text=""
+                                            android:textAlignment="viewStart"
+                                            android:textColor="#909090"
+                                            android:textSize="@dimen/txt_size_12"
+                                            android:visibility="gone"
+                                            app:customTypeFace="@string/systemRegular" />
+
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/homeActionImgView"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_weight="0"
+                                        android:gravity="center"
+                                        android:tint="#909090" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_3sdp"
+                                    android:background="@color/white"
+                                    android:gravity="center"
+                                    android:minHeight="@dimen/_40sdp"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:id="@+id/workImgBack"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:background="@drawable/round_shape"
+                                        android:layout_marginStart="@dimen/_10sdp"
+                                        android:layout_marginEnd="@dimen/_10sdp"
+                                        android:layout_width="@dimen/_30sdp"
+                                        android:layout_height="@dimen/_30sdp">
+
+                                        <ImageView
+                                            android:id="@+id/workroundImage"
+                                            android:layout_width="@dimen/_17sdp"
+                                            android:layout_height="@dimen/_17sdp"
+                                            android:layout_gravity="center"
+                                            android:tint="@color/appThemeColor_TXT_1"
+                                            app:srcCompat="@drawable/ic_work_address" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/workLocArea"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <com.view.MTextView
+                                            android:id="@+id/workPlaceTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="start|center_vertical"
+                                            android:maxLines="1"
+                                            android:text="Add Work"
+                                            android:textAlignment="viewStart"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/_12ssp"
+                                            app:customTypeFace="@string/systemRegular" />
+
+                                        <com.view.MTextView
+                                            android:id="@+id/workPlaceHTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="start|center_vertical"
+                                            android:maxLines="2"
+                                            android:text="Add Work"
+                                            android:textAlignment="viewStart"
+                                            android:textColor="#909090"
+                                            android:textSize="@dimen/txt_size_12"
+                                            android:visibility="gone"
+                                            app:customTypeFace="@string/systemRegular" />
+
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/workActionImgView"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_weight="0"
+                                        android:gravity="center"
+                                        android:tint="#909090" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/myLocationarea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:background="@color/white"
+                            android:minHeight="@dimen/_40sdp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:id="@+id/currentLocBack"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:background="@drawable/round_shape"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp">
+
+                                <ImageView
+                                    android:id="@+id/currentLocImage"
+                                    android:layout_width="@dimen/_17sdp"
+                                    android:layout_height="@dimen/_17sdp"
+                                    android:layout_gravity="center"
+                                    android:tint="@color/appThemeColor_TXT_1"
+                                    app:srcCompat="@drawable/ic_current_location" />
+
+                            </LinearLayout>
+
+
+                            <com.view.MTextView
+                                android:id="@+id/mylocHTxtView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:clickable="false"
+                                android:gravity="start|center"
+
+                                android:text="I want services at my current location"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12ssp"
+                                android:visibility="visible"
+                                app:customTypeFace="@string/systemRegular" />
+
+                            <ImageView
+
+                                android:id="@+id/arrow_right"
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+
+                                app:srcCompat="@drawable/ic_arrow" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/mapLocArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:minHeight="@dimen/_40sdp"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:gravity="center"
+                                android:minHeight="@dimen/_40sdp"
+
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+
+                                <LinearLayout
+                                    android:id="@+id/maproundBack"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:background="@drawable/round_shape"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_marginEnd="@dimen/_10sdp"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp">
+
+                                    <ImageView
+                                        android:id="@+id/maproundImage"
+                                        android:layout_width="@dimen/_17sdp"
+                                        android:layout_height="@dimen/_17sdp"
+                                        android:layout_gravity="center"
+                                        android:tint="@color/appThemeColor_TXT_1"
+                                        app:srcCompat="@drawable/ic_map_location" />
+
+                                </LinearLayout>
+
+
+                                <com.view.MTextView
+                                    android:id="@+id/mapLocTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:clickable="false"
+                                    android:gravity="start|center"
+                                    android:text="I want services at my current location"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:visibility="visible"
+                                    app:customTypeFace="@string/systemRegular" />
+
+
+                                <ImageView
+
+                                    android:id="@+id/ivRightArrow2"
+                                    android:layout_width="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_10sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_marginEnd="@dimen/_10sdp"
+
+                                    app:srcCompat="@drawable/ic_arrow" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/destinationLaterArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="@dimen/_40sdp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/all_btn_height"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:background="@color/white"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:background="@drawable/round_shape"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_marginEnd="@dimen/_10sdp"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp">
+
+                                    <ImageView
+                                        android:id="@+id/destLaterRoundImage"
+                                        android:layout_width="@dimen/_15sdp"
+                                        android:layout_height="@dimen/_15sdp"
+                                        android:layout_gravity="center"
+                                        android:tint="@color/appThemeColor_TXT_1"
+                                        app:srcCompat="@drawable/ic_destination_later" />
+
+                                </LinearLayout>
+
+                                <com.view.MTextView
+                                    android:id="@+id/destHTxtView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:clickable="false"
+                                    android:gravity="start|center"
+                                    android:text=""
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:visibility="visible"
+                                    app:customTypeFace="@string/systemRegular" />
+
+
+                                <ImageView
+
+                                    android:id="@+id/ivRightArrow3"
+                                    android:layout_width="@dimen/_10sdp"
+                                    android:layout_height="@dimen/_10sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_marginEnd="@dimen/_10sdp"
+                                    app:srcCompat="@drawable/ic_arrow" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/recentLocationArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.view.MTextView
+                                android:id="@+id/recentLocHTxtView"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_45sdp"
+                                android:layout_gravity="center|start"
+                                android:gravity="start|center"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingTop="15dp"
+                                android:text=""
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/txt_size_16"
+                                android:visibility="visible"
+                                app:customTypeFace="@string/systemSemiBold" />
+
+                            <ScrollView
+                                android:id="@+id/recentScrollView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fillViewport="true">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/sourceLocationView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:orientation="vertical"
+                                        android:padding="5dp">
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/destLocationView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:orientation="vertical"
+                                        android:padding="5dp">
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </ScrollView>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/placesRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/headerview"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/googleimagearea"
+                    android:layout_width="170dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/placesRecyclerView"
+                    android:layout_gravity="end"
+                    android:src="@drawable/google"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </com.view.MyScrollView>
+
+
+        <com.view.MTextView
+            android:id="@+id/noPlacedata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2sp"
+            android:text=""
+            android:textColor="#1c1c1c"
+            android:textSize="@dimen/txt_size_16"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <!--            android:background="#cc000000"
+    -->
+    </RelativeLayout>
+
+    <!--Multi StopOver Element Start-->
+
+    <LinearLayout
+        android:id="@+id/stopOverPointsArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/headerArea"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@color/appThemeColor_1" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:elevation="0dp"
+                    android:maxHeight="@dimen/_120sdp"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    app:cardElevation="0dp">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/stopOverPointsRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                </androidx.cardview.widget.CardView>
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/stopOverDetailsArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_stopwatch" />
+
+                <com.view.MTextView
+                    android:id="@+id/stopOverPointsInfoTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <com.view.MTextView
+                    android:id="@+id/stopOverPointsSubInfoTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:letterSpacing="0.1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#505050"
+                    android:textSize="@dimen/_12ssp"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <include
+                    android:id="@+id/btn_type2"
+                    layout="@layout/btn_type_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/all_btn_height5"
+                    android:layout_gravity="bottom|center"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_20sdp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Multi StopOver  Element End-->
+
+    <!--Book For Someone Else Element Start-->
+
+    <LinearLayout
+        android:id="@+id/contactListArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/headerArea"
+        android:background="#cc000000">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contactListRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+    </LinearLayout>
+    <!--Book For Someone Else Element End-->
+
+
+</RelativeLayout>

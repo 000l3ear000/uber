@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DialogBGView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc131313"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/transparent_border"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="Best Seller"
+                android:textColor="@color/black" />
+
+            <com.view.MTextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="0"
+
+                android:text="500" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="All Day lunch Box"
+                android:textColor="@color/white" />
+
+            <com.view.MTextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="0"
+
+                android:text="500" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="Signature Wraps"
+                android:textColor="@color/white" />
+
+            <com.view.MTextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="0"
+
+                android:text="500" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="Wraps"
+                android:textColor="@color/white" />
+
+            <com.view.MTextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="0"
+
+                android:text="500" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="Buy 1 get 1 Free"
+                android:textColor="@color/white" />
+
+            <com.view.MTextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="0"
+
+                android:text="500" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:id="@+id/topArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/deliverall_design_toolbar_general" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cartCountarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topArea"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/restaurantImgContainerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectround_shadow_big">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_5sdp">
+
+                <com.view.SelectableRoundedImageView
+
+                    android:id="@+id/restaurantImgView"
+
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/roundrect" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:orientation="vertical">
+
+
+            <com.view.MTextView
+                android:id="@+id/vHotelNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="#333333"
+                android:textSize="@dimen/txt_size_16"
+                app:customTypeFace="@string/systemSemiBold" />
+
+
+            <com.view.MTextView
+                android:id="@+id/vHotelAddressTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:includeFontPadding="false"
+                android:textAlignment="viewStart"
+                android:textColor="#646464"
+                android:textSize="@dimen/txt_size_10"
+                app:customTypeFace="@string/robotoRegular" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/mainScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/totalarea"
+        android:layout_below="@+id/cartCountarea">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/itemContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/totalarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomArea"
+        android:layout_marginTop="10dp"
+        android:elevation="0dp"
+        app:cardBackgroundColor="#f5f5f5"
+        app:cardCornerRadius="0dp"
+        app:contentPadding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+
+                <com.view.MTextView
+                    android:textAlignment="viewStart"
+                    android:id="@+id/totalHTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:includeFontPadding="false"
+                    android:text=""
+                    android:textColor="#333333"
+                    android:textSize="@dimen/txt_size_16"
+                    app:customTypeFace="@string/robotobold" />
+
+                <com.view.MTextView
+                    android:id="@+id/totalVTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:includeFontPadding="false"
+                    android:text=""
+                    android:textAlignment="viewEnd"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/txt_size_16"
+                    app:customTypeFace="@string/robotoRegular" />
+
+
+            </LinearLayout>
+
+
+            <com.view.MTextView
+                android:id="@+id/totalNoteTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textColor="#666666"
+                android:textSize="@dimen/txt_size_12"
+                app:customTypeFace="@string/robotoRegular" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/bottomArea"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="-2dp">
+
+        <include
+            android:id="@+id/btn_type2"
+            layout="@layout/btn_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_gravity="bottom"
+            android:baselineAligned="false" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/nocartarea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/nocartImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            app:srcCompat="@mipmap/ic_no_cart" />
+
+        <com.view.MTextView
+            android:id="@+id/nocartTitleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nocartImage"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/txt_size_16"
+            app:customTypeFace="@string/robotobold" />
+
+        <com.view.MTextView
+            android:id="@+id/nocartMsgTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nocartTitleTxt"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/robotolightFont" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">349453564620-dbqhjlf7iadvp6cc5e58lmib0qnu431a.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://movae-app-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">349453564620</string>
+    <string name="google_api_key" translatable="false">AIzaSyCWnquxIdeDi_DjBjLYvTbGtZJX8kO6Utc</string>
+    <string name="google_app_id" translatable="false">1:349453564620:android:4bf248416a77cca2cea069</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCWnquxIdeDi_DjBjLYvTbGtZJX8kO6Utc</string>
+    <string name="google_storage_bucket" translatable="false">movae-app.appspot.com</string>
+    <string name="project_id" translatable="false">movae-app</string>
+</resources>

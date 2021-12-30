@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/em_backgroung" />
+
+
+    <LinearLayout
+        android:id="@+id/toolbarArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/design_toolbar_general" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/btnArea"
+        android:layout_below="@+id/toolbarArea"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="@dimen/_105sdp"
+                android:layout_height="@dimen/_105sdp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_invite_friends" />
+
+            <com.view.MTextView
+                android:id="@+id/shareTxtLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SHARE YOUR INVITE CODE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_19ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+
+            <com.view.MTextView
+                android:id="@+id/invitecodeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/dash_square"
+                android:gravity="center"
+                android:minWidth="@dimen/_100sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text=""
+                android:textAlignment="center"
+                app:customTypeFace="@string/systemMediumFont"
+                android:textColor="@color/appThemeColor_1"
+                android:textSize="@dimen/_24ssp" />
+
+
+            <com.view.MTextView
+                android:id="@+id/shareTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/btnArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include
+
+            android:id="@+id/btn_type3"
+            layout="@layout/btn_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_margin="15dp"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+
+</RelativeLayout>

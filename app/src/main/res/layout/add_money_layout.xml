@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc000000"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-10dp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <com.view.MTextView
+                    android:id="@+id/titleTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start|center"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    app:customTypeFace="@string/systemSemiBold" />
+
+
+                <com.view.MTextView
+                    android:id="@+id/addMoneyNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#646464"
+                    android:textSize="@dimen/_13ssp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/minusImageView"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        app:srcCompat="@drawable/ic_minus" />
+
+                    <com.autofit.et.lib.AutoFitEditText
+                        android:id="@+id/autofitEditText"
+                        android:layout_width="@dimen/_130sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_28ssp"
+                        android:visibility="visible"></com.autofit.et.lib.AutoFitEditText>
+
+                    <include
+                        android:id="@+id/rechargeBox"
+
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/addImageView"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        app:srcCompat="@drawable/ic_add_" />
+                </LinearLayout>
+
+
+                <com.view.MTextView
+                    android:id="@+id/currencyTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:textColor="#9e9c9c"
+
+                    android:textSize="@dimen/_14ssp"
+                    app:customTypeFace="@string/systemRegular"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center">
+
+                    <com.view.MTextView
+                        android:id="@+id/addMoneybtn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:background="@drawable/add_border"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_15sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_2sdp"
+
+                        android:text="599"
+
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                    <com.view.MTextView
+                        android:id="@+id/addMoneybtn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:background="@drawable/add_border"
+
+                        android:gravity="center"
+
+                        android:paddingStart="@dimen/_15sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_2sdp"
+                        android:text="999"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                    <com.view.MTextView
+                        android:id="@+id/addMoneybtn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:background="@drawable/add_border"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_15sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_2sdp"
+                        android:text="1999"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+                </LinearLayout>
+
+
+                <include
+                    android:id="@+id/btn_type2"
+                    layout="@layout/btn_type_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/all_btn_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+
+                    android:layout_marginEnd="@dimen/_10sdp" />
+
+                <com.view.MTextView
+                    android:id="@+id/cancelTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#616060"
+                    android:textSize="@dimen/_15ssp"
+                    app:customTypeFace="@string/systemSemiBold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

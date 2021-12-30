@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.movae.passageiro"
+    android:targetSandboxVersion="2"
+    android:versionCode="102"
+    android:versionName="1.0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <permission android:name="android.permission.INTERNET" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FLAG_GRANT_READ_URI_PERMISSION" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required for new Book for some else feature -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/> -->
+    <!-- <permission> -->
+    <!-- android:name="com.luis.rider.googlemapsv2.permission.MAPS_RECEIVE" -->
+    <!-- android:protectionLevel="signature" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+
+    <uses-permission
+        android:name="com.luis.rider.googlemapsv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.general.files.MyApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppCompatTheme" >
+        <activity android:name="com.melevicarbrasil.usuario.telafoodActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name="com.melevicarbrasil.usuario.MenuSettingActivity" />
+        <activity android:name="com.melevicarbrasil.usuario.ProfilePaymentActivity" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UberXHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.melevicarbrasil.usuario.MyProfileNewActivity" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.DonationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.PrescriptionHistoryImagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.PrescriptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ProviderInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.general.files.SinchService"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.movae.passageiro.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_android_geo_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.general.files.AlarmReceiver"
+            android:enabled="false" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+            <!-- </intent-filter> -->
+        </receiver>
+
+        <service android:name="com.melevicarbrasil.usuario.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ <service
+            android:name="com.general.files.MyBackGroundService"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Service Alert"
+            android:persistent="true" />
+        -->
+        <!--
+   <receiver
+            android:name=".StartServiceReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="com.luis.rider.StartServiceReceiver" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
+            </intent-filter>
+        </receiver>
+        -->
+        <activity
+            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.LauncherActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.melevicarbrasil.usuario.AppLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.SelectCountryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.VerifyFbProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/FBtheme" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.SearchPickupLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.FareEstimateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MyProfileActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.StaticPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ContactUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.QuestionAnswerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.HistoryDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App.Base" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.RatingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.CardPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.EmergencyContactActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ConfirmEmergencyTapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.EnterDeliveryDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MyWalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MyWalletHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.InviteFriendsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.VerifyInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UberXSelectServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UberXActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.OnGoingTripsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.OnGoingTripDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.AppLoignRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.AccountverificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.SupportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.FareBreakDownActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.PrefranceActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.melevicarbrasil.usuario.FirebaseDataReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.melevicarbrasil.usuario.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.SearchLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ListAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.AddAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ScheduleDateSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UfxOrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UfxPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.BookingSummaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MaintenanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.Help_MainCategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.Help_SubCategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.Help_DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.RentalInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.RentalDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.movae.passageiro.braintree" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.melevicarbrasil.usuario.VerifyCardTokenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="co.omise.android.ui.CreditCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OmiseSDKTheme" />
+        <activity
+            android:name="com.xendit.XenditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cropper.CropImageActivity"
+            android:screenOrientation="portrait" /> <!-- Multi delivery_v2 Screens -->
+        <activity
+            android:name="com.melevicarbrasil.usuario.CommonDeliveryTypeSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.EnterMultiDeliveryDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MultiDeliverySecondPhaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MultiDeliveryThirdPhaseActivity"
+            android:screenOrientation="portrait" /> <!-- Deliver all -->
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.FoodDeliveryHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.SearchFoodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantsSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.SearchRestaurantListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.AddBasketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.CheckOutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.EditCartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.PaymentCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.ServiceHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.ViewCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.OrderPlaceConfirmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.ActiveOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.TrackOrderActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.FoodRatingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsNewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.deliverAll.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.CouponActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.BusinessProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.BusinessSetupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.SelectOrganizationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.OrganizationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MyBusinessProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.BusinessSelectPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.IncomingCallScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.CallScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.NotificationDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.QuickPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livechatinc.inappchat.ChatWindowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UberxFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MoreInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.UberxCartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.CarWashBookingDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.MoreServiceInfoActivity"
+            android:screenOrientation="portrait" /> <!-- Book for Some Else Activities -->
+        <activity
+            android:name="com.melevicarbrasil.usuario.BookSomeOneElsePickContactActivity"
+            android:screenOrientation="portrait" /> <!-- FavDriver Activities -->
+        <activity
+            android:name="com.melevicarbrasil.usuario.FavouriteDriverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.BookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.melevicarbrasil.usuario.ViewMultiDeliveryDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/MediaTheme" />
+        <activity
+            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+            android:theme="@style/MediaTheme" />
+        <activity
+            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
+        <service
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <activity android:name="com.facebook.CustomTabActivity" />
+        <activity
+            android:name="com.stripe.android.view.AddSourceActivity"
+            android:theme="@style/StripeDefaultTheme"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.view.PaymentMethodsActivity"
+            android:theme="@style/StripeDefaultTheme" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.view.PaymentFlowActivity"
+            android:theme="@style/StripeDefaultTheme" >
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.movae.passageiro.com.squareup.picasso"
+            android:exported="false" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.movae.passageiro.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.movae.passageiro.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.CampaignTrackingReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.movae.passageiro.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name="com.paymaya.sdk.android.checkout.PayMayaCheckoutActivity"
+            android:configChanges="orientation|screenSize" />
+    </application>
+
+</manifest>

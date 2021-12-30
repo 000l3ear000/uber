@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_order_details"
+        android:title="View Order Details"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:title="Help"
+        android:visible="true" />
+
+
+</menu>

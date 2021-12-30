@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/topArea"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@color/appThemeColor_1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/toolbarArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:rotation="@integer/angleY_rtl_180"
+                android:tint="@color/appThemeColor_TXT_1"
+                app:srcCompat="@drawable/ic_right_arrow" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:tint="@color/appThemeColor_TXT_1"
+                app:srcCompat="@drawable/ic_edit" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/profile_area"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/toolbarArea"
+            android:orientation="horizontal">
+
+            <com.view.SelectableRoundedImageView
+                android:id="@+id/userImgView"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:layout_marginStart="14dp"
+                android:background="@color/appThemeColor_TXT_1"
+                android:scaleType="centerCrop"
+                app:sriv_border_color="@android:color/transparent"
+                app:sriv_border_width="2dip"
+                app:sriv_left_bottom_corner_radius="20dip"
+                app:sriv_left_top_corner_radius="20dip"
+                app:sriv_oval="true"
+                app:sriv_right_bottom_corner_radius="20dip"
+                app:sriv_right_top_corner_radius="20dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:orientation="vertical">
+
+                <com.view.MTextView
+                    android:id="@+id/userNameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:ellipsize="end"
+                    android:ems="3"
+                    android:singleLine="true"
+                    android:text="chintan shah"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/appThemeColor_TXT_1"
+                    android:textSize="@dimen/_14ssp"
+                    app:customTypeFace="@string/systemSemiBold" />
+
+                <com.view.MTextView
+                    android:id="@+id/userEmailTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/userNameTxt"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:ellipsize="end"
+                    android:ems="3"
+                    android:singleLine="true"
+                    android:text="chintan.esw@gmail.com"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/appThemeColor_TXT_1"
+                    android:textSize="@dimen/_11ssp"
+                    app:customTypeFace="@string/systemRegular" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

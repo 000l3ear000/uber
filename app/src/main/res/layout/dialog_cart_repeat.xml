@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#eae9e9"
+
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/vegImageView"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        android:clickable="false"
+                        android:src="@drawable/veg"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/nonvegImageView"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        android:clickable="false"
+                        android:src="@drawable/nonveg"
+                        android:visibility="gone" />
+
+                    <com.view.MTextView
+
+                        android:includeFontPadding="false"
+                        android:id="@+id/vItemNameTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txt_size_14"
+                        app:customTypeFace="@string/robotobold" />
+                    <com.view.MTextView
+                        android:id="@+id/vCancelTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:paddingEnd="10dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txt_size_14"
+                        app:customTypeFace="@string/robotobold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="30dp"
+
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:includeFontPadding="false"
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:text=""
+                        android:textColor="@color/Gray"
+                        android:textSize="@dimen/txt_size_14"
+                        android:textStyle="bold" />
+
+                    <com.view.MTextView
+                        android:includeFontPadding="false"
+                        android:id="@+id/offerPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <com.view.MTextView
+                    android:id="@+id/repeatTitleTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_size_14"
+                    app:customTypeFace="@string/robotobold" />
+
+                <com.view.MTextView
+                    android:id="@+id/repeatItemTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/robotomediumFont" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:id="@+id/newItemBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/choose_border"
+                    android:gravity="center"
+                    android:textColor="@color/appThemeColor_1"
+                    android:textSize="@dimen/txt_size_14"
+                    app:customTypeFace="@string/robotobold" />
+
+                <com.view.MTextView
+                    android:id="@+id/repeatItemBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fill_border_set"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_size_14"
+                    app:customTypeFace="@string/robotobold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

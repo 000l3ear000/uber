@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="-3dp">
+
+                <com.view.simpleratingbar.SimpleRatingBar
+                    android:id="@+id/dialogRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    app:SRB_fillColor="@color/black"
+                    app:SRB_isIndicator="true"
+                    app:SRB_numberOfStars="5"
+                    app:SRB_rating="5"
+                    app:SRB_starBackgroundColor="@color/gray_holo_light"
+                    app:SRB_starSize="19sp"
+                    app:SRB_starsSeparation="0dp"
+                    app:SRB_stepSize="0.5" />
+
+                <com.view.MTextView
+                    android:id="@+id/dateRateTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="15/03/2018"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+                <com.view.MTextView
+                    android:id="@+id/nameeTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="Mahammad N"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/txt_size_14" />
+
+            </LinearLayout>
+
+            <com.view.MTextView
+                android:id="@+id/typeeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_16" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="@color/gray_holo_light"></View>
+</LinearLayout>

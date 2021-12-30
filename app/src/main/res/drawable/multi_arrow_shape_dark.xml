@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="35dp"
+    android:height="35dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+    <group
+        android:name="triableGroup"
+        android:pivotX="50"
+        android:pivotY="50"
+        android:rotation="90">
+        <path
+            android:name="triangle"
+            android:strokeColor="@android:color/darker_gray"
+            android:fillColor="@color/multi_tab_dark_color"
+            android:pathData="m 50,0 l 50,50 -100,0 z" />
+    </group>
+
+
+</vector>

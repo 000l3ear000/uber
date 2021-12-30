@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/mainArea"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/em_backgroung"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"/>
+
+        <LinearLayout
+            android:id="@+id/noContactArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/notifyTxt"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/bannerImg"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_50sdp"
+                app:srcCompat="@drawable/ic_emergency_call" />
+
+            <com.view.MTextView
+                android:id="@+id/emeTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_16ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+            <com.view.MTextView
+                android:id="@+id/emeSubTitleTxt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_35sdp"
+                android:layout_marginEnd="@dimen/_35sdp"
+                android:gravity="center"
+                android:textColor="#505050"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+            <com.view.MTextView
+                android:id="@+id/emeSubTitleTxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_70sdp"
+                android:layout_marginEnd="@dimen/_70sdp"
+                android:gravity="center"
+                android:textColor="#505050"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/dataContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/notifyTxt">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/emeContactRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+            <ProgressBar
+                android:id="@+id/loading"
+                style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+
+            <com.view.ErrorView
+                android:id="@+id/errorView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <com.view.MTextView
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:id="@+id/notifyTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomarea"
+            android:gravity="center"
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/_11ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:id="@+id/bottomarea"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <include
+            android:id="@+id/btn_type2"
+            layout="@layout/btn_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height" />
+    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F2F2F4"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/toolbar_include"
+        android:layout_weight="1">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/contentView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/appThemeColor_1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_marginEnd="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <com.view.SelectableRoundedImageView
+                                    android:id="@+id/restaurantImgView"
+                                    android:layout_width="@dimen/_65sdp"
+                                    android:layout_height="@dimen/_65sdp"
+                                    android:layout_gravity="start|center"
+                                    android:scaleType="centerCrop"
+                                    app:sriv_border_color="@color/appThemeColor_TXT_1"
+                                    app:sriv_border_width="2dip"
+                                    app:sriv_left_bottom_corner_radius="20dip"
+                                    app:sriv_left_top_corner_radius="20dip"
+                                    app:sriv_oval="true"
+                                    app:sriv_right_bottom_corner_radius="20dip"
+                                    app:sriv_right_top_corner_radius="20dip" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="25dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+
+                                <com.view.MTextView
+                                    android:id="@+id/resturantAddressHTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start|center"
+                                    android:gravity="start|center"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_13ssp"
+                                    app:customTypeFace="@string/systemSemiBold" />
+
+                                <com.view.MTextView
+                                    android:id="@+id/resturantAddressTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="start|center"
+                                    android:includeFontPadding="false"
+                                    android:text="Address"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_11ssp"
+                                    android:visibility="visible"
+                                    app:customTypeFace="@string/systemRegular" />
+
+                                <com.view.simpleratingbar.SimpleRatingBar
+                                    android:id="@+id/ratingBar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:backgroundTint="@color/gray_holo_light"
+                                    android:padding="2dp"
+                                    app:SRB_fillColor="@color/rating_fill_color"
+                                    app:SRB_isIndicator="true"
+                                    app:SRB_numberOfStars="5"
+                                    app:SRB_starBackgroundColor="@color/gray_holo_light"
+                                    app:SRB_starSize="19sp"
+                                    app:SRB_stepSize="0.5" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@color/appThemeColor_1" />
+
+                        <androidx.cardview.widget.CardView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginStart="@dimen/_15sdp"
+                            android:layout_marginEnd="@dimen/_15sdp"
+                            android:elevation="0dp"
+                            android:minHeight="@dimen/_60sdp"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardElevation="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:orientation="vertical">
+
+                                <com.view.MTextView
+
+                                    android:id="@+id/deliverystatusTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:maxLines="2"
+                                    android:paddingStart="10dp"
+                                    android:paddingEnd="10dp"
+                                    android:text="Thanks for riding with us."
+                                    android:textColor="#141414"
+                                    android:textSize="@dimen/_13ssp"
+                                    android:visibility="visible"
+                                    app:customTypeFace="@string/systemSemiBold" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <com.view.MTextView
+                                        android:id="@+id/orderNoHTxt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:maxLines="1"
+                                        android:text="Ride No.# "
+                                        android:textColor="@color/history_txt_color"
+                                        android:textSize="@dimen/_17ssp"
+                                        app:customTypeFace="@string/systemSemiBold" />
+
+                                    <com.view.MTextView
+                                        android:id="@+id/orderNoVTxt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="start|center"
+                                        android:ellipsize="marquee"
+                                        android:gravity="start|center"
+                                        android:marqueeRepeatLimit="marquee_forever"
+                                        android:maxLines="2"
+                                        android:paddingStart="2dp"
+                                        android:paddingEnd="2dp"
+                                        android:text=""
+                                        android:textAlignment="viewStart"
+                                        android:textColor="@color/history_txt_color"
+                                        android:textSize="@dimen/_17ssp"
+                                        app:customTypeFace="@string/systemSemiBold" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:orientation="vertical">
+
+                        <com.view.MTextView
+                            android:id="@+id/orderDateVTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="WED, JUL 10 2019 AT 5:30 PM"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="#767676"
+                            android:textSize="@dimen/_11ssp"
+                            app:customTypeFace="@string/systemRegular" />
+
+                        <LinearLayout
+                            android:id="@+id/sourceLocCardArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <com.view.MTextView
+                                android:id="@+id/destAddressHTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="start"
+                                android:text="Delivery address"
+                                android:textAlignment="viewStart"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/txt_size_16"
+                                app:customTypeFace="@string/systemSemiBold" />
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:elevation="0dp"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="@dimen/_8sdp"
+                                app:cardElevation="0dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="@dimen/_10sdp"
+                                    android:orientation="horizontal">
+
+
+                                    <LinearLayout
+                                        android:id="@+id/srcArea"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:visibility="visible">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_40sdp"
+                                            android:layout_height="@dimen/_40sdp"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:visibility="visible"
+                                            app:srcCompat="@drawable/ic_locate_place" />
+
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/pickupLocArea"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="@dimen/_8sdp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <com.view.MTextView
+                                            android:id="@+id/deliveryaddressTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:background="?attr/selectableItemBackgroundBorderless"
+                                            android:clickable="false"
+                                            android:ellipsize="end"
+                                            android:gravity="start|center_vertical"
+                                            android:includeFontPadding="false"
+                                            tools:text="PrahladNagar Cross Road,Iscon Char Rasta PrahladNagar Cross Road,Iscon Char Rasta"
+                                            android:textAlignment="viewStart"
+                                            android:textColor="#141414"
+                                            android:maxLines="3"
+                                            android:minLines="1"
+                                            android:textSize="@dimen/_12ssp"
+                                            app:customTypeFace="@string/systemRegular" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/billArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <com.view.MTextView
+                                android:id="@+id/billTitleTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="start"
+                                android:text="Bill details"
+                                android:textAlignment="viewStart"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/txt_size_16"
+                                app:customTypeFace="@string/systemSemiBold" />
+
+                            <LinearLayout
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:id="@+id/billDetails"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:orientation="vertical" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/chargeArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <com.view.MTextView
+                                android:id="@+id/chargesHTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="start"
+                                android:text="Charges"
+                                android:textAlignment="viewStart"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/txt_size_16"
+                                app:customTypeFace="@string/systemSemiBold" />
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:elevation="0dp"
+                                app:cardBackgroundColor="#ffffff"
+                                app:cardCornerRadius="@dimen/_8sdp"
+                                app:cardElevation="0dp">
+
+                                <LinearLayout
+                                    android:id="@+id/chargeDetailArea"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_15sdp"
+                                    android:layout_marginEnd="@dimen/_15sdp"
+                                    android:orientation="vertical" />
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                        <!--    androidx.cardview.widget.CardView
+                                android:id="@+id/deliveryCancelDetails"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|center"
+                                android:elevation="0dp"
+                                android:visibility="gone"
+                                app:cardCornerRadius="@dimen/_8sdp"
+                                app:cardElevation="0dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/cancelArea"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/_10sdp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imagecancel"
+                                            android:layout_width="25dp"
+                                            android:layout_height="25dp"
+                                            android:layout_gravity="center"
+                                            android:src="@mipmap/ic_rm_dest"
+                                            android:tint="@color/red" />
+
+                                        <com.view.MTextView
+                                            android:id="@+id/deliverycanclestatusTxt"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_weight="2"
+                                            android:gravity="start|center"
+                                            android:maxLines="3"
+                                            android:text=""
+                                            android:textAlignment="viewStart"
+                                            android:textColor="#000000"
+                                            android:textSize="@dimen/txt_size_14"
+                                            app:customTypeFace="@string/robotolightFont" />
+                                    </LinearLayout>
+
+                                    <com.view.MTextView
+                                        android:id="@+id/oredrstatusTxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:textColor="#000000"
+                                        android:textSize="@dimen/_14ssp"
+                                        android:visibility="gone"
+                                        app:customTypeFace="@string/robotomediumFont" />
+
+                                </LinearLayout>
+
+                          </androidx.cardview.widget.CardView>-->
+                        <!--   </ScrollView>-->
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/viewPrescriptionArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:elevation="0dp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="#ffffff"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardElevation="0dp">
+
+                            <com.view.MTextView
+                                android:id="@+id/viewPrescTxtView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:gravity="center"
+                                android:text="view delivery details"
+                                android:textAllCaps="true"
+                                android:textColor="@color/appThemeColor_1"
+                                android:textSize="@dimen/_16ssp"
+                                android:visibility="visible"
+                                app:customTypeFace="@string/systemSemiBold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                    <com.view.MTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textColor="@color/appThemeColor_TXT_2"
+                        android:textSize="@dimen/txt_size_16" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/loading"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" />
+
+                <com.view.ErrorView
+                    android:id="@+id/errorView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/white"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/paymentMainArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/PayTypeArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_curve_card"
+                android:elevation="@dimen/_5sdp"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/paymentTypeImgeView"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_gravity="center_vertical"
+                        android:tint="@color/appThemeColor_1"
+                        app:srcCompat="@drawable/ic_cash_payment" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <com.view.MTextView
+                            android:id="@+id/paidviaTextH"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:maxLines="1"
+                            android:text="Cash payment"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/appThemeColor_2"
+                            android:textSize="@dimen/_12ssp"
+                            app:customTypeFace="@string/systemMediumFont" />
+
+                        <com.view.MTextView
+                            android:id="@+id/recipientTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:maxLines="1"
+                            android:text="Cash payment"
+                            android:textAlignment="viewStart"
+                            android:textColor="#646464"
+                            android:textSize="@dimen/_11ssp"
+                            android:visibility="gone"
+                            app:customTypeFace="@string/systemRegular" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/deliveryCancelDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/top_curve_card_back"
+                android:elevation="@dimen/_5sdp"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/_30sdp"                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/cancelArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.view.MTextView
+                            android:id="@+id/deliverycanclestatusTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:maxLines="4"
+                            android:text=""
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/appThemeColor_TXT_1"
+                            android:textSize="@dimen/_12ssp"
+                            app:customTypeFace="@string/systemMediumFont" />
+                    </LinearLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/oredrstatusTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/appThemeColor_TXT_1"
+                        android:textSize="@dimen/_11ssp"
+                        android:visibility="gone"
+                        app:customTypeFace="@string/systemMediumFont" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="@dimen/_5sdp"
+                android:visibility="gone">
+
+                <include
+                    android:id="@+id/btn_type2"
+                    layout="@layout/btn_type_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/all_btn_height"
+                    android:layout_gravity="bottom"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/helpTxt"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|center|top"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:backgroundTint="@color/appThemeColor_1"
+            android:gravity="end|center|top"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_help" />
+
+
+    </FrameLayout>
+</LinearLayout>

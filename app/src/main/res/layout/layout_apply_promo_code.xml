@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/txt_size_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.view.MTextView
+                android:id="@+id/titleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/imagarea"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Apply Promo Code"
+                android:textColor="@color/appThemeColor_2"
+                android:textSize="@dimen/txt_size_14"
+                app:customTypeFace="roboto_light" />
+
+
+            <ImageView
+                android:id="@+id/discountImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/discount"
+                android:tint="@color/appThemeColor_1" />
+
+
+            <com.view.MTextView
+                android:id="@+id/codeBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagarea"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start|center"
+                android:maxLines="1"
+                android:text="Enter Promo Code"
+                android:textAlignment="viewStart"
+                android:textColor="@color/appThemeColor_2"
+                android:textSize="@dimen/txt_size_14"
+                app:customTypeFace="roboto_light" />
+
+            <LinearLayout
+                android:id="@+id/promoCodeArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/promo_code_border"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <EditText
+                    android:id="@+id/editBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:inputType="textNoSuggestions"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/txt_size_16" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.3"
+                    android:gravity="center">
+
+                    <com.view.MTextView
+                        android:id="@+id/applyPromoTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:text="Apply"
+                        android:textColor="@color/appThemeColor_1"
+                        android:textStyle="bold"
+                        app:customTypeFace="roboto_bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/closeImg"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="right|top|center"
+            android:src="@mipmap/ic_rm_dest"
+            android:tint="@color/red" />
+    </FrameLayout>
+
+
+</LinearLayout>

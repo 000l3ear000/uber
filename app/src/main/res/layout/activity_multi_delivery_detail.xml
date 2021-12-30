@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.
+    com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentArea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/insidecontentArea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:visibility="gone">
+
+                    <include
+                        android:id="@+id/receiverNameEditBox"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_weight="1" />
+
+                    <include
+                        android:id="@+id/receiverMobileEditBox"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_weight="1" />
+
+                    <com.view.MTextView
+                        android:id="@+id/pickUpInstructionTitle"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/_12ssp"
+                        android:textColor="#181818"
+                        android:text=""
+                        app:customTypeFace="@string/systemLightFont"
+                        android:layout_height="wrap_content"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@drawable/square_border_common"
+                        android:layout_height="@dimen/_70sdp">
+
+                        <com.view.editBox.MaterialEditText
+                            android:id="@+id/pickUpInstructionEditBox"
+                            app:met_baseColor="#646464"
+                            android:textSize="@dimen/_13ssp"
+                            app:met_typeface="@string/defaultFont"
+                            app:met_accentTypeface="@string/defaultFont"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </RelativeLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/deliveryInstructionTitle"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/_12ssp"
+                        android:textColor="#181818"
+                        android:text=""
+                        app:customTypeFace="@string/systemLightFont"
+                        android:layout_height="wrap_content"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@drawable/square_border_common"
+                        android:layout_height="@dimen/_70sdp">
+
+                        <com.view.editBox.MaterialEditText
+                            android:id="@+id/deliveryInstructionEditBox"
+                            app:met_baseColor="#646464"
+                            android:textSize="@dimen/_13ssp"
+                            app:met_typeface="@string/defaultFont"
+                            app:met_accentTypeface="@string/defaultFont"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </RelativeLayout>
+
+                    <FrameLayout
+                        android:id="@+id/packageTypeSelectArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <include
+                            android:id="@+id/packageTypeBox"
+                            layout="@layout/editbox_form_design"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="@dimen/_30sdp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="center_vertical|end"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:src="@mipmap/ic_arrow_down" />
+                    </FrameLayout>
+
+
+                    <include
+                        android:id="@+id/packageDetailsEditBox"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/dynamicArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_10sdp" />
+
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:id="@+id/btn_type2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/appThemeColor_1"
+                        android:textSize="@dimen/_16ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                    <com.view.MTextView
+                        android:id="@+id/btn_reset"
+                        layout="@layout/btn_type_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_border"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.view.anim.loader.AVLoadingIndicatorView
+                android:id="@+id/loaderView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:visibility="visible"
+                app1:indicator_color="@color/appThemeColor_1"
+                app:indicator="BallSpinFadeLoader" />
+
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>
+
+

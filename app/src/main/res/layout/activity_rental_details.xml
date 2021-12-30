@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbarArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/design_toolbar_general" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomArea"
+        android:layout_below="@+id/toolbarArea"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <fragment
+                    android:id="@+id/mapV2"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_260sdp"
+                        android:layout_height="@dimen/_82sdp"
+                        android:background="@drawable/custom_shadow"
+
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:background="@color/white"
+                            android:orientation="horizontal">
+
+
+                            <com.view.SelectableRoundedImageView
+                                android:id="@+id/carTypeImgView"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                app:sriv_border_width="0dp"
+                                app:sriv_left_bottom_corner_radius="25dip"
+                                app:sriv_left_top_corner_radius="25dip"
+                                app:sriv_oval="true"
+                                app:sriv_right_bottom_corner_radius="25dip"
+                                app:sriv_right_top_corner_radius="25dip" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_weight="1"
+                                android:gravity="start"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/vehicleTypeText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start|center"
+                                    android:layout_marginTop="@dimen/_5sdp"
+
+                                    android:fontFamily="@string/systemSemiBold"
+                                    android:gravity="start"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:id="@+id/addressText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start|top"
+                                    android:layout_marginTop="@dimen/_4sdp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@string/systemRegular"
+                                    android:gravity="start"
+                                    android:maxLines="2"
+
+                                    android:textColor="#646464"
+                                    android:textSize="@dimen/_11ssp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:gravity="center|top"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:scaleX="1.2"
+                            app:srcCompat="@drawable/baseline_play_arrow_new" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            app:srcCompat="@drawable/ic_place_marker" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="@dimen/_minus18sdp"
+            android:layout_marginBottom="@dimen/_minus12sdp"
+            android:layout_weight="1.1"
+            android:padding="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_18sdp"
+            app:cardElevation="@dimen/_18sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/addressArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View
+                        android:id="@+id/rightSeperationLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="#BABABA" />
+
+                    <com.view.MTextView
+                        android:id="@+id/addressVtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:textAlignment="viewStart"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txt_size_16"
+                        app:customTypeFace="@string/robotolightFont" />
+
+
+                    <com.view.MTextView
+                        android:id="@+id/addressHtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="true"
+                        android:textColor="@color/appThemeColor_2"
+                        android:textSize="@dimen/_15ssp"
+                        app:customTypeFace="@string/robotobold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cabTypeArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/carTypeImage"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_gravity="center_horizontal" />
+
+
+                                <com.view.MTextView
+                                    android:id="@+id/minTxt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:minWidth="40dp"
+                                    android:text="ddd"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/txt_size_12"
+                                    android:visibility="invisible"
+                                    app:customTypeFace="roboto_light" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <com.view.MTextView
+                                    android:id="@+id/carTypeVtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:gravity="start|center"
+                                    android:maxLines="1"
+                                    android:minHeight="@dimen/_40sdp"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/txt_size_16"
+                                    app:customTypeFace="@string/robotolightFont" />
+
+                                <com.view.MTextView
+                                    android:id="@+id/carTypeDetailsTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:gravity="start"
+                                    android:maxLines="2"
+                                    android:text=""
+                                    android:textAlignment="viewStart"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/txt_size_12"
+                                    android:visibility="gone"
+                                    app:customTypeFace="roboto_light" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="#BABABA" />
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="#BABABA" />
+
+
+                    <com.view.MTextView
+                        android:id="@+id/cabTypeHtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="true"
+                        android:textColor="@color/appThemeColor_2"
+                        android:textSize="@dimen/txt_size_16"
+                        app:customTypeFace="@string/robotobold" />
+
+
+                    <com.view.MTextView
+                        android:id="@+id/rideLtaerDatetxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textAlignment="viewStart"
+                        android:textColor="#4187D6"
+                        android:textSize="@dimen/txt_size_16"
+                        android:visibility="gone"
+                        app:customTypeFace="roboto_light" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/pkgArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/pkgArrow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <com.view.MTextView
+                                        android:id="@+id/packageHtxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/_10sdp"
+                                        android:layout_marginTop="@dimen/_15sdp"
+                                        android:clickable="true"
+                                        android:focusable="true"
+                                        android:gravity="start"
+                                        android:maxLines="1"
+                                        android:text=""
+                                        android:textAlignment="viewStart"
+
+                                        android:textColor="@color/appThemeColor_2"
+                                        android:textSize="@dimen/txt_size_14"
+                                        app:customTypeFace="@string/systemSemiBold" />
+
+                                    <com.view.MTextView
+                                        android:id="@+id/packageVtxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:clickable="false"
+                                        android:focusable="false"
+                                        android:gravity="start"
+                                        android:maxLines="1"
+                                        android:padding="@dimen/_5sdp"
+                                        android:text=""
+                                        android:textAlignment="viewStart"
+                                        android:textColor="#000000"
+                                        android:textSize="@dimen/txt_size_16"
+                                        android:visibility="gone"
+                                        app:customTypeFace="roboto_light" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:visibility="gone">
+
+                                <ImageView
+                                    android:id="@+id/imageArrow"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:clickable="false"
+                                    android:focusable="false"
+                                    android:src="@mipmap/ic_arrow_up"
+                                    android:visibility="gone" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="#BABABA"
+                            android:visibility="gone" />
+
+                        <View
+                            android:id="@+id/pkgDivideView"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="#BABABA"
+                            android:visibility="gone" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="#BABABA"
+                            android:visibility="gone" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/packageRecyclerView"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+                            android:orientation="vertical"
+                            android:scrollbarFadeDuration="0"
+                            android:scrollbars="vertical"
+                            android:visibility="visible"
+
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                    </LinearLayout>
+
+                    <!-- <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_marginBottom="15dp"
+                         android:layout_weight="1"
+                         android:orientation="horizontal">
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:layout_marginTop="4dp"
+                             android:layout_weight="1"
+                             android:orientation="horizontal">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:layout_marginStart="10dp"
+                                 android:orientation="vertical">
+
+                                 <com.view.MTextView
+                                     android:id="@+id/fareTitletxt"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:layout_weight="1"
+                                     android:gravity="start"
+                                     android:textAlignment="viewStart"
+                                     android:textColor="#000000"
+                                     android:textSize="@dimen/txt_size_14"
+                                     app:customTypeFace="@string/robotobold" />
+
+                                 <com.view.MTextView
+                                     android:id="@+id/fareMsgtxt"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:layout_weight="1"
+                                     android:gravity="start"
+                                     android:textAlignment="viewStart"
+                                     android:textColor="#000000"
+                                     android:textSize="@dimen/txt_size_12"
+                                     app:customTypeFace="@string/robotolightFont" />
+
+                             </LinearLayout>
+
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:id="@+id/fareInfoArea"
+                             android:layout_width="wrap_content"
+                             android:layout_height="match_parent"
+                             android:padding="10dp">
+
+                             <ImageView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_gravity="center"
+                                 android:clickable="false"
+                                 android:focusable="false"
+                                 android:tint="#4187D6"
+                                 app:srcCompat="@drawable/ic_information" />
+
+                         </LinearLayout>
+
+                     </LinearLayout>-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:cardBackgroundColor="#f1f1f1"
+        android:layout_marginBottom="@dimen/_minus15sdp"
+        app:cardCornerRadius="@dimen/_15sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            android:background="#f1f1f1"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="#f1f1f1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.view.MTextView
+                            android:id="@+id/fareTitletxt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:text=""
+                            android:textAlignment="viewStart"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/txt_size_14"
+                            app:customTypeFace="@string/systemSemiBold" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/fareInfoArea"
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_weight="0">
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_centerInParent="true"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:tint="@color/appThemeColor_1"
+                                app:srcCompat="@drawable/ic_information" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/fareMsgtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginEnd="@dimen/_40sdp"
+                        android:gravity="start"
+                        android:text=""
+                        android:textAlignment="viewStart"
+                        android:textColor="#646464"
+                        android:textSize="@dimen/_11ssp"
+                        app:customTypeFace="@string/systemRegular" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <include
+                android:id="@+id/acceptBtn"
+                layout="@layout/btn_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_margin="@dimen/_15sdp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

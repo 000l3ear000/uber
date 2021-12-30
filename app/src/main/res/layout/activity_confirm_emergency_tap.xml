@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e8e8"
+    android:orientation="vertical"
+    tools:context=".ConfirmEmergencyTapActivity">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_115sdp"
+            android:layout_height="@dimen/_115sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:srcCompat="@drawable/ic_sirun" />
+
+        <com.view.MTextView
+            android:id="@+id/pageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_16ssp"
+            app:customTypeFace="@string/systemSemiBold"
+            tools:text="text" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#ECECEC"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/policeContactArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@+id/phoneImgView"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+
+                app:srcCompat="@drawable/ic_call_ico" />
+        </LinearLayout>
+
+
+        <com.view.MTextView
+            android:id="@+id/callPoliceTxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#141414"
+            android:textSize="@dimen/_11ssp"
+            app:customTypeFace="@string/systemRegular"
+            tools:text="text" />
+
+        <ImageView
+            android:id="@+id/Arrow1"
+            android:layout_width="@dimen/_15sdp"
+
+            android:layout_height="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:clickable="false"
+            app:srcCompat="@drawable/ic_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="#ECECEC" />
+
+    <LinearLayout
+        android:id="@+id/emeContactArea"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@+id/alertImgView"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_msg" />
+        </LinearLayout>
+
+
+        <com.view.MTextView
+            android:id="@+id/sendAlertTxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#141414"
+            android:textSize="@dimen/_11ssp"
+            app:customTypeFace="@string/systemRegular"
+            tools:text="text" />
+
+        <ImageView
+            android:id="@+id/Arrow2"
+            android:layout_width="@dimen/_15sdp"
+
+            android:layout_height="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:clickable="false"
+            app:srcCompat="@drawable/ic_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#ECECEC" />
+</LinearLayout>

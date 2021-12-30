@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#153136"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#153136"
+        android:orientation="vertical">
+
+        <com.view.MTextView
+            android:id="@+id/callState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/driverImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="Ringing"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <com.view.SelectableRoundedImageView
+            android:id="@+id/driverImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_no_pic_user"
+            app:sriv_border_width="2dip"
+            app:sriv_left_bottom_corner_radius="20dip"
+            app:sriv_left_top_corner_radius="20dip"
+            app:sriv_oval="true"
+            app:sriv_border_color="@color/white"
+            app:sriv_right_bottom_corner_radius="20dip"
+            app:sriv_right_top_corner_radius="20dip" />
+
+        <com.view.MTextView
+
+            android:id="@+id/remoteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/driverImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="14dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:contentDescription="Call background"
+        android:padding="0dip">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.view.MButton
+
+            android:id="@+id/answerButton"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+
+            android:background="#1a9574"
+            android:padding="10dp"
+            android:text="Answer"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <com.view.MButton
+            android:id="@+id/declineButton"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/answerButton"
+            android:background="#d2494a"
+            android:padding="10dp"
+            android:text="End call"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>

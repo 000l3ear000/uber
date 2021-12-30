@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e8e8"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ContactUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/design_toolbar_general" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    app:srcCompat="@drawable/ic_contacus"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_90sdp" />
+
+                <com.view.MTextView
+                    android:id="@+id/subheaderTxt"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:textSize="@dimen/_18ssp"
+                    app:customTypeFace="@string/systemSemiBold"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.view.MTextView
+                    android:id="@+id/detailTxt"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_marginTop="@dimen/_12ssp"
+                    app:customTypeFace="@string/systemRegular"
+                    android:textColor="@color/eme_txt_color"
+                    android:textAlignment="center"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.view.MTextView
+                    android:textAlignment="viewStart"
+                    android:id="@+id/floatingLabel1"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="#181818"
+                    app:customTypeFace="@string/systemLightFont"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/square_border_common"
+                    android:layout_height="@dimen/_35sdp">
+
+                    <com.view.editBox.MaterialEditText
+                        app:met_accentTypeface="@string/defaultFont"
+                        app:met_typeface="@string/defaultFont"
+                        android:id="@+id/subjectBox"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+                <com.view.MTextView
+                    android:visibility="invisible"
+                    android:id="@+id/subjectBox_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Field is required."
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_10ssp"
+                    app:customTypeFace="@string/systemLightFont" />
+
+                <com.view.MTextView
+                    android:id="@+id/floatingLabel2"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="#181818"
+                    app:customTypeFace="@string/systemLightFont"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/square_border_common"
+                    android:layout_height="@dimen/_70sdp">
+
+                    <com.view.editBox.MaterialEditText
+                        app:met_accentTypeface="@string/defaultFont"
+                        app:met_typeface="@string/defaultFont"
+                        android:id="@+id/contentBox"
+                        layout="@layout/editbox_form_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+                <com.view.MTextView
+                    android:visibility="invisible"
+                    android:id="@+id/contentBox_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Field is required."
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_10ssp"
+                    app:customTypeFace="@string/systemLightFont" />
+
+                <LinearLayout
+                    android:paddingBottom="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        android:id="@+id/btn_type2"
+                        layout="@layout/btn_type_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/all_btn_height" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

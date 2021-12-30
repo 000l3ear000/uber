@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <RelativeLayout
+        android:layout_above="@id/help_card"
+        android:layout_below="@id/toolbar_include"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/contentAreaView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15ssp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.view.MTextView
+                        android:id="@+id/headerTitleTxt"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp"
+                        app:customTypeFace="@string/systemSemiBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <com.view.MTextView
+                        android:id="@+id/descriptionTxt"
+                        android:textColor="#343434"
+                        android:textSize="@dimen/_11ssp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        app:customTypeFace="@string/systemLightFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!--further assistance layout-->
+
+                <!---->
+            </LinearLayout>
+        </ScrollView>
+
+        <ProgressBar
+            android:id="@+id/loadingBar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/help_card"
+        app:cardCornerRadius="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_minus20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <com.view.MTextView
+                android:layout_centerVertical="true"
+                android:id="@+id/textstillneedhelp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/black"
+                app:customTypeFace="@string/systemSemiBold"
+                android:text="Still need help?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.view.MTextView
+                android:layout_centerVertical="true"
+                android:id="@+id/contact_us_btn"
+                android:textColor="@color/appThemeColor_1"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemSemiBold"
+                android:text="Contact Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

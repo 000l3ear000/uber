@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/_45sdp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            
+            android:id="@+id/radioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="@color/appThemeColor_1" />
+
+        <com.view.MTextView
+            android:layout_gravity="start|center"
+            android:id="@+id/pkgNameTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="start|center"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:paddingStart="20dp"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:textColor="#656565"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemRegular" />
+
+        <com.view.MTextView
+            android:layout_gravity="center"
+            android:id="@+id/pkgKmTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="center"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#656565"
+            android:textAlignment="center"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/systemRegular" />
+
+        <com.view.MTextView
+            android:layout_gravity="end|center"
+            android:id="@+id/pkgPriceTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="end|center"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:textColor="#000000"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/systemRegular" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/pkgView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="#efefef" />
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/someoneArea"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="top|center"
+    android:background="@color/appThemeColor_1"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+
+        <ImageView
+            android:id="@+id/backImgView"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:rotationY="@integer/angle_rtl_180"
+            android:src="@mipmap/ic_back_arrow"
+            android:tint="@color/appThemeColor_TXT_1"
+            android:visibility="invisible" />
+
+
+        <LinearLayout
+            android:id="@+id/nameArea"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/contactProfileImgContainerView"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_weight="0"
+                android:animateLayoutChanges="true">
+
+
+                <com.view.SelectableRoundedImageView
+                    android:id="@+id/contactProfileImgView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:scaleType="centerCrop"
+                    app:sriv_border_color="@color/white"
+                    app:sriv_border_width="1dip"
+                    app:sriv_left_bottom_corner_radius="10dip"
+                    app:sriv_left_top_corner_radius="10dip"
+                    app:sriv_oval="true"
+                    app:sriv_right_bottom_corner_radius="10dip"
+                    app:sriv_right_top_corner_radius="10dip" />
+
+
+                <com.view.MTextView
+                    android:id="@+id/nameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13ssp"
+                    android:visibility="gone"
+                    app:customTypeFace="@string/systemBold" />
+
+            </RelativeLayout>
+
+
+            <com.view.MTextView
+                android:id="@+id/bookForTxt"
+                android:layout_width="wrap_content"
+                android:maxWidth="@dimen/_150sdp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="0"
+                android:gravity="start|center"
+                android:maxEms="10"
+                android:maxLines="1"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                app:customTypeFace="@string/systemLightFont" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:animateLayoutChanges="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/downArrowImgView"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/down_arrow_selector"
+                    android:tint="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/cancelSubTxt"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="invisible"
+            app:customTypeFace="@string/systemSemiBold" />
+    </RelativeLayout>
+</LinearLayout>

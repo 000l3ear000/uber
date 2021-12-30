@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="@dimen/_15sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.view.MTextView
+        android:id="@+id/titleHTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:maxLines="2"
+        android:paddingEnd="@dimen/_5sdp"
+        android:text="csacsc"
+        android:textAlignment="viewStart"
+        android:textColor="#646464"
+        app:customTypeFace="@string/systemRegular"
+        android:textSize="@dimen/_11sdp" />
+
+    <com.view.MTextView
+        android:id="@+id/titleVTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:maxLines="2"
+        android:maxWidth="@dimen/_250sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:text="sxcsxsax"
+        android:textColor="#090909"
+        android:textAlignment="viewEnd"
+        app:customTypeFace="@string/systemRegular"
+        android:textSize="@dimen/_11sdp" />
+
+</LinearLayout>

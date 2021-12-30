@@ -1,0 +1,243 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mdtp_white"
+            android:orientation="vertical">
+
+            <include layout="@layout/design_toolbar_main" />
+
+            <LinearLayout
+                android:id="@+id/subCatagoryLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mdtp_white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.view.MTextView
+                    android:id="@+id/selectServiceTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/mdtp_white"
+                    android:gravity="left|center"
+                    android:paddingStart="10dp"
+                    android:text="hello"
+                    android:textColor="#030303"
+                    android:textSize="@dimen/txt_size_18" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="#F4F4F4">
+
+                        <ListView
+                            android:id="@+id/selectServiceCategoryListView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <com.view.MTextView
+                        android:id="@+id/noServiceTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="No Data"
+                        android:textColor="#1C1C1C"
+                        android:textSize="@dimen/txt_size_16"
+                        android:visibility="visible" />
+
+                    <com.view.ErrorView
+                        android:id="@+id/errorView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mainScreenLaoyout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mdtp_white"
+                android:fitsSystemWindows="true"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.appbar.AppBarLayout
+                        android:id="@+id/app_bar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                        <com.google.android.material.appbar.CollapsingToolbarLayout
+                            android:id="@+id/collapsing_toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:fitsSystemWindows="true"
+                            app:contentScrim="?attr/colorPrimary"
+                            app:expandedTitleTextAppearance="@android:color/transparent"
+                            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                            <!--<ImageView-->
+                            <!--android:id="@+id/image"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="250dp"-->
+                            <!--android:fitsSystemWindows="true"-->
+                            <!--android:scaleType="centerCrop"-->
+                            <!--android:background="@android:color/transparent"-->
+                            <!--app:layout_collapseMode="parallax" />-->
+
+                            <!--<FrameLayout-->
+                            <!--android:id="@+id/scrollingArea"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:fitsSystemWindows="true"-->
+                            <!--app:layout_collapseMode="parallax">-->
+                            <FrameLayout
+                                android:id="@+id/MainActBanners"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp">
+
+                                <androidx.viewpager.widget.ViewPager
+                                    android:id="@+id/pager"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                                <FrameLayout
+                                    android:id="@+id/pagesContainer"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="8dp">
+
+                                </FrameLayout>
+
+                            </FrameLayout>
+                        </com.google.android.material.appbar.CollapsingToolbarLayout>
+                    </com.google.android.material.appbar.AppBarLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/mainContentArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#E2E1DF" />
+
+                            <com.view.MTextView
+                                android:id="@+id/orLoginWithTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/all_TxtView_height"
+                                android:gravity="start|center"
+                                android:padding="10dp"
+                                android:text="Service in your Locality"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/txt_size_16" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#E2E1DF" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#E2E1DF" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/mainCatagoryrecyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:visibility="gone" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:id="@+id/subCatagoryListLayout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:visibility="gone">
+
+                                    </LinearLayout>
+                                </ScrollView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/uberXHomePageLoader"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+        <com.view.MTextView
+            android:id="@+id/uberXNoDataTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/menu_drawer_design"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" />
+
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_include"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_2sdp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:layout_weight="1"
+                        android:id="@+id/baseFareHTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Rental Fare"
+                        android:textAlignment="viewStart"
+                        android:textColor="#1c1c1c"
+                        android:textSize="@dimen/_12ssp"
+                        app:customTypeFace="@string/systemRegular" />
+
+                    <com.view.MTextView
+                        android:id="@+id/baseFareVTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text="#220.20"
+                        android:textAlignment="viewStart"
+                        android:textColor="#010101"
+                        android:textSize="@dimen/_12ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                </LinearLayout>
+
+                <com.view.MTextView
+                    android:id="@+id/baseFareInfotxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_minus8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:padding="@dimen/_5sdp"
+                    android:textAlignment="viewStart"
+                    android:textColor="#656565"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <LinearLayout
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:id="@+id/addKMFareHTxt"
+                        android:layout_width="match_parent"
+                        android:textFontWeight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Rental Fare"
+                        android:textAlignment="viewStart"
+                        android:textColor="#1c1c1c"
+                        android:textSize="@dimen/_12ssp"
+                        app:customTypeFace="@string/systemRegular" />
+
+                    <com.view.MTextView
+                        android:id="@+id/addKMFareVTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text="#220.20"
+                        android:textAlignment="viewStart"
+                        android:textColor="#010101"
+                        android:textSize="@dimen/_12ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                </LinearLayout>
+
+                <com.view.MTextView
+                    android:id="@+id/addKmFareInfoTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_minus8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:padding="@dimen/_5sdp"
+                    android:textAlignment="viewStart"
+                    android:textColor="#656565"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <LinearLayout
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:id="@+id/addTimeFareHTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Rental Fare"
+                        android:textAlignment="viewStart"
+                        android:textColor="#1c1c1c"
+                        android:textSize="@dimen/_12ssp"
+                        app:customTypeFace="@string/systemRegular" />
+
+                    <com.view.MTextView
+                        android:id="@+id/addTimeFareVTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:text="#220.20"
+                        android:textAlignment="viewStart"
+                        android:textColor="#010101"
+                        android:textSize="@dimen/_12ssp"
+                        app:customTypeFace="@string/systemMediumFont" />
+
+                </LinearLayout>
+
+                <com.view.MTextView
+                    android:id="@+id/addTimeFareInfoTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_minus8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:padding="@dimen/_5sdp"
+                    android:textAlignment="viewStart"
+                    android:textColor="#656565"
+                    android:textSize="@dimen/txt_size_12"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <View
+                    android:id="@+id/rightSeperationLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="#BABABA"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_175sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center_vertical"
+        android:layout_marginBottom="@dimen/_minus20sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardElevation="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp">
+
+            <com.view.MTextView
+                android:id="@+id/noteTitleTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:textColor="#343434"
+                android:textSize="@dimen/_14ssp"
+                app:customTypeFace="@string/systemMediumFont" />
+
+            <WebView
+                android:id="@+id/noteMsgTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="start"
+                android:text=""
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:textAlignment="viewStart"
+                android:textColor="#343434"
+                android:textSize="@dimen/_12ssp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

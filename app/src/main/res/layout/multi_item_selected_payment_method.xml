@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainArea"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@color/appThemeColor_1"
+                android:paddingStart="10dp"
+                android:textAlignment="center" />
+
+
+            <com.view.MTextView
+                android:id="@+id/typeTitleTxt"
+                android:layout_width="0dp"
+                android:gravity="start|center"
+                android:textAlignment="viewStart"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:text="SENDER"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/paymentDetailArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <com.view.MTextView
+            android:id="@+id/typeInstTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Sender has to pay total amount"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

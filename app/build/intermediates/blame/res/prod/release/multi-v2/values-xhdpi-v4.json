@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\movae app\\melevicar-user\\app\\build\\intermediates\\incremental\\mergeProdReleaseResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\ef18fc814f107302bf69c6718c74c636\\jetified-twitter-core-3.3.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\fce64fe26faf17e6e203bca24dcca4f3\\jetified-ColoredShadowImageView-1.1.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "38",
+                        "endOffsets": "89"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "110",
+                        "endColumns": "38",
+                        "endOffsets": "144"
+                    }
+                }
+            ]
+        }
+    ]
+}

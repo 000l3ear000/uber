@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appThemeColor_1"
+        android:orientation="horizontal">
+
+
+        <com.view.MTextView
+            android:includeFontPadding="false"
+            android:id="@+id/moreTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="Select Service"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_14" />
+
+        <com.view.MTextView
+            android:includeFontPadding="false"
+            android:id="@+id/cancelTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingEnd="10dp"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_14" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dataListRecyclerView_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false" />
+
+</LinearLayout>

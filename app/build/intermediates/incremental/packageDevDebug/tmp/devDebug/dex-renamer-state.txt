@@ -1,0 +1,10 @@
+#Thu Dec 30 21:18:08 PKT 2021
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=F\:\\melevicar-user\\app\\build\\intermediates\\dex\\devDebug\\mergeExtDexDevDebug\\out\\classes2.dex
+base.1=F\:\\melevicar-user\\app\\build\\intermediates\\dex\\devDebug\\mergeProjectDexDevDebug\\out\\classes.dex
+base.0=F\:\\melevicar-user\\app\\build\\intermediates\\dex\\devDebug\\mergeExtDexDevDebug\\out\\classes.dex

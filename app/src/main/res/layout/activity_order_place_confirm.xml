@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/deliverall_design_toolbar_general" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagePlace"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+
+
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/order_place" />
+
+
+    <com.view.MTextView
+        android:id="@+id/placeOrderNote"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomarea"
+        android:gravity="start|center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Your Order isPlaced and will be deliver soon"
+        android:textAlignment="center"
+        android:textColor="@color/appThemeColor_1"
+        android:textSize="@dimen/txt_size_18"
+        app:customTypeFace="@string/robotobold" />
+
+
+    <LinearLayout
+        android:id="@+id/bottomarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp">
+
+        <include
+            android:id="@+id/btn_type2"
+            layout="@layout/btn_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

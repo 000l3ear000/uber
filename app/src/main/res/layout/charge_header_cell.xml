@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/shadowView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/below_shadow"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/orderDetailArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/indicatorImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:src="@mipmap/ic_arrow_down"
+            android:tint="@color/appThemeColor_1" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.view.MTextView
+                    android:id="@+id/itemNameTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:text="1 Item"
+                    android:textAlignment="viewStart"
+                    android:textColor="#272727"
+                    android:textSize="@dimen/txt_size_16" />
+
+                <com.view.MTextView
+                    android:visibility="gone"
+                    android:layout_marginStart="5dp"
+                    android:id="@+id/paymentTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:text="1 Item"
+                    android:textAlignment="viewStart"
+                    android:textColor="#272727"
+                    android:textSize="@dimen/txt_size_12" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.view.MTextView
+            android:id="@+id/fareTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:gravity="end"
+            android:text="$10"
+            android:textAlignment="viewEnd"
+            android:textColor="#272727"
+            android:textSize="@dimen/txt_size_16"
+            app:customTypeFace="@string/robotomediumFont" />
+
+    </LinearLayout>
+</LinearLayout>

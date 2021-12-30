@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/Green</color>
+    <color name="colorPrimaryDark">@color/Green</color>
+    <color name="colorAccent">@color/Green</color>
+
+    <!-- Theme configuration -->
+    <color name="appThemeColor_1">@color/Green</color> <!--used for bg-->
+    <color name="appThemeColor_Light_1">@color/Green</color>
+    <color name="appThemeColor_Light_2">#25E40017</color>
+
+    <color name="appThemeColor_Dark_1">@color/Green</color> <!--used for Border OR Others-->
+    <color name="appThemeColor_hover_1">@color/Green</color> <!--used for hover-->
+    <color name="appThemeColor_TXT_1">#FFFFFF</color> <!--used for text color-->
+    <color name="appThemeColor_bg_parent_1">@android:color/transparent
+    </color> <!--used for parent bg color if applies-->
+    <color name="appThemeColor_Accent">#000000</color>
+
+    <color name="appThemeColor_2">@color/Darkblack</color> <!--used for bg-->
+    <color name="appThemeColor_hover_2">#272727</color> <!--used for hover-->
+    <color name="appThemeColor_TXT_2">#FFFFFF</color> <!--used for text color-->
+    <color name="appThemeColor_bg_parent_2">#192635
+    </color> <!--used for parent bg color if applies-->
+
+    <color name="card_loading_prj">@color/appThemeColor_1</color>
+    <color name="donateBtn">@color/Green</color>
+
+
+    <!-- Theme configuration End-->
+
+    <color name="homedeSelectColor">#787878</color>
+
+
+    <color name="menu_header_bg">#FFFFFF</color>
+    <color name="menu_header_txt">#303030</color>
+    <color name="menu_list_bg">#2a2c2d</color>
+    <color name="menu_list_txt_color">#FFFFFF</color>
+
+    <!-- EditBox configuration Start-->
+    <color name="editBox_primary">@color/appThemeColor_1</color> <!--used for EditBox-->
+    <color name="editBox_primary_dark">@color/appThemeColor_1</color> <!--used for EditBox-->
+    <color name="editBox_accent">@color/appThemeColor_1</color> <!--used for EditBox-->
+    <!-- EditBox configuration End-->
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+
+
+    <color name="sourceAddressTxt">#1e5b99</color>
+    <color name="destAddressTxt">#333333</color>
+
+
+    <color name="lightchatbtncolor">#98239707</color> <!-- add 98 before app theme color 1-->
+    <color name="background_show_case">#E9239707</color>  <!-- add E9 before app theme color 1-->
+
+    <!--    <color name="btnnavtripselcolor">#4187D6</color> &lt;!&ndash;used for parent bg color if applies&ndash;&gt;-->
+    <color name="btnnavtripselcolor">@color/Green</color> <!--used for parent bg color if applies-->
+
+
+    <color name="verfiybtncolor">@color/Green</color>
+
+    <color name="app_login_box_color">@color/Green</color> <!--used for parent bg color if applies-->
+    <color name="app_login_txt_color">#FFFFFF</color>
+    <color name="app_login_box_border_color">#FFFFFF
+    </color> <!--used for parent bg color if applies-->
+    <color name="app_login_selected_border_color">#FFFFFF
+    </color> <!--used for parent bg color if applies-->
+    <color name="app_login_unselected_border_color">#FFFFFF
+    </color> <!--used for parent bg color if applies-->
+    <color name="app_login_selected_filled_color">#FFFFFF
+    </color> <!--used for parent bg color if applies-->
+
+    <color name="app_business_unselected_border_color">@color/appThemeColor_1</color>
+    <color name="app_business_selected_border_color">@color/Green</color>
+    <color name="app_business_selected_filled_color">@color/Green</color>
+    <color name="history_txt_color">@color/appThemeColor_1</color> <!--used for parent bg color if applies-->
+    <color name="light_back_color">#000000</color> <!--used for parent bg color if applies-->
+    <color name="light_back_color_user_oredr_history">@color/Green</color> <!--used for parent bg color if applies-->
+    <color name="light_back_signin_txt_color">#57a644
+    </color> <!--used for parent bg color if applies-->
+    <color name="light_back_logout_txt_color">#000000
+    </color> <!--used for parent bg color if applies-->
+    <color name="eme_txt_color">#333333</color> <!--used for parent bg color if applies-->
+    <color name="eme_title_txt_color">@color/appThemeColor_1</color> <!--used for parent bg color if applies-->
+    <color name="eme_back_color">#f2f2f4</color> <!--used for parent bg color if applies-->
+
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="bt_text_blue">#FFFFFF</color>
+    <color name="Gray">#808080</color>
+    <color name="disable_color">#1000</color>
+    <color name="black">#030303</color>
+    <color name="gray">#90909090</color>
+
+
+    <color name="pickup_background">#F5F5F5</color>
+    <color name="pickup_req_now_btn">#529800</color>
+    <color name="pickup_req_later_btn">@color/Green</color>
+    <color name="pickup_or_txt">#A8A8A8</color>
+
+    <!--errorView colors-->
+    <color name="error_view_retry_btn_txt_color">@color/Green</color>
+    <color name="error_view_text">#656565</color>
+    <color name="error_view_text_dark">#CC000000</color>
+    <color name="error_view_text_light">#858585</color>
+
+    <color name="error_view_retry_button_background">#30000000</color>
+    <color name="error_view_retry_button_background_stroke">#50000000</color>
+    <!--error view colors finished-->
+
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#c9c9c9</item>
+    <item name="rating_fill_color" type="color">@color/Green</item>
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+    <color name="bg_select">#ededed</color>
+    <color name="mdtp_white">#FFFFFF</color>
+    <color name="transparent_full">#00000000</color>
+    <color name="mdtp_transparent_black">#7f000000</color>
+    <color name="mdtp_done_text_color_disabled">#cccccc</color>
+    <color name="light_back_featured_txt_color">#57a644</color>
+    <color name="orange">@color/Green</color>
+    <color name="skyBlue">#93bee0</color>
+    <color name="businesspay">@color/appThemeColor_1</color>
+    <color name="marker_img_border">@color/Green</color>
+
+
+
+
+    <!--Multi Related Colors -->
+    <color name="multi_tab_light_color">@color/Green</color>
+    <color name="multi_tab_dark_color">@color/appThemeColor_Dark_1</color>
+
+    <color name="fr_round_icon_color">#049129</color>
+    <color name="to_round_icon_color">@color/Green</color>
+
+    <color name="add_round_icon_color">#33CC66</color>
+    <color name="add_dest_txt_color">@color/green</color>
+
+    <!--Deliver all related Colors-->
+    <!--<color name="headercolor">#FF5A00</color>-->
+    <color name="headercolor">@color/appThemeColor_1</color>
+    <color name="Darkblack">#000000</color>
+    <color name="red">#33CC66</color>
+    <color name="marron">@color/Green</color>
+    <color name="redlight">#711a1a</color>
+    <color name="blue">#0000FF</color>
+    <color name="offerColor">#FFFFFF</color>
+    <color name="switchgray">#e6e4e4</color>
+
+    <color name="green">#DB0000</color>
+    <color name="itemgray">#696969</color>
+
+    <color name="bt_error_red">@color/Green</color>
+    <color name="ratingAreaColor">@color/btn_bg_color_type2</color>
+
+
+    <color name="mspUnSelected">#141414</color>
+    <color name="mspSelected">#7d7d7d</color>
+    <color name="mspSelectedColor">#e0e0e0</color>
+    <color name="mspUnSelectedColor">@color/white</color>
+    <color name="disabledColor">@color/black</color>
+    <color name="highlightedColor">@color/black</color>
+    <color name="lineColor">#A7A7AE</color>
+    <!--<color name="ratingAreaColor">#ccFF5A00</color>-->
+    <color name="Green">#DB0000</color>
+    <color name="Red">#EC1000</color>
+    <color name="ratingfill">@color/Green</color>
+
+<!--    <color name="selectedColor">#D4E3F7</color>-->
+    <color name="selectedColor">#FFFFFF</color> <!-- add 25 before app theme color 1-->
+
+</resources>

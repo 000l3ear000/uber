@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.view.MTextView
+            android:visibility="gone"
+            android:id="@+id/tutorDTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Tutor Detail"
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/txt_size_20" />
+
+
+        <ImageView
+            android:id="@+id/closeImg"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_close_detail"
+            android:tint="@color/appThemeColor_1" />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_8sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tutorDetailArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+
+
+
+            <com.view.MTextView
+                android:id="@+id/nameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+
+                android:layout_toEndOf="@id/seperationLine"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text=" Name "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                   android:id="@+id/rating"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@mipmap/ic_star_filled" />
+
+                <com.view.MTextView
+                    android:layout_toEndOf="@+id/rating"
+
+                    android:id="@+id/rateTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text=" 1.1 "
+                    android:textColor="#646464"
+                    android:textSize="@dimen/_12ssp"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <View
+                    android:id="@+id/seperationLine"
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="#464646" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/callMsgArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/callArea"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/selected_border"
+            android:backgroundTint="@color/appThemeColor_1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+
+                app:srcCompat="@drawable/ic_phone_call_popup"
+                android:tint="#ffffff" />
+
+            <com.view.MTextView
+                android:paddingEnd="@dimen/_5sdp"
+                android:id="@+id/callTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                app:customTypeFace="@string/systemMediumFont" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/msgArea"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_weight="1"
+            android:background="@drawable/unselected_border"
+            android:backgroundTint="@color/appThemeColor_1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+
+                app:srcCompat="@drawable/ic_chat_bubble"
+                android:tint="@color/appThemeColor_1" />
+
+            <com.view.MTextView
+                android:paddingEnd="@dimen/_5sdp"
+                android:id="@+id/msgTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/appThemeColor_1"
+                android:textSize="@dimen/_16ssp"
+                app:customTypeFace="@string/systemMediumFont" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.view.SelectableRoundedImageView
+
+            android:id="@+id/tutorImgView"
+
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_95sdp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:scaleType="centerCrop"
+            app:sriv_border_color="@color/white"
+            app:sriv_border_width="2dip"
+            app:sriv_left_bottom_corner_radius="20dip"
+            app:sriv_left_top_corner_radius="20dip"
+            app:sriv_oval="true"
+            app:sriv_right_bottom_corner_radius="20dip"
+            app:sriv_right_top_corner_radius="20dip" />
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bottomarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/requestBtnArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <include
+                android:id="@+id/btn_type2"
+                layout="@layout/btn_type_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/driverDTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Passenger Detail"
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/txt_size_20"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="90dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomarea"
+            android:background="@color/white">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/appThemeColor_1" />
+
+            <ImageView
+                android:id="@+id/closeImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/ic_close_detail"
+                android:tint="@color/white" />
+
+
+            <FrameLayout
+                android:id="@+id/headerArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="100dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center|start"
+                            android:src="@mipmap/hmarker"
+                            android:textAlignment="viewStart" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <com.view.MTextView
+                                android:id="@+id/milesTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/headerArea"
+                                android:layout_marginStart="3dp"
+                                android:layout_weight="1"
+                                android:gravity="start"
+                                android:text="dfdf"
+                                android:textAlignment="viewStart"
+                                android:textColor="#131313"
+                                android:textSize="@dimen/txt_size_18"
+                                android:textStyle="bold"
+                                android:visibility="visible"
+                                app:customTypeFace="@string/robotobold" />
+
+                            <com.view.MTextView
+                                android:id="@+id/milesawayTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/headerArea"
+                                android:layout_marginStart="3dp"
+                                android:layout_weight="1"
+                                android:gravity="start"
+                                android:text="vdsfsaf"
+                                android:textAlignment="viewStart"
+                                android:textAllCaps="true"
+                                android:textColor="#727272"
+                                android:textSize="@dimen/txt_size_12"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:orientation="vertical">
+
+                            <com.view.simpleratingbar.SimpleRatingBar
+                                android:id="@+id/ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginEnd="10dp"
+
+                                android:clickable="false"
+                                app:SRB_fillColor="@color/appThemeColor_1"
+                                app:SRB_isIndicator="true"
+                                app:SRB_starBackgroundColor="@color/gray_holo_light"
+                                app:SRB_starSize="18dp"
+                                app:SRB_stepSize="0.5" />
+
+                            <com.view.MTextView
+                                android:id="@+id/reviewTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/headerArea"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginStart="3dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAllCaps="true"
+                                android:textColor="#727272"
+                                android:textSize="@dimen/txt_size_12"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.view.MTextView
+                            android:id="@+id/nameTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:padding="2dp"
+                            android:text="ProviderName"
+                            android:textColor="#464646"
+                            android:textSize="@dimen/txt_size_20" />
+
+
+                        <com.view.MTextView
+                            android:id="@+id/priceTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:layout_toEndOf="@id/seperationLine"
+                            android:gravity="start"
+                            android:maxLines="1"
+                            android:text=" "
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/appThemeColor_1"
+                            android:textSize="@dimen/txt_size_18"
+                            android:textStyle="bold"
+                            app:customTypeFace="@string/robotobold" />
+
+
+                        <com.view.MTextView
+                            android:id="@+id/minHourTxtView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="text"
+                            android:textColor="#727272"
+                            android:textSize="@dimen/txt_size_14"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/descHTxt"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="20dp"
+                android:scrollIndicators="end">
+
+                <com.view.MTextView
+                    android:id="@+id/descTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity=""
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/seperationLine"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:text="Driver information"
+                    android:textAlignment="viewStart"
+                    android:textColor="#303030"
+                    android:textSize="@dimen/txt_size_16"
+                    android:visibility="visible"
+                    app:customTypeFace="@string/robotolightFont" />
+
+            </ScrollView>
+
+
+            <com.view.SelectableRoundedImageView
+                android:id="@+id/driverImgView"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="60dp"
+                app:sriv_border_color="@color/appThemeColor_TXT_2"
+                app:sriv_border_width="2dip"
+                app:sriv_left_bottom_corner_radius="20dip"
+                app:sriv_left_top_corner_radius="20dip"
+                app:sriv_oval="true"
+                app:sriv_right_bottom_corner_radius="20dip"
+                app:sriv_right_top_corner_radius="20dip" />
+
+            <com.view.MTextView
+                android:id="@+id/descHTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/headerArea"
+                android:layout_gravity=""
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Driver information"
+                android:textAlignment="viewStart"
+                android:textColor="#393939"
+                android:textSize="@dimen/txt_size_18"
+                android:visibility="visible"
+                app:customTypeFace="@string/robotobold" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

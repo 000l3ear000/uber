@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.view.DividerView
+            android:id="@+id/aboveLine"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imagedest"
+            android:layout_below="@+id/srcimage"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-6dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layerType="software"
+            app:dividerColor="#8c8c8c"
+            app:dividerDashGap="@dimen/_2sdp"
+            app:dividerDashThickness="@dimen/_1sdp"
+            app:dividerDashLength="0.5dp"
+            app:dividerOrientation="vertical" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_loc_img"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:tint="@color/appThemeColor_1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_place_address" />
+
+            <ImageView
+                android:id="@+id/iv_round"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/hcircle"
+                android:textAlignment="center"
+                android:tint="#b60000"
+                android:visibility="gone" />
+
+
+            <View
+                android:id="@+id/squareImgView"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:background="@color/disabledColor"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <com.view.DividerView
+            android:id="@+id/lowerLine"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imagedest"
+            android:layout_below="@+id/srcimage"
+            android:layout_gravity="center"
+            android:layout_marginTop="-6dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layerType="software"
+            app:dividerColor="#8c8c8c"
+            app:dividerDashGap="@dimen/_2sdp"
+            app:dividerDashThickness="@dimen/_1sdp"
+            app:dividerDashLength="0.5dp"
+            app:dividerOrientation="vertical" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/mainSelectionArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_35sdp"
+        android:gravity="center"
+        android:background="@drawable/material_card"
+        android:orientation="horizontal">
+
+        <com.view.MTextView
+            android:id="@+id/toValueTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="start|center"
+            android:gravity="start|center"
+            android:hint="Input Address Or Source Pin"
+            android:imeOptions="actionSearch"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:text="Input Address Or Source Pin"
+            android:textAlignment="viewStart"
+            android:textColor="@color/mspSelected"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="visible"
+            app:customTypeFace="@string/systemRegular"
+            app:met_hideUnderline="true" />
+
+
+        <LinearLayout
+            android:id="@+id/removeAdd"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_gravity="end|center"
+            android:gravity="end|center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_gravity="end|center"
+                android:gravity="end|center"
+                android:tint="@color/appThemeColor_1"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_add" />
+
+            <ImageView
+                android:id="@+id/iv_remove"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_gravity="end|center"
+                android:gravity="end|center"
+                android:tint="#939393"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_cancel" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

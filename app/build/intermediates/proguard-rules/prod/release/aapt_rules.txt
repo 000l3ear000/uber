@@ -1,0 +1,1376 @@
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:63
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:105
+-keep class androidx.core.content.FileProvider { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:353
+-keep class co.omise.android.ui.CreditCardActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:337
+-keep class com.braintreepayments.api.BraintreeBrowserSwitchActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:664
+-keep class com.crashlytics.android.CrashlyticsInitProvider { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:360
+-keep class com.cropper.CropImageActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:655
+-keep class com.facebook.CampaignTrackingReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:648
+-keep class com.facebook.CurrentAccessTokenExpirationBroadcastReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:530
+-keep class com.facebook.CustomTabActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:529
+-keep class com.facebook.CustomTabMainActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:197
+-keep class com.facebook.FacebookActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:643
+-keep class com.facebook.internal.FacebookInitProvider { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:122
+-keep class com.general.files.AlarmReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:63
+-keep class com.general.files.MyApp { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:101
+-keep class com.general.files.SinchService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:585
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:576
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:599
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:609
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:623
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:604
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:619
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:550
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:590
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:568
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:629
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:474
+-keep class com.livechatinc.inappchat.ChatWindowActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:270
+-keep class com.melevicarbrasil.usuario.AccountverificationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:304
+-keep class com.melevicarbrasil.usuario.AddAddressActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:180
+-keep class com.melevicarbrasil.usuario.AppLoginActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:267
+-keep class com.melevicarbrasil.usuario.AppLoignRegisterActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:493
+-keep class com.melevicarbrasil.usuario.BookSomeOneElsePickContactActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:499
+-keep class com.melevicarbrasil.usuario.BookingActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:316
+-keep class com.melevicarbrasil.usuario.BookingSummaryActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:441
+-keep class com.melevicarbrasil.usuario.BusinessProfileActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:456
+-keep class com.melevicarbrasil.usuario.BusinessSelectPaymentActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:444
+-keep class com.melevicarbrasil.usuario.BusinessSetupActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:462
+-keep class com.melevicarbrasil.usuario.CallScreenActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:487
+-keep class com.melevicarbrasil.usuario.CarWashBookingDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:231
+-keep class com.melevicarbrasil.usuario.CardPaymentActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:295
+-keep class com.melevicarbrasil.usuario.ChatActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:363
+-keep class com.melevicarbrasil.usuario.CommonDeliveryTypeSelectionActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:237
+-keep class com.melevicarbrasil.usuario.ConfirmEmergencyTapActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:215
+-keep class com.melevicarbrasil.usuario.ContactUsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:438
+-keep class com.melevicarbrasil.usuario.CouponActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:88
+-keep class com.melevicarbrasil.usuario.DonationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:234
+-keep class com.melevicarbrasil.usuario.EmergencyContactActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:240
+-keep class com.melevicarbrasil.usuario.EnterDeliveryDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:366
+-keep class com.melevicarbrasil.usuario.EnterMultiDeliveryDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:276
+-keep class com.melevicarbrasil.usuario.FareBreakDownActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:205
+-keep class com.melevicarbrasil.usuario.FareEstimateActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:496
+-keep class com.melevicarbrasil.usuario.FavouriteDriverActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:286
+-keep class com.melevicarbrasil.usuario.FirebaseDataReceiver { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:279
+-keep class com.melevicarbrasil.usuario.ForgotPasswordActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:218
+-keep class com.melevicarbrasil.usuario.HelpActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:328
+-keep class com.melevicarbrasil.usuario.Help_DetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:322
+-keep class com.melevicarbrasil.usuario.Help_MainCategory { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:325
+-keep class com.melevicarbrasil.usuario.Help_SubCategoryActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:224
+-keep class com.melevicarbrasil.usuario.HistoryDetailActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:459
+-keep class com.melevicarbrasil.usuario.IncomingCallScreenActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:249
+-keep class com.melevicarbrasil.usuario.InviteFriendsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:171
+-keep class com.melevicarbrasil.usuario.LauncherActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:301
+-keep class com.melevicarbrasil.usuario.ListAddressActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:186
+-keep class com.melevicarbrasil.usuario.MainActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:319
+-keep class com.melevicarbrasil.usuario.MaintenanceActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:82
+-keep class com.melevicarbrasil.usuario.MenuSettingActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:481
+-keep class com.melevicarbrasil.usuario.MoreInfoActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:490
+-keep class com.melevicarbrasil.usuario.MoreServiceInfoActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:369
+-keep class com.melevicarbrasil.usuario.MultiDeliverySecondPhaseActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:372
+-keep class com.melevicarbrasil.usuario.MultiDeliveryThirdPhaseActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:453
+-keep class com.melevicarbrasil.usuario.MyBusinessProfileActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:131
+-keep class com.melevicarbrasil.usuario.MyFirebaseMessagingService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:208
+-keep class com.melevicarbrasil.usuario.MyProfileActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:87
+-keep class com.melevicarbrasil.usuario.MyProfileNewActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:243
+-keep class com.melevicarbrasil.usuario.MyWalletActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:246
+-keep class com.melevicarbrasil.usuario.MyWalletHistoryActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:465
+-keep class com.melevicarbrasil.usuario.NotificationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:468
+-keep class com.melevicarbrasil.usuario.NotificationDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:264
+-keep class com.melevicarbrasil.usuario.OnGoingTripDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:261
+-keep class com.melevicarbrasil.usuario.OnGoingTripsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:450
+-keep class com.melevicarbrasil.usuario.OrganizationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:282
+-keep class com.melevicarbrasil.usuario.PrefranceActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:94
+-keep class com.melevicarbrasil.usuario.PrescriptionActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:91
+-keep class com.melevicarbrasil.usuario.PrescriptionHistoryImagesActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:83
+-keep class com.melevicarbrasil.usuario.ProfilePaymentActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:97
+-keep class com.melevicarbrasil.usuario.ProviderInfoActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:221
+-keep class com.melevicarbrasil.usuario.QuestionAnswerActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:471
+-keep class com.melevicarbrasil.usuario.QuickPaymentActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:228
+-keep class com.melevicarbrasil.usuario.RatingActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:334
+-keep class com.melevicarbrasil.usuario.RentalDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:331
+-keep class com.melevicarbrasil.usuario.RentalInfoActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:307
+-keep class com.melevicarbrasil.usuario.ScheduleDateSelectActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:298
+-keep class com.melevicarbrasil.usuario.SearchLocationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:202
+-keep class com.melevicarbrasil.usuario.SearchPickupLocationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:183
+-keep class com.melevicarbrasil.usuario.SelectCountryActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:447
+-keep class com.melevicarbrasil.usuario.SelectOrganizationActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:212
+-keep class com.melevicarbrasil.usuario.StaticPageActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:273
+-keep class com.melevicarbrasil.usuario.SupportActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:258
+-keep class com.melevicarbrasil.usuario.UberXActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:84
+-keep class com.melevicarbrasil.usuario.UberXHomeActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:255
+-keep class com.melevicarbrasil.usuario.UberXSelectServiceActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:484
+-keep class com.melevicarbrasil.usuario.UberxCartActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:478
+-keep class com.melevicarbrasil.usuario.UberxFilterActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:310
+-keep class com.melevicarbrasil.usuario.UfxOrderDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:313
+-keep class com.melevicarbrasil.usuario.UfxPaymentActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:350
+-keep class com.melevicarbrasil.usuario.VerifyCardTokenActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:189
+-keep class com.melevicarbrasil.usuario.VerifyFbProfileActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:252
+-keep class com.melevicarbrasil.usuario.VerifyInfoActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:502
+-keep class com.melevicarbrasil.usuario.ViewMultiDeliveryDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:412
+-keep class com.melevicarbrasil.usuario.deliverAll.ActiveOrderActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:390
+-keep class com.melevicarbrasil.usuario.deliverAll.AddBasketActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:393
+-keep class com.melevicarbrasil.usuario.deliverAll.CheckOutActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:397
+-keep class com.melevicarbrasil.usuario.deliverAll.EditCartActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:375
+-keep class com.melevicarbrasil.usuario.deliverAll.FoodDeliveryHomeActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:422
+-keep class com.melevicarbrasil.usuario.deliverAll.FoodRatingActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:428
+-keep class com.melevicarbrasil.usuario.deliverAll.LoginActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:419
+-keep class com.melevicarbrasil.usuario.deliverAll.OrderDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:409
+-keep class com.melevicarbrasil.usuario.deliverAll.OrderPlaceConfirmActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:400
+-keep class com.melevicarbrasil.usuario.deliverAll.PaymentCardActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:378
+-keep class com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:425
+-keep class com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsNewActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:384
+-keep class com.melevicarbrasil.usuario.deliverAll.RestaurantsSearchActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:381
+-keep class com.melevicarbrasil.usuario.deliverAll.SearchFoodActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:387
+-keep class com.melevicarbrasil.usuario.deliverAll.SearchRestaurantListActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:403
+-keep class com.melevicarbrasil.usuario.deliverAll.ServiceHomeActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:431
+-keep class com.melevicarbrasil.usuario.deliverAll.SignUpActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:415
+-keep class com.melevicarbrasil.usuario.deliverAll.TrackOrderActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:406
+-keep class com.melevicarbrasil.usuario.deliverAll.ViewCardActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:76
+-keep class com.melevicarbrasil.usuario.telafoodActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:671
+-keep class com.paymaya.sdk.android.checkout.PayMayaCheckoutActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:506
+-keep class com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:545
+-keep class com.squareup.picasso.PicassoProvider { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:531
+-keep class com.stripe.android.view.AddSourceActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:540
+-keep class com.stripe.android.view.PaymentFlowActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:536
+-keep class com.stripe.android.view.PaymentMethodsActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:165
+-keep class com.twitter.sdk.android.core.identity.OAuthActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:519
+-keep class com.twitter.sdk.android.tweetcomposer.ComposerActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:524
+-keep class com.twitter.sdk.android.tweetcomposer.TweetUploadService { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:516
+-keep class com.twitter.sdk.android.tweetui.GalleryActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:512
+-keep class com.twitter.sdk.android.tweetui.PlayerActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:357
+-keep class com.xendit.XenditActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:434
+-keep class io.card.payment.CardIOActivity { <init>(); }
+# Referenced at E:\movae app\melevicar-user\app\build\intermediates\merged_manifests\prodRelease\AndroidManifest.xml:670
+-keep class io.card.payment.DataEntryActivity { <init>(); }
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_cat_list_design.xml:69
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_toping.xml:52
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_filter.xml:55
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_basket_toping.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliver_all_dialog_filter.xml:148
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_profile_payment.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:98
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_check_out.xml:381
+-keep class androidx.appcompat.widget.AppCompatCheckBox { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\shipping_method_view.xml:49
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recommended_item_list_design.xml:216
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recommended_item_list.xml:9
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\masked_card_view.xml:4
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_search_design.xml:332
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_design.xml:332
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_resmenu_gridview.xml:189
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_menu_list.xml:472
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_gallery_list.xml:42
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_address_design.xml:164
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_sign_up.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_sign_in.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_new_cab_selection.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fly_bottom_dialog.xml:124
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_skyports_bottom_view.xml:129
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_main.xml:161
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dailog_faredetails.xml:166
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dc8ff92e2bce03496070bce8bef12929\jetified-facebook-common-5.13.0\res\layout\com_facebook_smart_device_dialog_fragment.xml:47
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dc8ff92e2bce03496070bce8bef12929\jetified-facebook-common-5.13.0\res\layout\com_facebook_device_auth_dialog_fragment.xml:45
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_sign_up.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_select_country.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_location.xml:52
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_food.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription_history_images.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription.xml:60
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_payment_methods.xml:53
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_organization_list.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_login.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_invite_friends.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_fare_estimate.xml:72
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_emergency_contact.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_check_out.xml:678
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_car_wash_booking_details.xml:633
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_accountverification.xml:48
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\decline_order_dialog_design.xml:42
+-keep class androidx.appcompat.widget.AppCompatSpinner { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\masked_card_view.xml:12
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_payment_methods.xml:63
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout-v26\abc_screen_toolbar.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uber_x_design_toolbar_header.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_toolbar_main.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_toolbar_general.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_main.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_general.xml:10
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_stripe.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:372
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:39
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_payment_methods.xml:9
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\1ece65e0011dea7dfbae7cba8bc8f9db\browser-1.0.0\res\layout\browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uberx_ride_later_view.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\sucess_layout.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\service_list_item.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recommended_item_list_design.xml:57
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recipient_list_item.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\questions_answer_list_header.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\profile_payment_organization.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\open_dialogs.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_show_sign_design.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\moreserviceitem.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_fcontaint_myprofile_fragment.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_wallethistory_design.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberxcheckout_row.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_cat_list_design.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uber_x_banner_design.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_towtruck_vehicle_list_design.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_service_banner_design.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_select_bill_design.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_search_design.xml:65
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_design.xml:64
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_resmenu_gridview.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_rdu_banner_design.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_payment_done_by_cell.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_online_driver_list_design.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_ongoing_trips_detail.xml:68
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_notification_view.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_my_bookings_design.xml:40
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_multi_deliver_details_design.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_menu_list.xml:56
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_parent.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_orders.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_child.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_icon_layout.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_history_design.xml:42
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_gallery_list.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_feedback_design.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_fav_driver_design.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_edit_cart_row.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_donation_banner_design.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_help_sub_category.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_help_main_category.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_delivery_banner_design.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_dates_design.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_checkout_row.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_apply_coupon.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\help_answers_list_item.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\furtherassistancedialog.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_wallet.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_view_card.xml:132
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_pick_up_loc_selected.xml:89
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_new_cab_selection.xml:96
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_driver_detail.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_business_profile_list.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking_layout.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_add_card.xml:34
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_adapter.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\emergency_contact_item.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_relevance.xml:69
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_filter.xml:80
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_cart_edit_options.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_view_multi_delivery_detail.xml:151
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_tutor_detail_dialog.xml:49
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_trip_chat_detail_dialog.xml:149
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_transfer_money.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_prescription_image_source_select.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_pick_up_type_pet_type_dialog.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_image_source_select.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_food_sub_catagory.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_food_catagory.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_driver_bottom_detail.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliver_all_dialog_filter.xml:102
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\delete_precription.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dailog_faredetails.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\custom_marker.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\custom_dialog.xml:20
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dc8ff92e2bce03496070bce8bef12929\jetified-facebook-common-5.13.0\res\layout\com_facebook_smart_device_dialog_fragment.xml:22
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dc8ff92e2bce03496070bce8bef12929\jetified-facebook-common-5.13.0\res\layout\com_facebook_device_auth_dialog_fragment.xml:22
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\card_layout.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_pet_item.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_money_layout.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\adapter.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_view_card.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uberx_cart.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_track_order.xml:39
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_location.xml:130
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_info.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_details.xml:159
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:91
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_question_answer.xml:55
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_provider_info.xml:148
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_profile_payment.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_payment_card.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_organization.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_details.xml:147
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:177
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_profile_new.xml:205
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_third_phase_multi.xml:72
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_details.xml:223
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:400
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:117
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_details.xml:70
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_fare_break_down.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_edit_cart.xml:40
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_design_multi_delivery_list.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_check_out.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_car_wash_booking_details.xml:34
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_business_select_payment.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_basket.xml:57
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_menu_setting.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fly_bottom_dialog.xml:2
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_bottom_sheet_dialog.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:94
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_apply_coupon.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_address.xml:2
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_fcontaint_myprofile_fragment.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking.xml:47
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_relevance.xml:58
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_filter.xml:70
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_cart_repeat.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_cart_edit_options.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\desgin_no_locatin_view.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliver_all_dialog_filter.xml:90
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_track_order.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurants_search.xml:116
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:520
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:125
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_profile_payment.xml:149
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_details.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_profile_new.xml:89
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_business_profile.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_third_phase_multi.xml:128
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_second_phase.xml:113
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:19
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\ba0c590213272c33ea755b1050872bf3\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:2
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\select_shipping_method_widget.xml:7
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recommended_item_list.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\open_dialogs.xml:98
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_item_selected_payment_method.xml:48
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_history_recipient_list_design.xml:135
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_ongoing_trip_details.xml:148
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_sub_catagory_list_design.xml:55
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_parent.xml:66
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_wallet.xml:78
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_uber_xonline_driver_list.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_reviews.xml:49
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_request_pick_up.xml:85
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_notification.xml:7
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_new_cab_selection.xml:185
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_gallery.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_fav_driver.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_cab_selection.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking.xml:64
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fly_bottom_dialog.xml:215
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_more.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_filter.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_view_multi_delivery_detail.xml:298
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_trip_chat_detail_dialog.xml:178
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_skyports_bottom_view.xml:200
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_food_catagory.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_book_someone_pick_contact.xml:115
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_book_someone_else_pick_contact.xml:114
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\delivery_icon_layout.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uberx_filter.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:183
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:122
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_track_order.xml:165
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_service_home.xml:47
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_restaurant_list.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_location.xml:142
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_food.xml:114
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_schedule_date_select.xml:88
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurants_search.xml:193
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:360
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:144
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_details.xml:485
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription_history_images.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription.xml:50
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_payment_methods.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_ongoingtrips_layout.xml:27
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:348
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_pets.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_type_selection.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_third_phase_multi.xml:471
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_second_phase.xml:129
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_details.xml:432
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:595
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_list_address.xml:80
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:727
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_subcategory.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_maincategory.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:262
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_emergency_contact.xml:84
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_donation.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_design_multi_delivery_list.xml:64
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_apply_coupon.xml:133
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_active_order.xml:24
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking.xml:1
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:588
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:89
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:129
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:65
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_shipping_flow.xml:7
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_service_home.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_notification.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet_history.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_bookings.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_more_info.xml:217
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:135
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_favorite_driver.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\acitity_booking.xml:35
+-keep class androidx.viewpager.widget.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\656c2dac99b2a5c41f898d318eaaf0ab\omise-android-2.6.5\res\layout\activity_credit_card.xml:18
+-keep class co.omise.android.ui.CreditCardEditText { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:595
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:463
+-keep class com.andremion.counterfab.CounterFab { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_orders.xml:397
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_transfer_money.xml:471
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_money_layout.xml:73
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_basket.xml:419
+-keep class com.autofit.et.lib.AutoFitEditText { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\crop_image_activity_prj.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\crop_image_activity.xml:21
+-keep class com.cropper.CropImageView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\crop_image_view_prj.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\crop_image_view.xml:13
+-keep class com.cropper.CropOverlayView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_date.xml:3
+-keep class com.datepicker.files.CustomDatePicker { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_time.xml:3
+-keep class com.datepicker.files.CustomTimePicker { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\slide_date_time_picker.xml:12
+-keep class com.datepicker.files.CustomViewPager { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\slide_date_time_picker.xml:7
+-keep class com.datepicker.files.SlidingTabLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_request_nearest_cab_dialog.xml:44
+-keep class com.dialogs.RadarView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\login_fb_area_design.xml:14
+-keep class com.facebook.login.widget.LoginButton { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_ongoing_trip_details.xml:166
+-keep class com.fragments.CustomSupportMapFragment { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_second_phase.xml:40
+-keep class com.fragments.MultiScrollSupportMapFragment { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_track_order.xml:33
+-keep class com.fragments.ScrollSupportMapFragment { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_details.xml:17
+-keep class com.general.files.MyScrollView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_pickup_location.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_details.xml:39
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_fare_estimate.xml:298
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_address.xml:37
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uber_x_design_toolbar_header.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_toolbar_main.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_toolbar_general.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_main.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_general.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:92
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:27
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:99
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_apply_coupon.xml:31
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:99
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:107
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_apply_coupon.xml:38
+-keep class com.google.android.material.appbar.CollapsingToolbarLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_text_input_password_icon.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\mtrl_layout_snackbar.xml:18
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\mtrl_layout_snackbar_include.xml:18
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\de8827783ac9c43ba5b6ecc3ed53af08\material-1.0.0\res\layout\design_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\tablayout_design.xml:18
+-keep class com.google.android.material.tabs.TabLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\country_autocomplete_textview.xml:7
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_multiline_widget.xml:39
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\add_address_widget.xml:12
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\c2e249ebb6c201c4ea9c25866651a449\jetified-android-maps-utils-0.5\res\layout\amu_text_bubble.xml:7
+-keep class com.google.maps.android.ui.RotationLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_selected_restaurant_detail_header.xml:397
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:342
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:636
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:1115
+-keep class com.kyleduo.switchbutton.SwitchButton { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\bc68b4f3be122a7d8867785ccfafffbd\jetified-LikeButton-0.2.3\res\layout\likeview.xml:12
+-keep class com.like.CircleView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\bc68b4f3be122a7d8867785ccfafffbd\jetified-LikeButton-0.2.3\res\layout\likeview.xml:6
+-keep class com.like.DotsView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_search_design.xml:132
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_design.xml:131
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_online_driver_list_design.xml:95
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_fav_driver_design.xml:56
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_driver_bottom_detail.xml:86
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:434
+-keep class com.like.LikeButton { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\009f54b4815ed3e32a20bd03dc4c3059\jetified-chat-window-android-v2.0.3\res\layout\view_chat_window.xml:2
+-keep class com.livechatinc.inappchat.ChatWindowView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_verify_info.xml:137
+-keep class com.mukesh.OtpView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\no_source_location_design.xml:86
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_request_nearest_cab_dialog.xml:258
+-keep class com.skyfishjy.library.RippleBackground { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_add_card.xml:174
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_add_source.xml:13
+-keep class com.stripe.android.view.CardMultilineWidget { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_multiline_widget.xml:14
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_input_widget.xml:57
+-keep class com.stripe.android.view.CardNumberEditText { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\add_address_widget.xml:7
+-keep class com.stripe.android.view.CountryAutoCompleteTextView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_multiline_widget.xml:49
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_input_widget.xml:78
+-keep class com.stripe.android.view.ExpiryDateEditText { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_multiline_widget.xml:6
+-keep class com.stripe.android.view.IconTextInputLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\masked_card_row.xml:12
+-keep class com.stripe.android.view.MaskedCardView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_select_shipping_method.xml:8
+-keep class com.stripe.android.view.SelectShippingMethodWidget { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\activity_enter_shipping_info.xml:8
+-keep class com.stripe.android.view.ShippingInfoWidget { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_multiline_widget.xml:71
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\card_input_widget.xml:104
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\d7e146cbee8679f8be7c69dd34ca0d69\jetified-stripe-android-8.0.0\res\layout\add_address_widget.xml:19
+-keep class com.stripe.android.view.StripeEditText { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\res\layout\tw__activity_composer.xml:21
+-keep class com.twitter.sdk.android.tweetcomposer.ComposerView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\res\layout\tw__composer_view.xml:58
+-keep class com.twitter.sdk.android.tweetcomposer.internal.util.ObservableScrollView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__action_bar.xml:28
+-keep class com.twitter.sdk.android.tweetui.ToggleImageButton { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__action_bar.xml:18
+-keep class com.twitter.sdk.android.tweetui.TweetActionBarView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet_quote.xml:51
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet_compact.xml:72
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet.xml:23
+-keep class com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet_quote.xml:62
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet_compact.xml:83
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet.xml:31
+-keep class com.twitter.sdk.android.tweetui.internal.MediaBadgeView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet_quote.xml:58
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet_compact.xml:79
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__tweet.xml:27
+-keep class com.twitter.sdk.android.tweetui.internal.TweetMediaView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__player_activity.xml:32
+-keep class com.twitter.sdk.android.tweetui.internal.VideoControlView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__player_activity.xml:20
+-keep class com.twitter.sdk.android.tweetui.internal.VideoView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e3d9de1dbb19d66d2fb48b5f11b9e350\jetified-tweet-ui-3.3.0\res\layout\tw__gallery_activity.xml:22
+-keep class com.twitter.sdk.android.tweetui.internal.ViewPagerFixed { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_timeslot_view.xml:22
+-keep class com.view.AutoResizeTextView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:450
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:91
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_more_info.xml:268
+-keep class com.view.CounterFab { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_dest_item_layout.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_history_design.xml:206
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_driver_assigned_header.xml:72
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking_layout.xml:188
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_stopover_locations.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:448
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:505
+-keep class com.view.DividerView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_ongoing_trip_details.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_wallet.xml:110
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_services.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_reviews.xml:76
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_fav_driver.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking.xml:94
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:69
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_static_page.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_service_home.xml:68
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_select_country.xml:129
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:287
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:707
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_organization_list.xml:148
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_details.xml:529
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_ongoingtrips_layout.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:513
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_pets.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_third_phase_multi.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_details.xml:457
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:1200
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_subcategory.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_maincategory.xml:45
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help.xml:45
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:438
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_emergency_contact.xml:103
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_design_multi_delivery_list.xml:87
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_check_out.xml:943
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_business_profile.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_apply_coupon.xml:168
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_recipient.xml:156
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_a_pet.xml:104
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_active_order.xml:34
+-keep class com.view.ErrorView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\view_carousel_prj.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:75
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_service_home.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:145
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_app_login.xml:14
+-keep class com.view.LoopingCirclePageIndicator { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\incoming.xml:82
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliver_all_no_location_view.xml:97
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\callscreen.xml:108
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\btn_type_2_design.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\btn_type_1_design.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xselect_service.xml:81
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:207
+-keep class com.view.MButton { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\wait_verify_mobile.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uberx_ride_later_view.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uber_x_driver_detail_dialog.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uber_x_design_toolbar_header.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\track_order_item_design.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\surge_confirm_design.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\sucess_layout.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\service_list_item.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recommended_item_list_design.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\recipient_list_item.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\questions_answer_list_header.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\organization_list_item.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\order_track_item_design.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\open_dialogs.xml:74
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\no_source_location_design.xml:16
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\no_location_view.xml:52
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\my_progress_dilalog_design_prj.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\my_progress_dilalog_design.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_tab_design_layout.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_show_sign_design.xml:53
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_list_item.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_item_selected_payment_method.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_history_recipient_list_design.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_dest_item_layout.xml:113
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\multi_delivery_details_design.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\moreserviceitem.xml:34
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\message.xml:86
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\menu_drawer_design.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\marker_view.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\login_fb_area_design.xml:36
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_success_dialog.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_ongoing_trip_details.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_fcontaint_myprofile_fragment.xml:48
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_apply_promo_code.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_wallethistory_design.xml:52
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberxcheckout_row.xml:59
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_main_catagory_design.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_cat_list_design.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_cat_grid_design.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_towtruck_vehicle_list_design.xml:58
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_toping.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_timeslot_view.xml:36
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_subcatagory_food_design.xml:50
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_sub_catagory_list_design.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_spinnertextview.xml:7
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_service_catagory_design.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_service_banner_design.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_select_bill_design.xml:63
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_search_design.xml:40
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_design.xml:39
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_resmenu_gridview.xml:75
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_recent_loc_design.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_rdu_banner_design.xml:74
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_rating_dialog_list_design.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_places_details.xml:40
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_payment_done_by_cell.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_package_row.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_option.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_online_driver_list_design.xml:110
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_ongoing_trips_detail.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_notification_view.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_my_bookings_design.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_multi_deliver_details_design.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_menu_list.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_menu_headerview.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_menu_design.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_menu.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_rating.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_orders.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_design.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_icon_layout.xml:36
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_history_design.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_food_search_design.xml:76
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_filter.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_feedback_design.xml:93
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_fav_driver_heder_design.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_fav_driver_design.xml:82
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_edit_cart_row.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_donation_banner_design.xml:58
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_request_pick_up.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_ongoing_trip_cell.xml:57
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_help_sub_category.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_help_main_category.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_category_help.xml:16
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_cab_type.xml:156
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_cab_category.xml:45
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_delivery_banner_design.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_dates_design.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_cusines.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_cuisines.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_checkout_row.xml:64
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_charge.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_business_profile_list.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_book_someone_contacts_header.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_book_someone_contact_design.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_basket_toping.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_basket_option.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_apply_coupon.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_address_design.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\input_box_view.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\incoming.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\help_answers_list_item.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\gender_view.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\furtherassistancedialog.xml:60
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_wallet.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_view_card.xml:85
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_uber_xonline_driver_list.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_sign_up.xml:50
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_sign_in.xml:42
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_services.xml:22
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_reviews.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_request_pick_up.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_profile.xml:53
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_pick_up_loc_selected.xml:59
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_notification.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_new_cab_selection.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_main_header.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_gallery.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_fav_driver.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_driver_detail.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_driver_assigned_header.xml:113
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_cab_selection.xml:80
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_business_profile_intro.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking_layout.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fly_bottom_dialog.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fare_detail_design.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\emergency_contact_item.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dynamic_layout_android.xml:56
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\drawer_list_item.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_tolltax.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_relevance.xml:9
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_more.xml:14
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_filter.xml:22
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_cart_repeat.xml:56
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_cart_edit_options.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_booking_view.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dialog_add_address.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_view_multi_delivery_detail.xml:68
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_tutor_detail_dialog.xml:21
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_trip_chat_detail_dialog.xml:66
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_transfer_money.xml:48
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_toolbar_main.xml:73
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_toolbar_general.xml:66
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_tolbar_with_pluse.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_skyports_bottom_view.xml:49
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_selected_restaurant_detail_header.xml:107
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_request_nearest_cab_dialog.xml:212
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_prescription_image_source_select.xml:159
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_pick_up_type_pet_type_dialog.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_pick_up_type_dialog.xml:8
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_no_of_seats_pool.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_menu_fab_.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_image_source_select.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_get_receipient_location_dialog.xml:36
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_fare_deatil_row.xml:10
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_fare_breakdown_row.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_edit_phn_email_dialog.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_driver_bottom_detail.xml:71
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_choose_skyports.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_book_someone_pick_contact.xml:51
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_book_someone_else_pick_contact.xml:50
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_book_someone_details.xml:65
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\desgin_no_locatin_view.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\desgin_add_tip_layout.xml:27
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\delivery_icon_layout.xml:16
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_main.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliverall_design_toolbar_general.xml:47
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliver_all_no_location_view.xml:72
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\deliver_all_dialog_filter.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\delete_precription.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\decline_order_dialog_design.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dailog_payment_option.xml:16
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dailog_outstanding.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dailog_faredetails.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dailog_bookfor_someone.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\custom_marker.xml:34
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\custom_dialog.xml:36
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\custom_calendar_weeks_layout_prj.xml:11
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\custom_calendar_weeks_layout_compact_prj.xml:12
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\custom_calendar_title_layout_prj.xml:31
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\custom_calendar_title_layout_compact_prj.xml:32
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\crop_image_activity_prj.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\crop_image_activity.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\country_list_item.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\country_header_list_item.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\content_add_address.xml:39
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\confirmation_dialog_design_layout.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\charge_header_cell.xml:45
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\change_passoword_layout.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\btn_layout.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_pet_item.xml:34
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_money_layout.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_verify_mobile.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_verify_info.xml:54
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_ufx_payment.xml:36
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_ufx_order_details.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uberx_filter.xml:26
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uberx_cart.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xselect_service.xml:24
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome2.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_xhome.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_uber_x.xml:88
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_track_order.xml:70
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_support.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_sign_up.xml:51
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_service_home.xml:130
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_select_country.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_pickup_location.xml:75
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_location.xml:99
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_food.xml:74
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_schedule_date_select.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurants_search.xml:85
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details_new.xml:73
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurant_all_details.xml:234
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_info.xml:42
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_details.xml:195
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_recipient_list.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_question_answer.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_provider_info.xml:100
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_profile_payment.xml:84
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_profile.xml:71
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription_history_images.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prefrance.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_organization_list.xml:63
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_organization.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_place_confirm.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_details.xml:89
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_ongoingtrips_layout.xml:16
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_notification_details.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:64
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_profile_new.xml:49
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_business_profile.xml:61
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_type_selection.xml:91
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_third_phase_multi.xml:97
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_second_phase.xml:154
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_details.xml:125
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_detail.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_more_info.xml:90
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_maintenance.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:138
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_login.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_list_address.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_launcher.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_invite_friends.xml:48
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:89
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_subcategory.xml:36
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_maincategory.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help_details.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_help.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_forgot_password.xml:51
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_rating.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_delivery_home.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_fare_estimate.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_fare_break_down.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_enter_delivery_details.xml:52
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_emergency_contact.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_edit_cart.xml:67
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_design_multi_delivery_list.xml:38
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_contact_us.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_confirm_emergency_tap.xml:27
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_check_out.xml:55
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_car_wash_booking_details.xml:57
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_business_setup.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_business_select_payment.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_apply_coupon.xml:102
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_app_loign_register.xml:60
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_app_login.xml:44
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_recipient.xml:110
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_basket.xml:98
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_address.xml:76
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_active_order.xml:42
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_accountverification.xml:56
+-keep class com.view.MTextView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\btn_type_2.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\btn_type_1.xml:2
+-keep class com.view.MaterialRippleLayout { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_bookings.xml:13
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history.xml:16
+-keep class com.view.MaterialTabs { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_location.xml:160
+-keep class com.view.MyScrollView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\wait_verify_mobile.xml:8
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\my_progress_dilalog_design_prj.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\my_progress_dilalog_design.xml:19
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\footer_list.xml:11
+-keep class com.view.ProgressWheel { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_pet_item.xml:114
+-keep class com.view.RoundedImageView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\ufx_live_track.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uberx_provider_maker_design.xml:18
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uber_x_driver_detail_dialog.xml:263
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\sucess_layout.xml:87
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\message.xml:17
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\menu_drawer_design.xml:20
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_ongoing_trip_details.xml:40
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_cat_list_design.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_uberx_cat_grid_design.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_towtruck_vehicle_list_design.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_service_banner_design.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_search_design.xml:115
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_restaurant_list_design.xml:114
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_resmenu_gridview.xml:28
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_rdu_banner_design.xml:50
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_online_driver_list_design.xml:291
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_ongoing_trips_detail.xml:170
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_orders.xml:188
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_gallery_list.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_feedback_design.xml:174
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_fav_driver_design.xml:42
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_donation_banner_design.xml:37
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_request_pick_up.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_ongoing_trip_cell.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_cab_type.xml:72
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_delivery_banner_design.xml:41
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_cuisines.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_checkout_row.xml:35
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_book_someone_contact_design.xml:45
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\incoming.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_new_cab_selection.xml:64
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_driver_detail.xml:33
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking_layout.xml:514
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_tutor_detail_dialog.xml:218
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_trip_chat_detail_dialog.xml:43
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_transfer_money.xml:563
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_prescription_image_source_select.xml:185
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_no_of_seats_pool.xml:15
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_image_source_select.xml:63
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_driver_bottom_detail.xml:260
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_book_someone_details.xml:49
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\custom_dialog.xml:151
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\callscreen.xml:30
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\add_pet_item.xml:77
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rental_details.xml:74
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_provider_info.xml:48
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_profile.xml:48
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_details.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_profile_new.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_profile.xml:81
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_my_business_profile.xml:75
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_details.xml:102
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_more_info.xml:39
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:102
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:62
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_edit_cart.xml:46
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_car_wash_booking_details.xml:40
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_add_recipient.xml:96
+-keep class com.view.SelectableRoundedImageView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\order_track_item_design.xml:10
+-keep class com.view.TimelineView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\linkedin_dailog.xml:31
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_design_cab_type.xml:85
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_new_cab_selection.xml:291
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fly_bottom_dialog.xml:204
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_skyports_bottom_view.xml:189
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_verify_account.xml:22
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_location.xml:84
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_search_food.xml:63
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_restaurants_search.xml:74
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:721
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_mywallet.xml:528
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_detail.xml:211
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:680
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_launcher.xml:25
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_fare_estimate.xml:309
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_app_login.xml:161
+-keep class com.view.anim.loader.AVLoadingIndicatorView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_6_prj.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_6_compact_prj.xml:19
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_5_prj.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_5_compact_prj.xml:19
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_4_prj.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_4_compact_prj.xml:19
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_3_prj.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_3_compact_prj.xml:19
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_2_prj.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_2_compact_prj.xml:19
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_1_prj.xml:17
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\roboto_calendar_week_1_compact_prj.xml:19
+-keep class com.view.calendarview.DayView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription_history_images.xml:84
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_prescription.xml:166
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_more_info.xml:303
+-keep class com.view.carouselview.CarouselView { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\b175a6889ce1f40214e4ef65d31ea5a8\jetified-projectlibfile\res\layout\view_carousel_prj.xml:5
+-keep class com.view.carouselview.CarouselViewPager { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\input_box_view.xml:23
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\furtherassistancedialog.xml:143
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_view_card.xml:55
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\editbox_form_design_nw.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\editbox_form_design.xml:2
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\dynamic_layout_android.xml:74
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_stopover_locations.xml:144
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_verify_info.xml:90
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:663
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_multi_delivery_detail.xml:77
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_enter_delivery_details.xml:67
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_contact_us.xml:76
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_check_out.xml:351
+-keep class com.view.editBox.MaterialEditText { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_services.xml:11
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_select_country.xml:86
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_organization_list.xml:104
+-keep class com.view.pinnedListView.PinnedSectionListView { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\uber_x_driver_detail_dialog.xml:149
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\layout_ongoing_trip_details.xml:90
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_rating_dialog_list_design.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_online_driver_list_design.xml:366
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_ongoing_trips_detail.xml:217
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_list_rating.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_feedback_design.xml:134
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\item_fav_driver_design.xml:95
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_reviews.xml:29
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_driver_detail.xml:76
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\fragment_booking_layout.xml:528
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_trip_chat_detail_dialog.xml:82
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\design_driver_bottom_detail.xml:324
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_rating.xml:583
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_provider_info.xml:120
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_order_details.xml:114
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_more_info.xml:110
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_history_detail.xml:101
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_food_rating.xml:32
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_car_wash_booking_details.xml:68
+-keep class com.view.simpleratingbar.SimpleRatingBar { <init>(...); }
+
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\profile_payment_organization.xml:7
+# Referenced at E:\movae app\melevicar-user\app\src\main\res\layout\activity_main.xml:17
+-keep class com.view.slidinguppanel.SlidingUpPanelLayout { <init>(...); }
+
+# Referenced at C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\e72c31e72bdad43794529ee2e60fb0fe\jetified-ShimmerRecyclerView-v1.3\res\layout\viewholder_shimmer.xml:18
+-keep class io.supercharge.shimmerlayout.ShimmerLayout { <init>(...); }
+

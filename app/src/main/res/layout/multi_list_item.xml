@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/mainArea"
+    android:minHeight="@dimen/_30sdp"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:buttonTint="@color/appThemeColor_1"
+        android:paddingStart="10dp"
+        android:textAlignment="center" />
+
+    <com.view.MTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        tools:text="reciepient 1 (John wick) reciepient 1 (John wick)"
+        android:layout_gravity="center"
+        android:gravity="start|center"
+        android:textAlignment="viewStart"
+        android:id="@+id/lblListItem"
+        android:textSize="@dimen/_13ssp"
+        app:customTypeFace="@string/systemRegular"
+        android:background="?attr/selectableItemBackground"
+        />
+
+    <CheckBox
+        android:buttonTint="@color/appThemeColor_1"
+        style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="@dimen/_16sdp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:id="@+id/lstcheckBox"
+        android:layout_alignBottom="@+id/lblListItem"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>

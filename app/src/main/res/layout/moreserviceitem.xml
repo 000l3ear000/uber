@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e8e8e8"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:elevation="0dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                tools:text="long hair "
+                android:id="@+id/serviceNameTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textColor="#141414"
+                android:textSize="@dimen/_16ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+            <com.view.MTextView
+                tools:text="x2"
+                android:id="@+id/qtyTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/appThemeColor_1"
+                android:textSize="@dimen/_16ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+        </LinearLayout>
+        <com.view.MTextView
+            app:textAllCaps="true"
+            tools:text="special Instuction "
+            android:id="@+id/commentHTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/_12ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+        <com.view.MTextView
+            android:id="@+id/commentVTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColor="#141414"
+            android:textSize="@dimen/_14ssp"
+            tools:text="Instuction "
+            app:customTypeFace="@string/systemRegular" />
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

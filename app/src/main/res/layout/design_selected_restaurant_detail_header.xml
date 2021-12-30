@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_collapseMode="parallax"
+    tools:context=".RestaurantAllDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <ImageView
+                android:id="@+id/coverImage"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/transcoverImage"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="#4d000000"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/backImgView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:rotationY="@integer/angle_rtl_180"
+                    android:src="@mipmap/ic_back_arrow"
+                    android:tint="@color/white" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"></View>
+
+                <ImageView
+                    android:id="@+id/cartImgView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="7dp"
+                    app:srcCompat="@drawable/ic_cart" />
+
+
+                <ImageView
+                    android:id="@+id/rightImgView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="7dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@mipmap/ic_search_food_delievery" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/txtLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.view.MTextView
+                                android:id="@+id/titleFoodTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="-15dp"
+                                android:layout_marginStart="-15dp"
+                                android:gravity="center"
+
+                                android:maxLines="2"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/txt_size_22"
+                                app:customTypeFace="@string/robotobold" />
+
+                            <com.view.MTextView
+                                android:id="@+id/foodAddresstxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="normal"
+                                app:customTypeFace="@string/robotomediumFont" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtLayout"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <View
+                                android:id="@+id/separateView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0.7dp"
+                                android:layout_marginEnd="15dp"
+                                android:layout_marginStart="15dp"
+                                android:background="@color/gray_holo_light"></View>
+
+                            <LinearLayout
+                                android:id="@+id/layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="-6dp"
+                                    android:layout_weight="3"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.view.MTextView
+                                        android:id="@+id/miniOrderTtxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/txt_size_12"
+                                        app:customTypeFace="@string/robotomediumFont" />
+
+                                    <com.view.MTextView
+                                        android:id="@+id/miniOrderVtxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:maxLines="3"
+
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/txt_size_14"
+                                        app:autoSizeMaxTextSize="14sp"
+                                        app:autoSizeMinTextSize="8sp"
+                                        app:autoSizeStepGranularity="2sp"
+                                        app:autoSizeTextType="uniform"
+                                        app:customTypeFace="@string/robotobold" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="0.7dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:layout_marginStart="3dp"
+                                    android:background="@color/gray_holo_light"></View>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="-6dp"
+                                    android:layout_weight="3"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.view.MTextView
+                                        android:id="@+id/deliverinTtxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:textColor="@color/white"
+
+                                        android:textSize="@dimen/txt_size_12"
+                                        app:customTypeFace="@string/robotomediumFont" />
+
+                                    <com.view.MTextView
+                                        android:id="@+id/deliverinVtxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:maxLines="3"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/txt_size_14"
+                                        app:autoSizeMaxTextSize="14sp"
+                                        app:autoSizeMinTextSize="8sp"
+                                        app:autoSizeStepGranularity="2sp"
+                                        app:autoSizeTextType="uniform"
+                                        app:customTypeFace="@string/robotobold" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="0.7dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:layout_marginStart="3dp"
+                                    android:background="@color/gray_holo_light"></View>
+
+                                <LinearLayout
+                                    android:id="@+id/ratingArea"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/ratingView"
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="-6dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:paddingStart="3dp">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="27dp"
+                                            android:paddingEnd="-15dp"
+                                            android:paddingStart="-15dp"
+                                            android:src="@mipmap/ic_star"
+                                            android:tint="@color/white" />
+
+                                        <com.view.MTextView
+                                            android:id="@+id/restaurantRateTxt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="27dp"
+                                            android:layout_marginTop="-2dp"
+                                            android:gravity="center"
+                                            android:padding="5dp"
+                                            android:paddingEnd="5dp"
+                                            android:paddingStart="-1dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/txt_size_14"
+                                            android:textStyle="normal" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <View
+                                    android:id="@+id/ratingline"
+                                    android:layout_width="0.7dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:layout_marginStart="3dp"
+                                    android:background="@color/gray_holo_light"></View>
+
+                                <LinearLayout
+                                    android:id="@+id/resHeaderViewInfoLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:gravity="center|start"
+                                    android:orientation="vertical"
+
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/ntRateTxt"
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginTop="-2dp"
+
+                                        android:tint="@color/white"
+                                        app:srcCompat="@drawable/ic_information" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"></LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/offerArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.view.MTextView
+            android:id="@+id/offerMsgTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#030303"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/robotomediumFont" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f4"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/viewofferLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:visibility="gone"></View>
+
+        <LinearLayout
+            android:id="@+id/VegNovegFilterArea"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingEnd="15dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:visibility="gone">
+
+            <com.view.MTextView
+                android:id="@+id/selectServiceTxt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:paddingStart="10dp"
+
+                android:textAlignment="viewStart"
+                android:textColor="#030303"
+                android:textSize="@dimen/txt_size_14"
+                app:customTypeFace="@string/robotolightFont" />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/vegNonVegSwitch"
+                style="@style/SwitchButtonStyleMD"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

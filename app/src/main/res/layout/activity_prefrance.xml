@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prefrance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/prefImage"
+      android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_pref_setting"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"/>
+
+    <ImageView
+        android:id="@+id/cancelImg"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:srcCompat="@drawable/ic_clear" />
+
+
+    <com.view.MTextView
+        android:id="@+id/TitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prefImage"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text=""
+        android:textColor="#1C1C1C"
+        android:textSize="@dimen/_18ssp"
+        app:customTypeFace="@string/systemSemiBold" />
+
+    <LinearLayout
+        android:id="@+id/containarea"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_below="@id/TitleTxt"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkboxWheelChair4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:text="Desejo pagar com Dinheiro"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkboxWheelChair5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:text="Desejo pagar com Pix"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkboxWheelChair2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:text="Desejo pagar com cartão"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkboxWheelChair3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox"
+            tools:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/checkboxFemale"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+
+            android:text=""
+            android:textColor="#646464"
+
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+        <com.view.MTextView
+            android:id="@+id/noteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text=""
+            android:textColor="#949494"
+            android:textSize="@dimen/_11ssp"
+            app:customTypeFace="@string/systemRegular" />
+
+        <CheckBox
+            android:id="@+id/checkboxHandicap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkboxChildseat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkboxWheelChair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:buttonTint="@color/appThemeColor_1"
+            android:fontFamily="@string/systemRegular"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:theme="@style/MyCheckBox" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/btn_type2"
+        layout="@layout/btn_type_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_btn_height"
+        android:layout_below="@id/containarea"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

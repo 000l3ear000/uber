@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+    <LinearLayout
+        android:id="@+id/titleArea"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.view.MTextView
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:id="@+id/closeTxt"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="close"
+                android:textAllCaps="true"
+                android:textColor="@color/tw__composer_red"
+                android:textSize="@dimen/txt_size_12"
+
+                app:customTypeFace="@string/robotobold" />
+            <com.view.MTextView
+                android:id="@+id/TitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Filters"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_14"
+                android:visibility="gone"
+
+                app:customTypeFace="@string/robotobold" />
+
+            <com.view.MTextView
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/menuTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center"
+                android:padding="5dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_14"
+                app:customTypeFace="@string/robotomediumFont" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <com.view.MTextView
+        android:id="@+id/resetTxt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="reset"
+        android:textAllCaps="true"
+        android:textColor="@color/tw__composer_red"
+        android:textSize="@dimen/txt_size_12"
+        android:visibility="gone"
+        app:customTypeFace="@string/robotobold" />
+
+
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_type2"
+        android:layout_below="@+id/titleArea">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/offerarea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerInParent="true"
+                        android:background="#efefef" />
+
+                    <LinearLayout
+                        android:id="@+id/offerArea"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.view.MTextView
+                            android:clickable="false"
+                            android:id="@+id/offerTxtView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/serviceNameTxtView"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:text=""
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_12"
+                            app:customTypeFace="@string/robotomediumFont" />
+
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/offerchkBox"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="end|center"
+                            android:layout_marginStart="12dp"
+                            android:buttonTint="@color/appThemeColor_1" />
+
+
+                    </LinearLayout>
+                    <View
+                        android:id="@+id/offerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerInParent="true"
+                        android:background="#efefef" />
+
+                    <LinearLayout
+                        android:id="@+id/favArea"
+
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.view.MTextView
+                            android:clickable="false"
+                            android:id="@+id/favTxtView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/serviceNameTxtView"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:text=""
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_12"
+                            app:customTypeFace="@string/robotomediumFont" />
+
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/favchkBox"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="end|center"
+                            android:layout_marginStart="12dp"
+                            android:buttonTint="@color/appThemeColor_1" />
+
+
+                    </LinearLayout>
+                    <View
+                        android:visibility="gone"
+                        android:id="@+id/favview"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerInParent="true"
+                        android:background="#efefef" />
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/spertaor"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/offerarea" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firstArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spertaor"
+                android:layout_margin="10dp"
+                android:elevation="0dp"
+                android:padding="10dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/detailsArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <include
+        android:id="@+id/btn_type2"
+        layout="@layout/btn_type_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_btn_height"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>

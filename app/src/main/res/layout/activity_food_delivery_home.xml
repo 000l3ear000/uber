@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomMenuArea"
+        android:animateLayoutChanges="true"
+        android:background="@color/appThemeColor_1"
+        android:orientation="vertical">
+
+        <include layout="@layout/deliverall_design_toolbar_main" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/searchArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/search_shape"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/ic_search_black_24dp" />
+
+                <com.view.MTextView
+                    android:id="@+id/searchTxtView"
+                    layout="@layout/editbox_form_design"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:hint="search"
+
+                    android:padding="5dp"
+                    android:paddingEnd="25dp"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="#7d7d7d"
+                    android:textSize="@dimen/_11ssp"
+                    app:customTypeFace="@string/systemRegular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/filterArea"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/search_shape"
+                android:gravity="center"
+                android:paddingStart="@dimen/_8sdp"
+
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_5sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/ic_filter" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+
+                <com.google.android.material.appbar.AppBarLayout
+
+                    android:id="@+id/app_bar_layout_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    >
+
+                    <com.google.android.material.appbar.CollapsingToolbarLayout
+                        android:id="@+id/collapsing_toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:animateLayoutChanges="true"
+                        android:fitsSystemWindows="true"
+                        app:expandedTitleMarginEnd="64dp"
+                        app:expandedTitleMarginStart="48dp"
+                        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:id="@+id/bannerArea"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_190sdp"
+                                android:background="#EEEEEE"
+                                app:layout_collapseMode="parallax">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_50sdp"
+                                    android:background="@color/appThemeColor_1" />
+
+
+                                <androidx.viewpager.widget.ViewPager
+                                    android:id="@+id/bannerViewPager"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_190sdp"
+                                    android:layout_alignParentBottom="true"
+                                    android:clipToPadding="false"
+                                    android:overScrollMode="never"
+                                    android:paddingStart="@dimen/card_padding"
+                                    android:paddingEnd="@dimen/card_padding" />
+
+                                <com.view.LoopingCirclePageIndicator
+                                    android:id="@+id/bannerCirclePageIndicator"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginBottom="15dp"
+                                    android:padding="10dp"
+                                    android:visibility="gone" />
+
+
+                                <LinearLayout
+                                    android:id="@+id/locationPopup"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp"
+                                    android:visibility="gone">
+
+                                    <ImageView
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:layout_marginStart="40dp"
+                                        app:srcCompat="@drawable/triangle">
+
+                                    </ImageView>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/rectangle"
+                                        android:orientation="vertical"
+                                        android:padding="15dp">
+
+
+                                        <com.view.MTextView
+                                            android:id="@+id/noLocTitleTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerInParent="true"
+                                            android:gravity="start"
+                                            android:text="Have you selected the right location ?"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/txt_size_16"
+                                            android:textStyle="bold" />
+
+                                        <com.view.MTextView
+                                            android:id="@+id/noLocMsgTxt"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerInParent="false"
+                                            android:layout_marginTop="7dp"
+                                            android:gravity="start|center"
+                                            android:paddingBottom="5dp"
+                                            android:text="Your selected location seems to be little far off from your device location."
+                                            android:textColor="#a8a8a8"
+                                            android:textSize="@dimen/txt_size_16" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <com.view.MButton
+                                                android:id="@+id/noThanksBtn"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginEnd="6dp"
+                                                android:layout_weight="1"
+                                                android:background="#6B6B6B"
+                                                android:minHeight="45dp"
+                                                android:text="No, Thanks"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/txt_size_16" />
+
+                                            <com.view.MButton
+                                                android:id="@+id/changeLocBtn"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="6dp"
+                                                android:layout_weight="1"
+                                                android:background="#6B6B6B"
+                                                android:minHeight="45dp"
+                                                android:text="Change Location"
+                                                android:textColor="@color/white" />
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <LinearLayout
+
+                                android:id="@+id/cusineArea"
+                                android:layout_width="match_parent"
+
+                                android:layout_height="wrap_content"
+
+                                android:background="@color/white"
+                                android:gravity="start"
+                                android:orientation="vertical">
+
+                                <com.view.MTextView
+                                    android:id="@+id/cuisinesTxt"
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="#EEEEEE"
+                                    android:gravity="start"
+                                    android:paddingStart="15dp"
+                                    android:paddingTop="@dimen/_10sdp"
+                                    android:text=""
+                                    android:textAlignment="viewStart"
+                                    android:textColor="#030303"
+                                    android:textSize="@dimen/_16ssp"
+                                    app:customTypeFace="@string/systemSemiBold" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/cuisinesListRecyclerView"
+                                    android:layout_width="match_parent"
+
+
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:background="@color/white"
+                                    android:orientation="horizontal"
+                                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </com.google.android.material.appbar.CollapsingToolbarLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EEEEEE"
+
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/_10sdp">
+
+
+                        <com.view.MTextView
+
+                            android:id="@+id/noOfServiceTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="start|center"
+                            android:paddingStart="15dp"
+                            android:text=""
+
+                            android:textAlignment="viewStart"
+                            android:textColor="#030303"
+                            android:textSize="@dimen/_16ssp"
+                            app:customTypeFace="@string/systemSemiBold" />
+
+
+                        <ImageView
+
+                            android:id="@+id/filterImage"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_right"
+                            android:tint="@color/appThemeColor_1"
+                            android:visibility="gone" />
+
+                        <com.view.MTextView
+                            android:id="@+id/filterTxtView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_weight="0"
+                            android:gravity="start|center"
+                            android:paddingStart="2dp"
+                            android:paddingEnd="4dp"
+                            android:text="filter"
+                            android:textAlignment="viewStart"
+                            android:textAllCaps="true"
+                            android:textColor="@color/appThemeColor_1"
+                            android:textSize="@dimen/txt_size_12"
+                            android:visibility="visible"
+                            app:customTypeFace="@string/robotobold" />
+
+                        <com.view.MTextView
+                            android:id="@+id/relevenceTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:drawablePadding="-12dp"
+                            android:gravity="center|end"
+                            android:paddingStart="10dp"
+                            android:text=""
+                            android:textAlignment="viewEnd"
+                            android:textAllCaps="true"
+                            android:textColor="@color/appThemeColor_1"
+                            android:textSize="@dimen/txt_size_12"
+                            android:visibility="gone"
+                            app:customTypeFace="@string/robotobold" />
+
+
+                    </LinearLayout>
+                </com.google.android.material.appbar.AppBarLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+                    <com.view.MTextView
+                        android:id="@+id/NoDataTxt"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#EEEEEE"
+                        android:gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingTop="@dimen/_15sdp"
+                        android:text=""
+                        android:textColor="@color/appThemeColor_1"
+                        android:textSize="@dimen/txt_size_14"
+                        android:visibility="gone"
+                        app:customTypeFace="@string/robotobold" />
+
+
+
+
+
+                    <!--                <android.support.v4.widget.SwipeRefreshLayout-->
+                    <!--                    android:id="@+id/swipe_refresh_layout"-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="match_parent">-->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/dataListRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#EEEEEE" />
+
+                    <!--                </android.support.v4.widget.SwipeRefreshLayout>-->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/restaurantListRecycView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/noloactionview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomMenuArea"
+
+        android:orientation="vertical"
+        android:paddingTop="?attr/actionBarSize"
+        android:visibility="gone">
+
+        <include layout="@layout/deliver_all_no_location_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/errorViewArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/bottomMenuArea"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:paddingTop="?attr/actionBarSize"
+        android:visibility="gone">
+
+        <com.view.ErrorView
+            android:id="@+id/errorView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#e6e6e6"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomMenuArea"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomMenuArea"
+        android:gravity="bottom">
+
+
+        <com.andremion.counterfab.CounterFab
+            android:id="@+id/fabcartIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ratingArea"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:tint="@color/white"
+            android:visibility="visible"
+            app:backgroundTint="@color/appThemeColor_1"
+            app:badgeBackgroundColor="@color/black"
+            app:badgeTextColor="@color/white"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:fab_label="@string/systemMediumFont"
+            app:srcCompat="@drawable/cart_new" />
+
+        <LinearLayout
+            android:id="@+id/ratingArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone">
+
+            <include layout="@layout/item_list_rating" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/bottomMenuArea"
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/_56sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="-6dp"
+        android:background="@drawable/shadow_white_bottom"
+        android:orientation="horizontal"
+
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+
+            android:layout_height="@dimen/_55sdp"
+            android:background="@color/white"
+
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/homeArea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/home_img"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:tint="@color/homedeSelectColor"
+                    app:srcCompat="@drawable/ic_home" />
+
+                <com.view.MTextView
+                    android:id="@+id/homeTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:maxLines="4"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/homedeSelectColor"
+                    android:textSize="@dimen/_8sdp"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/historyArea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bookingImg"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:tint="@color/homedeSelectColor"
+                    app:srcCompat="@drawable/ic_booking" />
+
+                <com.view.MTextView
+                    android:id="@+id/historyTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:maxLines="4"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/homedeSelectColor"
+                    android:textSize="@dimen/_8sdp"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/walletArea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/walletImg"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+
+                    android:tint="@color/homedeSelectColor"
+                    app:srcCompat="@drawable/ic_wallet" />
+
+                <com.view.MTextView
+                    android:id="@+id/walletTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:maxLines="4"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/homedeSelectColor"
+                    android:textSize="@dimen/_8sdp"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/profileArea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/profileImg"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:tint="@color/homedeSelectColor"
+                    app:srcCompat="@drawable/ic_profile" />
+
+                <com.view.MTextView
+                    android:id="@+id/profileTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:maxLines="4"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/homedeSelectColor"
+                    android:textSize="@dimen/_8sdp"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

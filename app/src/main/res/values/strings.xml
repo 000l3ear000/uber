@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="google_android_geo_api_key">AIzaSyDRTsYeFoP8LIxtz1E0F5MRKDjSXK6j-IA</string>
+
+
+    <string name="app_name">Cliente demonstração</string>
+    <string name="demo_text">Note:\nSince this is the demo version, please use below dummy credit/debit card for testing. The actual payment will not be deducted.\n\nCard Type: VISA\nCard Number: 41111111111111\nExpiry: 12/2018\nCVV: 123</string>
+    <string name="demo_mobile_help">Note: Please enter the OTP \"12345\" If you do not receive SMS/EMAIL on your registered number in next one minute.</string>
+
+    <string name="defaultFont">fonts/Poppins_Light.ttf</string>
+
+    <string name="robotomediumFont">fonts/Poppins_Medium.ttf</string>
+
+    <string name="robotolightFont">fonts/Poppins_Light.ttf</string>
+    <string name="robotobold">fonts/Poppins_Bold.ttf</string>
+    <string name="robotoRegular">fonts/Poppins_Regular.ttf</string>
+
+
+    <string name="systemRegular">fonts/Poppins_Regular.ttf</string>
+    <string name="systemBold">fonts/Poppins_Bold.ttf</string>
+    <string name="systemLightFont">fonts/Poppins_Light.ttf</string>
+    <string name="systemMediumFont">fonts/Poppins_Medium.ttf</string>
+    <string name="systemSemiBold">fonts/Poppins_SemiBold.ttf</string>
+
+
+    <string name="systemRegular_name">Poppins Regular</string>
+    <string name="systemBold_name">Poppins Bold</string>
+    <string name="systemLightFont_name">Poppins Light</string>
+    <string name="systemMediumFont_name">Poppins Medium</string>
+    <string name="systemSemiBold_name">Poppins SemiBold</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY" tools:ignore="ExtraTranslation">FthFgRc4HYMkUCR5AjhzBJ5JP</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET" tools:ignore="ExtraTranslation">wVoJ23IeD95ww0uabPazLnqVjZtVY8WUhLxUbSqai3Jeu423zJ</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="html" translatable="false">
+        <![CDATA[
+        <html>
+            <head></head>
+            <body>%1$s</body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="html_rtl" translatable="false">
+        <![CDATA[
+        <html dir="rtl">
+            <head></head>
+            <body>%1$s</body>
+        </html>
+        ]]>
+    </string>
+    <string name="title_activity_add_address">AddAddressActivity</string>
+
+
+    <!-- Cropper Strings-->
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <!-- Cropper Strings-->
+
+
+    <string name="facebook_app_id">12345678</string>
+    <string name="image_chooser">image_chooser</string>
+
+</resources>

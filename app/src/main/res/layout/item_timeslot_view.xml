@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f1f1"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/mainarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/timeslot_border"
+        android:backgroundTint="@color/white"
+        android:elevation="@dimen/_5sdp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <com.view.AutoResizeTextView
+
+            android:id="@+id/stratTimeTxtView"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+
+            android:text="10 am - 11  "
+            android:textColor="#202020"
+            android:textSize="@dimen/_12ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <com.view.MTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.view.MTextView
+            android:id="@+id/endTimeTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#f5f5f5"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/selmainarea"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/timeslot_border"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+
+
+        <com.view.AutoResizeTextView
+
+            android:id="@+id/stratselTimeTxtView"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:background="@color/appThemeColor_1"
+            android:gravity="center"
+            android:text="10 - 11 AM"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <com.view.MTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.view.MTextView
+            android:id="@+id/endselTimeTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#f5f5f5"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/driverUnselmainarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/driverunavilabel"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+
+
+        <com.view.AutoResizeTextView
+
+
+            android:id="@+id/driverstratselTimeTxtView"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:background="#dadada"
+            android:gravity="center"
+            android:text="10 am - 11"
+            android:textColor="#202020"
+            android:textSize="@dimen/_12ssp"
+            app:customTypeFace="@string/systemLightFont" />
+
+        <com.view.MTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/_5sdp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="gone" />
+
+        <com.view.MTextView
+            android:id="@+id/driverendselTimeTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#f5f5f5"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

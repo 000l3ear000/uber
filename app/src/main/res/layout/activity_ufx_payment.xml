@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/goToOrderSummaryBtn"
+            layout="@layout/btn_type_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/header"
+
+        android:background="@color/mdtp_white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <com.view.MTextView
+            android:id="@+id/howToPayTxt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:text="how"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_16"
+            android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:id="@+id/radioGrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart">
+
+            <RadioButton
+                android:id="@+id/radioCashPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/appThemeColor_2"
+                android:theme="@style/MyCheckBox"
+                android:paddingStart="10dp"
+                android:text="Cash Payment"
+                android:textAlignment="viewStart" />
+
+            <RadioButton
+                android:id="@+id/radioPayOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:buttonTint="@color/appThemeColor_2"
+                android:theme="@style/MyCheckBox"
+                android:paddingStart="10dp"
+                android:text="PayOnline"
+                android:textAlignment="viewStart" />
+
+            <LinearLayout
+
+
+                android:id="@+id/cardarea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGrp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <!--<include  layout="@layout/fragment_add_card" />-->
+
+            </LinearLayout>
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

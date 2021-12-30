@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <ScrollView
+        android:id="@+id/profile_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_105sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <!--  android:background="#1c1c1c"-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@color/appThemeColor_1" />
+
+                    <!--  <ImageView
+                          android:id="@+id/profileimageback"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:scaleType="fitXY" />-->
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/profileimageback"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="fitXY" />
+
+                        <ImageView
+                            android:id="@+id/profileimageback1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+
+                            android:scaleType="fitXY" />
+
+
+                    </RelativeLayout>
+
+
+                    <FrameLayout
+                        android:id="@+id/userImgArea"
+                        android:layout_width="@dimen/_85sdp"
+                        android:layout_height="@dimen/_85sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center">
+
+                        <com.view.SelectableRoundedImageView
+                            android:id="@+id/userProfileImgView"
+                            android:layout_width="@dimen/_85sdp"
+                            android:layout_height="@dimen/_85sdp"
+                            android:scaleType="centerCrop"
+                            app:sriv_border_color="@color/white"
+                            app:sriv_border_width="2dip"
+                            app:sriv_left_bottom_corner_radius="20dip"
+                            app:sriv_left_top_corner_radius="20dip"
+                            app:sriv_oval="true"
+                            app:sriv_right_bottom_corner_radius="20dip"
+                            app:sriv_right_top_corner_radius="20dip" />
+
+
+                        <RelativeLayout
+                            android:layout_gravity="bottom|end"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/circle_shadow_big">
+                            <com.view.SelectableRoundedImageView
+                                android:id="@+id/editIconImgView"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_centerInParent="true"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@mipmap/ic_edit"
+                                app:sriv_border_color="@color/white"
+                                app:sriv_border_width="0dip"
+                                app:sriv_left_bottom_corner_radius="5dip"
+                                app:sriv_left_top_corner_radius="5dip"
+                                app:sriv_oval="true"
+                                app:sriv_right_bottom_corner_radius="5dip"
+                                app:sriv_right_top_corner_radius="5dip" />
+
+                        </RelativeLayout>
+                    </FrameLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/fragContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f1f1f1"
+
+    android:orientation="vertical">
+
+    <com.view.MTextView
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/roundrect"
+        android:foregroundTint="#f1f1f1"
+        android:backgroundTint="#f1f1f1"
+        android:gravity="center"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+
+        android:text="textaaaaa"
+        android:textColor="#484848"
+        android:textSize="@dimen/txt_size_14"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        android:id="@+id/SelnameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/menuroundcolorect"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:text="textaaaaa"
+        android:textColor="@color/white"
+
+        android:textSize="@dimen/txt_size_14"
+        android:visibility="gone"
+        app:customTypeFace="@string/systemMediumFont" />
+
+
+</LinearLayout>

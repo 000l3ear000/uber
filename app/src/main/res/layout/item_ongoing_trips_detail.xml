@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/bookingNoLblTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center"
+                android:maxLines="1"
+                android:text="Booking No#"
+                android:textColor="#0F0F0F"
+                android:textSize="@dimen/txt_size_16"
+                android:textStyle="normal" />
+
+            <com.view.MTextView
+                android:id="@+id/bookingNoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="3dp"
+
+                android:gravity="start|center"
+                android:maxLines="1"
+                android:text="Booking No#"
+                android:textColor="@color/appThemeColor_2"
+                android:textSize="@dimen/txt_size_16"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/bookingDateTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:gravity="start|center"
+            android:maxLines="1"
+            android:text="17th sep at 9:00 PM"
+            android:textColor="#C1C1C1"
+            android:textSize="@dimen/txt_size_14"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F5F5F5"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/deliverDetailExpandArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/dateTxt"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:gravity="end|center"
+                        android:maxLines="1"
+                        android:textColor="#626262"
+                        android:textSize="@dimen/txt_size_16"
+                        android:textStyle="normal" />
+
+                    <com.view.MTextView
+                        android:layout_marginStart="3dp"
+                        android:visibility="gone"
+                        android:id="@+id/etypeTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:gravity="end|center"
+                        android:maxLines="1"
+                        android:textColor="#626262"
+                        android:textAlignment="viewEnd"
+                        android:textSize="@dimen/txt_size_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:id="@+id/SelectedTypeNameTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="3dp"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textColor="#272727"
+                        android:textSize="@dimen/txt_size_16"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="top|start|center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@color/appThemeColor_2"
+                        android:padding="1dp"
+                        android:visibility="gone" />
+
+                    <com.view.SelectableRoundedImageView
+                        android:id="@+id/user_img"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="centerCrop"
+                        app:sriv_border_color="@color/editBox_primary"
+                        app:sriv_border_width="2dip"
+                        app:sriv_left_bottom_corner_radius="20dip"
+                        app:sriv_left_top_corner_radius="20dip"
+                        app:sriv_oval="true"
+                        app:sriv_right_bottom_corner_radius="20dip"
+                        app:sriv_right_top_corner_radius="20dip" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <com.view.MTextView
+                            android:id="@+id/userNameTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|top|center"
+                            android:layout_marginStart="5dp"
+                            android:gravity="start|center"
+                            android:maxLines="1"
+                            android:text="Marry Thomas"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/appThemeColor_1"
+                            android:textSize="@dimen/txt_size_16"
+                            android:textStyle="bold" />
+
+                        <com.view.MTextView
+                            android:id="@+id/userAddressTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginStart="5dp"
+                            android:gravity="start|center"
+                            android:text="B4,Franklin st.Newyork,\n NY 1043 USA."
+                            android:textAlignment="viewStart"
+                            android:textColor="#272727"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
+
+
+                        <com.view.simpleratingbar.SimpleRatingBar
+                            android:id="@+id/ratingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+
+                            android:padding="2dp"
+                            android:textAlignment="viewStart"
+                            app:SRB_fillColor="@color/appThemeColor_1"
+                            app:SRB_isIndicator="true"
+                            app:SRB_numberOfStars="5"
+                            app:SRB_starBackgroundColor="@color/gray_holo_light"
+                            app:SRB_starSize="18sp"
+                            app:SRB_stepSize="0.5" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#CECECE"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/btnArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/all_btn_height"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/liveTrackBtnArea"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/appThemeColor_2"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <com.view.MTextView
+                            android:id="@+id/liveTrackBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:text="Live Track"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/appThemeColor_TXT_2"
+                            android:textSize="@dimen/txt_size_14"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="#CECECE"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/viewDetailsBtnArea"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/appThemeColor_2"
+                        android:gravity="center">
+
+                        <com.view.MTextView
+                            android:id="@+id/viewDetailsBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:text="View Details"
+                            android:textAllCaps="true"
+                            android:textColor="@color/appThemeColor_TXT_2"
+                            android:textSize="@dimen/txt_size_14"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

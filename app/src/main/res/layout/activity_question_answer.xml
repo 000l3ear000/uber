@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context=".QuestionAnswerActivity">
+
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/help_card"
+        android:layout_below="@id/toolbar_include">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15ssp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/vQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textColor="#343434"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+            <com.view.MTextView
+                android:id="@+id/vAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textAlignment="viewStart"
+                android:textColor="#343434"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/help_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_minus20sdp"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <com.view.MTextView
+                android:id="@+id/textstillneedhelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:gravity="start"
+                android:text="Still need help?"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+            <com.view.MTextView
+                android:id="@+id/contact_us_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:gravity="end"
+                android:text="Contact Us"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/appThemeColor_1"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemSemiBold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ExpandableListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:groupIndicator="@null"
+        android:visibility="gone" />
+</RelativeLayout>

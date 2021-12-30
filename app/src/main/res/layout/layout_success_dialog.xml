@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:background="@drawable/btn_border_success_dialog"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:minHeight="@dimen/_320sdp">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+
+                android:id="@+id/imgView"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="@dimen/_180sdp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/ic_success_new" />
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/messageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgView"
+            android:layout_centerHorizontal="true"
+            android:text="Your Account Has Been Activated Successfully!"
+            android:textAlignment="center"
+            android:textSize="@dimen/_18ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <com.view.MTextView
+            android:id="@+id/messageNoteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Your Account Has Be!"
+            android:textAlignment="center"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="gone"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <LinearLayout
+            android:id="@+id/bottomview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:background="@drawable/btn_border"
+            android:padding="@dimen/_2sdp">
+
+            <include
+                android:id="@+id/btn_type2"
+                layout="@layout/btn_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_gravity="bottom" />
+
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/cancelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#646464"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="gone"
+            app:customTypeFace="@string/systemMediumFont" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

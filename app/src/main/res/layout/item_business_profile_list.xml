@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:clickable="false" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/profileNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="5dp"
+                android:clickable="false"
+                android:textColor="#000000"
+                android:textSize="@dimen/txt_size_16"
+                android:textAlignment="viewStart"
+                android:textStyle="normal"
+                app:customTypeFace="roboto_medium" />
+
+            <com.view.MTextView
+                android:id="@+id/profileDescTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="5dp"
+                android:clickable="false"
+                android:textColor="@color/Gray"
+                android:textSize="@dimen/txt_size_12"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:visibility="gone"
+                app:customTypeFace="roboto_medium" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/arrowImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:src="@mipmap/ic_arrow_right"
+            android:tint="@color/black" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divideview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efefef"
+        android:clickable="false" />
+
+
+</LinearLayout>

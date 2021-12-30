@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_20ssp"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:elevation="0dp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20ssp"
+                android:layout_marginEnd="@dimen/_20ssp"
+                android:orientation="vertical">
+
+                <com.view.MTextView
+                    android:id="@+id/titleTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15ssp"
+                    android:gravity="start"
+                    android:text=" "
+                    android:textAlignment="viewStart"
+                    android:textColor="#141414"
+                    android:textSize="@dimen/_13ssp"
+                    app:customTypeFace="@string/systemSemiBold" />
+
+                <com.view.MTextView
+                    android:id="@+id/detailsTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="start"
+                    android:maxLines="3"
+                    android:text=" "
+                    android:textAlignment="viewStart"
+                    android:textColor="#484848"
+                    android:textSize="@dimen/_11ssp"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:orientation="horizontal">
+
+                    <com.view.MTextView
+                        android:id="@+id/dateTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text=" "
+                        android:textAlignment="viewStart"
+                        android:textColor="#929292"
+                        android:textSize="@dimen/_10ssp"
+                        app:customTypeFace="@string/systemRegular" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnArea"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom|center"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/login_border"
+                android:gravity="end|bottom|center"
+                android:minHeight="@dimen/_25sdp">
+
+                <com.view.MTextView
+                    android:id="@+id/readMoreTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_3ssp"
+                    android:layout_marginEnd="@dimen/_3ssp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:customTypeFace="@string/systemMediumFont" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

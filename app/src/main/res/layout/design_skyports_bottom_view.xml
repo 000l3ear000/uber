@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/appThemeColor_bg_parent_1"
+    android:fitsSystemWindows="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    app:umanoShadowHeight="@dimen/_2sdp">
+
+    <FrameLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/swipArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:paddingTop="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:id="@+id/swipeArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_3sdp"
+                        android:layout_gravity="center"
+                        android:background="@color/gray" />
+
+                    <com.view.MTextView
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="choose a station, or swipe up for more"
+                        android:textSize="11dp"
+                        app:customTypeFace="@string/robotolightFont" />
+
+                    <View
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="#dbdbdb" />
+
+                </LinearLayout>
+
+                <com.view.MTextView
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:maxLines="1"
+                    android:text="Source Address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+                <LinearLayout
+                    android:background="#f1f1f1"
+                    android:id="@+id/addressArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/aboveShadow"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/above_shadow" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.view.MTextView
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:id="@+id/tvSelectedAddress"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:gravity="start|center"
+                            android:textAlignment="viewStart"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:minLines="1"
+                            android:maxLines="2"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_14ssp"
+                            app:customTypeFace="@string/robotolightFont" />
+
+                        <LinearLayout
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:id="@+id/changeArea"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/changeImgView"
+                                android:layout_width="@dimen/_24sdp"
+                                android:layout_height="@dimen/_24sdp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                app:srcCompat="@drawable/ic_rounded_edit" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/belowShadow"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/below_shadow" />
+
+                </LinearLayout>
+
+                <com.view.MTextView
+                    android:visibility="gone"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:id="@+id/addFlyStationNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:text="Please wait while we are trying to access your location. meanwhile you can enter your source location."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    app:customTypeFace="@string/systemRegular" />
+
+                <com.view.MTextView
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:id="@+id/tvMoreStations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:maxLines="1"
+                    android:text="Fly station"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    app:customTypeFace="@string/systemMediumFont" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/dataArea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <com.view.anim.loader.AVLoadingIndicatorView
+                    android:id="@+id/loaderView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:visibility="visible"
+                    app:indicator="BallClipRotate"
+                    app:indicator_color="@color/appThemeColor_2" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/skyPortsListRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                <com.view.MTextView
+                    android:id="@+id/tvNoDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:visibility="visible"
+                    app:customTypeFace="@string/robotolightFont" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/popupView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="bottom|center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <include
+                android:id="@+id/btn_type2"
+                layout="@layout/btn_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/_15sdp"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

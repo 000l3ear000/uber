@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground">
+
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/line"
+        android:layout_marginStart="-2dp"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="match_parent"
+        android:background="@color/appThemeColor_1" />
+
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center|top"
+            android:layout_weight="1"
+            android:gravity="start|center|top"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/skyPortTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uber Go"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                app:customTypeFace="@string/systemMediumFont"
+                />
+
+            <com.view.MTextView
+                android:layout_marginTop="@dimen/_3ssp"
+                android:id="@+id/skyPortAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Affordable"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/systemRegular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end|center"
+            android:layout_weight="0.7"
+            android:gravity="top|end|center">
+
+            <com.view.MTextView
+                android:gravity="end|center"
+                android:layout_gravity="end|center"
+                android:id="@+id/skyPortKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27.18 km"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp"
+                app:customTypeFace="@string/systemMediumFont" />
+
+
+
+            <ImageView
+                android:layout_marginTop="@dimen/_3ssp"
+                android:id="@+id/iv_checkButton"
+                app:srcCompat="@drawable/ic_check_mark_button_default"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"/>
+
+
+            <com.view.MTextView
+                android:visibility="gone"
+                android:gravity="end|center"
+                android:layout_gravity="end|center"
+                android:id="@+id/skyPortHTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:text="away"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:maxLines="2"
+                app:customTypeFace="@string/robotolightFont" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/blankView"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_15sdp"/>
+</LinearLayout>

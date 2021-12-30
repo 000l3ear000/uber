@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/restaurantAdptrLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ratingAreaColor"
+    android:clickable="true"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+
+    <com.view.MTextView
+        android:id="@+id/orderHotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="start|center"
+        android:text="Burger King"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_14"
+        app:customTypeFace="@string/robotobold" />
+
+
+    <com.view.simpleratingbar.SimpleRatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderHotelName"
+        android:layout_gravity="start"
+
+        android:padding="2dp"
+        app:SRB_fillColor="@color/rating_fill_color"
+        app:SRB_starBackgroundColor="@color/white"
+        app:SRB_starSize="25dp"
+        app:SRB_stepSize="0.5" />
+
+    <ImageView
+
+        android:id="@+id/ratingCancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:src="@mipmap/ic_close_icon_"
+        android:tint="@color/white" />
+
+</RelativeLayout>
+

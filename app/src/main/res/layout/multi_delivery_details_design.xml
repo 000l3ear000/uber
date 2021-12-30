@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/_10sdp"
+        android:id="@+id/itemDetailArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <com.view.MTextView
+            android:textAllCaps="true"
+            android:id="@+id/itemTitleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#707070"
+            android:textSize="@dimen/_12ssp"
+            app:customTypeFace="@string/systemRegular" />
+
+        <com.view.MTextView
+            android:text="--"
+            android:id="@+id/itemValueTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#151515"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/systemRegular"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/mainArea"
+    android:orientation="vertical">
+
+    <com.view.SelectableRoundedImageView
+        android:id="@+id/cuisinesImg"
+        android:src="@drawable/round_shape"
+        android:layout_width="@dimen/_50sdp"
+        app:sriv_left_bottom_corner_radius="20dip"
+        app:sriv_left_top_corner_radius="20dip"
+        app:sriv_oval="true"
+        app:sriv_right_bottom_corner_radius="20dip"
+        app:sriv_right_top_corner_radius="20dip"
+        android:layout_height="@dimen/_50sdp"/>
+    <com.view.MTextView
+        android:gravity="center"
+        app:customTypeFace="@string/systemRegular"
+        android:id="@+id/cuisinesTxt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        android:maxLines="2"
+        android:minLines="2"
+        android:ellipsize="end"
+        android:text=""
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/itemView"
+        android:visibility="gone"
+        android:background="@color/appThemeColor_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/selectServicePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/design_toolbar_general" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:background="@color/mdtp_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/vCategoryTitleTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fcfcfc"
+                android:gravity="start|center"
+                android:padding="5dp"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="#030303"
+                android:textSize="@dimen/txt_size_16" />
+
+
+            <com.view.MTextView
+                android:id="@+id/descTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fcfcfc"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/txt_size_14" />
+
+
+            <com.view.MTextView
+                android:id="@+id/selectServiceTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F5F5F5"
+                android:gravity="start|center"
+                android:paddingStart="10dp"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="#030303"
+                android:textSize="@dimen/txt_size_18" />
+
+
+            <LinearLayout
+                android:id="@+id/servicesAreaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/disable_color"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.view.MButton
+            android:id="@+id/continueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:background="@color/appThemeColor_1"
+            android:text=""
+            android:textColor="@color/mdtp_white"
+            android:textSize="@dimen/txt_size_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_weight="1">
+
+
+            <include
+                android:id="@+id/btn_type2_rideNow"
+                layout="@layout/btn_type_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rideLaterArea"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_weight="1">
+
+            <include
+
+                android:id="@+id/btn_type2_rideLater"
+                layout="@layout/btn_type_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.view.MTextView
+        android:id="@+id/noDataTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="No Data"
+        android:textColor="#030303"
+        android:textSize="@dimen/txt_size_16"
+        android:visibility="gone" />
+</RelativeLayout>

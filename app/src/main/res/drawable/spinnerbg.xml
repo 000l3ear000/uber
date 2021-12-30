@@ -1,0 +1,24 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <layer-list>
+
+            <item>
+                <color
+                    android:color="@android:color/white"/>
+            </item>
+
+            <item
+                >
+                <bitmap
+                    
+                    android:gravity="center_vertical|end"
+                    android:src="@drawable/down_arrow"/>
+            </item>
+
+        </layer-list>
+
+    </item>
+
+</selector>

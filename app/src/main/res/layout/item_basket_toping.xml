@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:paddingBottom="@dimen/_7sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:id="@+id/row_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/topingCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|center"
+            android:buttonTint="@color/appThemeColor_1"
+            android:theme="@style/MyCheckBox" />
+
+        <com.view.MTextView
+            android:id="@+id/topingTxtView"
+            android:paddingEnd="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="burger"
+            android:paddingStart="@dimen/_10sdp"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textColor="#656565"
+            app:customTypeFace="@string/systemRegular"
+            android:textSize="@dimen/_13ssp" />
+
+        <com.view.MTextView
+            android:id="@+id/topingPriceTxtView"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:text="$20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:textColor="#1b1b1b"
+            app:customTypeFace="@string/systemMediumFont"
+            android:textSize="@dimen/_13ssp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#efefef"
+        android:visibility="gone" />
+
+</LinearLayout>

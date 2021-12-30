@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appThemeColor_1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backImgView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:src="@mipmap/ic_back_arrow"
+            android:tint="@color/appThemeColor_TXT_1" />
+
+        <com.view.MTextView
+            android:id="@+id/titleTxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:paddingStart="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/appThemeColor_TXT_1"
+            android:textSize="@dimen/txt_size_18" />
+
+        <com.view.MTextView
+            android:id="@+id/subTitleTxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/appThemeColor_TXT_1"
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+
+        <com.view.MTextView
+            android:id="@+id/plusSignTxt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@color/appThemeColor_TXT_1"
+            android:textSize="30sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SearchArea"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/locPinImg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:src="@mipmap/ic_search" />
+
+        <!--       <include
+                   android:id="@+id/searchEditBox"
+                   layout="@layout/editbox_form_design"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_weight="1" />-->
+
+        <include
+            android:id="@+id/searchTxt"
+            layout="@layout/editbox_form_design"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp" />
+
+        <!--   <EditText
+               android:id="@+id/searchTxt"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="@android:color/transparent"
+               android:ellipsize="end"
+               android:gravity="start|center_vertical"
+               android:maxLines="1"
+               android:textAlignment="viewStart"
+               android:textColor="#1C1C1C"
+               android:textSize="@dimen/txt_size_16" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dataContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/recipientListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

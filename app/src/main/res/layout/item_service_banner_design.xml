@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/containerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="@dimen/category_banner_left_right_margin"
+        android:layout_marginStart="@dimen/category_banner_left_right_margin"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        app:cardBackgroundColor="#adadad"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="-8dp">
+
+        <RelativeLayout
+            android:id="@+id/bannerAreaContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <com.view.SelectableRoundedImageView
+                android:id="@+id/bannerImgView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="#adadad"
+                android:contentDescription="@string/app_name"
+                android:src="@mipmap/ic_no_icon"
+                app:sriv_left_bottom_corner_radius="5dp"
+                app:sriv_left_top_corner_radius="5dp"
+                app:sriv_right_bottom_corner_radius="5dp"
+                app:sriv_right_top_corner_radius="5dp" />
+
+            <com.view.MTextView
+                android:id="@+id/serviceNameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="20dp"
+                android:alpha=".8"
+                android:background="@color/appThemeColor_1"
+                android:clickable="false"
+                android:focusable="false"
+                android:maxLines="2"
+                android:maxWidth="290dp"
+                android:paddingBottom="2dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="2dp"
+                android:text="Book Now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_16" />
+
+            <com.view.MTextView
+                android:id="@+id/bookNowTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="20dp"
+                android:background="@color/appThemeColor_2"
+                android:clickable="false"
+                android:focusable="false"
+                android:maxLines="1"
+                android:paddingBottom="2dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="2dp"
+                android:text="Book Now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_16"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:layout_marginEnd="@dimen/_9sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                app:srcCompat="@drawable/ic_book_now"
+                android:id="@+id/bookNowImg"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/seperatorView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="@dimen/category_banner_left_right_margin"
+        android:layout_marginStart="@dimen/category_banner_left_right_margin"
+        android:layout_marginTop="5dp"
+        android:background="#E4E4E4"
+        android:visibility="gone" />
+
+
+</LinearLayout>

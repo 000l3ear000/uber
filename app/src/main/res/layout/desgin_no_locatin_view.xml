@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noLocView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/noLocMenuImgView"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:clickable="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/ic_drawer_menu"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:id="@+id/closeImageView"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:clickable="true"
+            android:src="@mipmap/ic_close_icon_"
+            android:tint="@color/white" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/noLocImgView"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="@dimen/_155sdp"
+                    android:layout_height="@dimen/_155sdp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ic_restrict_location" />
+
+                <com.view.MTextView
+                    android:id="@+id/noLocTitleTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:gravity="center"
+                    app:customTypeFace="@string/systemSemiBold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp" />
+
+                <com.view.MTextView
+                    android:id="@+id/noLocMsgTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:gravity="center"
+                    app:customTypeFace="@string/systemLightFont"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_border"
+            android:padding="@dimen/_2sdp"
+            android:layout_weight="0">
+
+            <include
+                android:id="@+id/settingsBtn"
+                layout="@layout/btn_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_gravity="bottom" />
+
+            <ProgressBar
+                android:id="@+id/mProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="-5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/enterLocBtnlayout"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_2sdp"
+            android:background="@drawable/login_form_border">
+
+            <include
+                android:id="@+id/enterLocBtn"
+                layout="@layout/btn_type_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

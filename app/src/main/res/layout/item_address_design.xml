@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp">
+
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/custom_cardview"
+            android:minHeight="@dimen/_35sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/deliveryAddrArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingTop="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp">
+
+                <ImageView
+                    android:id="@+id/radioImg"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:tint="@color/appThemeColor_1"
+                    app:srcCompat="@drawable/ic_non_selected" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+
+                        android:id="@+id/aprtArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.view.MTextView
+                            android:id="@+id/vApartmentTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_14" />
+
+                        <com.view.MTextView
+                            android:gravity="start|center"
+                            android:layout_gravity="start|center"
+                            android:id="@+id/tAddressTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:text=""
+                            android:textAlignment="viewStart"
+                            android:textColor="#646464"
+                            android:textSize="@dimen/_12ssp"
+                            app:customTypeFace="@string/systemLightFont" />
+                    </LinearLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/vAreaTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:text="area"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_14"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <com.view.MTextView
+                            android:id="@+id/vCityTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="city"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_14" />
+
+                        <com.view.MTextView
+                            android:id="@+id/vPostcodeTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="postcode"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_14" />
+                    </LinearLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/vContryTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:text="country"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_14"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.view.MTextView
+                android:id="@+id/addressNotAvailTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="#272727"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="gone"
+                app:customTypeFace="@string/systemMediumFont" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom|center"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:gravity="end|bottom|center"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgdelete"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:background="@drawable/circle_shadow_big"
+                android:gravity="center"
+                app:srcCompat="@drawable/ic_v_delete" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

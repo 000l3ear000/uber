@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#F5F5F5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/deliverDetailExpandArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:background="#F5F5F5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.view.MTextView
+                    android:id="@+id/deliverNameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="start|center"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Rich Bill NewPort"
+                    android:textColor="#191919"
+                    android:textSize="@dimen/txt_size_14"
+                    android:textStyle="normal" />
+
+                <com.view.MTextView
+                    android:id="@+id/deliverAddressTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="start|center"
+                    android:padding="5dp"
+                    android:text="22 honour    bvjgsav  jhgfjb "
+                    android:textColor="#6B6B6B"
+                    android:textSize="@dimen/txt_size_14"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="start|center"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:visibility="gone">
+
+                    <com.view.MTextView
+                        android:id="@+id/parcelWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:gravity="start|center"
+                        android:text="Parcel Weight :"
+                        android:textColor="#4C4C4C"
+                        android:textSize="@dimen/txt_size_14"
+                        android:textStyle="normal" />
+
+                    <com.view.MTextView
+                        android:id="@+id/parcelWeightValTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:layout_marginStart="8dp"
+                        android:gravity="start|center"
+                        android:text="80"
+                        android:textColor="#949494"
+                        android:textSize="@dimen/txt_size_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#CECECE" />
+
+                <LinearLayout
+                    android:id="@+id/btnArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/all_btn_height"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/editBtnArea"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_edit"
+                            android:tint="@color/appThemeColor_2" />
+
+                        <com.view.MTextView
+                            android:id="@+id/editBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:layout_marginStart="5dp"
+                            android:text="Edit"
+                            android:textAlignment="center"
+                            android:textColor="@color/appThemeColor_2"
+                            android:textSize="@dimen/txt_size_14"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="#CECECE" />
+
+                    <LinearLayout
+                        android:id="@+id/deleteBtnArea"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_delete"
+                            android:tint="@color/appThemeColor_2" />
+
+                        <com.view.MTextView
+                            android:id="@+id/deleteBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:text="Delete"
+                            android:textColor="@color/appThemeColor_2"
+                            android:textSize="@dimen/txt_size_14"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

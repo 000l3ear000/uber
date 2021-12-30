@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.view.MTextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/recipientNoTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="true"
+                    android:textColor="#727272"
+                    android:textSize="@dimen/txt_size_16"
+                    app:customTypeFace="roboto_medium" />
+
+                <com.view.MTextView
+                    android:layout_margin="5dp"
+                    android:paddingEnd="5dp"
+                    android:id="@+id/ricipientSignTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|center"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/appThemeColor_1"
+                    android:textSize="@dimen/txt_size_16"
+                    app:customTypeFace="roboto_medium" />
+            </LinearLayout>
+
+            <com.view.MTextView
+                app:customTypeFace="@string/robotolightFont"
+                android:id="@+id/recipeientNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:gravity="start|center"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:textColor="@color/appThemeColor_2"
+                android:textSize="@dimen/txt_size_16" />
+
+
+            <com.view.MTextView
+                app:customTypeFace="@string/robotolightFont"
+                android:id="@+id/recipeientMobileTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:gravity="start|center"
+                android:minLines="1"
+                android:textAlignment="viewStart"
+                android:textColor="@color/appThemeColor_2"
+                android:textSize="@dimen/txt_size_16" />
+
+            <com.view.MTextView
+                android:id="@+id/dropOffHTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@color/appThemeColor_2"
+                android:textSize="@dimen/txt_size_16"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:customTypeFace="roboto_medium" />
+
+            <com.view.MTextView
+                android:id="@+id/dropOffVTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart"
+                android:textColor="#727272"
+                android:textSize="@dimen/txt_size_16"
+                app:customTypeFace="@string/robotolightFont" />
+
+            <com.view.MTextView
+                android:visibility="gone"
+                android:id="@+id/recipeientAddressTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="start|center"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:textColor="#727272"
+                android:textSize="@dimen/txt_size_16"
+                app:customTypeFace="roboto_medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/otherDetailArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="gone"
+                android:id="@+id/deliveryDetailsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/deliveryDetailsArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tripStatusArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:orientation="vertical">
+
+
+            <com.view.MTextView
+                android:textAlignment="viewStart"
+                android:textAllCaps="true"
+                android:id="@+id/tripStatusLblTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/appThemeColor_1"
+                android:textSize="@dimen/txt_size_16"
+                android:typeface="normal" />
+
+            <com.view.MTextView
+                android:textAlignment="viewStart"
+                android:id="@+id/tripStatusTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="#191818"
+                android:textSize="@dimen/txt_size_14"
+                android:typeface="normal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#E2E2E2"
+        android:visibility="visible" />
+
+</LinearLayout>

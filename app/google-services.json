@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "534140583256",
+    "firebase_url": "https://me-levi-rio-das-ostras-default-rtdb.firebaseio.com",
+    "project_id": "me-levi-rio-das-ostras",
+    "storage_bucket": "me-levi-rio-das-ostras.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534140583256:android:447b5afffb5eccd10af92d",
+        "android_client_info": {
+          "package_name": "com.melevi.rio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534140583256-4kkhl5aciub25jokfmceetvad0o02e1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPAIgxCZk87aqzmROG4cNszmLdnnie5c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534140583256-4kkhl5aciub25jokfmceetvad0o02e1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534140583256:android:7f283dd312fb3b370af92d",
+        "android_client_info": {
+          "package_name": "com.motorista.rio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534140583256-4kkhl5aciub25jokfmceetvad0o02e1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPAIgxCZk87aqzmROG4cNszmLdnnie5c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534140583256-4kkhl5aciub25jokfmceetvad0o02e1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

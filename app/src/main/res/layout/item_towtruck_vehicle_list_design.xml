@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.view.SelectableRoundedImageView
+                    android:id="@+id/vehicleImgView"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                    app:sriv_border_color="@color/appThemeColor_2"
+                    app:sriv_border_width="2dip"
+                    app:sriv_left_bottom_corner_radius="20dip"
+                    app:sriv_left_top_corner_radius="20dip"
+                    app:sriv_oval="true"
+                    app:sriv_right_bottom_corner_radius="20dip"
+                    app:sriv_right_top_corner_radius="20dip" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start|top"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="2"
+
+                    android:orientation="vertical">
+
+                    <com.view.MTextView
+                        android:id="@+id/vehicleNameTxtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="Name"
+                        android:textColor="#2E2E2E"
+                        android:textSize="@dimen/txt_size_18" />
+
+                    <com.view.MTextView
+                        android:id="@+id/vehicleColorNameTxtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start|center"
+                        android:maxLines="1"
+                        android:text="More Info"
+                        android:textAllCaps="true"
+                        android:textColor="#909090"
+                        android:textSize="@dimen/txt_size_14" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="end|center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/editVehicleImgView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/ic_edit"
+                        android:tint="#000000"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/deleteVehicleImgView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/ic_delete"
+                        android:tint="#000000"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

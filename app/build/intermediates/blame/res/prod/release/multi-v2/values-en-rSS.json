@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\movae app\\melevicar-user\\app\\build\\intermediates\\incremental\\mergeProdReleaseResources\\merged.dir\\values-en-rSS\\values-en-rSS.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\e3d9de1dbb19d66d2fb48b5f11b9e350\\jetified-tweet-ui-3.3.0\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,207,358,509,574,639,709,764,817,894,970,1027,1107,1234,1322,1388,1474",
+                        "endLines": "5,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "endColumns": "14,14,14,64,64,69,54,52,76,75,56,79,126,87,65,85,66",
+                        "endOffsets": "202,353,504,569,634,704,759,812,889,965,1022,1102,1229,1317,1383,1469,1536"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,15,16,17,20,21,23,24,25,26,27,28,29,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,207,358,585,650,715,924,979,1092,1169,1245,1302,1382,1509,1597,1663,1749",
+                        "endLines": "5,9,13,15,16,17,20,21,23,24,25,26,27,28,29,30,31",
+                        "endColumns": "14,14,14,64,64,69,54,52,76,75,56,79,126,87,65,85,66",
+                        "endOffsets": "202,353,504,645,710,780,974,1027,1164,1240,1297,1377,1504,1592,1658,1744,1811"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\3d8812c281425a888003fa11b5233fa8\\tweet-composer-3.3.0\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,131,194",
+                        "endColumns": "75,62,59",
+                        "endOffsets": "126,189,249"
+                    },
+                    "to": {
+                        "startLines": "14,19,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "509,861,1032",
+                        "endColumns": "75,62,59",
+                        "endOffsets": "580,919,1087"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\ef18fc814f107302bf69c6718c74c636\\jetified-twitter-core-3.3.0\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "785",
+                        "endColumns": "75",
+                        "endOffsets": "856"
+                    }
+                }
+            ]
+        }
+    ]
+}

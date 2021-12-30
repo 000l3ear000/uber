@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/_12sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+   <com.view.MTextView
+       android:id="@+id/messageTxt"
+       android:layout_marginEnd="@dimen/_10sdp"
+       android:layout_marginStart="@dimen/_10sdp"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_marginBottom="@dimen/_25sdp"
+       android:layout_marginTop="@dimen/_30sdp"
+       android:includeFontPadding="false"
+       tools:text="Are you sure you want to delete this prescription?"
+       android:textColor="#141414"
+       android:textSize="@dimen/_18ssp"
+       app:customTypeFace="@string/systemMediumFont"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <com.view.MTextView
+            android:id="@+id/cancelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/unselected_border"
+            android:backgroundTint="@color/appThemeColor_1"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/txt_size_16"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <com.view.MTextView
+            android:id="@+id/submitTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/selected_border"
+            android:backgroundTint="@color/appThemeColor_1"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="OK"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_16"
+            app:customTypeFace="@string/systemMediumFont" />
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

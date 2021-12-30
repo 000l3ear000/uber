@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/headerview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentTop="true"
+        android:background="@color/appThemeColor_1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/searchArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/search_shape"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/ic_search_black_24dp" />
+
+                <EditText
+                    android:id="@+id/searchTxtView"
+                    layout="@layout/editbox_form_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/search_shape"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/_12ssp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageCancel"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_minus35sdp"
+                android:src="@mipmap/ic_cancel_cab_request"
+                android:tint="@android:color/black" />
+
+            <com.view.anim.loader.AVLoadingIndicatorView
+                android:id="@+id/loaderView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="-33dp"
+                android:background="@android:color/transparent"
+                android:visibility="gone"
+                app:indicator="BallClipRotate"
+                app:indicator_color="@color/appThemeColor_1" />
+
+            <com.view.MTextView
+                android:id="@+id/cancelTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:padding="5dp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_14"
+                app:customTypeFace="roboto_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.view.MTextView
+        android:id="@+id/norecordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerview"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:padding="@dimen/_5sdp"
+
+        android:text="No record found"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_size_16"
+        android:visibility="gone"
+        app:customTypeFace="roboto_light" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerview"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:visibility="visible">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/foodSearchRecycView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <ImageView
+        android:tint="@color/appThemeColor_1"
+        android:id="@+id/noSearchImage"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/ic_nosearchresult" />
+
+</RelativeLayout>

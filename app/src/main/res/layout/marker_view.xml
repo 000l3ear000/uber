@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pinImgView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_source_marker" />
+
+    <com.view.MTextView
+        android:id="@+id/addressTxtView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minHeight="30dp"
+        android:padding="2dp"
+        android:textColor="#1C1C1C"
+        android:textSize="@dimen/txt_size_12" />
+</LinearLayout>

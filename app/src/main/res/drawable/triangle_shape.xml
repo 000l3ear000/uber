@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="80dp"
+        android:height="30dp">
+        <shape>
+            <solid android:color="@color/light_back_featured_txt_color" />
+        </shape>
+    </item>
+
+    <!--<item android:width="21dp" android:height="21dp"-->
+    <!--android:left="80dp">-->
+    <!--<rotate android:fromDegrees="45"-->
+    <!--android:pivotX="0"-->
+    <!--android:pivotY="0">-->
+    <!--<shape>-->
+    <!--<solid android:color="@color/light_back_featured_txt_color"/>-->
+    <!--</shape>-->
+    <!--</rotate>-->
+    <!--</item>-->
+</layer-list>

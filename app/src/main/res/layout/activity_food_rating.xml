@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/deliverall_design_toolbar_general" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <com.view.MTextView
+            android:id="@+id/ratingResNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="start|center"
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/robotobold" />
+
+
+        <com.view.simpleratingbar.SimpleRatingBar
+            android:id="@+id/ratingBar_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:padding="2dp"
+            app:SRB_fillColor="@color/ratingfill"
+            app:SRB_starBackgroundColor="@color/gray_holo_light"
+            app:SRB_starSize="25dp"
+            app:SRB_stepSize="0.5" />
+
+        <include
+            android:id="@+id/res_commentBox"
+            layout="@layout/editbox_form_design"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#E3E3E3" />
+
+        <com.view.MTextView
+            android:id="@+id/ratingDriverNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="start|center"
+
+            android:text="Burger King"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_14"
+            app:customTypeFace="@string/robotobold" />
+
+        <com.view.simpleratingbar.SimpleRatingBar
+            android:id="@+id/ratingBar_driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:padding="2dp"
+            app:SRB_fillColor="@color/ratingfill"
+            app:SRB_starBackgroundColor="@color/gray_holo_light"
+            app:SRB_starSize="25dp"
+            app:SRB_stepSize="0.5" />
+
+        <include
+            android:id="@+id/driver_commentBox"
+            layout="@layout/editbox_form_design"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+
+        <include
+            android:id="@+id/btn_type2"
+            layout="@layout/btn_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+</LinearLayout>

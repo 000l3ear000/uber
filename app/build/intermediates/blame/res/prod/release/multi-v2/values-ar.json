@@ -1,0 +1,198 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\movae app\\melevicar-user\\app\\build\\intermediates\\incremental\\mergeProdReleaseResources\\merged.dir\\values-ar\\values-ar.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\f4a6f5ad52419565906e3a01f5aa5a7f\\play-services-places-17.0.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,289",
+                        "endColumns": "95,90",
+                        "endOffsets": "288,379"
+                    },
+                    "to": {
+                        "startLines": "84,85",
+                        "startColumns": "4,4",
+                        "startOffsets": "8464,8564",
+                        "endColumns": "99,94",
+                        "endOffsets": "8559,8654"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\01bc323fa2b0c7a352ca08bd3ad955a7\\play-services-base-17.0.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,347,523,643,746,943,1069,1206,1333,1529,1631,1812,1932,2130,2302,2392,2484",
+                        "endColumns": "101,175,119,102,196,125,136,126,195,101,180,119,197,171,89,91,108",
+                        "endOffsets": "346,522,642,745,942,1068,1205,1332,1528,1630,1811,1931,2129,2301,2391,2483,2592"
+                    },
+                    "to": {
+                        "startLines": "64,65,66,67,68,69,70,71,73,74,75,76,77,78,79,80,81",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5672,5778,5954,6078,6185,6382,6512,6653,6973,7169,7275,7456,7580,7778,7954,8048,8144",
+                        "endColumns": "105,175,123,106,196,129,140,130,195,105,180,123,197,175,93,95,112",
+                        "endOffsets": "5773,5949,6073,6180,6377,6507,6648,6779,7164,7270,7451,7575,7773,7949,8043,8139,8252"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\e3d9de1dbb19d66d2fb48b5f11b9e350\\jetified-tweet-ui-3.3.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,189,322,455,514,572,637,680,723,787,852,905,983,1099,1177,1237,1313",
+                        "endLines": "5,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "endColumns": "14,14,14,58,57,64,42,42,63,64,52,77,115,77,59,75,56",
+                        "endOffsets": "184,317,450,509,567,632,675,718,782,847,900,978,1094,1172,1232,1308,1365"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,89,90,91,94,95,97,98,99,100,101,102,103,104,105",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,239,372,8898,8957,9015,9203,9246,9338,9402,9467,9520,9598,9714,9792,9852,9928",
+                        "endLines": "5,9,13,89,90,91,94,95,97,98,99,100,101,102,103,104,105",
+                        "endColumns": "14,14,14,58,57,64,42,42,63,64,52,77,115,77,59,75,56",
+                        "endOffsets": "234,367,500,8952,9010,9075,9241,9284,9397,9462,9515,9593,9709,9787,9847,9923,9980"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\3d8812c281425a888003fa11b5233fa8\\tweet-composer-3.3.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,112,164",
+                        "endColumns": "56,51,48",
+                        "endOffsets": "107,159,208"
+                    },
+                    "to": {
+                        "startLines": "88,93,96",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "8841,9151,9289",
+                        "endColumns": "56,51,48",
+                        "endOffsets": "8893,9198,9333"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\a2204ea82aa1c29b17e94b84e6c6cf7c\\jetified-play-services-basement-17.0.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "72",
+                        "startColumns": "4",
+                        "startOffsets": "6784",
+                        "endColumns": "188",
+                        "endOffsets": "6968"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\ef18fc814f107302bf69c6718c74c636\\jetified-twitter-core-3.3.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "70",
+                        "endOffsets": "121"
+                    },
+                    "to": {
+                        "startLines": "92",
+                        "startColumns": "4",
+                        "startOffsets": "9080",
+                        "endColumns": "70",
+                        "endOffsets": "9146"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\d1cbf12cb6d9d751ae1f96030567512f\\play-services-gcm-17.0.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "97",
+                        "endOffsets": "287"
+                    },
+                    "to": {
+                        "startLines": "83",
+                        "startColumns": "4",
+                        "startOffsets": "8362",
+                        "endColumns": "101",
+                        "endOffsets": "8459"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,326,435,517,618,732,811,890,981,1074,1170,1264,1365,1458,1553,1647,1738,1832,1911,2016,2117,2213,2321,2424,2527,2682,2779",
+                        "endColumns": "116,103,108,81,100,113,78,78,90,92,95,93,100,92,94,93,90,93,78,104,100,95,107,102,102,154,96,80",
+                        "endOffsets": "217,321,430,512,613,727,806,885,976,1069,1165,1259,1360,1453,1548,1642,1733,1827,1906,2011,2112,2208,2316,2419,2522,2677,2774,2855"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,86",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "505,622,726,835,917,1018,1132,1211,1290,1381,1474,1570,1664,1765,1858,1953,2047,2138,2232,2311,2416,2517,2613,2721,2824,2927,3082,8659",
+                        "endColumns": "116,103,108,81,100,113,78,78,90,92,95,93,100,92,94,93,90,93,78,104,100,95,107,102,102,154,96,80",
+                        "endOffsets": "617,721,830,912,1013,1127,1206,1285,1376,1469,1565,1659,1760,1853,1948,2042,2133,2227,2306,2411,2512,2608,2716,2819,2922,3077,3174,8735"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\88e538ee4c979d2b532f37963369e96d\\jetified-facebook-login-5.13.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,210,333,474,584,666,753,833,921,1016,1127,1240,1336,1432,1540,1670,1751,1834,1983,2077,2176,2288,2396",
+                        "endColumns": "154,122,140,109,81,86,79,87,94,110,112,95,95,107,129,80,82,148,93,98,111,107,151",
+                        "endOffsets": "205,328,469,579,661,748,828,916,1011,1122,1235,1331,1427,1535,1665,1746,1829,1978,2072,2171,2283,2391,2543"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3179,3334,3457,3598,3708,3790,3877,3957,4045,4140,4251,4364,4460,4556,4664,4794,4875,4958,5107,5201,5300,5412,5520",
+                        "endColumns": "154,122,140,109,81,86,79,87,94,110,112,95,95,107,129,80,82,148,93,98,111,107,151",
+                        "endOffsets": "3329,3452,3593,3703,3785,3872,3952,4040,4135,4246,4359,4455,4551,4659,4789,4870,4953,5102,5196,5295,5407,5515,5667"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "87",
+                        "startColumns": "4",
+                        "startOffsets": "8740",
+                        "endColumns": "100",
+                        "endOffsets": "8836"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-2\\files-2.1\\21f1bcc7b89ac9d1aa8d13cea934f5ae\\jetified-firebase-messaging-20.0.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "82",
+                        "startColumns": "4",
+                        "startOffsets": "8257",
+                        "endColumns": "104",
+                        "endOffsets": "8357"
+                    }
+                }
+            ]
+        }
+    ]
+}

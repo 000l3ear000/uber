@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/_15sdp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:elevation="1dp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:id="@+id/main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.view.SelectableRoundedImageView
+                    android:id="@+id/menuImage"
+                    android:layout_width="@dimen/_225sdp"
+                    android:layout_height="@dimen/_95sdp"
+                    android:layout_above="@+id/bottomarea"
+                    android:scaleType="centerCrop"
+                    app:sriv_left_top_corner_radius="5dp"
+                    app:sriv_right_top_corner_radius="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:paddingEnd="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/presImage"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_medicine" />
+
+                        <ImageView
+                            android:id="@+id/vegImage"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/veg"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/nonVegImage"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nonveg"
+                            android:visibility="gone" />
+
+                        <com.view.MTextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:ellipsize="marquee"
+                            android:gravity="start|center"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:textColor="#141414"
+                            android:textSize="@dimen/txt_size_12"
+                            app:customTypeFace="@string/systemMediumFont" />
+
+                    </LinearLayout>
+
+
+                    <com.view.MTextView
+                        android:id="@+id/vCategoryNameTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:gravity="start|center"
+                        android:maxLines="1"
+                        android:textColor="#646464"
+                        android:textSize="@dimen/_9ssp"
+                        app:customTypeFace="@string/systemLightFont" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottomarea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:layout_weight="1"
+                                android:gravity="start|center"
+                                android:orientation="vertical">
+
+                                <com.view.MTextView
+                                    android:id="@+id/price"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start|center"
+                                    android:layout_marginEnd="4dp"
+                                    android:gravity="start|center"
+                                    android:text=""
+                                    android:textColor="@color/appThemeColor_1"
+                                    android:textSize="@dimen/_11ssp"
+                                    android:textStyle="bold"
+                                    app:customTypeFace="@string/systemSemiBold" />
+
+                                <com.view.MTextView
+                                    android:id="@+id/offerPrice"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start|center"
+                                    android:layout_weight="1"
+                                    android:gravity="start|center"
+                                    android:text=""
+                                    android:textColor="@color/appThemeColor_1"
+                                    android:textSize="@dimen/txt_size_12"
+                                    app:customTypeFace="@string/robotobold" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/login_border"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:gravity="end|bottom|center"
+                                android:orientation="horizontal"
+                                android:padding="4dp"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp">
+
+                                <com.view.MTextView
+                                    android:id="@+id/addBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end|bottom|center"
+                                    android:gravity="end|bottom|center"
+                                    android:includeFontPadding="false"
+                                    android:text="Add"
+                                    android:textAlignment="center"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp"
+                                    app:customTypeFace="@string/robotomediumFont" />
+
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:tint="@color/white"
+                                    app:srcCompat="@drawable/ic_cart" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tagImage"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/tag"
+        android:visibility="visible" />
+
+
+    <com.view.MTextView
+        android:id="@+id/tagTxt"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:text="Recommendessssdfsdfs"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:customTypeFace="@string/robotomediumFont"
+        app:textAllCaps="true" />
+
+
+</RelativeLayout>

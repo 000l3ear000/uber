@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/closeImage"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_close_icon_" />
+
+    <com.view.MTextView
+        android:id="@+id/locationHintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/closeImage"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        app:customTypeFace="@string/systemSemiBold" />
+
+    <com.view.MTextView
+        android:id="@+id/locationDescText"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationHintText"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_15sdp"
+        android:text="Please wait while we are trying to access your location. meanwhile you can enter your source location."
+        android:textAlignment="center"
+        android:textColor="#353535"
+        android:textSize="@dimen/_15ssp"
+        app:customTypeFace="@string/systemLightFont" />
+
+    <LinearLayout
+        android:id="@+id/btnArea"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/all_btn_height"
+        android:layout_below="@+id/locationDescText"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/login_border"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal"
+        android:paddingStart="40dp">
+
+
+        <com.view.MTextView
+            android:id="@+id/btnTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/appThemeColor_TXT_1"
+            android:textSize="@dimen/_15ssp"
+            android:visibility="visible"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <ImageView
+            android:id="@+id/btnImg"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_right_arrow" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/locationDescText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_100sdp">
+
+        <com.skyfishjy.library.RippleBackground
+            android:id="@+id/rippleBgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:rb_color="@color/appThemeColor_1"
+            app:rb_duration="3000"
+            app:rb_radius="@dimen/_32sdp"
+            app:rb_rippleAmount="4"
+            app:rb_scale="6">
+
+
+        </com.skyfishjy.library.RippleBackground>
+
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_65sdp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_no_source_marker" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

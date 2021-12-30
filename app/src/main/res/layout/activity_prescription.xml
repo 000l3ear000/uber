@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E8E7"
+    tools:context=".PrescriptionActivity">
+
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <com.view.MTextView
+        android:id="@+id/noteTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_include"
+        android:layout_gravity="start|center_vertical"
+        android:layout_margin="@dimen/_20sdp"
+        android:includeFontPadding="false"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#343434"
+        app:customTypeFace="@string/systemRegular"
+        android:textSize="@dimen/_13ssp" />
+
+  <!--  <com.view.MTextView
+        android:id="@+id/attechTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noteTxt"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@color/appThemeColor_1"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/txt_size_14"
+        android:visibility="gone" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingBottom="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:id="@+id/imageListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noteTxt"
+        android:layout_above="@+id/skipTxt"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:id="@+id/noImgView"
+        android:layout_width="@dimen/_105sdp"
+        android:layout_height="@dimen/_105sdp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_no_prescription" />
+
+    <com.view.MTextView
+        android:id="@+id/noDescTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noImgView"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:customTypeFace="@string/systemSemiBold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_17ssp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/loading_images"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <com.view.MTextView
+        android:id="@+id/skipTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomarea"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_marginBottom="@dimen/_minus5sdp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#7d7d7d"
+        app:customTypeFace="@string/systemSemiBold"
+        android:textSize="@dimen/_16ssp"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@+id/bottomarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="@dimen/_15sdp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/btn2Area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/btn_type2"
+            layout="@layout/btn_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_gravity="bottom"
+
+            />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/confirmBtnArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/btn_type2_confirm"
+                layout="@layout/btn_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+
+                android:layout_marginTop="5dp"
+
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/carouselContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#c0000000" />
+
+        <com.view.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            app:autoPlay="false"
+            app:fillColor="#FFFFFF"
+            app:strokeColor="#FFFFFF" />
+
+        <com.view.MTextView
+            android:id="@+id/closeCarouselTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_size_16"
+            app:customTypeFace="@string/robotomediumFont" />
+    </RelativeLayout>
+
+</RelativeLayout>

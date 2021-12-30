@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="4dp"
+        app:cardUseCompatPadding="false"
+        app:contentPadding="-2dp">
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/promoArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/skyBlue"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:minHeight="60dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <com.view.MTextView
+                        android:id="@+id/useCodeHTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textColor="#2E2E2E"
+                        android:textSize="@dimen/txt_size_14"
+                        android:visibility="visible"
+                        app:customTypeFace="@string/defaultFont" />
+
+
+                    <LinearLayout
+                        android:id="@+id/couponCodeArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imgRightMark"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:clickable="false"
+                            android:src="@mipmap/ic_right"
+                            android:tint="@color/white"
+                            android:visibility="gone" />
+
+                        <com.view.MTextView
+                            android:id="@+id/useCodeVTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginStart="8dp"
+                            android:clickable="false"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_size_16"
+                            app:customTypeFace="@string/robotomediumFont" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/saveArea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/dotted_line"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/layoutZigzag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="top|center"
+                        android:background="@drawable/coupon_zig"
+                        android:clickable="false"
+                        android:orientation="vertical"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:clickable="false">
+
+                        <com.view.MTextView
+                            android:id="@+id/useAmountVTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginStart="15dp"
+                            android:clickable="false"
+                            android:maxLines="2"
+                            android:textColor="#34b208"
+                            android:textSize="@dimen/txt_size_14"
+                            app:customTypeFace="@string/defaultFont" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/indicatorImg"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:clickable="false"
+                        android:src="@mipmap/ic_arrow_up"
+                        android:tint="@color/Gray" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/detailArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2.5"
+                    android:orientation="vertical">
+
+                    <com.view.MTextView
+                        android:id="@+id/tDescriptionVTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="tDescription"
+                        android:textColor="#666666"
+                        android:textSize="@dimen/txt_size_14"
+                        app:customTypeFace="@string/defaultFont" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.view.MTextView
+                            android:id="@+id/dExpiryDateVTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="3dp"
+                            android:text="dExpiryDate"
+                            android:textColor="#656565"
+                            android:textSize="@dimen/txt_size_14"
+                            app:customTypeFace="@string/robotomediumFont" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5">
+
+                    <include
+                        android:id="@+id/btn_type2"
+                        layout="@layout/btn_type_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/all_btn_height"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

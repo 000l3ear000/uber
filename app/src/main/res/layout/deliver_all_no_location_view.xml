@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true">
+
+    <LinearLayout
+
+        android:id="@+id/MainHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/nolocmenuImgView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="0"
+            android:clickable="true"
+            android:src="@mipmap/ic_drawer_menu"
+            android:tint="@color/white"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/nolocbackImgView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:rotationY="@integer/angle_rtl_180"
+            android:src="@mipmap/ic_back_arrow"
+            android:tint="@color/white"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/design_toolbar_main"
+            android:visibility="gone"></include>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/noserviceimage"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/no_service" />
+
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomarea"
+        android:layout_marginBottom="-25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/bottomarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.view.MTextView
+            android:id="@+id/outAreaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="out of delivery area"
+            android:textAllCaps="true"
+            android:textColor="@color/appThemeColor_1"
+            android:textSize="@dimen/txt_size_16" />
+
+        <com.view.MTextView
+            android:id="@+id/deliveryAreaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_marginTop="-10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="We are not here yet"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_16" />
+
+        <com.view.MButton
+            android:id="@+id/editLocationBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/appThemeColor_1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Edit Location"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_size_16"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
