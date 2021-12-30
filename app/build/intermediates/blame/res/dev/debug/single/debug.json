@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\50b8645688a1aca93e21ee526ac9d139\\jetified-facebook-common-5.13.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00030.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_places_ic_search.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f4a6f5ad52419565906e3a01f5aa5a7f\\play-services-places-17.0.0\\res\\drawable-xhdpi-v4\\places_ic_search.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00030.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_voip_notification_1.mp3.flat",
@@ -140,12 +140,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_search.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__ic_video_replay.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__ic_video_replay.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_dest_marker.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_dest_marker.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__ic_video_replay.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__ic_video_replay.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi_btntype_two.xml.flat",
@@ -168,20 +168,20 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_my_bookings_design.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_list_address.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_list_address.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_deliver_all_dialog_filter.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\deliver_all_dialog_filter.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldpi-v4_ic_error.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-ldpi-v4\\ic_error.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_list_address.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_list_address.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_car.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_car.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldpi-v4_ic_error.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-ldpi-v4\\ic_error.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_menu_card.png.flat",
@@ -200,12 +200,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-mdpi-v4\\ic_unknown.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_tip.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_tip.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_tip.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_tip.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_bg.xml.flat",
@@ -304,12 +304,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_cart_plus.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cart_plus.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_ic_unionpay_template_32.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-mdpi-v4\\ic_unionpay_template_32.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_cart_plus.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cart_plus.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_uber_xselect_service.xml.flat",
@@ -324,16 +324,16 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_map.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_map.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_charge_header_cell.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\charge_header_cell.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_error_view_cloud.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\error_view_cloud.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_charge_header_cell.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\charge_header_cell.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_map.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_map.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_abc_seekbar_track_material.xml.flat",
@@ -472,36 +472,36 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_source_marker.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_square_round_shape.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\square_round_shape.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00003.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00003.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_square_round_shape.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\square_round_shape.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_invite_banner.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\invite_banner.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_track_order.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_track_order.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_google.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\google.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_track_order.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_track_order.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_food_down_arrow.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_food_down_arrow.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_crop_image_menu_rotate_left.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\crop_image_menu_rotate_left.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_nosearchresult.xml.flat",
@@ -512,12 +512,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_fragment_time.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\fragment_time.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\01bc323fa2b0c7a352ca08bd3ad955a7\\play-services-base-17.0.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_fragment_time.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\fragment_time.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_amu_ground_overlay.kml.flat",
@@ -536,12 +536,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_car_default_hover.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_fare_estimate.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fare_estimate.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_abc_screen_content_include.xml.flat",
@@ -656,12 +656,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\shape_bg_outgoing_bubble.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_crop_image_menu_rotate_left.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\crop_image_menu_rotate_left.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_ic_unionpay_template_32.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-anydpi-v21\\ic_unionpay_template_32.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_crop_image_menu_rotate_left.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\crop_image_menu_rotate_left.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -732,12 +732,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_arrow_down.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_cart_plus.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cart_plus.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_booking.xml.flat",
@@ -764,12 +764,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_no_location_view.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\no_location_view.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_no_location_view.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\no_location_view.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_linkedin_cancel.png.flat",
@@ -792,20 +792,20 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\menu_ongoingtrip.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_com_facebook_favicon_blue.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\50b8645688a1aca93e21ee526ac9d139\\jetified-facebook-common-5.13.0\\res\\drawable\\com_facebook_favicon_blue.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi-v4_crop_image_menu_flip_prj.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-xxhdpi-v4\\crop_image_menu_flip_prj.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_tw__ic_gif_badge.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-hdpi-v4\\tw__ic_gif_badge.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi-v4_crop_image_menu_flip_prj.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-xxhdpi-v4\\crop_image_menu_flip_prj.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_com_facebook_favicon_blue.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\50b8645688a1aca93e21ee526ac9d139\\jetified-facebook-common-5.13.0\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -984,20 +984,20 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\dot_unfilled.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_setting.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-nodpi\\ic_setting.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_book_someone_contacts_header.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_book_someone_contacts_header.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_setting.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-nodpi\\ic_setting.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\01bc323fa2b0c7a352ca08bd3ad955a7\\play-services-base-17.0.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_book_someone_contacts_header.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_book_someone_contacts_header.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_brand_visa.png.flat",
@@ -1104,12 +1104,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_more.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi-v4_brand_mastercard.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\656c2dac99b2a5c41f898d318eaaf0ab\\omise-android-2.6.5\\res\\drawable-xxxhdpi-v4\\brand_mastercard.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_ic_diners_template_32.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-anydpi-v21\\ic_diners_template_32.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi-v4_brand_mastercard.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\656c2dac99b2a5c41f898d318eaaf0ab\\omise-android-2.6.5\\res\\drawable-xxxhdpi-v4\\brand_mastercard.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldpi-v4_ic_checkmark.png.flat",
@@ -1128,12 +1128,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_com_facebook_activity_layout.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\50b8645688a1aca93e21ee526ac9d139\\jetified-facebook-common-5.13.0\\res\\layout\\com_facebook_activity_layout.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_tw__ic_tweet_photo_error_light.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xxhdpi-v4\\tw__ic_tweet_photo_error_light.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_com_facebook_activity_layout.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\50b8645688a1aca93e21ee526ac9d139\\jetified-facebook-common-5.13.0\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_menubutton.xml.flat",
@@ -1176,16 +1176,16 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\view_carousel_prj.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_invoice.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_invoice.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_ic_fiber_manual_record_black_24dp_prj.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\drawable-mdpi-v4\\ic_fiber_manual_record_black_24dp_prj.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_app_login.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\app_login.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_ic_fiber_manual_record_black_24dp_prj.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\drawable-mdpi-v4\\ic_fiber_manual_record_black_24dp_prj.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_invoice.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_invoice.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_menu.png.flat",
@@ -1228,12 +1228,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\chatout.9.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_source_marker.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_source_marker.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_source_marker.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_source_marker.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_back_button.xml.flat",
@@ -1252,12 +1252,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\anim\\slide_down.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00012.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_construction.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\construction.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00012.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -1292,12 +1292,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_wallet.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_delete_recyclebin.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_delete_recyclebin.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_ic_cvc_amex.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-anydpi-v21\\ic_cvc_amex.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_delete_recyclebin.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_delete_recyclebin.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_ic_jcb.xml.flat",
@@ -1408,12 +1408,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_tw__ic_gif_badge.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-mdpi-v4\\tw__ic_gif_badge.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_tw__ic_gif_badge.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-mdpi-v4\\tw__ic_gif_badge.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi-v4_crop_image_menu_rotate_right_prj.png.flat",
@@ -1448,12 +1448,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_couponcode.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_amu_bubble_shadow.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_shadow.9.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_arrow_down_food.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_arrow_down_food.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_driver_loc_marker.png.flat",
@@ -1468,16 +1468,16 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_driver_assigned_header_bg.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\driver_assigned_header_bg.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_promo.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_promo.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_promo.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_promo.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_driver_assigned_header_bg.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\driver_assigned_header_bg.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_menu_trip.png.flat",
@@ -1544,12 +1544,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\raw\\amu_cdata.kml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_heart.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_heart.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_heart.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_heart.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_recipient_list_item.xml.flat",
@@ -1636,12 +1636,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\msg_alert.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_country_autocomplete_textview.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\layout\\country_autocomplete_textview.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_menu_subscription.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_menu_subscription.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_country_autocomplete_textview.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\layout\\country_autocomplete_textview.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_menu_search.png.flat",
@@ -1660,16 +1660,16 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_business_profile_list.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_menu_logout.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_menu_logout.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_menu_bookings.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_menu_bookings.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_uberx_header_bar_selector.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\uberx_header_bar_selector.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_menu_bookings.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_menu_bookings.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_menu_logout.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_menu_logout.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi_place_marker.png.flat",
@@ -2000,12 +2000,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable\\tw__share_action.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_com_facebook_close.png.flat",
@@ -2032,12 +2032,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c4f7f8714234fe94244725777a28fa47\\jetified-ImageSlideShow-0.0.6\\res\\drawable\\error.jpg"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_food_down_arrow.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food_down_arrow.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_place_autocomplete_item_prediction.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f4a6f5ad52419565906e3a01f5aa5a7f\\play-services-places-17.0.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_food_down_arrow.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food_down_arrow.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_construction.png.flat",
@@ -2052,20 +2052,20 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_uberx_main_catagory_design.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00005.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00005.png"
-    },
-    {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_restaurant_info.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_restaurant_info.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_close_detail.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_close_detail.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_fav_driver_design.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_fav_driver_design.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_close_detail.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_close_detail.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_restaurant_info.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_restaurant_info.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00005.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00005.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_gps_off.png.flat",
@@ -2088,12 +2088,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-ldpi-v4\\ic_amex_template_32.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_menu_privacy.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_menu_privacy.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_facebook_icon.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_facebook_icon.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_menu_privacy.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_menu_privacy.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2168,16 +2168,16 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\pin_dest_yellow.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_pick_now.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_pick_now.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_info_icon.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_info_icon.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_cash_new.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cash_new.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_info_icon.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_info_icon.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_pick_now.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_pick_now.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi_heart_on_fav_store.png.flat",
@@ -2248,24 +2248,24 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\pref.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_airplane.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_airplane.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_sirun.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_sirun.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_menu_drawer.png.flat",
@@ -2284,12 +2284,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_menu_invite.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_menu_invite.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_error_view_layout.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\error_view_layout.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_menu_invite.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_menu_invite.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_no_cart.png.flat",
@@ -2300,24 +2300,24 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00024.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_delivery_on.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\delivery_on.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00024.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_menu_logo.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_logo.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_close_detail.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close_detail.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_search.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_close_detail.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close_detail.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_amu_bubble_shadow.9.png.flat",
@@ -2444,12 +2444,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__ic_seekbar_progress_bg.9.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_empty_cart.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_empty_cart.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\01bc323fa2b0c7a352ca08bd3ad955a7\\play-services-base-17.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_empty_cart.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_empty_cart.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_tw__composer_close.png.flat",
@@ -2544,12 +2544,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__composer_logo_white.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\3d8812c281425a888003fa11b5233fa8\\tweet-composer-3.3.0\\res\\drawable-xhdpi-v4\\tw__composer_logo_white.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_tw__ic_video_pause_pressed.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xxhdpi-v4\\tw__ic_video_pause_pressed.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__composer_logo_white.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\3d8812c281425a888003fa11b5233fa8\\tweet-composer-3.3.0\\res\\drawable-xhdpi-v4\\tw__composer_logo_white.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_uber_xhome2.xml.flat",
@@ -2568,12 +2568,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cash_hover_transpherent.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_dotted_track.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\dotted_track.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_tw__gif_badge.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable\\tw__gif_badge.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_dotted_track.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\dotted_track.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_rent_car.png.flat",
@@ -2608,16 +2608,16 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-hdpi\\tab_background.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_amu_unknwown_folder.kml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unknwown_folder.kml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_mt_tab_prj.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\mt_tab_prj.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_amu_unknwown_folder.kml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unknwown_folder.kml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi_pin_location_select.png.flat",
@@ -2660,12 +2660,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_terms_and_conditions.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_ic_jcb.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-xxhdpi-v4\\ic_jcb.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_roboto_calendar_week_6_prj.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\roboto_calendar_week_6_prj.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_ic_jcb.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-xxhdpi-v4\\ic_jcb.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_one.png.flat",
@@ -2688,12 +2688,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_box_multi.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi_big_red_pressed.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-mdpi\\big_red_pressed.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_book_ride.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_book_ride.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi_big_red_pressed.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-mdpi\\big_red_pressed.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
@@ -2788,12 +2788,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\layout\\activity_payment_methods.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi-v4_ic_arrow_right_prj.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-mdpi-v4\\ic_arrow_right_prj.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_com_facebook_button_like_icon_selected.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\50b8645688a1aca93e21ee526ac9d139\\jetified-facebook-common-5.13.0\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi-v4_ic_arrow_right_prj.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-mdpi-v4\\ic_arrow_right_prj.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_cash.png.flat",
@@ -2808,12 +2808,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-mdpi-v4\\tw__ic_tweet_photo_error_dark.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_car_driver_1.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\car_driver_1.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_service_catagory_design.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_service_catagory_design.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_car_driver_1.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\car_driver_1.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_bounce_interpolator.xml.flat",
@@ -2832,12 +2832,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_rm_dest.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_bg_notification_time_text.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\bg_notification_time_text.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_bg_notification_time_text.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\bg_notification_time_text.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi-v4_ic_arrow_right_prj.png.flat",
@@ -2892,12 +2892,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_help.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_edit.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-nodpi\\ic_edit.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_roboto_calendar_week_2_prj.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\roboto_calendar_week_2_prj.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_edit.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-nodpi\\ic_edit.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\color_mtrl_chip_ripple_color.xml.flat",
@@ -3008,12 +3008,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\login_form_border.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_com_facebook_tooltip_black_background.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\e203472c9cdf6e1cdb69ed5c105c0d9d\\jetified-facebook-login-5.13.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_background.9.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_rating_dialog_list_design.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_rating_dialog_list_design.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_com_facebook_tooltip_black_background.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\e203472c9cdf6e1cdb69ed5c105c0d9d\\jetified-facebook-login-5.13.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_to_point.png.flat",
@@ -3056,20 +3056,20 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_emergency.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_no_shopping_cart.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_no_shopping_cart.xml"
-    },
-    {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_bg_time_loc_select.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\bg_time_loc_select.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_cart_minus.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cart_minus.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_deliverall_design_toolbar_general.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\deliverall_design_toolbar_general.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_cart_minus.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cart_minus.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_bg_time_loc_select.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\bg_time_loc_select.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_no_shopping_cart.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_no_shopping_cart.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_multi_send.png.flat",
@@ -3080,12 +3080,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_menu_trip.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_fav.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\fav.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_notification.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_fav.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\fav.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00016.png.flat",
@@ -3108,12 +3108,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\color\\mtrl_chip_text_color.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_five.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\five.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_amu_unsupported.kml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unsupported.kml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_five.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\five.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_menu_business_profile.png.flat",
@@ -3132,16 +3132,16 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_home.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_linkedin.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\linkedin.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\01bc323fa2b0c7a352ca08bd3ad955a7\\play-services-base-17.0.0\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_linkedin.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\linkedin.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_cash_new.png.flat",
@@ -3416,12 +3416,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\design_fare_breakdown_row.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_tw__ic_video_replay.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-hdpi-v4\\tw__ic_video_replay.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_tw__ic_video_replay.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-hdpi-v4\\tw__ic_video_replay.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_navigation.xml.flat",
@@ -3524,12 +3524,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\car_driver_4.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_app_login.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\app_login.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_menu_wallet.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_menu_wallet.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_app_login.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\app_login.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_drawer_menu.png.flat",
@@ -3588,12 +3588,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\656c2dac99b2a5c41f898d318eaaf0ab\\omise-android-2.6.5\\res\\drawable-anydpi-v21\\brand_jcb.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -3620,32 +3620,32 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_book_someone_contact_design.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_fare_break_down.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_fare_break_down.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_fab_bg_mini_prj.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\drawable-mdpi-v4\\fab_bg_mini_prj.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_package.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_package.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_fab_bg_mini_prj.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\drawable-mdpi-v4\\fab_bg_mini_prj.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_verify_mobile.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_verify_mobile.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_icon_my_location.png.flat",
@@ -3720,12 +3720,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_list_design.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_list_design.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi-v4_error_view_cloud_prj.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-xxhdpi-v4\\error_view_cloud_prj.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_list_design.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_list_design.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_design_no_of_seats_pool.xml.flat",
@@ -3764,12 +3764,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00059.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_google.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\google.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_tw__ic_tweet_photo_error_light.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-hdpi-v4\\tw__ic_tweet_photo_error_light.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_google.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\google.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_down_food_arrow.png.flat",
@@ -3828,12 +3828,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_single_send.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_restaurant_all_details_new.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_restaurant_all_details_new.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_design_navigation_menu.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_restaurant_all_details_new.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_restaurant_all_details_new.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -3920,16 +3920,16 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_msg.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_multi_deliver_details_design.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_multi_deliver_details_design.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_track_status_order_store.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\track_status_order_store.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_car_wash_booking_details.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_car_wash_booking_details.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_track_status_order_store.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\track_status_order_store.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_multi_deliver_details_design.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_multi_deliver_details_design.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00017.png.flat",
@@ -4048,12 +4048,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_maintenance.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_btn_border.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\btn_border.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_arrow_downward_black_24dp.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_arrow_downward_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_btn_border.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\btn_border.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_uber_x_banner_design.xml.flat",
@@ -4108,12 +4108,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-hdpi-v4\\tw__ic_retweet_dark.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_amu_multiple_placemarks.kml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multiple_placemarks.kml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00042.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00042.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_amu_multiple_placemarks.kml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multiple_placemarks.kml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_ic_cvc.png.flat",
@@ -4148,12 +4148,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\466ea1318c2a9ee71ab09944864d242f\\xendit-android-1.1.0\\res\\layout\\activity_xendit.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_card_bg.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_card_bg.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_cio_ic_mastercard.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\3e881cb72bed14ea38c21296d2733b29\\jetified-android-sdk-5.5.1\\res\\drawable-hdpi-v4\\cio_ic_mastercard.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_card_bg.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_card_bg.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_order_place.png.flat",
@@ -4184,12 +4184,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\fragment_driver_assigned_header.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_manage_checkbox.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\manage_checkbox.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_manage_checkbox.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\manage_checkbox.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_fragment_cab_selection.xml.flat",
@@ -4288,12 +4288,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_menu_history.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_ic_diners_template_32.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-xxhdpi-v4\\ic_diners_template_32.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_tw__composer_logo_white.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\3d8812c281425a888003fa11b5233fa8\\tweet-composer-3.3.0\\res\\drawable-xxhdpi-v4\\tw__composer_logo_white.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_ic_diners_template_32.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-xxhdpi-v4\\ic_diners_template_32.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_circular_shape.xml.flat",
@@ -4328,12 +4328,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\color\\mtrl_tabs_icon_color_selector.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_card.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_card.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_fare_estimate.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fare_estimate.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_card.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_card.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_tw__composer_logo_blue.png.flat",
@@ -4380,12 +4380,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_new.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_side_.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_side_.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -4452,28 +4452,28 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f4a6f5ad52419565906e3a01f5aa5a7f\\play-services-places-17.0.0\\res\\drawable-xxxhdpi-v4\\places_ic_clear.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_checkout_row.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_checkout_row.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_places_ic_search.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f4a6f5ad52419565906e3a01f5aa5a7f\\play-services-places-17.0.0\\res\\drawable-xxhdpi-v4\\places_ic_search.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_checkout_row.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_checkout_row.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_order_place_confirm.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_order_place_confirm.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_ic_error.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-hdpi-v4\\ic_error.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\color_abc_secondary_text_material_light.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_dest_marker.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_dest_marker.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\color_abc_secondary_text_material_light.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_ic_error.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-hdpi-v4\\ic_error.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_app_login.png.flat",
@@ -4516,12 +4516,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_menu_yourtrip.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_clock.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_clock.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__ic_video_replay_pressed.png.flat",
@@ -4816,12 +4816,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_cart_plus.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_cart_plus.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi-v4_crop_image_menu_flip_prj.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-xhdpi-v4\\crop_image_menu_flip_prj.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_cart_plus.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_cart_plus.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_sign_up.xml.flat",
@@ -4876,12 +4876,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-nodpi\\ic_stat_rider_logo.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_top_curve_card_shadow.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\top_curve_card_shadow.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_top_curve_card_shadow.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\top_curve_card_shadow.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
@@ -4924,12 +4924,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\editbox_form_design.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_favorite_driver.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_favorite_driver.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_favorite_driver.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_favorite_driver.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_delivery_later.xml.flat",
@@ -5044,12 +5044,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_filter_list_history.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_custom_calendar_title_layout_prj.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\custom_calendar_title_layout_prj.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_brand_mastercard.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\656c2dac99b2a5c41f898d318eaaf0ab\\omise-android-2.6.5\\res\\drawable-anydpi-v21\\brand_mastercard.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_custom_calendar_title_layout_prj.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\custom_calendar_title_layout_prj.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi_ic_menu_overflow.png.flat",
@@ -5136,12 +5136,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-hdpi-v4\\tw__action_heart_on_default.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_pref.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\pref.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi_ic_check_icon.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_check_icon.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_pref.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\pref.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_five.png.flat",
@@ -5264,16 +5264,16 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-nodpi\\ic_fb.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_arrow_down_food.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow_down_food.png"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_language_border.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\language_border.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_arrow_down_food.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_arrow_down_food.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_language_border.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\language_border.xml"
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_arrow_down_food.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow_down_food.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi-v4_ic_error_amex.png.flat",
@@ -5456,12 +5456,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\other.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_roboto_calendar_week_4_prj.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\roboto_calendar_week_4_prj.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxxhdpi-v4_fab_bg_mini_prj.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\drawable-xxxhdpi-v4\\fab_bg_mini_prj.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_roboto_calendar_week_4_prj.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\roboto_calendar_week_4_prj.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_notification_template_part_chronometer.xml.flat",
@@ -5628,12 +5628,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\color_abc_tint_btn_checkable.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\color_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_side_.png.flat",
@@ -5724,12 +5724,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\color\\mtrl_btn_text_btn_ripple_color.xml"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_help.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_help.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_sheet_show.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\anim\\sheet_show.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_help.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_help.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_design_multi_delivery_list.xml.flat",
@@ -5852,12 +5852,12 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-xxhdpi-v4\\ic_unionpay.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_filter.png.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_filter.png"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_ic_fiber_manual_record_black_24dp_prj.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\drawable-xxhdpi-v4\\ic_fiber_manual_record_black_24dp_prj.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_filter.png.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_filter.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_checkmark.xml.flat",

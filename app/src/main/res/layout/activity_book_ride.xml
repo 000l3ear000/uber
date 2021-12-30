@@ -61,7 +61,8 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="Pickup: Hotel"
+                android:textColor="#23736C" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -69,7 +70,8 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="Dropoff: Hola"
+                android:textColor="#23736C" />
         </LinearLayout>
 
         <LinearLayout
@@ -83,7 +85,8 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="Depart Time: 6:00 AM"
+                android:textColor="#23736C" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -91,7 +94,8 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="Return Time: 11:00 AM"
+                android:textColor="#23736C" />
         </LinearLayout>
 
         <LinearLayout
@@ -105,7 +109,8 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="Car: Buggy"
+                android:textColor="#23736C" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -113,7 +118,8 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="-"
+                android:textColor="#23736C" />
         </LinearLayout>
 
         <Button

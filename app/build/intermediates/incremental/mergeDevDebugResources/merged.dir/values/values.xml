@@ -1947,7 +1947,7 @@
     <string name="card_number_hint">1234 1234 1234 1234</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">807fff07-a286-4814-8f82-a61a3d577d1c</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">b1cd6ec7-a60b-4d6e-96d1-85ea41bb2c16</string>
     <string name="com.twitter.sdk.android.CONSUMER_KEY" ns2:ignore="ExtraTranslation">FthFgRc4HYMkUCR5AjhzBJ5JP</string>
     <string name="com.twitter.sdk.android.CONSUMER_SECRET" ns2:ignore="ExtraTranslation">wVoJ23IeD95ww0uabPazLnqVjZtVY8WUhLxUbSqai3Jeu423zJ</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
