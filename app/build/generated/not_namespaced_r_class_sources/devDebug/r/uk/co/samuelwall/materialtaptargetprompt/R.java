@@ -13,56 +13,56 @@ public final class R {
         private attr() {}
 
         public static final int MaterialTapTargetPromptTheme = 0x7f030000;
-        public static final int mttp_autoDismiss = 0x7f0302db;
-        public static final int mttp_autoFinish = 0x7f0302dc;
-        public static final int mttp_backgroundColour = 0x7f0302dd;
-        public static final int mttp_captureTouchEventOnFocal = 0x7f0302de;
-        public static final int mttp_captureTouchEventOutsidePrompt = 0x7f0302df;
-        public static final int mttp_contentDescription = 0x7f0302e0;
-        public static final int mttp_focalColour = 0x7f0302e1;
-        public static final int mttp_focalRadius = 0x7f0302e2;
-        public static final int mttp_focalToTextPadding = 0x7f0302e3;
-        public static final int mttp_iconColourFilter = 0x7f0302e4;
-        public static final int mttp_iconTint = 0x7f0302e5;
-        public static final int mttp_iconTintMode = 0x7f0302e6;
-        public static final int mttp_maxTextWidth = 0x7f0302e7;
-        public static final int mttp_primaryText = 0x7f0302e8;
-        public static final int mttp_primaryTextColour = 0x7f0302e9;
-        public static final int mttp_primaryTextFontFamily = 0x7f0302ea;
-        public static final int mttp_primaryTextSize = 0x7f0302eb;
-        public static final int mttp_primaryTextStyle = 0x7f0302ec;
-        public static final int mttp_primaryTextTypeface = 0x7f0302ed;
-        public static final int mttp_secondaryText = 0x7f0302ee;
-        public static final int mttp_secondaryTextColour = 0x7f0302ef;
-        public static final int mttp_secondaryTextFontFamily = 0x7f0302f0;
-        public static final int mttp_secondaryTextSize = 0x7f0302f1;
-        public static final int mttp_secondaryTextStyle = 0x7f0302f2;
-        public static final int mttp_secondaryTextTypeface = 0x7f0302f3;
-        public static final int mttp_target = 0x7f0302f4;
-        public static final int mttp_textPadding = 0x7f0302f5;
-        public static final int mttp_textSeparation = 0x7f0302f6;
+        public static final int mttp_autoDismiss = 0x7f0302e7;
+        public static final int mttp_autoFinish = 0x7f0302e8;
+        public static final int mttp_backgroundColour = 0x7f0302e9;
+        public static final int mttp_captureTouchEventOnFocal = 0x7f0302ea;
+        public static final int mttp_captureTouchEventOutsidePrompt = 0x7f0302eb;
+        public static final int mttp_contentDescription = 0x7f0302ec;
+        public static final int mttp_focalColour = 0x7f0302ed;
+        public static final int mttp_focalRadius = 0x7f0302ee;
+        public static final int mttp_focalToTextPadding = 0x7f0302ef;
+        public static final int mttp_iconColourFilter = 0x7f0302f0;
+        public static final int mttp_iconTint = 0x7f0302f1;
+        public static final int mttp_iconTintMode = 0x7f0302f2;
+        public static final int mttp_maxTextWidth = 0x7f0302f3;
+        public static final int mttp_primaryText = 0x7f0302f4;
+        public static final int mttp_primaryTextColour = 0x7f0302f5;
+        public static final int mttp_primaryTextFontFamily = 0x7f0302f6;
+        public static final int mttp_primaryTextSize = 0x7f0302f7;
+        public static final int mttp_primaryTextStyle = 0x7f0302f8;
+        public static final int mttp_primaryTextTypeface = 0x7f0302f9;
+        public static final int mttp_secondaryText = 0x7f0302fa;
+        public static final int mttp_secondaryTextColour = 0x7f0302fb;
+        public static final int mttp_secondaryTextFontFamily = 0x7f0302fc;
+        public static final int mttp_secondaryTextSize = 0x7f0302fd;
+        public static final int mttp_secondaryTextStyle = 0x7f0302fe;
+        public static final int mttp_secondaryTextTypeface = 0x7f0302ff;
+        public static final int mttp_target = 0x7f030300;
+        public static final int mttp_textPadding = 0x7f030301;
+        public static final int mttp_textSeparation = 0x7f030302;
     }
     public static final class id {
         private id() {}
 
         public static final int ADD = 0x7f080000;
-        public static final int MULTIPLY = 0x7f080034;
-        public static final int SCREEN = 0x7f080049;
-        public static final int SRC_ATOP = 0x7f08004d;
-        public static final int SRC_IN = 0x7f08004e;
-        public static final int SRC_OVER = 0x7f08004f;
-        public static final int bold = 0x7f080126;
-        public static final int italic = 0x7f0804d0;
-        public static final int material_target_prompt_view = 0x7f080588;
-        public static final int monospace = 0x7f0805d5;
-        public static final int normal = 0x7f080644;
-        public static final int sans = 0x7f080841;
-        public static final int serif = 0x7f080891;
+        public static final int MULTIPLY = 0x7f080035;
+        public static final int SCREEN = 0x7f08004a;
+        public static final int SRC_ATOP = 0x7f08004e;
+        public static final int SRC_IN = 0x7f08004f;
+        public static final int SRC_OVER = 0x7f080050;
+        public static final int bold = 0x7f08014b;
+        public static final int italic = 0x7f0804f8;
+        public static final int material_target_prompt_view = 0x7f0805b0;
+        public static final int monospace = 0x7f0805fd;
+        public static final int normal = 0x7f080670;
+        public static final int sans = 0x7f08086d;
+        public static final int serif = 0x7f0808bc;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] PromptView = { 0x7f0302db, 0x7f0302dc, 0x7f0302dd, 0x7f0302de, 0x7f0302df, 0x7f0302e0, 0x7f0302e1, 0x7f0302e2, 0x7f0302e3, 0x7f0302e4, 0x7f0302e5, 0x7f0302e6, 0x7f0302e7, 0x7f0302e8, 0x7f0302e9, 0x7f0302ea, 0x7f0302eb, 0x7f0302ec, 0x7f0302ed, 0x7f0302ee, 0x7f0302ef, 0x7f0302f0, 0x7f0302f1, 0x7f0302f2, 0x7f0302f3, 0x7f0302f4, 0x7f0302f5, 0x7f0302f6 };
+        public static final int[] PromptView = { 0x7f0302e7, 0x7f0302e8, 0x7f0302e9, 0x7f0302ea, 0x7f0302eb, 0x7f0302ec, 0x7f0302ed, 0x7f0302ee, 0x7f0302ef, 0x7f0302f0, 0x7f0302f1, 0x7f0302f2, 0x7f0302f3, 0x7f0302f4, 0x7f0302f5, 0x7f0302f6, 0x7f0302f7, 0x7f0302f8, 0x7f0302f9, 0x7f0302fa, 0x7f0302fb, 0x7f0302fc, 0x7f0302fd, 0x7f0302fe, 0x7f0302ff, 0x7f030300, 0x7f030301, 0x7f030302 };
         public static final int PromptView_mttp_autoDismiss = 0;
         public static final int PromptView_mttp_autoFinish = 1;
         public static final int PromptView_mttp_backgroundColour = 2;

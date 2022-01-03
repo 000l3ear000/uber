@@ -131,13 +131,13 @@
 61-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 62
 63    <application
-63-->F:\melevicar-user\app\src\main\AndroidManifest.xml:57:5-505:19
+63-->F:\melevicar-user\app\src\main\AndroidManifest.xml:57:5-510:19
 64        android:name="com.general.files.MyApp"
 64-->F:\melevicar-user\app\src\main\AndroidManifest.xml:58:9-47
 65        android:allowBackup="true"
 65-->F:\melevicar-user\app\src\main\AndroidManifest.xml:59:9-35
 66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-66-->[androidx.core:core:1.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\f0c0d2f21ac96776d9bc6cec4ff2dc7e\core-1.0.0\AndroidManifest.xml:22:18-86
+66-->[androidx.core:core:1.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\395b30c66385a719c61e3e49ff887145\core-1.3.0\AndroidManifest.xml:24:18-86
 67        android:debuggable="true"
 68        android:hardwareAccelerated="true"
 68-->F:\melevicar-user\app\src\main\AndroidManifest.xml:60:9-43
@@ -159,1137 +159,1147 @@
 77        android:theme="@style/AppCompatTheme" >
 77-->F:\melevicar-user\app\src\main\AndroidManifest.xml:68:9-46
 78        <activity
-78-->F:\melevicar-user\app\src\main\AndroidManifest.xml:70:9-72:39
-79            android:name="com.melevicarbrasil.usuario.BookRide"
-79-->F:\melevicar-user\app\src\main\AndroidManifest.xml:71:13-37
-80            android:exported="true" />
-80-->F:\melevicar-user\app\src\main\AndroidManifest.xml:72:13-36
-81        <activity
-81-->F:\melevicar-user\app\src\main\AndroidManifest.xml:73:9-75:39
-82            android:name="com.melevicarbrasil.usuario.DestinationsList"
-82-->F:\melevicar-user\app\src\main\AndroidManifest.xml:74:13-45
-83            android:exported="true" />
-83-->F:\melevicar-user\app\src\main\AndroidManifest.xml:75:13-36
-84        <activity
-84-->F:\melevicar-user\app\src\main\AndroidManifest.xml:76:9-78:39
-85            android:name="com.melevicarbrasil.usuario.DestinationsDetails"
-85-->F:\melevicar-user\app\src\main\AndroidManifest.xml:77:13-48
-86            android:exported="true" />
-86-->F:\melevicar-user\app\src\main\AndroidManifest.xml:78:13-36
-87        <activity android:name="com.melevicarbrasil.usuario.telafoodActivity" />
-87-->F:\melevicar-user\app\src\main\AndroidManifest.xml:79:9-54
-87-->F:\melevicar-user\app\src\main\AndroidManifest.xml:79:19-51
-88
-89        <uses-library
-89-->F:\melevicar-user\app\src\main\AndroidManifest.xml:81:9-83:40
-90            android:name="org.apache.http.legacy"
-90-->F:\melevicar-user\app\src\main\AndroidManifest.xml:82:13-50
-91            android:required="false" />
-91-->F:\melevicar-user\app\src\main\AndroidManifest.xml:83:13-37
-92
-93        <activity android:name="com.melevicarbrasil.usuario.MenuSettingActivity" />
-93-->F:\melevicar-user\app\src\main\AndroidManifest.xml:85:9-57
-93-->F:\melevicar-user\app\src\main\AndroidManifest.xml:85:19-54
-94        <activity android:name="com.melevicarbrasil.usuario.ProfilePaymentActivity" />
-94-->F:\melevicar-user\app\src\main\AndroidManifest.xml:86:9-60
-94-->F:\melevicar-user\app\src\main\AndroidManifest.xml:86:19-57
-95        <activity
-95-->F:\melevicar-user\app\src\main\AndroidManifest.xml:87:9-89:52
-96            android:name="com.melevicarbrasil.usuario.UberXHomeActivity"
-96-->F:\melevicar-user\app\src\main\AndroidManifest.xml:88:13-46
-97            android:screenOrientation="portrait" />
-97-->F:\melevicar-user\app\src\main\AndroidManifest.xml:89:13-49
-98        <activity android:name="com.melevicarbrasil.usuario.MyProfileNewActivity" />
-98-->F:\melevicar-user\app\src\main\AndroidManifest.xml:90:9-58
-98-->F:\melevicar-user\app\src\main\AndroidManifest.xml:90:19-55
-99        <activity
-99-->F:\melevicar-user\app\src\main\AndroidManifest.xml:91:9-93:52
-100            android:name="com.melevicarbrasil.usuario.DonationActivity"
-100-->F:\melevicar-user\app\src\main\AndroidManifest.xml:92:13-45
-101            android:screenOrientation="portrait" />
-101-->F:\melevicar-user\app\src\main\AndroidManifest.xml:93:13-49
-102        <activity
-102-->F:\melevicar-user\app\src\main\AndroidManifest.xml:94:9-96:52
-103            android:name="com.melevicarbrasil.usuario.PrescriptionHistoryImagesActivity"
-103-->F:\melevicar-user\app\src\main\AndroidManifest.xml:95:13-62
-104            android:screenOrientation="portrait" />
-104-->F:\melevicar-user\app\src\main\AndroidManifest.xml:96:13-49
-105        <activity
-105-->F:\melevicar-user\app\src\main\AndroidManifest.xml:97:9-99:52
-106            android:name="com.melevicarbrasil.usuario.PrescriptionActivity"
+78-->F:\melevicar-user\app\src\main\AndroidManifest.xml:70:9-74:65
+79            android:name="com.melevicarbrasil.usuario.demo"
+79-->F:\melevicar-user\app\src\main\AndroidManifest.xml:71:13-33
+80            android:exported="false"
+80-->F:\melevicar-user\app\src\main\AndroidManifest.xml:72:13-37
+81            android:label="@string/title_activity_demo"
+81-->F:\melevicar-user\app\src\main\AndroidManifest.xml:73:13-56
+82            android:theme="@style/AppCompatTheme.NoActionBar" />
+82-->F:\melevicar-user\app\src\main\AndroidManifest.xml:74:13-62
+83        <activity
+83-->F:\melevicar-user\app\src\main\AndroidManifest.xml:75:9-77:39
+84            android:name="com.melevicarbrasil.usuario.BookRide"
+84-->F:\melevicar-user\app\src\main\AndroidManifest.xml:76:13-37
+85            android:exported="true" />
+85-->F:\melevicar-user\app\src\main\AndroidManifest.xml:77:13-36
+86        <activity
+86-->F:\melevicar-user\app\src\main\AndroidManifest.xml:78:9-80:39
+87            android:name="com.melevicarbrasil.usuario.DestinationsList"
+87-->F:\melevicar-user\app\src\main\AndroidManifest.xml:79:13-45
+88            android:exported="true" />
+88-->F:\melevicar-user\app\src\main\AndroidManifest.xml:80:13-36
+89        <activity
+89-->F:\melevicar-user\app\src\main\AndroidManifest.xml:81:9-83:39
+90            android:name="com.melevicarbrasil.usuario.DestinationsDetails"
+90-->F:\melevicar-user\app\src\main\AndroidManifest.xml:82:13-48
+91            android:exported="true" />
+91-->F:\melevicar-user\app\src\main\AndroidManifest.xml:83:13-36
+92        <activity android:name="com.melevicarbrasil.usuario.telafoodActivity" />
+92-->F:\melevicar-user\app\src\main\AndroidManifest.xml:84:9-54
+92-->F:\melevicar-user\app\src\main\AndroidManifest.xml:84:19-51
+93
+94        <uses-library
+94-->F:\melevicar-user\app\src\main\AndroidManifest.xml:86:9-88:40
+95            android:name="org.apache.http.legacy"
+95-->F:\melevicar-user\app\src\main\AndroidManifest.xml:87:13-50
+96            android:required="false" />
+96-->F:\melevicar-user\app\src\main\AndroidManifest.xml:88:13-37
+97
+98        <activity android:name="com.melevicarbrasil.usuario.MenuSettingActivity" />
+98-->F:\melevicar-user\app\src\main\AndroidManifest.xml:90:9-57
+98-->F:\melevicar-user\app\src\main\AndroidManifest.xml:90:19-54
+99        <activity android:name="com.melevicarbrasil.usuario.ProfilePaymentActivity" />
+99-->F:\melevicar-user\app\src\main\AndroidManifest.xml:91:9-60
+99-->F:\melevicar-user\app\src\main\AndroidManifest.xml:91:19-57
+100        <activity
+100-->F:\melevicar-user\app\src\main\AndroidManifest.xml:92:9-94:52
+101            android:name="com.melevicarbrasil.usuario.UberXHomeActivity"
+101-->F:\melevicar-user\app\src\main\AndroidManifest.xml:93:13-46
+102            android:screenOrientation="portrait" />
+102-->F:\melevicar-user\app\src\main\AndroidManifest.xml:94:13-49
+103        <activity android:name="com.melevicarbrasil.usuario.MyProfileNewActivity" />
+103-->F:\melevicar-user\app\src\main\AndroidManifest.xml:95:9-58
+103-->F:\melevicar-user\app\src\main\AndroidManifest.xml:95:19-55
+104        <activity
+104-->F:\melevicar-user\app\src\main\AndroidManifest.xml:96:9-98:52
+105            android:name="com.melevicarbrasil.usuario.DonationActivity"
+105-->F:\melevicar-user\app\src\main\AndroidManifest.xml:97:13-45
+106            android:screenOrientation="portrait" />
 106-->F:\melevicar-user\app\src\main\AndroidManifest.xml:98:13-49
-107            android:screenOrientation="portrait" />
-107-->F:\melevicar-user\app\src\main\AndroidManifest.xml:99:13-49
-108        <activity
-108-->F:\melevicar-user\app\src\main\AndroidManifest.xml:100:9-102:52
-109            android:name="com.melevicarbrasil.usuario.ProviderInfoActivity"
+107        <activity
+107-->F:\melevicar-user\app\src\main\AndroidManifest.xml:99:9-101:52
+108            android:name="com.melevicarbrasil.usuario.PrescriptionHistoryImagesActivity"
+108-->F:\melevicar-user\app\src\main\AndroidManifest.xml:100:13-62
+109            android:screenOrientation="portrait" />
 109-->F:\melevicar-user\app\src\main\AndroidManifest.xml:101:13-49
-110            android:screenOrientation="portrait" />
-110-->F:\melevicar-user\app\src\main\AndroidManifest.xml:102:13-49
-111
-112        <service
-112-->F:\melevicar-user\app\src\main\AndroidManifest.xml:104:9-106:39
-113            android:name="com.general.files.SinchService"
-113-->F:\melevicar-user\app\src\main\AndroidManifest.xml:105:13-58
-114            android:exported="true" />
-114-->F:\melevicar-user\app\src\main\AndroidManifest.xml:106:13-36
-115
-116        <provider
-117            android:name="androidx.core.content.FileProvider"
-117-->F:\melevicar-user\app\src\main\AndroidManifest.xml:109:13-62
-118            android:authorities="com.melevi.rio.provider"
-118-->F:\melevicar-user\app\src\main\AndroidManifest.xml:110:13-60
-119            android:exported="false"
-119-->F:\melevicar-user\app\src\main\AndroidManifest.xml:111:13-37
-120            android:grantUriPermissions="true" >
-120-->F:\melevicar-user\app\src\main\AndroidManifest.xml:112:13-47
-121            <meta-data
-121-->F:\melevicar-user\app\src\main\AndroidManifest.xml:113:13-115:63
-122                android:name="android.support.FILE_PROVIDER_PATHS"
-122-->F:\melevicar-user\app\src\main\AndroidManifest.xml:114:17-67
-123                android:resource="@xml/file_provider_paths" />
-123-->F:\melevicar-user\app\src\main\AndroidManifest.xml:115:17-60
-124        </provider>
-125
-126        <meta-data
-126-->F:\melevicar-user\app\src\main\AndroidManifest.xml:118:9-120:66
-127            android:name="com.google.android.geo.API_KEY"
-127-->F:\melevicar-user\app\src\main\AndroidManifest.xml:119:13-58
-128            android:value="@string/google_android_geo_api_key" />
-128-->F:\melevicar-user\app\src\main\AndroidManifest.xml:120:13-63
-129        <meta-data
-129-->F:\melevicar-user\app\src\main\AndroidManifest.xml:121:9-123:69
-130            android:name="com.google.android.gms.version"
-130-->F:\melevicar-user\app\src\main\AndroidManifest.xml:122:13-58
-131            android:value="@integer/google_play_services_version" />
-131-->F:\melevicar-user\app\src\main\AndroidManifest.xml:123:13-66
-132
-133        <receiver
-133-->F:\melevicar-user\app\src\main\AndroidManifest.xml:125:9-132:20
-134            android:name="com.general.files.AlarmReceiver"
-134-->F:\melevicar-user\app\src\main\AndroidManifest.xml:126:13-59
-135            android:enabled="false" >
-135-->F:\melevicar-user\app\src\main\AndroidManifest.xml:127:13-36
-136
-137            <!-- <intent-filter> -->
-138            <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
-139            <!-- </intent-filter> -->
-140        </receiver>
+110        <activity
+110-->F:\melevicar-user\app\src\main\AndroidManifest.xml:102:9-104:52
+111            android:name="com.melevicarbrasil.usuario.PrescriptionActivity"
+111-->F:\melevicar-user\app\src\main\AndroidManifest.xml:103:13-49
+112            android:screenOrientation="portrait" />
+112-->F:\melevicar-user\app\src\main\AndroidManifest.xml:104:13-49
+113        <activity
+113-->F:\melevicar-user\app\src\main\AndroidManifest.xml:105:9-107:52
+114            android:name="com.melevicarbrasil.usuario.ProviderInfoActivity"
+114-->F:\melevicar-user\app\src\main\AndroidManifest.xml:106:13-49
+115            android:screenOrientation="portrait" />
+115-->F:\melevicar-user\app\src\main\AndroidManifest.xml:107:13-49
+116
+117        <service
+117-->F:\melevicar-user\app\src\main\AndroidManifest.xml:109:9-111:39
+118            android:name="com.general.files.SinchService"
+118-->F:\melevicar-user\app\src\main\AndroidManifest.xml:110:13-58
+119            android:exported="true" />
+119-->F:\melevicar-user\app\src\main\AndroidManifest.xml:111:13-36
+120
+121        <provider
+122            android:name="androidx.core.content.FileProvider"
+122-->F:\melevicar-user\app\src\main\AndroidManifest.xml:114:13-62
+123            android:authorities="com.melevi.rio.provider"
+123-->F:\melevicar-user\app\src\main\AndroidManifest.xml:115:13-60
+124            android:exported="false"
+124-->F:\melevicar-user\app\src\main\AndroidManifest.xml:116:13-37
+125            android:grantUriPermissions="true" >
+125-->F:\melevicar-user\app\src\main\AndroidManifest.xml:117:13-47
+126            <meta-data
+126-->F:\melevicar-user\app\src\main\AndroidManifest.xml:118:13-120:63
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->F:\melevicar-user\app\src\main\AndroidManifest.xml:119:17-67
+128                android:resource="@xml/file_provider_paths" />
+128-->F:\melevicar-user\app\src\main\AndroidManifest.xml:120:17-60
+129        </provider>
+130
+131        <meta-data
+131-->F:\melevicar-user\app\src\main\AndroidManifest.xml:123:9-125:66
+132            android:name="com.google.android.geo.API_KEY"
+132-->F:\melevicar-user\app\src\main\AndroidManifest.xml:124:13-58
+133            android:value="@string/google_android_geo_api_key" />
+133-->F:\melevicar-user\app\src\main\AndroidManifest.xml:125:13-63
+134        <meta-data
+134-->F:\melevicar-user\app\src\main\AndroidManifest.xml:126:9-128:69
+135            android:name="com.google.android.gms.version"
+135-->F:\melevicar-user\app\src\main\AndroidManifest.xml:127:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->F:\melevicar-user\app\src\main\AndroidManifest.xml:128:13-66
+137
+138        <receiver
+138-->F:\melevicar-user\app\src\main\AndroidManifest.xml:130:9-137:20
+139            android:name="com.general.files.AlarmReceiver"
+139-->F:\melevicar-user\app\src\main\AndroidManifest.xml:131:13-59
+140            android:enabled="false" >
+140-->F:\melevicar-user\app\src\main\AndroidManifest.xml:132:13-36
 141
-142        <service android:name="com.melevicarbrasil.usuario.MyFirebaseMessagingService" >
-142-->F:\melevicar-user\app\src\main\AndroidManifest.xml:134:9-139:19
-142-->F:\melevicar-user\app\src\main\AndroidManifest.xml:134:18-60
-143            <intent-filter>
-143-->F:\melevicar-user\app\src\main\AndroidManifest.xml:135:13-138:29
-144                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-144-->F:\melevicar-user\app\src\main\AndroidManifest.xml:136:17-78
-144-->F:\melevicar-user\app\src\main\AndroidManifest.xml:136:25-75
-145                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-145-->F:\melevicar-user\app\src\main\AndroidManifest.xml:137:17-80
-145-->F:\melevicar-user\app\src\main\AndroidManifest.xml:137:25-77
-146            </intent-filter>
-147        </service>
-148        <!--
-149 <service
-150            android:name="com.general.files.MyBackGroundService"
-151            android:enabled="true"
-152            android:icon="@mipmap/ic_launcher"
-153            android:label="Service Alert"
-154            android:persistent="true" />
-155        -->
-156        <!--
-157   <receiver
-158            android:name=".StartServiceReceiver"
-159            android:exported="true">
-160            <intent-filter>
-161                <action android:name="android.intent.action.BOOT_COMPLETED" />
-162
-163                <category android:name="android.intent.category.DEFAULT" />
-164
-165                <action android:name="android.intent.action.REBOOT" />
-166                <action android:name="com.luis.rider.StartServiceReceiver" />
-167                <action android:name="android.intent.action.BOOT_COMPLETED" />
-168                <action android:name="android.intent.action.REBOOT" />
-169                <action android:name="android.intent.action.BOOT_COMPLETED" />
+142            <!-- <intent-filter> -->
+143            <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+144            <!-- </intent-filter> -->
+145        </receiver>
+146
+147        <service android:name="com.melevicarbrasil.usuario.MyFirebaseMessagingService" >
+147-->F:\melevicar-user\app\src\main\AndroidManifest.xml:139:9-144:19
+147-->F:\melevicar-user\app\src\main\AndroidManifest.xml:139:18-60
+148            <intent-filter>
+148-->F:\melevicar-user\app\src\main\AndroidManifest.xml:140:13-143:29
+149                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+149-->F:\melevicar-user\app\src\main\AndroidManifest.xml:141:17-78
+149-->F:\melevicar-user\app\src\main\AndroidManifest.xml:141:25-75
+150                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+150-->F:\melevicar-user\app\src\main\AndroidManifest.xml:142:17-80
+150-->F:\melevicar-user\app\src\main\AndroidManifest.xml:142:25-77
+151            </intent-filter>
+152        </service>
+153        <!--
+154 <service
+155            android:name="com.general.files.MyBackGroundService"
+156            android:enabled="true"
+157            android:icon="@mipmap/ic_launcher"
+158            android:label="Service Alert"
+159            android:persistent="true" />
+160        -->
+161        <!--
+162   <receiver
+163            android:name=".StartServiceReceiver"
+164            android:exported="true">
+165            <intent-filter>
+166                <action android:name="android.intent.action.BOOT_COMPLETED" />
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+169
 170                <action android:name="android.intent.action.REBOOT" />
-171                <action android:name="android.intent.action.BOOT_COMPLETED" />
-172                <action android:name="android.intent.action.REBOOT" />
-173            </intent-filter>
-174        </receiver>
-175        -->
-176        <activity
-176-->F:\melevicar-user\app\src\main\AndroidManifest.xml:168:9-170:52
-177            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
-177-->F:\melevicar-user\app\src\main\AndroidManifest.xml:169:13-79
-178            android:configChanges="orientation|screenSize"
-178-->[com.twitter.sdk.android:twitter-core:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\2c0e2b7ce8e1cc8d4bee577713c8a722\jetified-twitter-core-3.3.0\AndroidManifest.xml:30:13-59
-179            android:excludeFromRecents="true"
-179-->[com.twitter.sdk.android:twitter-core:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\2c0e2b7ce8e1cc8d4bee577713c8a722\jetified-twitter-core-3.3.0\AndroidManifest.xml:31:13-46
-180            android:exported="false"
-180-->[com.twitter.sdk.android:twitter-core:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\2c0e2b7ce8e1cc8d4bee577713c8a722\jetified-twitter-core-3.3.0\AndroidManifest.xml:32:13-37
-181            android:screenOrientation="portrait" />
-181-->F:\melevicar-user\app\src\main\AndroidManifest.xml:170:13-49
-182        <activity
-182-->F:\melevicar-user\app\src\main\AndroidManifest.xml:171:9-179:20
-183            android:name="com.melevicarbrasil.usuario.LauncherActivity"
-183-->F:\melevicar-user\app\src\main\AndroidManifest.xml:172:13-45
-184            android:screenOrientation="portrait" >
-184-->F:\melevicar-user\app\src\main\AndroidManifest.xml:173:13-49
-185            <intent-filter>
-185-->F:\melevicar-user\app\src\main\AndroidManifest.xml:174:13-178:29
-186                <action android:name="android.intent.action.MAIN" />
-186-->F:\melevicar-user\app\src\main\AndroidManifest.xml:175:17-69
-186-->F:\melevicar-user\app\src\main\AndroidManifest.xml:175:25-66
-187
-188                <category android:name="android.intent.category.LAUNCHER" />
-188-->F:\melevicar-user\app\src\main\AndroidManifest.xml:177:17-77
-188-->F:\melevicar-user\app\src\main\AndroidManifest.xml:177:27-74
-189            </intent-filter>
-190        </activity>
-191        <activity
-191-->F:\melevicar-user\app\src\main\AndroidManifest.xml:180:9-182:52
-192            android:name="com.melevicarbrasil.usuario.AppLoginActivity"
-192-->F:\melevicar-user\app\src\main\AndroidManifest.xml:181:13-45
-193            android:screenOrientation="portrait" />
-193-->F:\melevicar-user\app\src\main\AndroidManifest.xml:182:13-49
-194        <activity
-194-->F:\melevicar-user\app\src\main\AndroidManifest.xml:183:9-185:52
-195            android:name="com.melevicarbrasil.usuario.SelectCountryActivity"
-195-->F:\melevicar-user\app\src\main\AndroidManifest.xml:184:13-50
-196            android:screenOrientation="portrait" />
-196-->F:\melevicar-user\app\src\main\AndroidManifest.xml:185:13-49
-197        <activity
-197-->F:\melevicar-user\app\src\main\AndroidManifest.xml:186:9-188:52
-198            android:name="com.melevicarbrasil.usuario.MainActivity"
-198-->F:\melevicar-user\app\src\main\AndroidManifest.xml:187:13-41
-199            android:screenOrientation="portrait" />
-199-->F:\melevicar-user\app\src\main\AndroidManifest.xml:188:13-49
-200        <activity
-200-->F:\melevicar-user\app\src\main\AndroidManifest.xml:189:9-191:52
-201            android:name="com.melevicarbrasil.usuario.VerifyFbProfileActivity"
-201-->F:\melevicar-user\app\src\main\AndroidManifest.xml:190:13-52
-202            android:screenOrientation="portrait" />
-202-->F:\melevicar-user\app\src\main\AndroidManifest.xml:191:13-49
-203
-204        <meta-data
-204-->F:\melevicar-user\app\src\main\AndroidManifest.xml:193:9-195:55
-205            android:name="com.facebook.sdk.ApplicationId"
-205-->F:\melevicar-user\app\src\main\AndroidManifest.xml:194:13-58
-206            android:value="@string/facebook_app_id" />
+171                <action android:name="com.luis.rider.StartServiceReceiver" />
+172                <action android:name="android.intent.action.BOOT_COMPLETED" />
+173                <action android:name="android.intent.action.REBOOT" />
+174                <action android:name="android.intent.action.BOOT_COMPLETED" />
+175                <action android:name="android.intent.action.REBOOT" />
+176                <action android:name="android.intent.action.BOOT_COMPLETED" />
+177                <action android:name="android.intent.action.REBOOT" />
+178            </intent-filter>
+179        </receiver>
+180        -->
+181        <activity
+181-->F:\melevicar-user\app\src\main\AndroidManifest.xml:173:9-175:52
+182            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+182-->F:\melevicar-user\app\src\main\AndroidManifest.xml:174:13-79
+183            android:configChanges="orientation|screenSize"
+183-->[com.twitter.sdk.android:twitter-core:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\2c0e2b7ce8e1cc8d4bee577713c8a722\jetified-twitter-core-3.3.0\AndroidManifest.xml:30:13-59
+184            android:excludeFromRecents="true"
+184-->[com.twitter.sdk.android:twitter-core:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\2c0e2b7ce8e1cc8d4bee577713c8a722\jetified-twitter-core-3.3.0\AndroidManifest.xml:31:13-46
+185            android:exported="false"
+185-->[com.twitter.sdk.android:twitter-core:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\2c0e2b7ce8e1cc8d4bee577713c8a722\jetified-twitter-core-3.3.0\AndroidManifest.xml:32:13-37
+186            android:screenOrientation="portrait" />
+186-->F:\melevicar-user\app\src\main\AndroidManifest.xml:175:13-49
+187        <activity
+187-->F:\melevicar-user\app\src\main\AndroidManifest.xml:176:9-184:20
+188            android:name="com.melevicarbrasil.usuario.LauncherActivity"
+188-->F:\melevicar-user\app\src\main\AndroidManifest.xml:177:13-45
+189            android:screenOrientation="portrait" >
+189-->F:\melevicar-user\app\src\main\AndroidManifest.xml:178:13-49
+190            <intent-filter>
+190-->F:\melevicar-user\app\src\main\AndroidManifest.xml:179:13-183:29
+191                <action android:name="android.intent.action.MAIN" />
+191-->F:\melevicar-user\app\src\main\AndroidManifest.xml:180:17-69
+191-->F:\melevicar-user\app\src\main\AndroidManifest.xml:180:25-66
+192
+193                <category android:name="android.intent.category.LAUNCHER" />
+193-->F:\melevicar-user\app\src\main\AndroidManifest.xml:182:17-77
+193-->F:\melevicar-user\app\src\main\AndroidManifest.xml:182:27-74
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->F:\melevicar-user\app\src\main\AndroidManifest.xml:185:9-187:52
+197            android:name="com.melevicarbrasil.usuario.AppLoginActivity"
+197-->F:\melevicar-user\app\src\main\AndroidManifest.xml:186:13-45
+198            android:screenOrientation="portrait" />
+198-->F:\melevicar-user\app\src\main\AndroidManifest.xml:187:13-49
+199        <activity
+199-->F:\melevicar-user\app\src\main\AndroidManifest.xml:188:9-190:52
+200            android:name="com.melevicarbrasil.usuario.SelectCountryActivity"
+200-->F:\melevicar-user\app\src\main\AndroidManifest.xml:189:13-50
+201            android:screenOrientation="portrait" />
+201-->F:\melevicar-user\app\src\main\AndroidManifest.xml:190:13-49
+202        <activity
+202-->F:\melevicar-user\app\src\main\AndroidManifest.xml:191:9-193:52
+203            android:name="com.melevicarbrasil.usuario.MainActivity"
+203-->F:\melevicar-user\app\src\main\AndroidManifest.xml:192:13-41
+204            android:screenOrientation="portrait" />
+204-->F:\melevicar-user\app\src\main\AndroidManifest.xml:193:13-49
+205        <activity
+205-->F:\melevicar-user\app\src\main\AndroidManifest.xml:194:9-196:52
+206            android:name="com.melevicarbrasil.usuario.VerifyFbProfileActivity"
 206-->F:\melevicar-user\app\src\main\AndroidManifest.xml:195:13-52
-207
-208        <activity
-208-->F:\melevicar-user\app\src\main\AndroidManifest.xml:197:9-202:45
-209            android:name="com.facebook.FacebookActivity"
-209-->F:\melevicar-user\app\src\main\AndroidManifest.xml:198:13-57
-210            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-210-->F:\melevicar-user\app\src\main\AndroidManifest.xml:199:13-96
-211            android:label="@string/app_name"
-211-->F:\melevicar-user\app\src\main\AndroidManifest.xml:200:13-45
-212            android:theme="@style/FBtheme" />
-212-->F:\melevicar-user\app\src\main\AndroidManifest.xml:201:13-43
+207            android:screenOrientation="portrait" />
+207-->F:\melevicar-user\app\src\main\AndroidManifest.xml:196:13-49
+208
+209        <meta-data
+209-->F:\melevicar-user\app\src\main\AndroidManifest.xml:198:9-200:55
+210            android:name="com.facebook.sdk.ApplicationId"
+210-->F:\melevicar-user\app\src\main\AndroidManifest.xml:199:13-58
+211            android:value="@string/facebook_app_id" />
+211-->F:\melevicar-user\app\src\main\AndroidManifest.xml:200:13-52
+212
 213        <activity
-213-->F:\melevicar-user\app\src\main\AndroidManifest.xml:203:9-205:52
-214            android:name="com.melevicarbrasil.usuario.SearchPickupLocationActivity"
-214-->F:\melevicar-user\app\src\main\AndroidManifest.xml:204:13-57
-215            android:screenOrientation="portrait" />
-215-->F:\melevicar-user\app\src\main\AndroidManifest.xml:205:13-49
-216        <activity
-216-->F:\melevicar-user\app\src\main\AndroidManifest.xml:206:9-208:52
-217            android:name="com.melevicarbrasil.usuario.FareEstimateActivity"
-217-->F:\melevicar-user\app\src\main\AndroidManifest.xml:207:13-49
-218            android:screenOrientation="portrait" />
-218-->F:\melevicar-user\app\src\main\AndroidManifest.xml:208:13-49
-219        <activity
-219-->F:\melevicar-user\app\src\main\AndroidManifest.xml:209:9-212:52
-220            android:name="com.melevicarbrasil.usuario.MyProfileActivity"
-220-->F:\melevicar-user\app\src\main\AndroidManifest.xml:210:13-46
-221            android:exported="true"
-221-->F:\melevicar-user\app\src\main\AndroidManifest.xml:211:13-36
-222            android:screenOrientation="portrait" />
+213-->F:\melevicar-user\app\src\main\AndroidManifest.xml:202:9-207:45
+214            android:name="com.facebook.FacebookActivity"
+214-->F:\melevicar-user\app\src\main\AndroidManifest.xml:203:13-57
+215            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+215-->F:\melevicar-user\app\src\main\AndroidManifest.xml:204:13-96
+216            android:label="@string/app_name"
+216-->F:\melevicar-user\app\src\main\AndroidManifest.xml:205:13-45
+217            android:theme="@style/FBtheme" />
+217-->F:\melevicar-user\app\src\main\AndroidManifest.xml:206:13-43
+218        <activity
+218-->F:\melevicar-user\app\src\main\AndroidManifest.xml:208:9-210:52
+219            android:name="com.melevicarbrasil.usuario.SearchPickupLocationActivity"
+219-->F:\melevicar-user\app\src\main\AndroidManifest.xml:209:13-57
+220            android:screenOrientation="portrait" />
+220-->F:\melevicar-user\app\src\main\AndroidManifest.xml:210:13-49
+221        <activity
+221-->F:\melevicar-user\app\src\main\AndroidManifest.xml:211:9-213:52
+222            android:name="com.melevicarbrasil.usuario.FareEstimateActivity"
 222-->F:\melevicar-user\app\src\main\AndroidManifest.xml:212:13-49
-223        <activity
-223-->F:\melevicar-user\app\src\main\AndroidManifest.xml:213:9-215:52
-224            android:name="com.melevicarbrasil.usuario.StaticPageActivity"
-224-->F:\melevicar-user\app\src\main\AndroidManifest.xml:214:13-47
-225            android:screenOrientation="portrait" />
-225-->F:\melevicar-user\app\src\main\AndroidManifest.xml:215:13-49
-226        <activity
-226-->F:\melevicar-user\app\src\main\AndroidManifest.xml:216:9-218:52
-227            android:name="com.melevicarbrasil.usuario.ContactUsActivity"
-227-->F:\melevicar-user\app\src\main\AndroidManifest.xml:217:13-46
-228            android:screenOrientation="portrait" />
-228-->F:\melevicar-user\app\src\main\AndroidManifest.xml:218:13-49
-229        <activity
-229-->F:\melevicar-user\app\src\main\AndroidManifest.xml:219:9-221:52
-230            android:name="com.melevicarbrasil.usuario.HelpActivity"
-230-->F:\melevicar-user\app\src\main\AndroidManifest.xml:220:13-41
-231            android:screenOrientation="portrait" />
-231-->F:\melevicar-user\app\src\main\AndroidManifest.xml:221:13-49
-232        <activity
-232-->F:\melevicar-user\app\src\main\AndroidManifest.xml:222:9-224:52
-233            android:name="com.melevicarbrasil.usuario.QuestionAnswerActivity"
-233-->F:\melevicar-user\app\src\main\AndroidManifest.xml:223:13-51
-234            android:screenOrientation="portrait" />
-234-->F:\melevicar-user\app\src\main\AndroidManifest.xml:224:13-49
-235        <activity
-235-->F:\melevicar-user\app\src\main\AndroidManifest.xml:225:9-228:53
-236            android:name="com.melevicarbrasil.usuario.HistoryDetailActivity"
-236-->F:\melevicar-user\app\src\main\AndroidManifest.xml:226:13-50
-237            android:screenOrientation="portrait"
-237-->F:\melevicar-user\app\src\main\AndroidManifest.xml:227:13-49
-238            android:theme="@style/Theme.App.Base" />
-238-->F:\melevicar-user\app\src\main\AndroidManifest.xml:228:13-50
-239        <activity
-239-->F:\melevicar-user\app\src\main\AndroidManifest.xml:229:9-231:52
-240            android:name="com.melevicarbrasil.usuario.RatingActivity"
-240-->F:\melevicar-user\app\src\main\AndroidManifest.xml:230:13-43
-241            android:screenOrientation="portrait" />
-241-->F:\melevicar-user\app\src\main\AndroidManifest.xml:231:13-49
-242        <activity
-242-->F:\melevicar-user\app\src\main\AndroidManifest.xml:232:9-234:52
-243            android:name="com.melevicarbrasil.usuario.CardPaymentActivity"
-243-->F:\melevicar-user\app\src\main\AndroidManifest.xml:233:13-48
-244            android:screenOrientation="portrait" />
-244-->F:\melevicar-user\app\src\main\AndroidManifest.xml:234:13-49
-245        <activity
-245-->F:\melevicar-user\app\src\main\AndroidManifest.xml:235:9-237:52
-246            android:name="com.melevicarbrasil.usuario.EmergencyContactActivity"
-246-->F:\melevicar-user\app\src\main\AndroidManifest.xml:236:13-53
-247            android:screenOrientation="portrait" />
-247-->F:\melevicar-user\app\src\main\AndroidManifest.xml:237:13-49
-248        <activity
-248-->F:\melevicar-user\app\src\main\AndroidManifest.xml:238:9-240:52
-249            android:name="com.melevicarbrasil.usuario.ConfirmEmergencyTapActivity"
-249-->F:\melevicar-user\app\src\main\AndroidManifest.xml:239:13-56
-250            android:screenOrientation="portrait" />
-250-->F:\melevicar-user\app\src\main\AndroidManifest.xml:240:13-49
-251        <activity
-251-->F:\melevicar-user\app\src\main\AndroidManifest.xml:241:9-243:52
-252            android:name="com.melevicarbrasil.usuario.EnterDeliveryDetailsActivity"
-252-->F:\melevicar-user\app\src\main\AndroidManifest.xml:242:13-57
-253            android:screenOrientation="portrait" />
-253-->F:\melevicar-user\app\src\main\AndroidManifest.xml:243:13-49
-254        <activity
-254-->F:\melevicar-user\app\src\main\AndroidManifest.xml:244:9-246:52
-255            android:name="com.melevicarbrasil.usuario.MyWalletActivity"
-255-->F:\melevicar-user\app\src\main\AndroidManifest.xml:245:13-45
-256            android:screenOrientation="portrait" />
-256-->F:\melevicar-user\app\src\main\AndroidManifest.xml:246:13-49
-257        <activity
-257-->F:\melevicar-user\app\src\main\AndroidManifest.xml:247:9-249:52
-258            android:name="com.melevicarbrasil.usuario.MyWalletHistoryActivity"
-258-->F:\melevicar-user\app\src\main\AndroidManifest.xml:248:13-52
-259            android:screenOrientation="portrait" />
-259-->F:\melevicar-user\app\src\main\AndroidManifest.xml:249:13-49
-260        <activity
-260-->F:\melevicar-user\app\src\main\AndroidManifest.xml:250:9-252:52
-261            android:name="com.melevicarbrasil.usuario.InviteFriendsActivity"
-261-->F:\melevicar-user\app\src\main\AndroidManifest.xml:251:13-50
-262            android:screenOrientation="portrait" />
-262-->F:\melevicar-user\app\src\main\AndroidManifest.xml:252:13-49
-263        <activity
-263-->F:\melevicar-user\app\src\main\AndroidManifest.xml:253:9-255:52
-264            android:name="com.melevicarbrasil.usuario.VerifyInfoActivity"
-264-->F:\melevicar-user\app\src\main\AndroidManifest.xml:254:13-47
-265            android:screenOrientation="portrait" />
-265-->F:\melevicar-user\app\src\main\AndroidManifest.xml:255:13-49
-266        <activity
-266-->F:\melevicar-user\app\src\main\AndroidManifest.xml:256:9-258:52
-267            android:name="com.melevicarbrasil.usuario.UberXSelectServiceActivity"
-267-->F:\melevicar-user\app\src\main\AndroidManifest.xml:257:13-55
-268            android:screenOrientation="portrait" />
-268-->F:\melevicar-user\app\src\main\AndroidManifest.xml:258:13-49
-269        <activity
-269-->F:\melevicar-user\app\src\main\AndroidManifest.xml:259:9-261:52
-270            android:name="com.melevicarbrasil.usuario.UberXActivity"
-270-->F:\melevicar-user\app\src\main\AndroidManifest.xml:260:13-42
-271            android:screenOrientation="portrait" />
-271-->F:\melevicar-user\app\src\main\AndroidManifest.xml:261:13-49
-272        <activity
-272-->F:\melevicar-user\app\src\main\AndroidManifest.xml:262:9-264:52
-273            android:name="com.melevicarbrasil.usuario.OnGoingTripsActivity"
+223            android:screenOrientation="portrait" />
+223-->F:\melevicar-user\app\src\main\AndroidManifest.xml:213:13-49
+224        <activity
+224-->F:\melevicar-user\app\src\main\AndroidManifest.xml:214:9-217:52
+225            android:name="com.melevicarbrasil.usuario.MyProfileActivity"
+225-->F:\melevicar-user\app\src\main\AndroidManifest.xml:215:13-46
+226            android:exported="true"
+226-->F:\melevicar-user\app\src\main\AndroidManifest.xml:216:13-36
+227            android:screenOrientation="portrait" />
+227-->F:\melevicar-user\app\src\main\AndroidManifest.xml:217:13-49
+228        <activity
+228-->F:\melevicar-user\app\src\main\AndroidManifest.xml:218:9-220:52
+229            android:name="com.melevicarbrasil.usuario.StaticPageActivity"
+229-->F:\melevicar-user\app\src\main\AndroidManifest.xml:219:13-47
+230            android:screenOrientation="portrait" />
+230-->F:\melevicar-user\app\src\main\AndroidManifest.xml:220:13-49
+231        <activity
+231-->F:\melevicar-user\app\src\main\AndroidManifest.xml:221:9-223:52
+232            android:name="com.melevicarbrasil.usuario.ContactUsActivity"
+232-->F:\melevicar-user\app\src\main\AndroidManifest.xml:222:13-46
+233            android:screenOrientation="portrait" />
+233-->F:\melevicar-user\app\src\main\AndroidManifest.xml:223:13-49
+234        <activity
+234-->F:\melevicar-user\app\src\main\AndroidManifest.xml:224:9-226:52
+235            android:name="com.melevicarbrasil.usuario.HelpActivity"
+235-->F:\melevicar-user\app\src\main\AndroidManifest.xml:225:13-41
+236            android:screenOrientation="portrait" />
+236-->F:\melevicar-user\app\src\main\AndroidManifest.xml:226:13-49
+237        <activity
+237-->F:\melevicar-user\app\src\main\AndroidManifest.xml:227:9-229:52
+238            android:name="com.melevicarbrasil.usuario.QuestionAnswerActivity"
+238-->F:\melevicar-user\app\src\main\AndroidManifest.xml:228:13-51
+239            android:screenOrientation="portrait" />
+239-->F:\melevicar-user\app\src\main\AndroidManifest.xml:229:13-49
+240        <activity
+240-->F:\melevicar-user\app\src\main\AndroidManifest.xml:230:9-233:53
+241            android:name="com.melevicarbrasil.usuario.HistoryDetailActivity"
+241-->F:\melevicar-user\app\src\main\AndroidManifest.xml:231:13-50
+242            android:screenOrientation="portrait"
+242-->F:\melevicar-user\app\src\main\AndroidManifest.xml:232:13-49
+243            android:theme="@style/Theme.App.Base" />
+243-->F:\melevicar-user\app\src\main\AndroidManifest.xml:233:13-50
+244        <activity
+244-->F:\melevicar-user\app\src\main\AndroidManifest.xml:234:9-236:52
+245            android:name="com.melevicarbrasil.usuario.RatingActivity"
+245-->F:\melevicar-user\app\src\main\AndroidManifest.xml:235:13-43
+246            android:screenOrientation="portrait" />
+246-->F:\melevicar-user\app\src\main\AndroidManifest.xml:236:13-49
+247        <activity
+247-->F:\melevicar-user\app\src\main\AndroidManifest.xml:237:9-239:52
+248            android:name="com.melevicarbrasil.usuario.CardPaymentActivity"
+248-->F:\melevicar-user\app\src\main\AndroidManifest.xml:238:13-48
+249            android:screenOrientation="portrait" />
+249-->F:\melevicar-user\app\src\main\AndroidManifest.xml:239:13-49
+250        <activity
+250-->F:\melevicar-user\app\src\main\AndroidManifest.xml:240:9-242:52
+251            android:name="com.melevicarbrasil.usuario.EmergencyContactActivity"
+251-->F:\melevicar-user\app\src\main\AndroidManifest.xml:241:13-53
+252            android:screenOrientation="portrait" />
+252-->F:\melevicar-user\app\src\main\AndroidManifest.xml:242:13-49
+253        <activity
+253-->F:\melevicar-user\app\src\main\AndroidManifest.xml:243:9-245:52
+254            android:name="com.melevicarbrasil.usuario.ConfirmEmergencyTapActivity"
+254-->F:\melevicar-user\app\src\main\AndroidManifest.xml:244:13-56
+255            android:screenOrientation="portrait" />
+255-->F:\melevicar-user\app\src\main\AndroidManifest.xml:245:13-49
+256        <activity
+256-->F:\melevicar-user\app\src\main\AndroidManifest.xml:246:9-248:52
+257            android:name="com.melevicarbrasil.usuario.EnterDeliveryDetailsActivity"
+257-->F:\melevicar-user\app\src\main\AndroidManifest.xml:247:13-57
+258            android:screenOrientation="portrait" />
+258-->F:\melevicar-user\app\src\main\AndroidManifest.xml:248:13-49
+259        <activity
+259-->F:\melevicar-user\app\src\main\AndroidManifest.xml:249:9-251:52
+260            android:name="com.melevicarbrasil.usuario.MyWalletActivity"
+260-->F:\melevicar-user\app\src\main\AndroidManifest.xml:250:13-45
+261            android:screenOrientation="portrait" />
+261-->F:\melevicar-user\app\src\main\AndroidManifest.xml:251:13-49
+262        <activity
+262-->F:\melevicar-user\app\src\main\AndroidManifest.xml:252:9-254:52
+263            android:name="com.melevicarbrasil.usuario.MyWalletHistoryActivity"
+263-->F:\melevicar-user\app\src\main\AndroidManifest.xml:253:13-52
+264            android:screenOrientation="portrait" />
+264-->F:\melevicar-user\app\src\main\AndroidManifest.xml:254:13-49
+265        <activity
+265-->F:\melevicar-user\app\src\main\AndroidManifest.xml:255:9-257:52
+266            android:name="com.melevicarbrasil.usuario.InviteFriendsActivity"
+266-->F:\melevicar-user\app\src\main\AndroidManifest.xml:256:13-50
+267            android:screenOrientation="portrait" />
+267-->F:\melevicar-user\app\src\main\AndroidManifest.xml:257:13-49
+268        <activity
+268-->F:\melevicar-user\app\src\main\AndroidManifest.xml:258:9-260:52
+269            android:name="com.melevicarbrasil.usuario.VerifyInfoActivity"
+269-->F:\melevicar-user\app\src\main\AndroidManifest.xml:259:13-47
+270            android:screenOrientation="portrait" />
+270-->F:\melevicar-user\app\src\main\AndroidManifest.xml:260:13-49
+271        <activity
+271-->F:\melevicar-user\app\src\main\AndroidManifest.xml:261:9-263:52
+272            android:name="com.melevicarbrasil.usuario.UberXSelectServiceActivity"
+272-->F:\melevicar-user\app\src\main\AndroidManifest.xml:262:13-55
+273            android:screenOrientation="portrait" />
 273-->F:\melevicar-user\app\src\main\AndroidManifest.xml:263:13-49
-274            android:screenOrientation="portrait" />
-274-->F:\melevicar-user\app\src\main\AndroidManifest.xml:264:13-49
-275        <activity
-275-->F:\melevicar-user\app\src\main\AndroidManifest.xml:265:9-267:52
-276            android:name="com.melevicarbrasil.usuario.OnGoingTripDetailsActivity"
-276-->F:\melevicar-user\app\src\main\AndroidManifest.xml:266:13-55
-277            android:screenOrientation="portrait" />
-277-->F:\melevicar-user\app\src\main\AndroidManifest.xml:267:13-49
-278        <activity
-278-->F:\melevicar-user\app\src\main\AndroidManifest.xml:268:9-270:52
-279            android:name="com.melevicarbrasil.usuario.AppLoignRegisterActivity"
-279-->F:\melevicar-user\app\src\main\AndroidManifest.xml:269:13-53
-280            android:screenOrientation="portrait" />
-280-->F:\melevicar-user\app\src\main\AndroidManifest.xml:270:13-49
-281        <activity
-281-->F:\melevicar-user\app\src\main\AndroidManifest.xml:271:9-273:52
-282            android:name="com.melevicarbrasil.usuario.AccountverificationActivity"
-282-->F:\melevicar-user\app\src\main\AndroidManifest.xml:272:13-56
-283            android:screenOrientation="portrait" />
-283-->F:\melevicar-user\app\src\main\AndroidManifest.xml:273:13-49
-284        <activity
-284-->F:\melevicar-user\app\src\main\AndroidManifest.xml:274:9-276:52
-285            android:name="com.melevicarbrasil.usuario.SupportActivity"
-285-->F:\melevicar-user\app\src\main\AndroidManifest.xml:275:13-44
-286            android:screenOrientation="portrait" />
-286-->F:\melevicar-user\app\src\main\AndroidManifest.xml:276:13-49
-287        <activity
-287-->F:\melevicar-user\app\src\main\AndroidManifest.xml:277:9-279:52
-288            android:name="com.melevicarbrasil.usuario.FareBreakDownActivity"
-288-->F:\melevicar-user\app\src\main\AndroidManifest.xml:278:13-50
-289            android:screenOrientation="portrait" />
-289-->F:\melevicar-user\app\src\main\AndroidManifest.xml:279:13-49
-290        <activity
-290-->F:\melevicar-user\app\src\main\AndroidManifest.xml:280:9-282:52
-291            android:name="com.melevicarbrasil.usuario.ForgotPasswordActivity"
-291-->F:\melevicar-user\app\src\main\AndroidManifest.xml:281:13-51
-292            android:screenOrientation="portrait" />
-292-->F:\melevicar-user\app\src\main\AndroidManifest.xml:282:13-49
-293        <activity
-293-->F:\melevicar-user\app\src\main\AndroidManifest.xml:283:9-285:52
-294            android:name="com.melevicarbrasil.usuario.PrefranceActivity"
-294-->F:\melevicar-user\app\src\main\AndroidManifest.xml:284:13-46
-295            android:screenOrientation="portrait" />
-295-->F:\melevicar-user\app\src\main\AndroidManifest.xml:285:13-49
-296
-297        <receiver
-297-->F:\melevicar-user\app\src\main\AndroidManifest.xml:287:9-294:20
-298            android:name="com.melevicarbrasil.usuario.FirebaseDataReceiver"
-298-->F:\melevicar-user\app\src\main\AndroidManifest.xml:288:13-49
-299            android:exported="true"
-299-->F:\melevicar-user\app\src\main\AndroidManifest.xml:289:13-36
-300            android:permission="com.google.android.c2dm.permission.SEND" >
-300-->F:\melevicar-user\app\src\main\AndroidManifest.xml:290:13-73
-301            <intent-filter>
-301-->F:\melevicar-user\app\src\main\AndroidManifest.xml:291:13-293:29
-302                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-302-->F:\melevicar-user\app\src\main\AndroidManifest.xml:292:17-81
-302-->F:\melevicar-user\app\src\main\AndroidManifest.xml:292:25-78
-303            </intent-filter>
-304        </receiver>
-305
-306        <activity
-306-->F:\melevicar-user\app\src\main\AndroidManifest.xml:296:9-298:52
-307            android:name="com.melevicarbrasil.usuario.ChatActivity"
-307-->F:\melevicar-user\app\src\main\AndroidManifest.xml:297:13-41
-308            android:screenOrientation="portrait" />
-308-->F:\melevicar-user\app\src\main\AndroidManifest.xml:298:13-49
-309        <activity
-309-->F:\melevicar-user\app\src\main\AndroidManifest.xml:299:9-301:52
-310            android:name="com.melevicarbrasil.usuario.SearchLocationActivity"
-310-->F:\melevicar-user\app\src\main\AndroidManifest.xml:300:13-51
-311            android:screenOrientation="portrait" />
-311-->F:\melevicar-user\app\src\main\AndroidManifest.xml:301:13-49
-312        <activity
-312-->F:\melevicar-user\app\src\main\AndroidManifest.xml:302:9-304:52
-313            android:name="com.melevicarbrasil.usuario.ListAddressActivity"
-313-->F:\melevicar-user\app\src\main\AndroidManifest.xml:303:13-48
-314            android:screenOrientation="portrait" />
-314-->F:\melevicar-user\app\src\main\AndroidManifest.xml:304:13-49
-315        <activity
-315-->F:\melevicar-user\app\src\main\AndroidManifest.xml:305:9-307:52
-316            android:name="com.melevicarbrasil.usuario.AddAddressActivity"
-316-->F:\melevicar-user\app\src\main\AndroidManifest.xml:306:13-47
-317            android:screenOrientation="portrait" />
-317-->F:\melevicar-user\app\src\main\AndroidManifest.xml:307:13-49
-318        <activity
-318-->F:\melevicar-user\app\src\main\AndroidManifest.xml:308:9-310:52
-319            android:name="com.melevicarbrasil.usuario.ScheduleDateSelectActivity"
-319-->F:\melevicar-user\app\src\main\AndroidManifest.xml:309:13-55
-320            android:screenOrientation="portrait" />
-320-->F:\melevicar-user\app\src\main\AndroidManifest.xml:310:13-49
-321        <activity
-321-->F:\melevicar-user\app\src\main\AndroidManifest.xml:311:9-313:52
-322            android:name="com.melevicarbrasil.usuario.UfxOrderDetailsActivity"
-322-->F:\melevicar-user\app\src\main\AndroidManifest.xml:312:13-52
-323            android:screenOrientation="portrait" />
-323-->F:\melevicar-user\app\src\main\AndroidManifest.xml:313:13-49
-324        <activity
-324-->F:\melevicar-user\app\src\main\AndroidManifest.xml:314:9-316:52
-325            android:name="com.melevicarbrasil.usuario.UfxPaymentActivity"
-325-->F:\melevicar-user\app\src\main\AndroidManifest.xml:315:13-47
-326            android:screenOrientation="portrait" />
-326-->F:\melevicar-user\app\src\main\AndroidManifest.xml:316:13-49
-327        <activity
-327-->F:\melevicar-user\app\src\main\AndroidManifest.xml:317:9-319:52
-328            android:name="com.melevicarbrasil.usuario.BookingSummaryActivity"
-328-->F:\melevicar-user\app\src\main\AndroidManifest.xml:318:13-51
-329            android:screenOrientation="portrait" />
-329-->F:\melevicar-user\app\src\main\AndroidManifest.xml:319:13-49
-330        <activity
-330-->F:\melevicar-user\app\src\main\AndroidManifest.xml:320:9-322:52
-331            android:name="com.melevicarbrasil.usuario.MaintenanceActivity"
-331-->F:\melevicar-user\app\src\main\AndroidManifest.xml:321:13-48
-332            android:screenOrientation="portrait" />
-332-->F:\melevicar-user\app\src\main\AndroidManifest.xml:322:13-49
-333        <activity
-333-->F:\melevicar-user\app\src\main\AndroidManifest.xml:323:9-325:52
-334            android:name="com.melevicarbrasil.usuario.Help_MainCategory"
-334-->F:\melevicar-user\app\src\main\AndroidManifest.xml:324:13-46
-335            android:screenOrientation="portrait" />
-335-->F:\melevicar-user\app\src\main\AndroidManifest.xml:325:13-49
-336        <activity
-336-->F:\melevicar-user\app\src\main\AndroidManifest.xml:326:9-328:52
-337            android:name="com.melevicarbrasil.usuario.Help_SubCategoryActivity"
-337-->F:\melevicar-user\app\src\main\AndroidManifest.xml:327:13-53
-338            android:screenOrientation="portrait" />
-338-->F:\melevicar-user\app\src\main\AndroidManifest.xml:328:13-49
-339        <activity
-339-->F:\melevicar-user\app\src\main\AndroidManifest.xml:329:9-331:52
-340            android:name="com.melevicarbrasil.usuario.Help_DetailsActivity"
+274        <activity
+274-->F:\melevicar-user\app\src\main\AndroidManifest.xml:264:9-266:52
+275            android:name="com.melevicarbrasil.usuario.UberXActivity"
+275-->F:\melevicar-user\app\src\main\AndroidManifest.xml:265:13-42
+276            android:screenOrientation="portrait" />
+276-->F:\melevicar-user\app\src\main\AndroidManifest.xml:266:13-49
+277        <activity
+277-->F:\melevicar-user\app\src\main\AndroidManifest.xml:267:9-269:52
+278            android:name="com.melevicarbrasil.usuario.OnGoingTripsActivity"
+278-->F:\melevicar-user\app\src\main\AndroidManifest.xml:268:13-49
+279            android:screenOrientation="portrait" />
+279-->F:\melevicar-user\app\src\main\AndroidManifest.xml:269:13-49
+280        <activity
+280-->F:\melevicar-user\app\src\main\AndroidManifest.xml:270:9-272:52
+281            android:name="com.melevicarbrasil.usuario.OnGoingTripDetailsActivity"
+281-->F:\melevicar-user\app\src\main\AndroidManifest.xml:271:13-55
+282            android:screenOrientation="portrait" />
+282-->F:\melevicar-user\app\src\main\AndroidManifest.xml:272:13-49
+283        <activity
+283-->F:\melevicar-user\app\src\main\AndroidManifest.xml:273:9-275:52
+284            android:name="com.melevicarbrasil.usuario.AppLoignRegisterActivity"
+284-->F:\melevicar-user\app\src\main\AndroidManifest.xml:274:13-53
+285            android:screenOrientation="portrait" />
+285-->F:\melevicar-user\app\src\main\AndroidManifest.xml:275:13-49
+286        <activity
+286-->F:\melevicar-user\app\src\main\AndroidManifest.xml:276:9-278:52
+287            android:name="com.melevicarbrasil.usuario.AccountverificationActivity"
+287-->F:\melevicar-user\app\src\main\AndroidManifest.xml:277:13-56
+288            android:screenOrientation="portrait" />
+288-->F:\melevicar-user\app\src\main\AndroidManifest.xml:278:13-49
+289        <activity
+289-->F:\melevicar-user\app\src\main\AndroidManifest.xml:279:9-281:52
+290            android:name="com.melevicarbrasil.usuario.SupportActivity"
+290-->F:\melevicar-user\app\src\main\AndroidManifest.xml:280:13-44
+291            android:screenOrientation="portrait" />
+291-->F:\melevicar-user\app\src\main\AndroidManifest.xml:281:13-49
+292        <activity
+292-->F:\melevicar-user\app\src\main\AndroidManifest.xml:282:9-284:52
+293            android:name="com.melevicarbrasil.usuario.FareBreakDownActivity"
+293-->F:\melevicar-user\app\src\main\AndroidManifest.xml:283:13-50
+294            android:screenOrientation="portrait" />
+294-->F:\melevicar-user\app\src\main\AndroidManifest.xml:284:13-49
+295        <activity
+295-->F:\melevicar-user\app\src\main\AndroidManifest.xml:285:9-287:52
+296            android:name="com.melevicarbrasil.usuario.ForgotPasswordActivity"
+296-->F:\melevicar-user\app\src\main\AndroidManifest.xml:286:13-51
+297            android:screenOrientation="portrait" />
+297-->F:\melevicar-user\app\src\main\AndroidManifest.xml:287:13-49
+298        <activity
+298-->F:\melevicar-user\app\src\main\AndroidManifest.xml:288:9-290:52
+299            android:name="com.melevicarbrasil.usuario.PrefranceActivity"
+299-->F:\melevicar-user\app\src\main\AndroidManifest.xml:289:13-46
+300            android:screenOrientation="portrait" />
+300-->F:\melevicar-user\app\src\main\AndroidManifest.xml:290:13-49
+301
+302        <receiver
+302-->F:\melevicar-user\app\src\main\AndroidManifest.xml:292:9-299:20
+303            android:name="com.melevicarbrasil.usuario.FirebaseDataReceiver"
+303-->F:\melevicar-user\app\src\main\AndroidManifest.xml:293:13-49
+304            android:exported="true"
+304-->F:\melevicar-user\app\src\main\AndroidManifest.xml:294:13-36
+305            android:permission="com.google.android.c2dm.permission.SEND" >
+305-->F:\melevicar-user\app\src\main\AndroidManifest.xml:295:13-73
+306            <intent-filter>
+306-->F:\melevicar-user\app\src\main\AndroidManifest.xml:296:13-298:29
+307                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+307-->F:\melevicar-user\app\src\main\AndroidManifest.xml:297:17-81
+307-->F:\melevicar-user\app\src\main\AndroidManifest.xml:297:25-78
+308            </intent-filter>
+309        </receiver>
+310
+311        <activity
+311-->F:\melevicar-user\app\src\main\AndroidManifest.xml:301:9-303:52
+312            android:name="com.melevicarbrasil.usuario.ChatActivity"
+312-->F:\melevicar-user\app\src\main\AndroidManifest.xml:302:13-41
+313            android:screenOrientation="portrait" />
+313-->F:\melevicar-user\app\src\main\AndroidManifest.xml:303:13-49
+314        <activity
+314-->F:\melevicar-user\app\src\main\AndroidManifest.xml:304:9-306:52
+315            android:name="com.melevicarbrasil.usuario.SearchLocationActivity"
+315-->F:\melevicar-user\app\src\main\AndroidManifest.xml:305:13-51
+316            android:screenOrientation="portrait" />
+316-->F:\melevicar-user\app\src\main\AndroidManifest.xml:306:13-49
+317        <activity
+317-->F:\melevicar-user\app\src\main\AndroidManifest.xml:307:9-309:52
+318            android:name="com.melevicarbrasil.usuario.ListAddressActivity"
+318-->F:\melevicar-user\app\src\main\AndroidManifest.xml:308:13-48
+319            android:screenOrientation="portrait" />
+319-->F:\melevicar-user\app\src\main\AndroidManifest.xml:309:13-49
+320        <activity
+320-->F:\melevicar-user\app\src\main\AndroidManifest.xml:310:9-312:52
+321            android:name="com.melevicarbrasil.usuario.AddAddressActivity"
+321-->F:\melevicar-user\app\src\main\AndroidManifest.xml:311:13-47
+322            android:screenOrientation="portrait" />
+322-->F:\melevicar-user\app\src\main\AndroidManifest.xml:312:13-49
+323        <activity
+323-->F:\melevicar-user\app\src\main\AndroidManifest.xml:313:9-315:52
+324            android:name="com.melevicarbrasil.usuario.ScheduleDateSelectActivity"
+324-->F:\melevicar-user\app\src\main\AndroidManifest.xml:314:13-55
+325            android:screenOrientation="portrait" />
+325-->F:\melevicar-user\app\src\main\AndroidManifest.xml:315:13-49
+326        <activity
+326-->F:\melevicar-user\app\src\main\AndroidManifest.xml:316:9-318:52
+327            android:name="com.melevicarbrasil.usuario.UfxOrderDetailsActivity"
+327-->F:\melevicar-user\app\src\main\AndroidManifest.xml:317:13-52
+328            android:screenOrientation="portrait" />
+328-->F:\melevicar-user\app\src\main\AndroidManifest.xml:318:13-49
+329        <activity
+329-->F:\melevicar-user\app\src\main\AndroidManifest.xml:319:9-321:52
+330            android:name="com.melevicarbrasil.usuario.UfxPaymentActivity"
+330-->F:\melevicar-user\app\src\main\AndroidManifest.xml:320:13-47
+331            android:screenOrientation="portrait" />
+331-->F:\melevicar-user\app\src\main\AndroidManifest.xml:321:13-49
+332        <activity
+332-->F:\melevicar-user\app\src\main\AndroidManifest.xml:322:9-324:52
+333            android:name="com.melevicarbrasil.usuario.BookingSummaryActivity"
+333-->F:\melevicar-user\app\src\main\AndroidManifest.xml:323:13-51
+334            android:screenOrientation="portrait" />
+334-->F:\melevicar-user\app\src\main\AndroidManifest.xml:324:13-49
+335        <activity
+335-->F:\melevicar-user\app\src\main\AndroidManifest.xml:325:9-327:52
+336            android:name="com.melevicarbrasil.usuario.MaintenanceActivity"
+336-->F:\melevicar-user\app\src\main\AndroidManifest.xml:326:13-48
+337            android:screenOrientation="portrait" />
+337-->F:\melevicar-user\app\src\main\AndroidManifest.xml:327:13-49
+338        <activity
+338-->F:\melevicar-user\app\src\main\AndroidManifest.xml:328:9-330:52
+339            android:name="com.melevicarbrasil.usuario.Help_MainCategory"
+339-->F:\melevicar-user\app\src\main\AndroidManifest.xml:329:13-46
+340            android:screenOrientation="portrait" />
 340-->F:\melevicar-user\app\src\main\AndroidManifest.xml:330:13-49
-341            android:screenOrientation="portrait" />
-341-->F:\melevicar-user\app\src\main\AndroidManifest.xml:331:13-49
-342        <activity
-342-->F:\melevicar-user\app\src\main\AndroidManifest.xml:332:9-334:52
-343            android:name="com.melevicarbrasil.usuario.RentalInfoActivity"
-343-->F:\melevicar-user\app\src\main\AndroidManifest.xml:333:13-47
-344            android:screenOrientation="portrait" />
-344-->F:\melevicar-user\app\src\main\AndroidManifest.xml:334:13-49
-345        <activity
-345-->F:\melevicar-user\app\src\main\AndroidManifest.xml:335:9-337:52
-346            android:name="com.melevicarbrasil.usuario.RentalDetailsActivity"
-346-->F:\melevicar-user\app\src\main\AndroidManifest.xml:336:13-50
-347            android:screenOrientation="portrait" />
-347-->F:\melevicar-user\app\src\main\AndroidManifest.xml:337:13-49
-348        <activity
-348-->F:\melevicar-user\app\src\main\AndroidManifest.xml:338:9-350:20
-349            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
-349-->F:\melevicar-user\app\src\main\AndroidManifest.xml:339:13-84
-350            android:launchMode="singleTask"
-350-->F:\melevicar-user\app\src\main\AndroidManifest.xml:340:13-44
-351            android:screenOrientation="portrait" >
-351-->F:\melevicar-user\app\src\main\AndroidManifest.xml:341:13-49
-352            <intent-filter>
-352-->F:\melevicar-user\app\src\main\AndroidManifest.xml:342:13-349:29
-353                <action android:name="android.intent.action.VIEW" />
-353-->F:\melevicar-user\app\src\main\AndroidManifest.xml:343:17-69
-353-->F:\melevicar-user\app\src\main\AndroidManifest.xml:343:25-66
-354
-355                <category android:name="android.intent.category.DEFAULT" />
-355-->F:\melevicar-user\app\src\main\AndroidManifest.xml:345:17-76
-355-->F:\melevicar-user\app\src\main\AndroidManifest.xml:345:27-73
-356                <category android:name="android.intent.category.BROWSABLE" />
-356-->F:\melevicar-user\app\src\main\AndroidManifest.xml:346:17-78
-356-->F:\melevicar-user\app\src\main\AndroidManifest.xml:346:27-75
-357
-358                <data android:scheme="com.melevi.rio.braintree" />
-358-->F:\melevicar-user\app\src\main\AndroidManifest.xml:348:23-66
-359            </intent-filter>
-360        </activity>
-361        <activity
-361-->F:\melevicar-user\app\src\main\AndroidManifest.xml:351:9-353:52
-362            android:name="com.melevicarbrasil.usuario.VerifyCardTokenActivity"
-362-->F:\melevicar-user\app\src\main\AndroidManifest.xml:352:13-52
-363            android:screenOrientation="portrait" />
-363-->F:\melevicar-user\app\src\main\AndroidManifest.xml:353:13-49
-364        <activity
-364-->F:\melevicar-user\app\src\main\AndroidManifest.xml:354:9-357:52
-365            android:name="co.omise.android.ui.CreditCardActivity"
-365-->F:\melevicar-user\app\src\main\AndroidManifest.xml:355:13-66
-366            android:screenOrientation="portrait"
-366-->F:\melevicar-user\app\src\main\AndroidManifest.xml:356:13-49
-367            android:theme="@style/OmiseSDKTheme" />
-367-->F:\melevicar-user\app\src\main\AndroidManifest.xml:357:13-49
-368        <activity
-368-->F:\melevicar-user\app\src\main\AndroidManifest.xml:358:9-360:52
-369            android:name="com.xendit.XenditActivity"
-369-->F:\melevicar-user\app\src\main\AndroidManifest.xml:359:13-53
-370            android:screenOrientation="portrait" />
-370-->F:\melevicar-user\app\src\main\AndroidManifest.xml:360:13-49
-371        <activity
-371-->F:\melevicar-user\app\src\main\AndroidManifest.xml:361:9-363:52
-372            android:name="com.cropper.CropImageActivity"
-372-->F:\melevicar-user\app\src\main\AndroidManifest.xml:362:13-57
-373            android:screenOrientation="portrait" /> <!-- Multi delivery_v2 Screens -->
-373-->F:\melevicar-user\app\src\main\AndroidManifest.xml:363:13-49
-374        <activity
-374-->F:\melevicar-user\app\src\main\AndroidManifest.xml:364:9-366:52
-375            android:name="com.melevicarbrasil.usuario.CommonDeliveryTypeSelectionActivity"
-375-->F:\melevicar-user\app\src\main\AndroidManifest.xml:365:13-64
-376            android:screenOrientation="portrait" />
-376-->F:\melevicar-user\app\src\main\AndroidManifest.xml:366:13-49
-377        <activity
-377-->F:\melevicar-user\app\src\main\AndroidManifest.xml:367:9-369:52
-378            android:name="com.melevicarbrasil.usuario.EnterMultiDeliveryDetailsActivity"
-378-->F:\melevicar-user\app\src\main\AndroidManifest.xml:368:13-62
-379            android:screenOrientation="portrait" />
-379-->F:\melevicar-user\app\src\main\AndroidManifest.xml:369:13-49
-380        <activity
-380-->F:\melevicar-user\app\src\main\AndroidManifest.xml:370:9-372:52
-381            android:name="com.melevicarbrasil.usuario.MultiDeliverySecondPhaseActivity"
-381-->F:\melevicar-user\app\src\main\AndroidManifest.xml:371:13-61
-382            android:screenOrientation="portrait" />
-382-->F:\melevicar-user\app\src\main\AndroidManifest.xml:372:13-49
-383        <activity
-383-->F:\melevicar-user\app\src\main\AndroidManifest.xml:373:9-375:52
-384            android:name="com.melevicarbrasil.usuario.MultiDeliveryThirdPhaseActivity"
-384-->F:\melevicar-user\app\src\main\AndroidManifest.xml:374:13-60
-385            android:screenOrientation="portrait" /> <!-- Deliver all -->
-385-->F:\melevicar-user\app\src\main\AndroidManifest.xml:375:13-49
-386        <activity
-386-->F:\melevicar-user\app\src\main\AndroidManifest.xml:376:9-378:52
-387            android:name="com.melevicarbrasil.usuario.deliverAll.FoodDeliveryHomeActivity"
-387-->F:\melevicar-user\app\src\main\AndroidManifest.xml:377:13-64
-388            android:screenOrientation="portrait" />
-388-->F:\melevicar-user\app\src\main\AndroidManifest.xml:378:13-49
-389        <activity
-389-->F:\melevicar-user\app\src\main\AndroidManifest.xml:379:9-381:52
-390            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsActivity"
-390-->F:\melevicar-user\app\src\main\AndroidManifest.xml:380:13-68
-391            android:screenOrientation="portrait" />
-391-->F:\melevicar-user\app\src\main\AndroidManifest.xml:381:13-49
-392        <activity
-392-->F:\melevicar-user\app\src\main\AndroidManifest.xml:382:9-384:52
-393            android:name="com.melevicarbrasil.usuario.deliverAll.SearchFoodActivity"
-393-->F:\melevicar-user\app\src\main\AndroidManifest.xml:383:13-58
-394            android:screenOrientation="portrait" />
-394-->F:\melevicar-user\app\src\main\AndroidManifest.xml:384:13-49
-395        <activity
-395-->F:\melevicar-user\app\src\main\AndroidManifest.xml:385:9-387:52
-396            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantsSearchActivity"
-396-->F:\melevicar-user\app\src\main\AndroidManifest.xml:386:13-65
-397            android:screenOrientation="portrait" />
-397-->F:\melevicar-user\app\src\main\AndroidManifest.xml:387:13-49
-398        <activity
-398-->F:\melevicar-user\app\src\main\AndroidManifest.xml:388:9-390:52
-399            android:name="com.melevicarbrasil.usuario.deliverAll.SearchRestaurantListActivity"
-399-->F:\melevicar-user\app\src\main\AndroidManifest.xml:389:13-68
-400            android:screenOrientation="portrait" />
-400-->F:\melevicar-user\app\src\main\AndroidManifest.xml:390:13-49
-401        <activity
-401-->F:\melevicar-user\app\src\main\AndroidManifest.xml:391:9-393:52
-402            android:name="com.melevicarbrasil.usuario.deliverAll.AddBasketActivity"
-402-->F:\melevicar-user\app\src\main\AndroidManifest.xml:392:13-57
-403            android:screenOrientation="portrait" />
-403-->F:\melevicar-user\app\src\main\AndroidManifest.xml:393:13-49
-404        <activity
-404-->F:\melevicar-user\app\src\main\AndroidManifest.xml:394:9-397:52
-405            android:name="com.melevicarbrasil.usuario.deliverAll.CheckOutActivity"
-405-->F:\melevicar-user\app\src\main\AndroidManifest.xml:395:13-56
-406            android:configChanges="keyboardHidden|orientation|screenSize"
-406-->F:\melevicar-user\app\src\main\AndroidManifest.xml:396:13-74
-407            android:screenOrientation="portrait" />
-407-->F:\melevicar-user\app\src\main\AndroidManifest.xml:397:13-49
-408        <activity
-408-->F:\melevicar-user\app\src\main\AndroidManifest.xml:398:9-400:52
-409            android:name="com.melevicarbrasil.usuario.deliverAll.EditCartActivity"
-409-->F:\melevicar-user\app\src\main\AndroidManifest.xml:399:13-56
-410            android:screenOrientation="portrait" />
-410-->F:\melevicar-user\app\src\main\AndroidManifest.xml:400:13-49
-411        <activity
-411-->F:\melevicar-user\app\src\main\AndroidManifest.xml:401:9-403:52
-412            android:name="com.melevicarbrasil.usuario.deliverAll.PaymentCardActivity"
-412-->F:\melevicar-user\app\src\main\AndroidManifest.xml:402:13-59
-413            android:screenOrientation="portrait" />
-413-->F:\melevicar-user\app\src\main\AndroidManifest.xml:403:13-49
-414        <activity
-414-->F:\melevicar-user\app\src\main\AndroidManifest.xml:404:9-406:52
-415            android:name="com.melevicarbrasil.usuario.deliverAll.ServiceHomeActivity"
-415-->F:\melevicar-user\app\src\main\AndroidManifest.xml:405:13-59
-416            android:screenOrientation="portrait" />
-416-->F:\melevicar-user\app\src\main\AndroidManifest.xml:406:13-49
-417        <activity
-417-->F:\melevicar-user\app\src\main\AndroidManifest.xml:407:9-409:52
-418            android:name="com.melevicarbrasil.usuario.deliverAll.ViewCardActivity"
-418-->F:\melevicar-user\app\src\main\AndroidManifest.xml:408:13-56
-419            android:screenOrientation="portrait" />
-419-->F:\melevicar-user\app\src\main\AndroidManifest.xml:409:13-49
-420        <activity
-420-->F:\melevicar-user\app\src\main\AndroidManifest.xml:410:9-412:52
-421            android:name="com.melevicarbrasil.usuario.deliverAll.OrderPlaceConfirmActivity"
-421-->F:\melevicar-user\app\src\main\AndroidManifest.xml:411:13-65
-422            android:screenOrientation="portrait" />
-422-->F:\melevicar-user\app\src\main\AndroidManifest.xml:412:13-49
-423        <activity
-423-->F:\melevicar-user\app\src\main\AndroidManifest.xml:413:9-415:52
-424            android:name="com.melevicarbrasil.usuario.deliverAll.ActiveOrderActivity"
-424-->F:\melevicar-user\app\src\main\AndroidManifest.xml:414:13-59
-425            android:screenOrientation="portrait" />
-425-->F:\melevicar-user\app\src\main\AndroidManifest.xml:415:13-49
-426        <activity
-426-->F:\melevicar-user\app\src\main\AndroidManifest.xml:416:9-419:52
-427            android:name="com.melevicarbrasil.usuario.deliverAll.TrackOrderActivity"
-427-->F:\melevicar-user\app\src\main\AndroidManifest.xml:417:13-58
-428            android:configChanges="keyboardHidden|orientation|screenSize"
-428-->F:\melevicar-user\app\src\main\AndroidManifest.xml:418:13-74
-429            android:screenOrientation="portrait" />
-429-->F:\melevicar-user\app\src\main\AndroidManifest.xml:419:13-49
-430        <activity
-430-->F:\melevicar-user\app\src\main\AndroidManifest.xml:420:9-422:52
-431            android:name="com.melevicarbrasil.usuario.deliverAll.OrderDetailsActivity"
-431-->F:\melevicar-user\app\src\main\AndroidManifest.xml:421:13-60
-432            android:screenOrientation="portrait" />
-432-->F:\melevicar-user\app\src\main\AndroidManifest.xml:422:13-49
-433        <activity
-433-->F:\melevicar-user\app\src\main\AndroidManifest.xml:423:9-425:52
-434            android:name="com.melevicarbrasil.usuario.deliverAll.FoodRatingActivity"
-434-->F:\melevicar-user\app\src\main\AndroidManifest.xml:424:13-58
-435            android:screenOrientation="portrait" />
-435-->F:\melevicar-user\app\src\main\AndroidManifest.xml:425:13-49
-436        <activity
-436-->F:\melevicar-user\app\src\main\AndroidManifest.xml:426:9-428:52
-437            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsNewActivity"
-437-->F:\melevicar-user\app\src\main\AndroidManifest.xml:427:13-71
-438            android:screenOrientation="portrait" />
-438-->F:\melevicar-user\app\src\main\AndroidManifest.xml:428:13-49
-439        <activity
-439-->F:\melevicar-user\app\src\main\AndroidManifest.xml:429:9-431:52
-440            android:name="com.melevicarbrasil.usuario.deliverAll.LoginActivity"
-440-->F:\melevicar-user\app\src\main\AndroidManifest.xml:430:13-53
-441            android:screenOrientation="portrait" />
-441-->F:\melevicar-user\app\src\main\AndroidManifest.xml:431:13-49
-442        <activity
-442-->F:\melevicar-user\app\src\main\AndroidManifest.xml:432:9-434:52
-443            android:name="com.melevicarbrasil.usuario.deliverAll.SignUpActivity"
-443-->F:\melevicar-user\app\src\main\AndroidManifest.xml:433:13-54
-444            android:screenOrientation="portrait" />
-444-->F:\melevicar-user\app\src\main\AndroidManifest.xml:434:13-49
-445        <activity
-445-->F:\melevicar-user\app\src\main\AndroidManifest.xml:435:9-437:52
-446            android:name="io.card.payment.CardIOActivity"
-446-->F:\melevicar-user\app\src\main\AndroidManifest.xml:436:13-58
-447            android:configChanges="keyboardHidden|orientation"
-447-->[io.card:android-sdk:5.5.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3e881cb72bed14ea38c21296d2733b29\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
-448            android:screenOrientation="portrait" />
-448-->F:\melevicar-user\app\src\main\AndroidManifest.xml:437:13-49
-449        <activity
-449-->F:\melevicar-user\app\src\main\AndroidManifest.xml:438:9-440:52
-450            android:name="com.melevicarbrasil.usuario.CouponActivity"
-450-->F:\melevicar-user\app\src\main\AndroidManifest.xml:439:13-43
-451            android:screenOrientation="portrait" />
-451-->F:\melevicar-user\app\src\main\AndroidManifest.xml:440:13-49
-452        <activity
-452-->F:\melevicar-user\app\src\main\AndroidManifest.xml:441:9-443:52
-453            android:name="com.melevicarbrasil.usuario.BusinessProfileActivity"
-453-->F:\melevicar-user\app\src\main\AndroidManifest.xml:442:13-52
-454            android:screenOrientation="portrait" />
-454-->F:\melevicar-user\app\src\main\AndroidManifest.xml:443:13-49
-455        <activity
-455-->F:\melevicar-user\app\src\main\AndroidManifest.xml:444:9-446:52
-456            android:name="com.melevicarbrasil.usuario.BusinessSetupActivity"
-456-->F:\melevicar-user\app\src\main\AndroidManifest.xml:445:13-50
-457            android:screenOrientation="portrait" />
-457-->F:\melevicar-user\app\src\main\AndroidManifest.xml:446:13-49
-458        <activity
-458-->F:\melevicar-user\app\src\main\AndroidManifest.xml:447:9-449:52
-459            android:name="com.melevicarbrasil.usuario.SelectOrganizationActivity"
-459-->F:\melevicar-user\app\src\main\AndroidManifest.xml:448:13-55
-460            android:screenOrientation="portrait" />
-460-->F:\melevicar-user\app\src\main\AndroidManifest.xml:449:13-49
-461        <activity
-461-->F:\melevicar-user\app\src\main\AndroidManifest.xml:450:9-452:52
-462            android:name="com.melevicarbrasil.usuario.OrganizationActivity"
+341        <activity
+341-->F:\melevicar-user\app\src\main\AndroidManifest.xml:331:9-333:52
+342            android:name="com.melevicarbrasil.usuario.Help_SubCategoryActivity"
+342-->F:\melevicar-user\app\src\main\AndroidManifest.xml:332:13-53
+343            android:screenOrientation="portrait" />
+343-->F:\melevicar-user\app\src\main\AndroidManifest.xml:333:13-49
+344        <activity
+344-->F:\melevicar-user\app\src\main\AndroidManifest.xml:334:9-336:52
+345            android:name="com.melevicarbrasil.usuario.Help_DetailsActivity"
+345-->F:\melevicar-user\app\src\main\AndroidManifest.xml:335:13-49
+346            android:screenOrientation="portrait" />
+346-->F:\melevicar-user\app\src\main\AndroidManifest.xml:336:13-49
+347        <activity
+347-->F:\melevicar-user\app\src\main\AndroidManifest.xml:337:9-339:52
+348            android:name="com.melevicarbrasil.usuario.RentalInfoActivity"
+348-->F:\melevicar-user\app\src\main\AndroidManifest.xml:338:13-47
+349            android:screenOrientation="portrait" />
+349-->F:\melevicar-user\app\src\main\AndroidManifest.xml:339:13-49
+350        <activity
+350-->F:\melevicar-user\app\src\main\AndroidManifest.xml:340:9-342:52
+351            android:name="com.melevicarbrasil.usuario.RentalDetailsActivity"
+351-->F:\melevicar-user\app\src\main\AndroidManifest.xml:341:13-50
+352            android:screenOrientation="portrait" />
+352-->F:\melevicar-user\app\src\main\AndroidManifest.xml:342:13-49
+353        <activity
+353-->F:\melevicar-user\app\src\main\AndroidManifest.xml:343:9-355:20
+354            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+354-->F:\melevicar-user\app\src\main\AndroidManifest.xml:344:13-84
+355            android:launchMode="singleTask"
+355-->F:\melevicar-user\app\src\main\AndroidManifest.xml:345:13-44
+356            android:screenOrientation="portrait" >
+356-->F:\melevicar-user\app\src\main\AndroidManifest.xml:346:13-49
+357            <intent-filter>
+357-->F:\melevicar-user\app\src\main\AndroidManifest.xml:347:13-354:29
+358                <action android:name="android.intent.action.VIEW" />
+358-->F:\melevicar-user\app\src\main\AndroidManifest.xml:348:17-69
+358-->F:\melevicar-user\app\src\main\AndroidManifest.xml:348:25-66
+359
+360                <category android:name="android.intent.category.DEFAULT" />
+360-->F:\melevicar-user\app\src\main\AndroidManifest.xml:350:17-76
+360-->F:\melevicar-user\app\src\main\AndroidManifest.xml:350:27-73
+361                <category android:name="android.intent.category.BROWSABLE" />
+361-->F:\melevicar-user\app\src\main\AndroidManifest.xml:351:17-78
+361-->F:\melevicar-user\app\src\main\AndroidManifest.xml:351:27-75
+362
+363                <data android:scheme="com.melevi.rio.braintree" />
+363-->F:\melevicar-user\app\src\main\AndroidManifest.xml:353:23-66
+364            </intent-filter>
+365        </activity>
+366        <activity
+366-->F:\melevicar-user\app\src\main\AndroidManifest.xml:356:9-358:52
+367            android:name="com.melevicarbrasil.usuario.VerifyCardTokenActivity"
+367-->F:\melevicar-user\app\src\main\AndroidManifest.xml:357:13-52
+368            android:screenOrientation="portrait" />
+368-->F:\melevicar-user\app\src\main\AndroidManifest.xml:358:13-49
+369        <activity
+369-->F:\melevicar-user\app\src\main\AndroidManifest.xml:359:9-362:52
+370            android:name="co.omise.android.ui.CreditCardActivity"
+370-->F:\melevicar-user\app\src\main\AndroidManifest.xml:360:13-66
+371            android:screenOrientation="portrait"
+371-->F:\melevicar-user\app\src\main\AndroidManifest.xml:361:13-49
+372            android:theme="@style/OmiseSDKTheme" />
+372-->F:\melevicar-user\app\src\main\AndroidManifest.xml:362:13-49
+373        <activity
+373-->F:\melevicar-user\app\src\main\AndroidManifest.xml:363:9-365:52
+374            android:name="com.xendit.XenditActivity"
+374-->F:\melevicar-user\app\src\main\AndroidManifest.xml:364:13-53
+375            android:screenOrientation="portrait" />
+375-->F:\melevicar-user\app\src\main\AndroidManifest.xml:365:13-49
+376        <activity
+376-->F:\melevicar-user\app\src\main\AndroidManifest.xml:366:9-368:52
+377            android:name="com.cropper.CropImageActivity"
+377-->F:\melevicar-user\app\src\main\AndroidManifest.xml:367:13-57
+378            android:screenOrientation="portrait" /> <!-- Multi delivery_v2 Screens -->
+378-->F:\melevicar-user\app\src\main\AndroidManifest.xml:368:13-49
+379        <activity
+379-->F:\melevicar-user\app\src\main\AndroidManifest.xml:369:9-371:52
+380            android:name="com.melevicarbrasil.usuario.CommonDeliveryTypeSelectionActivity"
+380-->F:\melevicar-user\app\src\main\AndroidManifest.xml:370:13-64
+381            android:screenOrientation="portrait" />
+381-->F:\melevicar-user\app\src\main\AndroidManifest.xml:371:13-49
+382        <activity
+382-->F:\melevicar-user\app\src\main\AndroidManifest.xml:372:9-374:52
+383            android:name="com.melevicarbrasil.usuario.EnterMultiDeliveryDetailsActivity"
+383-->F:\melevicar-user\app\src\main\AndroidManifest.xml:373:13-62
+384            android:screenOrientation="portrait" />
+384-->F:\melevicar-user\app\src\main\AndroidManifest.xml:374:13-49
+385        <activity
+385-->F:\melevicar-user\app\src\main\AndroidManifest.xml:375:9-377:52
+386            android:name="com.melevicarbrasil.usuario.MultiDeliverySecondPhaseActivity"
+386-->F:\melevicar-user\app\src\main\AndroidManifest.xml:376:13-61
+387            android:screenOrientation="portrait" />
+387-->F:\melevicar-user\app\src\main\AndroidManifest.xml:377:13-49
+388        <activity
+388-->F:\melevicar-user\app\src\main\AndroidManifest.xml:378:9-380:52
+389            android:name="com.melevicarbrasil.usuario.MultiDeliveryThirdPhaseActivity"
+389-->F:\melevicar-user\app\src\main\AndroidManifest.xml:379:13-60
+390            android:screenOrientation="portrait" /> <!-- Deliver all -->
+390-->F:\melevicar-user\app\src\main\AndroidManifest.xml:380:13-49
+391        <activity
+391-->F:\melevicar-user\app\src\main\AndroidManifest.xml:381:9-383:52
+392            android:name="com.melevicarbrasil.usuario.deliverAll.FoodDeliveryHomeActivity"
+392-->F:\melevicar-user\app\src\main\AndroidManifest.xml:382:13-64
+393            android:screenOrientation="portrait" />
+393-->F:\melevicar-user\app\src\main\AndroidManifest.xml:383:13-49
+394        <activity
+394-->F:\melevicar-user\app\src\main\AndroidManifest.xml:384:9-386:52
+395            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsActivity"
+395-->F:\melevicar-user\app\src\main\AndroidManifest.xml:385:13-68
+396            android:screenOrientation="portrait" />
+396-->F:\melevicar-user\app\src\main\AndroidManifest.xml:386:13-49
+397        <activity
+397-->F:\melevicar-user\app\src\main\AndroidManifest.xml:387:9-389:52
+398            android:name="com.melevicarbrasil.usuario.deliverAll.SearchFoodActivity"
+398-->F:\melevicar-user\app\src\main\AndroidManifest.xml:388:13-58
+399            android:screenOrientation="portrait" />
+399-->F:\melevicar-user\app\src\main\AndroidManifest.xml:389:13-49
+400        <activity
+400-->F:\melevicar-user\app\src\main\AndroidManifest.xml:390:9-392:52
+401            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantsSearchActivity"
+401-->F:\melevicar-user\app\src\main\AndroidManifest.xml:391:13-65
+402            android:screenOrientation="portrait" />
+402-->F:\melevicar-user\app\src\main\AndroidManifest.xml:392:13-49
+403        <activity
+403-->F:\melevicar-user\app\src\main\AndroidManifest.xml:393:9-395:52
+404            android:name="com.melevicarbrasil.usuario.deliverAll.SearchRestaurantListActivity"
+404-->F:\melevicar-user\app\src\main\AndroidManifest.xml:394:13-68
+405            android:screenOrientation="portrait" />
+405-->F:\melevicar-user\app\src\main\AndroidManifest.xml:395:13-49
+406        <activity
+406-->F:\melevicar-user\app\src\main\AndroidManifest.xml:396:9-398:52
+407            android:name="com.melevicarbrasil.usuario.deliverAll.AddBasketActivity"
+407-->F:\melevicar-user\app\src\main\AndroidManifest.xml:397:13-57
+408            android:screenOrientation="portrait" />
+408-->F:\melevicar-user\app\src\main\AndroidManifest.xml:398:13-49
+409        <activity
+409-->F:\melevicar-user\app\src\main\AndroidManifest.xml:399:9-402:52
+410            android:name="com.melevicarbrasil.usuario.deliverAll.CheckOutActivity"
+410-->F:\melevicar-user\app\src\main\AndroidManifest.xml:400:13-56
+411            android:configChanges="keyboardHidden|orientation|screenSize"
+411-->F:\melevicar-user\app\src\main\AndroidManifest.xml:401:13-74
+412            android:screenOrientation="portrait" />
+412-->F:\melevicar-user\app\src\main\AndroidManifest.xml:402:13-49
+413        <activity
+413-->F:\melevicar-user\app\src\main\AndroidManifest.xml:403:9-405:52
+414            android:name="com.melevicarbrasil.usuario.deliverAll.EditCartActivity"
+414-->F:\melevicar-user\app\src\main\AndroidManifest.xml:404:13-56
+415            android:screenOrientation="portrait" />
+415-->F:\melevicar-user\app\src\main\AndroidManifest.xml:405:13-49
+416        <activity
+416-->F:\melevicar-user\app\src\main\AndroidManifest.xml:406:9-408:52
+417            android:name="com.melevicarbrasil.usuario.deliverAll.PaymentCardActivity"
+417-->F:\melevicar-user\app\src\main\AndroidManifest.xml:407:13-59
+418            android:screenOrientation="portrait" />
+418-->F:\melevicar-user\app\src\main\AndroidManifest.xml:408:13-49
+419        <activity
+419-->F:\melevicar-user\app\src\main\AndroidManifest.xml:409:9-411:52
+420            android:name="com.melevicarbrasil.usuario.deliverAll.ServiceHomeActivity"
+420-->F:\melevicar-user\app\src\main\AndroidManifest.xml:410:13-59
+421            android:screenOrientation="portrait" />
+421-->F:\melevicar-user\app\src\main\AndroidManifest.xml:411:13-49
+422        <activity
+422-->F:\melevicar-user\app\src\main\AndroidManifest.xml:412:9-414:52
+423            android:name="com.melevicarbrasil.usuario.deliverAll.ViewCardActivity"
+423-->F:\melevicar-user\app\src\main\AndroidManifest.xml:413:13-56
+424            android:screenOrientation="portrait" />
+424-->F:\melevicar-user\app\src\main\AndroidManifest.xml:414:13-49
+425        <activity
+425-->F:\melevicar-user\app\src\main\AndroidManifest.xml:415:9-417:52
+426            android:name="com.melevicarbrasil.usuario.deliverAll.OrderPlaceConfirmActivity"
+426-->F:\melevicar-user\app\src\main\AndroidManifest.xml:416:13-65
+427            android:screenOrientation="portrait" />
+427-->F:\melevicar-user\app\src\main\AndroidManifest.xml:417:13-49
+428        <activity
+428-->F:\melevicar-user\app\src\main\AndroidManifest.xml:418:9-420:52
+429            android:name="com.melevicarbrasil.usuario.deliverAll.ActiveOrderActivity"
+429-->F:\melevicar-user\app\src\main\AndroidManifest.xml:419:13-59
+430            android:screenOrientation="portrait" />
+430-->F:\melevicar-user\app\src\main\AndroidManifest.xml:420:13-49
+431        <activity
+431-->F:\melevicar-user\app\src\main\AndroidManifest.xml:421:9-424:52
+432            android:name="com.melevicarbrasil.usuario.deliverAll.TrackOrderActivity"
+432-->F:\melevicar-user\app\src\main\AndroidManifest.xml:422:13-58
+433            android:configChanges="keyboardHidden|orientation|screenSize"
+433-->F:\melevicar-user\app\src\main\AndroidManifest.xml:423:13-74
+434            android:screenOrientation="portrait" />
+434-->F:\melevicar-user\app\src\main\AndroidManifest.xml:424:13-49
+435        <activity
+435-->F:\melevicar-user\app\src\main\AndroidManifest.xml:425:9-427:52
+436            android:name="com.melevicarbrasil.usuario.deliverAll.OrderDetailsActivity"
+436-->F:\melevicar-user\app\src\main\AndroidManifest.xml:426:13-60
+437            android:screenOrientation="portrait" />
+437-->F:\melevicar-user\app\src\main\AndroidManifest.xml:427:13-49
+438        <activity
+438-->F:\melevicar-user\app\src\main\AndroidManifest.xml:428:9-430:52
+439            android:name="com.melevicarbrasil.usuario.deliverAll.FoodRatingActivity"
+439-->F:\melevicar-user\app\src\main\AndroidManifest.xml:429:13-58
+440            android:screenOrientation="portrait" />
+440-->F:\melevicar-user\app\src\main\AndroidManifest.xml:430:13-49
+441        <activity
+441-->F:\melevicar-user\app\src\main\AndroidManifest.xml:431:9-433:52
+442            android:name="com.melevicarbrasil.usuario.deliverAll.RestaurantAllDetailsNewActivity"
+442-->F:\melevicar-user\app\src\main\AndroidManifest.xml:432:13-71
+443            android:screenOrientation="portrait" />
+443-->F:\melevicar-user\app\src\main\AndroidManifest.xml:433:13-49
+444        <activity
+444-->F:\melevicar-user\app\src\main\AndroidManifest.xml:434:9-436:52
+445            android:name="com.melevicarbrasil.usuario.deliverAll.LoginActivity"
+445-->F:\melevicar-user\app\src\main\AndroidManifest.xml:435:13-53
+446            android:screenOrientation="portrait" />
+446-->F:\melevicar-user\app\src\main\AndroidManifest.xml:436:13-49
+447        <activity
+447-->F:\melevicar-user\app\src\main\AndroidManifest.xml:437:9-439:52
+448            android:name="com.melevicarbrasil.usuario.deliverAll.SignUpActivity"
+448-->F:\melevicar-user\app\src\main\AndroidManifest.xml:438:13-54
+449            android:screenOrientation="portrait" />
+449-->F:\melevicar-user\app\src\main\AndroidManifest.xml:439:13-49
+450        <activity
+450-->F:\melevicar-user\app\src\main\AndroidManifest.xml:440:9-442:52
+451            android:name="io.card.payment.CardIOActivity"
+451-->F:\melevicar-user\app\src\main\AndroidManifest.xml:441:13-58
+452            android:configChanges="keyboardHidden|orientation"
+452-->[io.card:android-sdk:5.5.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3e881cb72bed14ea38c21296d2733b29\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+453            android:screenOrientation="portrait" />
+453-->F:\melevicar-user\app\src\main\AndroidManifest.xml:442:13-49
+454        <activity
+454-->F:\melevicar-user\app\src\main\AndroidManifest.xml:443:9-445:52
+455            android:name="com.melevicarbrasil.usuario.CouponActivity"
+455-->F:\melevicar-user\app\src\main\AndroidManifest.xml:444:13-43
+456            android:screenOrientation="portrait" />
+456-->F:\melevicar-user\app\src\main\AndroidManifest.xml:445:13-49
+457        <activity
+457-->F:\melevicar-user\app\src\main\AndroidManifest.xml:446:9-448:52
+458            android:name="com.melevicarbrasil.usuario.BusinessProfileActivity"
+458-->F:\melevicar-user\app\src\main\AndroidManifest.xml:447:13-52
+459            android:screenOrientation="portrait" />
+459-->F:\melevicar-user\app\src\main\AndroidManifest.xml:448:13-49
+460        <activity
+460-->F:\melevicar-user\app\src\main\AndroidManifest.xml:449:9-451:52
+461            android:name="com.melevicarbrasil.usuario.BusinessSetupActivity"
+461-->F:\melevicar-user\app\src\main\AndroidManifest.xml:450:13-50
+462            android:screenOrientation="portrait" />
 462-->F:\melevicar-user\app\src\main\AndroidManifest.xml:451:13-49
-463            android:screenOrientation="portrait" />
-463-->F:\melevicar-user\app\src\main\AndroidManifest.xml:452:13-49
-464        <activity
-464-->F:\melevicar-user\app\src\main\AndroidManifest.xml:453:9-455:52
-465            android:name="com.melevicarbrasil.usuario.MyBusinessProfileActivity"
-465-->F:\melevicar-user\app\src\main\AndroidManifest.xml:454:13-54
-466            android:screenOrientation="portrait" />
-466-->F:\melevicar-user\app\src\main\AndroidManifest.xml:455:13-49
-467        <activity
-467-->F:\melevicar-user\app\src\main\AndroidManifest.xml:456:9-458:52
-468            android:name="com.melevicarbrasil.usuario.BusinessSelectPaymentActivity"
-468-->F:\melevicar-user\app\src\main\AndroidManifest.xml:457:13-58
-469            android:screenOrientation="portrait" />
-469-->F:\melevicar-user\app\src\main\AndroidManifest.xml:458:13-49
-470        <activity
-470-->F:\melevicar-user\app\src\main\AndroidManifest.xml:459:9-461:52
-471            android:name="com.melevicarbrasil.usuario.IncomingCallScreenActivity"
-471-->F:\melevicar-user\app\src\main\AndroidManifest.xml:460:13-55
-472            android:screenOrientation="portrait" />
-472-->F:\melevicar-user\app\src\main\AndroidManifest.xml:461:13-49
-473        <activity
-473-->F:\melevicar-user\app\src\main\AndroidManifest.xml:462:9-464:52
-474            android:name="com.melevicarbrasil.usuario.CallScreenActivity"
-474-->F:\melevicar-user\app\src\main\AndroidManifest.xml:463:13-47
-475            android:screenOrientation="portrait" />
-475-->F:\melevicar-user\app\src\main\AndroidManifest.xml:464:13-49
-476        <activity
-476-->F:\melevicar-user\app\src\main\AndroidManifest.xml:465:9-467:52
-477            android:name="com.melevicarbrasil.usuario.NotificationActivity"
+463        <activity
+463-->F:\melevicar-user\app\src\main\AndroidManifest.xml:452:9-454:52
+464            android:name="com.melevicarbrasil.usuario.SelectOrganizationActivity"
+464-->F:\melevicar-user\app\src\main\AndroidManifest.xml:453:13-55
+465            android:screenOrientation="portrait" />
+465-->F:\melevicar-user\app\src\main\AndroidManifest.xml:454:13-49
+466        <activity
+466-->F:\melevicar-user\app\src\main\AndroidManifest.xml:455:9-457:52
+467            android:name="com.melevicarbrasil.usuario.OrganizationActivity"
+467-->F:\melevicar-user\app\src\main\AndroidManifest.xml:456:13-49
+468            android:screenOrientation="portrait" />
+468-->F:\melevicar-user\app\src\main\AndroidManifest.xml:457:13-49
+469        <activity
+469-->F:\melevicar-user\app\src\main\AndroidManifest.xml:458:9-460:52
+470            android:name="com.melevicarbrasil.usuario.MyBusinessProfileActivity"
+470-->F:\melevicar-user\app\src\main\AndroidManifest.xml:459:13-54
+471            android:screenOrientation="portrait" />
+471-->F:\melevicar-user\app\src\main\AndroidManifest.xml:460:13-49
+472        <activity
+472-->F:\melevicar-user\app\src\main\AndroidManifest.xml:461:9-463:52
+473            android:name="com.melevicarbrasil.usuario.BusinessSelectPaymentActivity"
+473-->F:\melevicar-user\app\src\main\AndroidManifest.xml:462:13-58
+474            android:screenOrientation="portrait" />
+474-->F:\melevicar-user\app\src\main\AndroidManifest.xml:463:13-49
+475        <activity
+475-->F:\melevicar-user\app\src\main\AndroidManifest.xml:464:9-466:52
+476            android:name="com.melevicarbrasil.usuario.IncomingCallScreenActivity"
+476-->F:\melevicar-user\app\src\main\AndroidManifest.xml:465:13-55
+477            android:screenOrientation="portrait" />
 477-->F:\melevicar-user\app\src\main\AndroidManifest.xml:466:13-49
-478            android:screenOrientation="portrait" />
-478-->F:\melevicar-user\app\src\main\AndroidManifest.xml:467:13-49
-479        <activity
-479-->F:\melevicar-user\app\src\main\AndroidManifest.xml:468:9-470:52
-480            android:name="com.melevicarbrasil.usuario.NotificationDetailsActivity"
-480-->F:\melevicar-user\app\src\main\AndroidManifest.xml:469:13-56
-481            android:screenOrientation="portrait" />
-481-->F:\melevicar-user\app\src\main\AndroidManifest.xml:470:13-49
-482        <activity
-482-->F:\melevicar-user\app\src\main\AndroidManifest.xml:471:9-473:52
-483            android:name="com.melevicarbrasil.usuario.QuickPaymentActivity"
+478        <activity
+478-->F:\melevicar-user\app\src\main\AndroidManifest.xml:467:9-469:52
+479            android:name="com.melevicarbrasil.usuario.CallScreenActivity"
+479-->F:\melevicar-user\app\src\main\AndroidManifest.xml:468:13-47
+480            android:screenOrientation="portrait" />
+480-->F:\melevicar-user\app\src\main\AndroidManifest.xml:469:13-49
+481        <activity
+481-->F:\melevicar-user\app\src\main\AndroidManifest.xml:470:9-472:52
+482            android:name="com.melevicarbrasil.usuario.NotificationActivity"
+482-->F:\melevicar-user\app\src\main\AndroidManifest.xml:471:13-49
+483            android:screenOrientation="portrait" />
 483-->F:\melevicar-user\app\src\main\AndroidManifest.xml:472:13-49
-484            android:screenOrientation="portrait" />
-484-->F:\melevicar-user\app\src\main\AndroidManifest.xml:473:13-49
-485        <activity
-485-->F:\melevicar-user\app\src\main\AndroidManifest.xml:474:9-477:52
-486            android:name="com.livechatinc.inappchat.ChatWindowActivity"
-486-->F:\melevicar-user\app\src\main\AndroidManifest.xml:475:13-72
-487            android:configChanges="keyboardHidden|orientation|screenSize"
-487-->F:\melevicar-user\app\src\main\AndroidManifest.xml:476:13-74
-488            android:screenOrientation="portrait" />
+484        <activity
+484-->F:\melevicar-user\app\src\main\AndroidManifest.xml:473:9-475:52
+485            android:name="com.melevicarbrasil.usuario.NotificationDetailsActivity"
+485-->F:\melevicar-user\app\src\main\AndroidManifest.xml:474:13-56
+486            android:screenOrientation="portrait" />
+486-->F:\melevicar-user\app\src\main\AndroidManifest.xml:475:13-49
+487        <activity
+487-->F:\melevicar-user\app\src\main\AndroidManifest.xml:476:9-478:52
+488            android:name="com.melevicarbrasil.usuario.QuickPaymentActivity"
 488-->F:\melevicar-user\app\src\main\AndroidManifest.xml:477:13-49
-489        <activity
-489-->F:\melevicar-user\app\src\main\AndroidManifest.xml:478:9-480:52
-490            android:name="com.melevicarbrasil.usuario.UberxFilterActivity"
-490-->F:\melevicar-user\app\src\main\AndroidManifest.xml:479:13-48
-491            android:screenOrientation="portrait" />
-491-->F:\melevicar-user\app\src\main\AndroidManifest.xml:480:13-49
-492        <activity
-492-->F:\melevicar-user\app\src\main\AndroidManifest.xml:481:9-483:52
-493            android:name="com.melevicarbrasil.usuario.MoreInfoActivity"
-493-->F:\melevicar-user\app\src\main\AndroidManifest.xml:482:13-45
-494            android:screenOrientation="portrait" />
-494-->F:\melevicar-user\app\src\main\AndroidManifest.xml:483:13-49
-495        <activity
-495-->F:\melevicar-user\app\src\main\AndroidManifest.xml:484:9-486:52
-496            android:name="com.melevicarbrasil.usuario.UberxCartActivity"
-496-->F:\melevicar-user\app\src\main\AndroidManifest.xml:485:13-46
-497            android:screenOrientation="portrait" />
-497-->F:\melevicar-user\app\src\main\AndroidManifest.xml:486:13-49
-498        <activity
-498-->F:\melevicar-user\app\src\main\AndroidManifest.xml:487:9-489:52
-499            android:name="com.melevicarbrasil.usuario.CarWashBookingDetailsActivity"
-499-->F:\melevicar-user\app\src\main\AndroidManifest.xml:488:13-58
-500            android:screenOrientation="portrait" />
-500-->F:\melevicar-user\app\src\main\AndroidManifest.xml:489:13-49
-501        <activity
-501-->F:\melevicar-user\app\src\main\AndroidManifest.xml:490:9-492:52
-502            android:name="com.melevicarbrasil.usuario.MoreServiceInfoActivity"
-502-->F:\melevicar-user\app\src\main\AndroidManifest.xml:491:13-52
-503            android:screenOrientation="portrait" /> <!-- Book for Some Else Activities -->
-503-->F:\melevicar-user\app\src\main\AndroidManifest.xml:492:13-49
-504        <activity
-504-->F:\melevicar-user\app\src\main\AndroidManifest.xml:493:9-495:52
-505            android:name="com.melevicarbrasil.usuario.BookSomeOneElsePickContactActivity"
-505-->F:\melevicar-user\app\src\main\AndroidManifest.xml:494:13-63
-506            android:screenOrientation="portrait" /> <!-- FavDriver Activities -->
-506-->F:\melevicar-user\app\src\main\AndroidManifest.xml:495:13-49
-507        <activity
-507-->F:\melevicar-user\app\src\main\AndroidManifest.xml:496:9-498:52
-508            android:name="com.melevicarbrasil.usuario.FavouriteDriverActivity"
-508-->F:\melevicar-user\app\src\main\AndroidManifest.xml:497:13-52
-509            android:screenOrientation="portrait" />
-509-->F:\melevicar-user\app\src\main\AndroidManifest.xml:498:13-49
-510        <activity
-510-->F:\melevicar-user\app\src\main\AndroidManifest.xml:499:9-501:52
-511            android:name="com.melevicarbrasil.usuario.BookingActivity"
-511-->F:\melevicar-user\app\src\main\AndroidManifest.xml:500:13-44
-512            android:screenOrientation="portrait" />
-512-->F:\melevicar-user\app\src\main\AndroidManifest.xml:501:13-49
-513        <activity
-513-->F:\melevicar-user\app\src\main\AndroidManifest.xml:502:9-504:52
-514            android:name="com.melevicarbrasil.usuario.ViewMultiDeliveryDetailsActivity"
-514-->F:\melevicar-user\app\src\main\AndroidManifest.xml:503:13-61
-515            android:screenOrientation="portrait" />
-515-->F:\melevicar-user\app\src\main\AndroidManifest.xml:504:13-49
-516
-517        <service android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService" >
-517-->[sinch_lib.aar] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\636365dd14de6638e6054ed907fa1da8\sinch_lib\AndroidManifest.xml:12:9-16:19
-517-->[sinch_lib.aar] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\636365dd14de6638e6054ed907fa1da8\sinch_lib\AndroidManifest.xml:12:18-97
-518            <intent-filter>
-518-->[sinch_lib.aar] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\636365dd14de6638e6054ed907fa1da8\sinch_lib\AndroidManifest.xml:13:13-15:29
-519                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-519-->F:\melevicar-user\app\src\main\AndroidManifest.xml:137:17-80
-519-->F:\melevicar-user\app\src\main\AndroidManifest.xml:137:25-77
-520            </intent-filter>
-521        </service>
-522
-523        <activity
-523-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:28:9-31:49
-524            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
-524-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:29:13-74
-525            android:configChanges="keyboardHidden|orientation|screenSize"
-525-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:30:13-74
-526            android:theme="@style/MediaTheme" />
-526-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:31:13-46
-527        <activity
-527-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:32:9-34:49
-528            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
-528-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:33:13-75
-529            android:theme="@style/MediaTheme" />
-529-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:34:13-46
-530        <activity
-530-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:28:9-31:71
-531            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
-531-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:29:13-82
-532            android:exported="false"
-532-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:30:13-37
-533            android:windowSoftInputMode="adjustResize|stateVisible" />
-533-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:31:13-68
-534
-535        <service
-535-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:33:9-36:40
-536            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
-536-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:34:13-84
-537            android:enabled="true"
-537-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:35:13-35
-538            android:exported="false" />
-538-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:36:13-37
+489            android:screenOrientation="portrait" />
+489-->F:\melevicar-user\app\src\main\AndroidManifest.xml:478:13-49
+490        <activity
+490-->F:\melevicar-user\app\src\main\AndroidManifest.xml:479:9-482:52
+491            android:name="com.livechatinc.inappchat.ChatWindowActivity"
+491-->F:\melevicar-user\app\src\main\AndroidManifest.xml:480:13-72
+492            android:configChanges="keyboardHidden|orientation|screenSize"
+492-->F:\melevicar-user\app\src\main\AndroidManifest.xml:481:13-74
+493            android:screenOrientation="portrait" />
+493-->F:\melevicar-user\app\src\main\AndroidManifest.xml:482:13-49
+494        <activity
+494-->F:\melevicar-user\app\src\main\AndroidManifest.xml:483:9-485:52
+495            android:name="com.melevicarbrasil.usuario.UberxFilterActivity"
+495-->F:\melevicar-user\app\src\main\AndroidManifest.xml:484:13-48
+496            android:screenOrientation="portrait" />
+496-->F:\melevicar-user\app\src\main\AndroidManifest.xml:485:13-49
+497        <activity
+497-->F:\melevicar-user\app\src\main\AndroidManifest.xml:486:9-488:52
+498            android:name="com.melevicarbrasil.usuario.MoreInfoActivity"
+498-->F:\melevicar-user\app\src\main\AndroidManifest.xml:487:13-45
+499            android:screenOrientation="portrait" />
+499-->F:\melevicar-user\app\src\main\AndroidManifest.xml:488:13-49
+500        <activity
+500-->F:\melevicar-user\app\src\main\AndroidManifest.xml:489:9-491:52
+501            android:name="com.melevicarbrasil.usuario.UberxCartActivity"
+501-->F:\melevicar-user\app\src\main\AndroidManifest.xml:490:13-46
+502            android:screenOrientation="portrait" />
+502-->F:\melevicar-user\app\src\main\AndroidManifest.xml:491:13-49
+503        <activity
+503-->F:\melevicar-user\app\src\main\AndroidManifest.xml:492:9-494:52
+504            android:name="com.melevicarbrasil.usuario.CarWashBookingDetailsActivity"
+504-->F:\melevicar-user\app\src\main\AndroidManifest.xml:493:13-58
+505            android:screenOrientation="portrait" />
+505-->F:\melevicar-user\app\src\main\AndroidManifest.xml:494:13-49
+506        <activity
+506-->F:\melevicar-user\app\src\main\AndroidManifest.xml:495:9-497:52
+507            android:name="com.melevicarbrasil.usuario.MoreServiceInfoActivity"
+507-->F:\melevicar-user\app\src\main\AndroidManifest.xml:496:13-52
+508            android:screenOrientation="portrait" /> <!-- Book for Some Else Activities -->
+508-->F:\melevicar-user\app\src\main\AndroidManifest.xml:497:13-49
+509        <activity
+509-->F:\melevicar-user\app\src\main\AndroidManifest.xml:498:9-500:52
+510            android:name="com.melevicarbrasil.usuario.BookSomeOneElsePickContactActivity"
+510-->F:\melevicar-user\app\src\main\AndroidManifest.xml:499:13-63
+511            android:screenOrientation="portrait" /> <!-- FavDriver Activities -->
+511-->F:\melevicar-user\app\src\main\AndroidManifest.xml:500:13-49
+512        <activity
+512-->F:\melevicar-user\app\src\main\AndroidManifest.xml:501:9-503:52
+513            android:name="com.melevicarbrasil.usuario.FavouriteDriverActivity"
+513-->F:\melevicar-user\app\src\main\AndroidManifest.xml:502:13-52
+514            android:screenOrientation="portrait" />
+514-->F:\melevicar-user\app\src\main\AndroidManifest.xml:503:13-49
+515        <activity
+515-->F:\melevicar-user\app\src\main\AndroidManifest.xml:504:9-506:52
+516            android:name="com.melevicarbrasil.usuario.BookingActivity"
+516-->F:\melevicar-user\app\src\main\AndroidManifest.xml:505:13-44
+517            android:screenOrientation="portrait" />
+517-->F:\melevicar-user\app\src\main\AndroidManifest.xml:506:13-49
+518        <activity
+518-->F:\melevicar-user\app\src\main\AndroidManifest.xml:507:9-509:52
+519            android:name="com.melevicarbrasil.usuario.ViewMultiDeliveryDetailsActivity"
+519-->F:\melevicar-user\app\src\main\AndroidManifest.xml:508:13-61
+520            android:screenOrientation="portrait" />
+520-->F:\melevicar-user\app\src\main\AndroidManifest.xml:509:13-49
+521
+522        <service android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService" >
+522-->[sinch_lib.aar] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\636365dd14de6638e6054ed907fa1da8\sinch_lib\AndroidManifest.xml:12:9-16:19
+522-->[sinch_lib.aar] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\636365dd14de6638e6054ed907fa1da8\sinch_lib\AndroidManifest.xml:12:18-97
+523            <intent-filter>
+523-->[sinch_lib.aar] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\636365dd14de6638e6054ed907fa1da8\sinch_lib\AndroidManifest.xml:13:13-15:29
+524                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+524-->F:\melevicar-user\app\src\main\AndroidManifest.xml:142:17-80
+524-->F:\melevicar-user\app\src\main\AndroidManifest.xml:142:25-77
+525            </intent-filter>
+526        </service>
+527
+528        <activity
+528-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:28:9-31:49
+529            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+529-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:29:13-74
+530            android:configChanges="keyboardHidden|orientation|screenSize"
+530-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:30:13-74
+531            android:theme="@style/MediaTheme" />
+531-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:31:13-46
+532        <activity
+532-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:32:9-34:49
+533            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+533-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:33:13-75
+534            android:theme="@style/MediaTheme" />
+534-->[com.twitter.sdk.android:tweet-ui:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\53b60d0406f8130f2f3b9ae6f806b1ff\jetified-tweet-ui-3.3.0\AndroidManifest.xml:34:13-46
+535        <activity
+535-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:28:9-31:71
+536            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+536-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:29:13-82
+537            android:exported="false"
+537-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:30:13-37
+538            android:windowSoftInputMode="adjustResize|stateVisible" />
+538-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:31:13-68
 539
-540        <activity android:name="com.facebook.CustomTabMainActivity" />
-540-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:9-71
-540-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:19-68
-541        <activity android:name="com.facebook.CustomTabActivity" />
-541-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:34:9-67
-541-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:34:19-64
-542        <activity
-542-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:12:9-16:20
-543            android:name="com.stripe.android.view.AddSourceActivity"
-543-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:13:13-69
-544            android:theme="@style/StripeDefaultTheme"
-544-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:14:13-54
-545            android:windowSoftInputMode="stateVisible" >
-545-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:15:13-55
-546        </activity>
+540        <service
+540-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:33:9-36:40
+541            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+541-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:34:13-84
+542            android:enabled="true"
+542-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:35:13-35
+543            android:exported="false" />
+543-->[com.twitter.sdk.android:tweet-composer:3.3.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3d8812c281425a888003fa11b5233fa8\tweet-composer-3.3.0\AndroidManifest.xml:36:13-37
+544
+545        <activity android:name="com.facebook.CustomTabMainActivity" />
+545-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:9-71
+545-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:19-68
+546        <activity android:name="com.facebook.CustomTabActivity" />
+546-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:34:9-67
+546-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\50b8645688a1aca93e21ee526ac9d139\jetified-facebook-common-5.13.0\AndroidManifest.xml:34:19-64
 547        <activity
-547-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:17:9-20:20
-548            android:name="com.stripe.android.view.PaymentMethodsActivity"
-548-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:18:13-74
-549            android:theme="@style/StripeDefaultTheme" >
-549-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:19:13-54
-550        </activity>
-551        <activity
-551-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:21:9-24:20
-552            android:name="com.stripe.android.view.PaymentFlowActivity"
-552-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:22:13-71
-553            android:theme="@style/StripeDefaultTheme" >
-553-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:23:13-54
-554        </activity>
-555
-556        <provider
-556-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-557            android:name="com.squareup.picasso.PicassoProvider"
-557-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-558            android:authorities="com.melevi.rio.com.squareup.picasso"
-558-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-559            android:exported="false" />
-559-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+547-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:12:9-16:20
+548            android:name="com.stripe.android.view.AddSourceActivity"
+548-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:13:13-69
+549            android:theme="@style/StripeDefaultTheme"
+549-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:14:13-54
+550            android:windowSoftInputMode="stateVisible" >
+550-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:15:13-55
+551        </activity>
+552        <activity
+552-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:17:9-20:20
+553            android:name="com.stripe.android.view.PaymentMethodsActivity"
+553-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:18:13-74
+554            android:theme="@style/StripeDefaultTheme" >
+554-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:19:13-54
+555        </activity>
+556        <activity
+556-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:21:9-24:20
+557            android:name="com.stripe.android.view.PaymentFlowActivity"
+557-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:22:13-71
+558            android:theme="@style/StripeDefaultTheme" >
+558-->[com.stripe:stripe-android:8.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c1f2bc5903efa26239f9ba33aeb06c4e\jetified-stripe-android-8.0.0\AndroidManifest.xml:23:13-54
+559        </activity>
 560
-561        <service
-561-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
-562            android:name="com.google.firebase.components.ComponentDiscoveryService"
-562-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
-563            android:directBootAware="true"
-563-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
-564            android:exported="false" >
-564-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
-565            <meta-data
-565-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-566                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-566-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-567                android:value="com.google.firebase.components.ComponentRegistrar" />
-567-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
-568            <meta-data
-568-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3fffb704af4aeb53664b487cf7858e97\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
-569                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-569-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3fffb704af4aeb53664b487cf7858e97\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
-570                android:value="com.google.firebase.components.ComponentRegistrar" />
-570-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3fffb704af4aeb53664b487cf7858e97\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
-571            <meta-data
-571-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
-572                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-572-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
-573                android:value="com.google.firebase.components.ComponentRegistrar" />
-573-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
-574        </service>
-575        <!--
-576             FirebaseMessagingService performs security checks at runtime,
-577             but set to not exported to explicitly avoid allowing another app to call it.
-578        -->
-579        <service
-579-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
-580            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-580-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
-581            android:exported="false" >
-581-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
-582            <intent-filter android:priority="-500" >
-582-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:13-33:29
-582-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:28-51
-583                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-583-->F:\melevicar-user\app\src\main\AndroidManifest.xml:136:17-78
-583-->F:\melevicar-user\app\src\main\AndroidManifest.xml:136:25-75
-584            </intent-filter>
-585        </service>
-586
-587        <activity
-587-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-588            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-588-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-589            android:excludeFromRecents="true"
-589-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-590            android:exported="false"
-590-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-591            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-591-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-592        <!--
-593            Service handling Google Sign-In user revocation. For apps that do not integrate with
-594            Google Sign-In, this service will never be started.
-595        -->
-596        <service
-596-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-597            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-597-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-598            android:exported="true"
-598-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-599            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-599-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-600
-601        <receiver
-601-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
-602            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-602-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
-603            android:exported="true"
-603-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
-604            android:permission="com.google.android.c2dm.permission.SEND" >
-604-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
-605            <intent-filter>
-605-->F:\melevicar-user\app\src\main\AndroidManifest.xml:291:13-293:29
-606                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-606-->F:\melevicar-user\app\src\main\AndroidManifest.xml:292:17-81
-606-->F:\melevicar-user\app\src\main\AndroidManifest.xml:292:25-78
-607            </intent-filter>
-608        </receiver>
-609
-610        <activity
-610-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-611            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-611-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-612            android:exported="false"
-612-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-613            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-613-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+561        <provider
+561-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+562            android:name="com.squareup.picasso.PicassoProvider"
+562-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+563            android:authorities="com.melevi.rio.com.squareup.picasso"
+563-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+564            android:exported="false" />
+564-->[com.squareup.picasso:picasso:2.71828] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c8f8da29d1c634131fb4021a89f466f0\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+565
+566        <service
+566-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+567            android:name="com.google.firebase.components.ComponentDiscoveryService"
+567-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+568            android:directBootAware="true"
+568-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+569            android:exported="false" >
+569-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+570            <meta-data
+570-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+571                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+571-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+572                android:value="com.google.firebase.components.ComponentRegistrar" />
+572-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\33aa96026a9ad104376efb2c60b90228\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+573            <meta-data
+573-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3fffb704af4aeb53664b487cf7858e97\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+574                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+574-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3fffb704af4aeb53664b487cf7858e97\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+575                android:value="com.google.firebase.components.ComponentRegistrar" />
+575-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3fffb704af4aeb53664b487cf7858e97\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+576            <meta-data
+576-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+577                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+577-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+578                android:value="com.google.firebase.components.ComponentRegistrar" />
+578-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+579        </service>
+580
+581        <activity
+581-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+582            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+582-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+583            android:excludeFromRecents="true"
+583-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+584            android:exported="false"
+584-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+585            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+585-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+586        <!--
+587            Service handling Google Sign-In user revocation. For apps that do not integrate with
+588            Google Sign-In, this service will never be started.
+589        -->
+590        <service
+590-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+591            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+591-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+592            android:exported="true"
+592-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+593            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+593-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\10bfaa34a410044cf92ba2901860eddd\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+594        <!--
+595             FirebaseMessagingService performs security checks at runtime,
+596             but set to not exported to explicitly avoid allowing another app to call it.
+597        -->
+598        <service
+598-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+599            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+599-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+600            android:exported="false" >
+600-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+601            <intent-filter android:priority="-500" >
+601-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:13-33:29
+601-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\766e0d9b3adc9c4baf1323e74d8d921e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:28-51
+602                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+602-->F:\melevicar-user\app\src\main\AndroidManifest.xml:141:17-78
+602-->F:\melevicar-user\app\src\main\AndroidManifest.xml:141:25-75
+603            </intent-filter>
+604        </service>
+605
+606        <receiver
+606-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+607            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+607-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+608            android:exported="true"
+608-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+609            android:permission="com.google.android.c2dm.permission.SEND" >
+609-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\b58165845c9f1e494315be98ffedce83\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+610            <intent-filter>
+610-->F:\melevicar-user\app\src\main\AndroidManifest.xml:296:13-298:29
+611                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+611-->F:\melevicar-user\app\src\main\AndroidManifest.xml:297:17-81
+611-->F:\melevicar-user\app\src\main\AndroidManifest.xml:297:25-78
+612            </intent-filter>
+613        </receiver>
 614
-615        <receiver
-615-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-616            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-616-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
-617            android:enabled="true"
-617-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-618            android:exported="false" >
-618-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
-619        </receiver>
+615        <activity
+615-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+616            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+616-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+617            android:exported="false"
+617-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+618            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+618-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\01bc323fa2b0c7a352ca08bd3ad955a7\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+619
 620        <receiver
-620-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-621            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-621-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+620-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+621            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+621-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
 622            android:enabled="true"
-622-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-623            android:exported="true"
-623-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-624            android:permission="android.permission.INSTALL_PACKAGES" >
-624-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-625            <intent-filter>
-625-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-626                <action android:name="com.android.vending.INSTALL_REFERRER" />
-626-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-626-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-627            </intent-filter>
-628        </receiver>
-629
-630        <service
-630-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-631            android:name="com.google.android.gms.measurement.AppMeasurementService"
-631-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-632            android:enabled="true"
-632-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-633            android:exported="false" />
-633-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-634        <service
-634-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-635            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-635-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-636            android:enabled="true"
-636-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-637            android:exported="false"
-637-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-638            android:permission="android.permission.BIND_JOB_SERVICE" />
-638-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-639
-640        <provider
-640-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
-641            android:name="com.google.firebase.provider.FirebaseInitProvider"
-641-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
-642            android:authorities="com.melevi.rio.firebaseinitprovider"
-642-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
-643            android:exported="false"
-643-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
-644            android:initOrder="100" />
-644-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
-645        <!--
-646         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-647         with the application context. This config is merged in with the host app's manifest,
-648         but there can only be one provider with the same authority activated at any given
-649         point; so if the end user has two or more different apps that use Facebook SDK, only the
-650         first one will be able to use the provider. To work around this problem, we use the
-651         following placeholder in the authority to identify each host application as if it was
-652         a completely different provider.
-653        -->
-654        <provider
-654-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:39:9-42:40
-655            android:name="com.facebook.internal.FacebookInitProvider"
-655-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:40:13-70
-656            android:authorities="com.melevi.rio.FacebookInitProvider"
-656-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:41:13-72
-657            android:exported="false" />
-657-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:42:13-37
-658
-659        <receiver
-659-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:44:9-50:20
-660            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-660-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:45:13-86
-661            android:exported="false" >
-661-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:46:13-37
-662            <intent-filter>
-662-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:47:13-49:29
-663                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-663-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:17-95
-663-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:25-92
-664            </intent-filter>
-665        </receiver>
-666        <receiver
-666-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:51:9-58:20
-667            android:name="com.facebook.CampaignTrackingReceiver"
-667-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:52:13-65
-668            android:exported="true"
-668-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:53:13-36
-669            android:permission="android.permission.INSTALL_PACKAGES" >
-669-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:54:13-69
-670            <intent-filter>
-670-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-671                <action android:name="com.android.vending.INSTALL_REFERRER" />
-671-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-671-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-672            </intent-filter>
-673        </receiver>
-674
-675        <provider
-675-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
-676            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-676-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
-677            android:authorities="com.melevi.rio.crashlyticsinitprovider"
-677-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
-678            android:exported="false"
-678-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
-679            android:initOrder="90" />
-679-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
-680
-681        <activity android:name="io.card.payment.DataEntryActivity" />
-681-->[io.card:android-sdk:5.5.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3e881cb72bed14ea38c21296d2733b29\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
-681-->[io.card:android-sdk:5.5.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3e881cb72bed14ea38c21296d2733b29\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
-682        <activity
-682-->[com.paymaya:sdk-android:0.8.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\750665c5498939842dad049700c4f612\sdk-android-0.8.0\AndroidManifest.xml:15:9-17:62
-683            android:name="com.paymaya.sdk.android.checkout.PayMayaCheckoutActivity"
-683-->[com.paymaya:sdk-android:0.8.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\750665c5498939842dad049700c4f612\sdk-android-0.8.0\AndroidManifest.xml:16:13-84
-684            android:configChanges="orientation|screenSize" />
-684-->[com.paymaya:sdk-android:0.8.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\750665c5498939842dad049700c4f612\sdk-android-0.8.0\AndroidManifest.xml:17:13-59
-685    </application>
-686
-687</manifest>
+622-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+623            android:exported="false" >
+623-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+624        </receiver>
+625        <receiver
+625-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+626            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+626-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+627            android:enabled="true"
+627-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+628            android:exported="true"
+628-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+629            android:permission="android.permission.INSTALL_PACKAGES" >
+629-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+630            <intent-filter>
+630-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+631                <action android:name="com.android.vending.INSTALL_REFERRER" />
+631-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+631-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+632            </intent-filter>
+633        </receiver>
+634
+635        <service
+635-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+636            android:name="com.google.android.gms.measurement.AppMeasurementService"
+636-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+637            android:enabled="true"
+637-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+638            android:exported="false" />
+638-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+639        <service
+639-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+640            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+640-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+641            android:enabled="true"
+641-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+642            android:exported="false"
+642-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+643            android:permission="android.permission.BIND_JOB_SERVICE" />
+643-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+644
+645        <provider
+645-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+646            android:name="com.google.firebase.provider.FirebaseInitProvider"
+646-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+647            android:authorities="com.melevi.rio.firebaseinitprovider"
+647-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+648            android:exported="false"
+648-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+649            android:initOrder="100" />
+649-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\364347d5a4c843a0ce190e36fbdcbc72\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+650        <!--
+651         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+652         with the application context. This config is merged in with the host app's manifest,
+653         but there can only be one provider with the same authority activated at any given
+654         point; so if the end user has two or more different apps that use Facebook SDK, only the
+655         first one will be able to use the provider. To work around this problem, we use the
+656         following placeholder in the authority to identify each host application as if it was
+657         a completely different provider.
+658        -->
+659        <provider
+659-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:39:9-42:40
+660            android:name="com.facebook.internal.FacebookInitProvider"
+660-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:40:13-70
+661            android:authorities="com.melevi.rio.FacebookInitProvider"
+661-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:41:13-72
+662            android:exported="false" />
+662-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:42:13-37
+663
+664        <receiver
+664-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:44:9-50:20
+665            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+665-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:45:13-86
+666            android:exported="false" >
+666-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:46:13-37
+667            <intent-filter>
+667-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:47:13-49:29
+668                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+668-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:17-95
+668-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:25-92
+669            </intent-filter>
+670        </receiver>
+671        <receiver
+671-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:51:9-58:20
+672            android:name="com.facebook.CampaignTrackingReceiver"
+672-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:52:13-65
+673            android:exported="true"
+673-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:53:13-36
+674            android:permission="android.permission.INSTALL_PACKAGES" >
+674-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\37cd181452cf77133379264eaa811ab0\jetified-facebook-core-5.13.0\AndroidManifest.xml:54:13-69
+675            <intent-filter>
+675-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+676                <action android:name="com.android.vending.INSTALL_REFERRER" />
+676-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+676-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\1dbfa65bd898afcd8be2e70825fccfad\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+677            </intent-filter>
+678        </receiver>
+679
+680        <provider
+680-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+681            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+681-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+682            android:authorities="com.melevi.rio.crashlyticsinitprovider"
+682-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+683            android:exported="false"
+683-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+684            android:initOrder="90" />
+684-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\c76603279544ea5679dc6f4b5d9435b3\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+685
+686        <activity android:name="io.card.payment.DataEntryActivity" />
+686-->[io.card:android-sdk:5.5.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3e881cb72bed14ea38c21296d2733b29\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+686-->[io.card:android-sdk:5.5.1] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\3e881cb72bed14ea38c21296d2733b29\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+687        <activity
+687-->[com.paymaya:sdk-android:0.8.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\750665c5498939842dad049700c4f612\sdk-android-0.8.0\AndroidManifest.xml:15:9-17:62
+688            android:name="com.paymaya.sdk.android.checkout.PayMayaCheckoutActivity"
+688-->[com.paymaya:sdk-android:0.8.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\750665c5498939842dad049700c4f612\sdk-android-0.8.0\AndroidManifest.xml:16:13-84
+689            android:configChanges="orientation|screenSize" />
+689-->[com.paymaya:sdk-android:0.8.0] C:\Users\Not You\.gradle\caches\transforms-2\files-2.1\750665c5498939842dad049700c4f612\sdk-android-0.8.0\AndroidManifest.xml:17:13-59
+690    </application>
+691
+692</manifest>

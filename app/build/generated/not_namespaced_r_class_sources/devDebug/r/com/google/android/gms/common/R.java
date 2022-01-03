@@ -12,11 +12,11 @@ public final class R {
     public static final class integer {
         private integer() {}
 
-        public static final int google_play_services_version = 0x7f09000d;
+        public static final int google_play_services_version = 0x7f09000e;
     }
     public static final class string {
         private string() {}
 
-        public static final int common_google_play_services_unknown_issue = 0x7f100084;
+        public static final int common_google_play_services_unknown_issue = 0x7f110084;
     }
 }

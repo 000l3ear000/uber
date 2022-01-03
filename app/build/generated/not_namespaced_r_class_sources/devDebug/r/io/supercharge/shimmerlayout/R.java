@@ -12,28 +12,28 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int shimmer_angle = 0x7f03034f;
-        public static final int shimmer_animation_duration = 0x7f030350;
-        public static final int shimmer_auto_start = 0x7f030351;
-        public static final int shimmer_color = 0x7f030352;
-        public static final int shimmer_gradient_center_color_width = 0x7f03035c;
-        public static final int shimmer_mask_width = 0x7f03035d;
-        public static final int shimmer_reverse_animation = 0x7f03035e;
+        public static final int shimmer_angle = 0x7f030361;
+        public static final int shimmer_animation_duration = 0x7f030362;
+        public static final int shimmer_auto_start = 0x7f030363;
+        public static final int shimmer_color = 0x7f030364;
+        public static final int shimmer_gradient_center_color_width = 0x7f03036e;
+        public static final int shimmer_mask_width = 0x7f03036f;
+        public static final int shimmer_reverse_animation = 0x7f030370;
     }
     public static final class color {
         private color() {}
 
-        public static final int shimmer_color = 0x7f050132;
+        public static final int shimmer_color = 0x7f050134;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f100059;
+        public static final int app_name = 0x7f110059;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] ShimmerLayout = { 0x7f03034f, 0x7f030350, 0x7f030351, 0x7f030352, 0x7f03035c, 0x7f03035d, 0x7f03035e };
+        public static final int[] ShimmerLayout = { 0x7f030361, 0x7f030362, 0x7f030363, 0x7f030364, 0x7f03036e, 0x7f03036f, 0x7f030370 };
         public static final int ShimmerLayout_shimmer_angle = 0;
         public static final int ShimmerLayout_shimmer_animation_duration = 1;
         public static final int ShimmerLayout_shimmer_auto_start = 2;

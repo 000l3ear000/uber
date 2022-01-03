@@ -12,12 +12,12 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int paymaya_checkout_activity_progress_bar = 0x7f0806c4;
-        public static final int paymaya_checkout_activity_web_view = 0x7f0806c5;
+        public static final int paymaya_checkout_activity_progress_bar = 0x7f0806f0;
+        public static final int paymaya_checkout_activity_web_view = 0x7f0806f1;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int paymaya_checkout_activity = 0x7f0b01a7;
+        public static final int paymaya_checkout_activity = 0x7f0b01ab;
     }
 }

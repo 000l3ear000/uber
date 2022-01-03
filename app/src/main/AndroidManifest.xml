@@ -68,6 +68,11 @@
         android:theme="@style/AppCompatTheme"
         tools:replace="android:allowBackup">
         <activity
+            android:name=".demo"
+            android:exported="false"
+            android:label="@string/title_activity_demo"
+            android:theme="@style/AppCompatTheme.NoActionBar" />
+        <activity
             android:name=".BookRide"
             android:exported="true" />
         <activity

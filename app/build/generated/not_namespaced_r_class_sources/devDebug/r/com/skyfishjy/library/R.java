@@ -12,35 +12,35 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int rb_color = 0x7f030329;
-        public static final int rb_duration = 0x7f03032a;
-        public static final int rb_radius = 0x7f03032b;
-        public static final int rb_rippleAmount = 0x7f03032c;
-        public static final int rb_scale = 0x7f03032d;
-        public static final int rb_strokeWidth = 0x7f03032e;
-        public static final int rb_type = 0x7f03032f;
+        public static final int rb_color = 0x7f03033b;
+        public static final int rb_duration = 0x7f03033c;
+        public static final int rb_radius = 0x7f03033d;
+        public static final int rb_rippleAmount = 0x7f03033e;
+        public static final int rb_scale = 0x7f03033f;
+        public static final int rb_strokeWidth = 0x7f030340;
+        public static final int rb_type = 0x7f030341;
     }
     public static final class color {
         private color() {}
 
-        public static final int rippelColor = 0x7f050129;
+        public static final int rippelColor = 0x7f05012b;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int rippleRadius = 0x7f06043e;
-        public static final int rippleStrokeWidth = 0x7f06043f;
+        public static final int rippleRadius = 0x7f06043f;
+        public static final int rippleStrokeWidth = 0x7f060440;
     }
     public static final class id {
         private id() {}
 
-        public static final int fillRipple = 0x7f0803ee;
-        public static final int strokeRipple = 0x7f080903;
+        public static final int fillRipple = 0x7f080416;
+        public static final int strokeRipple = 0x7f08092e;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] RippleBackground = { 0x7f030329, 0x7f03032a, 0x7f03032b, 0x7f03032c, 0x7f03032d, 0x7f03032e, 0x7f03032f };
+        public static final int[] RippleBackground = { 0x7f03033b, 0x7f03033c, 0x7f03033d, 0x7f03033e, 0x7f03033f, 0x7f030340, 0x7f030341 };
         public static final int RippleBackground_rb_color = 0;
         public static final int RippleBackground_rb_duration = 1;
         public static final int RippleBackground_rb_radius = 2;

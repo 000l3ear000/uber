@@ -14,12 +14,29 @@
                         "endOffsets": "222"
                     },
                     "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "306",
+                        "endLines": "9",
+                        "endColumns": "10",
+                        "endOffsets": "473"
+                    }
+                },
+                {
+                    "source": "F:\\melevicar-user\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
                         "startLines": "5",
                         "startColumns": "4",
                         "startOffsets": "264",
-                        "endLines": "8",
-                        "endColumns": "10",
-                        "endOffsets": "431"
+                        "endColumns": "41",
+                        "endOffsets": "301"
                     }
                 },
                 {

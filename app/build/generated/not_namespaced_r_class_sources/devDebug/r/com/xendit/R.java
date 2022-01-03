@@ -12,23 +12,23 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int progressBar_XenditActivity = 0x7f080761;
-        public static final int webView_XenditActivity = 0x7f080ab0;
+        public static final int progressBar_XenditActivity = 0x7f08078d;
+        public static final int webView_XenditActivity = 0x7f080ae1;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int activity_xendit = 0x7f0b0090;
+        public static final int activity_xendit = 0x7f0b0091;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f100059;
-        public static final int authentication_error = 0x7f10005b;
-        public static final int create_token_error_card_cvn = 0x7f10008e;
-        public static final int create_token_error_card_expiration = 0x7f10008f;
-        public static final int create_token_error_card_number = 0x7f100090;
-        public static final int create_token_error_validation = 0x7f100091;
-        public static final int tokenization_error = 0x7f1000fd;
+        public static final int app_name = 0x7f110059;
+        public static final int authentication_error = 0x7f11005b;
+        public static final int create_token_error_card_cvn = 0x7f11008e;
+        public static final int create_token_error_card_expiration = 0x7f11008f;
+        public static final int create_token_error_card_number = 0x7f110090;
+        public static final int create_token_error_validation = 0x7f110091;
+        public static final int tokenization_error = 0x7f110106;
     }
 }

@@ -49,7 +49,7 @@ public class DestinationsDetails extends AppCompatActivity {
         sm.add(new SlideModel("https://picsum.photos/803"));
 
         View data= findViewById(R.id.button3);
-        View btn= findViewById(R.id.floatingActionButton2);
+        View btn= findViewById(R.id.backImgView);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

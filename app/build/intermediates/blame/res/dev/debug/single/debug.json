@@ -209,7 +209,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable\\notification_bg.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_business_unselected_border.xml.flat",
@@ -737,7 +737,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable\\notification_tile_bg.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_booking.xml.flat",
@@ -1261,7 +1261,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-nodpi_ic_reward_credit.xml.flat",
@@ -1381,7 +1381,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_money.xml.flat",
@@ -1873,7 +1873,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi_ic_driver_accepted.png.flat",
@@ -2348,6 +2348,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_pic_add.xml"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_nav_default_pop_enter_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\anim\\nav_default_pop_enter_anim.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_help_selected_border.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\help_selected_border.xml"
     },
@@ -2390,6 +2394,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_work.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_work.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_demo.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_demo.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_multi_delivery_detail.xml.flat",
@@ -2541,7 +2549,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xxhdpi-v4_tw__ic_video_pause_pressed.png.flat",
@@ -2688,12 +2696,12 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_box_multi.png"
     },
     {
-        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_book_ride.xml.flat",
-        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_book_ride.xml"
-    },
-    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi_big_red_pressed.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable-mdpi\\big_red_pressed.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_activity_book_ride.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\activity_book_ride.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
@@ -2993,7 +3001,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_bottom_up.xml.flat",
@@ -3720,6 +3728,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_fragment_open_enter.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim\\fragment_open_enter.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxhdpi-v4_error_view_cloud_prj.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\mipmap-xxhdpi-v4\\error_view_cloud_prj.png"
     },
@@ -3757,7 +3769,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00059.png.flat",
@@ -4229,7 +4241,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_left_arrow_rounded.png.flat",
@@ -4649,11 +4661,11 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout-v21_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_wallet_add_money.xml.flat",
@@ -4813,7 +4825,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi-v4_crop_image_menu_flip_prj.png.flat",
@@ -4842,6 +4854,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_dest_later.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_dest_later.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_fragment_close_exit.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim\\fragment_close_exit.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_calender.png.flat",
@@ -4913,7 +4929,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_crop_image_menu_flip.png.flat",
@@ -5146,6 +5162,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_five.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\five.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_nav_default_pop_exit_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\anim\\nav_default_pop_exit_anim.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_settings_new.xml.flat",
@@ -5389,7 +5409,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_menu_wallet.png.flat",
@@ -5465,7 +5485,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_mobile.png.flat",
@@ -6161,7 +6181,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_com_facebook_tooltip_black_topnub.png.flat",
@@ -6197,7 +6217,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_promo.png.flat",
@@ -6442,6 +6462,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_track_user.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_track_user.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_fragment_fade_enter.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim\\fragment_fade_enter.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_feature_border.xml.flat",
@@ -6716,6 +6740,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_add_dest.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_fragment_second.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_tw__composer_logo_white.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\3d8812c281425a888003fa11b5233fa8\\tweet-composer-3.3.0\\res\\drawable-mdpi-v4\\tw__composer_logo_white.png"
     },
@@ -6745,7 +6773,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_fragment_business_profile_intro.xml.flat",
@@ -7120,6 +7148,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_dest.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\animator_nav_default_pop_exit_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\animator\\nav_default_pop_exit_anim.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_roboto_calendar_week_5_prj.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0c0c64e9a992b73b99bada8b2c734d30\\jetified-projectlibfile\\res\\layout\\roboto_calendar_week_5_prj.xml"
     },
@@ -7444,6 +7476,10 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_fragment_close_enter.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim\\fragment_close_enter.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_ic_discover_template_32.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-anydpi-v21\\ic_discover_template_32.xml"
     },
@@ -7521,7 +7557,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-v21\\notification_action_background.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_abc_fade_in.xml.flat",
@@ -7872,6 +7908,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\dot.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_content_demo.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\content_demo.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_driver_accepted.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xhdpi\\ic_driver_accepted.png"
     },
@@ -8162,6 +8202,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_ic_my_wallet.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\ic_my_wallet.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\animator_nav_default_exit_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\animator\\nav_default_exit_anim.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -8552,6 +8596,10 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\53b60d0406f8130f2f3b9ae6f806b1ff\\jetified-tweet-ui-3.3.0\\res\\drawable-xxhdpi-v4\\tw__ic_logo_white.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim-v21_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim-v21\\fragment_fast_out_extra_slow_in.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_select_dialog_item_material.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\ba0c590213272c33ea755b1050872bf3\\appcompat-1.0.0\\res\\layout\\select_dialog_item_material.xml"
     },
@@ -8742,6 +8790,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\01bc323fa2b0c7a352ca08bd3ad955a7\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_fragment_fade_exit.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim\\fragment_fade_exit.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_job.png.flat",
@@ -9281,7 +9333,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable\\notification_bg_low.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_card_tanspherent.png.flat",
@@ -9645,7 +9697,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_other.png.flat",
@@ -9730,6 +9782,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_list.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-mdpi\\ic_list.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_nav_default_enter_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\anim\\nav_default_enter_anim.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_ic_card_hover.png.flat",
@@ -9908,6 +9964,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_star_empty.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\animator_nav_default_pop_enter_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\animator\\nav_default_pop_enter_anim.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-ldpi-v4_ic_error_amex.png.flat",
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-ldpi-v4\\ic_error_amex.png"
     },
@@ -9945,7 +10005,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-anydpi-v21_ic_visa_template_32.xml.flat",
@@ -10229,7 +10289,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable\\notification_icon_background.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-mdpi_ic_info_icon.png.flat",
@@ -10324,6 +10384,10 @@
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\selected_border.xml"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\animator_nav_default_enter_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\animator\\nav_default_enter_anim.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_design_trip_chat_detail_dialog.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\design_trip_chat_detail_dialog.xml"
     },
@@ -10385,7 +10449,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xhdpi_twitter.png.flat",
@@ -11088,6 +11152,10 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\de8827783ac9c43ba5b6ecc3ed53af08\\material-1.0.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_fragment_first.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_no_icon.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_no_icon.png"
     },
@@ -11129,7 +11197,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_list.png.flat",
@@ -11146,6 +11214,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_gps_off.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gps_off.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\navigation_nav_graph.xml.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-xxxhdpi_ic_phone.png.flat",
@@ -11580,6 +11652,10 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\c1f2bc5903efa26239f9ba33aeb06c4e\\jetified-stripe-android-8.0.0\\res\\drawable-ldpi-v4\\ic_visa_template_32.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_fragment_open_exit.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\dabf1ba2ee84a3a9c27355f21ff9ab36\\fragment-1.2.4\\res\\anim\\fragment_open_exit.xml"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout_item_spinnertextview.xml.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\layout\\item_spinnertextview.xml"
     },
@@ -11866,6 +11942,10 @@
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi_ic_back_arrow.png.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\mipmap-hdpi\\ic_back_arrow.png"
+    },
+    {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\anim_nav_default_exit_anim.xml.flat",
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\0548d331037c2c307447ba55154cff6d\\navigation-ui-2.3.5\\res\\anim\\nav_default_exit_anim.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_ic_checkmark_tinted.png.flat",
@@ -12333,7 +12413,7 @@
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\f0c0d2f21ac96776d9bc6cec4ff2dc7e\\core-1.0.0\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\395b30c66385a719c61e3e49ff887145\\core-1.3.0\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",

@@ -12,8 +12,8 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int field_separator_margin = 0x7f0603ce;
-        public static final int form_padding = 0x7f0603d1;
+        public static final int field_separator_margin = 0x7f0603cf;
+        public static final int form_padding = 0x7f0603d2;
     }
     public static final class drawable {
         private drawable() {}
@@ -27,21 +27,21 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int activity_verfiy_3ds = 0x7f08008d;
-        public static final int authorizing_payment_webview = 0x7f0800f9;
-        public static final int button_submit = 0x7f08019b;
-        public static final int edit_card_name = 0x7f080377;
-        public static final int edit_card_number = 0x7f080378;
-        public static final int edit_security_code = 0x7f08037a;
-        public static final int image_card_brand = 0x7f080487;
-        public static final int menu_item_card_io = 0x7f08059f;
-        public static final int spinner_expiry_month = 0x7f0808dd;
-        public static final int spinner_expiry_year = 0x7f0808de;
-        public static final int text_card_name = 0x7f08094e;
-        public static final int text_card_number = 0x7f08094f;
-        public static final int text_error_message = 0x7f080950;
-        public static final int text_expiry_date = 0x7f080951;
-        public static final int text_security_code = 0x7f080953;
+        public static final int activity_verfiy_3ds = 0x7f0800b2;
+        public static final int authorizing_payment_webview = 0x7f08011e;
+        public static final int button_submit = 0x7f0801c2;
+        public static final int edit_card_name = 0x7f08039e;
+        public static final int edit_card_number = 0x7f08039f;
+        public static final int edit_security_code = 0x7f0803a1;
+        public static final int image_card_brand = 0x7f0804af;
+        public static final int menu_item_card_io = 0x7f0805c7;
+        public static final int spinner_expiry_month = 0x7f080908;
+        public static final int spinner_expiry_year = 0x7f080909;
+        public static final int text_card_name = 0x7f08097c;
+        public static final int text_card_number = 0x7f08097d;
+        public static final int text_error_message = 0x7f08097e;
+        public static final int text_expiry_date = 0x7f08097f;
+        public static final int text_security_code = 0x7f080981;
     }
     public static final class layout {
         private layout() {}
@@ -57,30 +57,30 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int button_submit = 0x7f10005d;
-        public static final int default_form_title = 0x7f10009f;
-        public static final int description_brand_logo = 0x7f1000a3;
-        public static final int error_api = 0x7f1000a5;
-        public static final int error_invalid = 0x7f1000a6;
-        public static final int error_io = 0x7f1000a7;
-        public static final int error_required = 0x7f1000a8;
-        public static final int error_unknown = 0x7f1000a9;
-        public static final int label_card_name = 0x7f1000c6;
-        public static final int label_card_number = 0x7f1000c7;
-        public static final int label_expiry_date = 0x7f1000c8;
-        public static final int label_security_code = 0x7f1000c9;
-        public static final int menu_card_io = 0x7f1000ca;
-        public static final int not_available = 0x7f1000cd;
-        public static final int placeholder_security_code = 0x7f1000d7;
-        public static final int title_authorizing_payment = 0x7f1000fa;
+        public static final int button_submit = 0x7f11005d;
+        public static final int default_form_title = 0x7f11009f;
+        public static final int description_brand_logo = 0x7f1100a3;
+        public static final int error_api = 0x7f1100a5;
+        public static final int error_invalid = 0x7f1100a6;
+        public static final int error_io = 0x7f1100a7;
+        public static final int error_required = 0x7f1100a8;
+        public static final int error_unknown = 0x7f1100a9;
+        public static final int label_card_name = 0x7f1100c9;
+        public static final int label_card_number = 0x7f1100ca;
+        public static final int label_expiry_date = 0x7f1100cb;
+        public static final int label_security_code = 0x7f1100cc;
+        public static final int menu_card_io = 0x7f1100cd;
+        public static final int not_available = 0x7f1100d3;
+        public static final int placeholder_security_code = 0x7f1100dd;
+        public static final int title_authorizing_payment = 0x7f110103;
     }
     public static final class style {
         private style() {}
 
-        public static final int FormButton = 0x7f1100da;
-        public static final int FormField = 0x7f1100db;
-        public static final int FormLabel = 0x7f1100dc;
-        public static final int FormSpinner = 0x7f1100dd;
-        public static final int OmiseSDKTheme = 0x7f1100e3;
+        public static final int FormButton = 0x7f1200db;
+        public static final int FormField = 0x7f1200dc;
+        public static final int FormLabel = 0x7f1200dd;
+        public static final int FormSpinner = 0x7f1200de;
+        public static final int OmiseSDKTheme = 0x7f1200e4;
     }
 }

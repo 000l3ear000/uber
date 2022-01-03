@@ -26,6 +26,8 @@
     <attr format="reference" name="content"/>
     <attr format="reference" name="coordinatorLayoutStyle"/>
     <attr format="reference" name="drawerArrowStyle"/>
+    <attr format="reference" name="drawerLayoutStyle"/>
+    <attr format="dimension" name="elevation"/>
     <attr name="emptyVisibility">
         <enum name="gone" value="0"/>
         <enum name="invisible" value="1"/>
@@ -243,6 +245,8 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="add_dest_txt_color">@color/green</color>
     <color name="add_round_icon_color">#33CC66</color>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
     <color name="appThemeColor_1">@color/Green</color>
     <color name="appThemeColor_2">@color/Darkblack</color>
     <color name="appThemeColor_Accent">#000000</color>
@@ -1438,6 +1442,7 @@
     <dimen name="compat_control_corner_material">2dp</dimen>
     <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
     <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="def_drawer_elevation">10dp</dimen>
     <dimen name="default_circle_indicator_radius">5dp</dimen>
     <dimen name="default_circle_indicator_radius_prj">5dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">2dp</dimen>
@@ -1755,6 +1760,39 @@
     <dimen name="txt_size_24">@dimen/_24ssp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
@@ -1767,7 +1805,9 @@
     <item name="fab_expand_menu_button_prj" type="id"/>
     <item name="fab_label_prj" type="id"/>
     <item name="fragContainerone" type="id"/>
+    <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
+    <item name="ghost_view_holder" type="id"/>
     <item name="glide_custom_view_target_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="image_card_brand" type="id"/>
@@ -1777,17 +1817,23 @@
     <item name="material_target_prompt_view" type="id"/>
     <item name="mtrl_child_content_container" type="id"/>
     <item name="mtrl_internal_children_alpha_tag" type="id"/>
+    <item name="nav_controller_view_tag" type="id"/>
+    <item name="nav_host_fragment_container" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <item name="save_image_matrix" type="id"/>
     <item name="save_non_transition_alpha" type="id"/>
-    <item name="save_scale_type" type="id"/>
+    <item name="save_overlay_view" type="id"/>
     <item name="snackbar_action" type="id"/>
     <item name="snackbar_text" type="id"/>
     <item name="spinner_expiry_month" type="id"/>
     <item name="spinner_expiry_year" type="id"/>
     <item name="split_action_bar" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
     <item name="tag_transition_group" type="id"/>
     <item name="tag_unhandled_key_event_manager" type="id"/>
     <item name="tag_unhandled_key_listeners" type="id"/>
@@ -1809,6 +1855,7 @@
     <item name="tw__entity_index" type="id"/>
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
+    <item name="visible_removing_fragment_view_tag" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="angleY_rtl_180">180</integer>
@@ -1816,6 +1863,7 @@
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_navAnimTime">150</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="date_length">5</integer>
     <integer name="default_circle_indicator_orientation">0</integer>
@@ -1947,7 +1995,7 @@
     <string name="card_number_hint">1234 1234 1234 1234</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">b1cd6ec7-a60b-4d6e-96d1-85ea41bb2c16</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">9e1acaca-d9fd-417f-b481-e48a4c88aa4e</string>
     <string name="com.twitter.sdk.android.CONSUMER_KEY" ns2:ignore="ExtraTranslation">FthFgRc4HYMkUCR5AjhzBJ5JP</string>
     <string name="com.twitter.sdk.android.CONSUMER_SECRET" ns2:ignore="ExtraTranslation">wVoJ23IeD95ww0uabPazLnqVjZtVY8WUhLxUbSqai3Jeu423zJ</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
@@ -2027,6 +2075,7 @@
     <string name="failed_to_load_chat">Couldn\'t load chat.</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://me-levi-rio-das-ostras-default-rtdb.firebaseio.com</string>
+    <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">534140583256</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="google_android_geo_api_key">AIzaSyDRTsYeFoP8LIxtz1E0F5MRKDjSXK6j-IA</string>
@@ -2035,6 +2084,8 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPAIgxCZk87aqzmROG4cNszmLdnnie5c0</string>
     <string name="google_storage_bucket" translatable="false">me-levi-rio-das-ostras.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="html" translatable="false">
         <![CDATA[
@@ -2087,6 +2138,9 @@
     <string name="label_security_code">Security code</string>
     <string name="menu_card_io">Scan from Camera</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="next">Next</string>
     <string name="no_payment_methods">No payment methods.</string>
     <string name="not_available">(n/a)</string>
     <string name="password_toggle_content_description">Show password</string>
@@ -2099,6 +2153,7 @@
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="placeholder_security_code" translatable="false">CVV</string>
+    <string name="previous">Previous</string>
     <string name="price_free">Free</string>
     <string name="project_id" translatable="false">me-levi-rio-das-ostras</string>
     <string name="reload_chat">Reload</string>
@@ -2109,6 +2164,7 @@
     <string name="robotolightFont">fonts/Poppins_Light.ttf</string>
     <string name="robotomediumFont">fonts/Poppins_Medium.ttf</string>
     <string name="search_menu_title">Search</string>
+    <string name="second_fragment_label">Second Fragment</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="systemBold">fonts/Poppins_Bold.ttf</string>
     <string name="systemBold_name">Poppins Bold</string>
@@ -2121,6 +2177,7 @@
     <string name="systemSemiBold">fonts/Poppins_SemiBold.ttf</string>
     <string name="systemSemiBold_name">Poppins SemiBold</string>
     <string name="title_activity_add_address">AddAddressActivity</string>
+    <string name="title_activity_demo">demo</string>
     <string name="title_add_a_card">Add a Card</string>
     <string name="title_add_an_address">Add an Address</string>
     <string name="title_authorizing_payment">Authorizing Payment</string>
@@ -2188,6 +2245,10 @@
 
     </style>
     <style name="AppCompatTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppCompatTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
     <style name="AppCompatTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
@@ -5364,6 +5425,13 @@
         
         <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable>
+    <declare-styleable name="ActivityNavigator">
+        <attr name="android:name"/>
+        <attr format="string" name="action"/>
+        <attr format="string" name="data"/>
+        <attr format="string" name="dataPattern"/>
+        <attr format="string" name="targetPackage"/>
+    </declare-styleable>
     <declare-styleable name="AddFloatingActionButton"><attr format="color" name="fab_plusIconColor"/></declare-styleable>
     <declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
@@ -6120,6 +6188,9 @@
             <enum name="None" value="1"/>
         </attr><attr format="color" name="currentDayOfMonthColor"/><attr format="color" name="currentDayOfMonthBackgroundColor"/><attr format="reference" name="leftImage"/><attr format="reference" name="rightImage"/><attr format="reference" name="arrowImage"/><attr format="string" name="cusTypeFace"/><attr format="boolean" name="setCurrentDayAsSelected"/><attr format="boolean" name="enableSelectedDayColorChange"/><attr format="boolean" name="enableArrowImageRotation"/><attr format="boolean" name="newDesignLayout"/><attr format="dimension" name="sizeOfDayView"/><attr format="dimension" name="textSizeOfDayView"/><attr format="dimension" name="textSizeOfWeekDays"/><attr format="boolean" name="initializeOnAttrLoad"/></declare-styleable>
     <declare-styleable name="DesignTheme"><attr name="bottomSheetDialogTheme"/><attr name="bottomSheetStyle"/></declare-styleable>
+    <declare-styleable name="DialogFragmentNavigator">
+        <attr name="android:name"/>
+    </declare-styleable>
     <declare-styleable name="DividerView"><attr format="color" name="dividerColor"/><attr format="dimension" name="dividerDashLength"/><attr format="dimension" name="dividerDashGap"/><attr format="dimension" name="dividerDashThickness"/><attr format="enum" name="dividerOrientation">
             <enum name="horizontal" value="0"/>
             <enum name="vertical" value="1"/>
@@ -6141,6 +6212,10 @@
         <attr format="dimension" name="barLength"/>
         
         <attr format="dimension" name="thickness"/>
+    </declare-styleable>
+    <declare-styleable name="DrawerLayout">
+        
+        <attr name="elevation"/>
     </declare-styleable>
     <declare-styleable name="ErrorView"><attr format="string" name="ev_title"/><attr format="color" name="ev_titleColor"/><attr format="string" name="ev_subtitle"/><attr format="color" name="ev_subtitleColor"/><attr format="reference" name="ev_errorImage"/><attr format="boolean" name="ev_showTitle"/><attr format="boolean" name="ev_showSubtitle"/><attr format="boolean" name="ev_showRetryButton"/><attr format="string" name="ev_retryButtonText"/><attr format="reference" name="ev_retryButtonBackground"/><attr format="color" name="ev_retryButtonTextColor"/><attr format="enum" name="ev_subtitleAlignment">
             <enum name="left" value="0"/>
@@ -6233,6 +6308,18 @@
         <attr name="android:ttcIndex"/>
     </declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
+    <declare-styleable name="Fragment">
+        <attr name="android:name"/>
+        <attr name="android:id"/>
+        <attr name="android:tag"/>
+    </declare-styleable>
+    <declare-styleable name="FragmentContainerView">
+        <attr name="android:name"/>
+        <attr name="android:tag"/>
+    </declare-styleable>
+    <declare-styleable name="FragmentNavigator">
+        <attr name="android:name"/>
+    </declare-styleable>
     <declare-styleable name="GradientColor">
         
         <attr name="android:startColor"/>
@@ -6563,7 +6650,46 @@
         
         <attr format="reference" name="subMenuArrow"/>
     </declare-styleable>
+    <declare-styleable name="NavAction">
+        <attr name="android:id"/>
+        <attr format="reference" name="destination"/>
+        <attr format="boolean" name="launchSingleTop"/>
+        <attr format="reference" name="popUpTo"/>
+        <attr format="boolean" name="popUpToInclusive"/>
+        <attr format="reference" name="enterAnim"/>
+        <attr format="reference" name="exitAnim"/>
+        <attr format="reference" name="popEnterAnim"/>
+        <attr format="reference" name="popExitAnim"/>
+    </declare-styleable>
+    <declare-styleable name="NavArgument">
+        <attr name="android:name"/>
+        <attr name="android:defaultValue"/>
+        <attr format="boolean" name="nullable"/>
+        <attr format="string" name="argType"/>
+    </declare-styleable>
+    <declare-styleable name="NavDeepLink">
+        <attr format="string" name="uri"/>
+        <attr format="string" name="action"/>
+        <attr format="string" name="mimeType"/>
+        <attr name="android:autoVerify"/>
+    </declare-styleable>
+    <declare-styleable name="NavGraphNavigator">
+        <attr format="reference" name="startDestination"/>
+    </declare-styleable>
+    <declare-styleable name="NavHost">
+        <attr format="reference" name="navGraph"/>
+    </declare-styleable>
+    <declare-styleable name="NavHostFragment">
+        <attr format="boolean" name="defaultNavHost"/>
+    </declare-styleable>
+    <declare-styleable name="NavInclude">
+        <attr format="reference" name="graph"/>
+    </declare-styleable>
     <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="headerLayout"/><attr format="dimension" name="itemHorizontalPadding"/><attr format="dimension" name="itemIconPadding"/></declare-styleable>
+    <declare-styleable name="Navigator">
+        <attr name="android:id"/>
+        <attr name="android:label"/>
+    </declare-styleable>
     <declare-styleable name="NetworkRImgView">
         <attr format="dimension" name="nr_left_top_corner_radius"/>
         <attr format="dimension" name="nr_right_top_corner_radius"/>

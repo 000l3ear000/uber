@@ -8,31 +8,14 @@
     tools:context=".DestinationDetailsActivity">
 
     <LinearLayout
+        android:id="@+id/topArea"
         android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:background="@color/Red"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="18dp">
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton2"
-            android:layout_width="107dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:clickable="true"
-            android:src="@drawable/ic_back_dialog" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="197dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="TextView"
-            android:textColor="#FFFFFF" />
-
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/deliverall_design_toolbar_general" />
     </LinearLayout>
 
     <com.denzcoskun.imageslider.ImageSlider

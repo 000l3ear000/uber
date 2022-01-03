@@ -12,22 +12,22 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int shadowColor = 0x7f030349;
-        public static final int shadowDx = 0x7f03034a;
-        public static final int shadowDy = 0x7f03034b;
-        public static final int shadowRadius = 0x7f03034c;
-        public static final int shadowShape = 0x7f03034d;
-        public static final int shadowSide = 0x7f03034e;
+        public static final int shadowColor = 0x7f03035b;
+        public static final int shadowDx = 0x7f03035c;
+        public static final int shadowDy = 0x7f03035d;
+        public static final int shadowRadius = 0x7f03035e;
+        public static final int shadowShape = 0x7f03035f;
+        public static final int shadowSide = 0x7f030360;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f100059;
+        public static final int app_name = 0x7f110059;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] ShadowLayout = { 0x7f030349, 0x7f03034a, 0x7f03034b, 0x7f03034c, 0x7f03034d, 0x7f03034e, 0x7f030369, 0x7f03036a, 0x7f03036b, 0x7f03036c, 0x7f03036d };
+        public static final int[] ShadowLayout = { 0x7f03035b, 0x7f03035c, 0x7f03035d, 0x7f03035e, 0x7f03035f, 0x7f030360, 0x7f03037b, 0x7f03037c, 0x7f03037d, 0x7f03037e, 0x7f03037f };
         public static final int ShadowLayout_shadowColor = 0;
         public static final int ShadowLayout_shadowDx = 1;
         public static final int ShadowLayout_shadowDy = 2;
