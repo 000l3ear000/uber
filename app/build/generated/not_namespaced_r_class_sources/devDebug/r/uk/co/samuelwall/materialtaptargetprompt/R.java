@@ -52,12 +52,12 @@ public final class R {
         public static final int SRC_IN = 0x7f08004f;
         public static final int SRC_OVER = 0x7f080050;
         public static final int bold = 0x7f08014b;
-        public static final int italic = 0x7f0804f8;
-        public static final int material_target_prompt_view = 0x7f0805b0;
-        public static final int monospace = 0x7f0805fd;
-        public static final int normal = 0x7f080670;
-        public static final int sans = 0x7f08086d;
-        public static final int serif = 0x7f0808bc;
+        public static final int italic = 0x7f0804f9;
+        public static final int material_target_prompt_view = 0x7f0805b1;
+        public static final int monospace = 0x7f0805fe;
+        public static final int normal = 0x7f080671;
+        public static final int sans = 0x7f08086e;
+        public static final int serif = 0x7f0808bd;
     }
     public static final class styleable {
         private styleable() {}

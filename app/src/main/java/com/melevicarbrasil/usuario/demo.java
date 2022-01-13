@@ -1,5 +1,6 @@
 package com.melevicarbrasil.usuario;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -7,6 +8,9 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -21,25 +25,19 @@ public class demo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo);
-        setSupportActionBar(findViewById(R.id.toolbar));
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_demo);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        TextView tv=findViewById(R.id.textView);
+        Button bt=findViewById(R.id.button2);
+        ImageView iv=findViewById(R.id.imageView3);
+        tv.setText("No Cars Available!");
 
-        findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-    }
+        tv.setVisibility(View.VISIBLE);
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_demo);
-        return NavigationUI.navigateUp(navController, appBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
-}
+//        bt.setVisibility(View.VISIBLE);
+//
+//        iv.setVisibility(View.VISIBLE);
+
+
+
+
+}};

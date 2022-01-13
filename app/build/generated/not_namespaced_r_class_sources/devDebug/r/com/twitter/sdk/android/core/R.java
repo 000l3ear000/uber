@@ -30,17 +30,17 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int tw__ic_logo_default = 0x7f070316;
-        public static final int tw__login_btn = 0x7f07032a;
-        public static final int tw__login_btn_default = 0x7f07032b;
-        public static final int tw__login_btn_disabled = 0x7f07032c;
-        public static final int tw__login_btn_pressed = 0x7f07032d;
+        public static final int tw__ic_logo_default = 0x7f070317;
+        public static final int tw__login_btn = 0x7f07032b;
+        public static final int tw__login_btn_default = 0x7f07032c;
+        public static final int tw__login_btn_disabled = 0x7f07032d;
+        public static final int tw__login_btn_pressed = 0x7f07032e;
     }
     public static final class id {
         private id() {}
 
-        public static final int tw__spinner = 0x7f080a34;
-        public static final int tw__web_view = 0x7f080a43;
+        public static final int tw__spinner = 0x7f080a35;
+        public static final int tw__web_view = 0x7f080a44;
     }
     public static final class layout {
         private layout() {}

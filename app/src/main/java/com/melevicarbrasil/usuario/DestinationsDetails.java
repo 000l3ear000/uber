@@ -28,6 +28,9 @@ public class DestinationsDetails extends AppCompatActivity {
         String time;
         Integer position;
 
+        TextView txt= findViewById(R.id.titleTxt);
+        txt.setText("Trip Details");
+
         dest1=extras.getString("dest");
         price1=extras.getString("price");
         time=extras.getString("time");
@@ -41,6 +44,8 @@ public class DestinationsDetails extends AppCompatActivity {
         ImageSlider is=findViewById(R.id.slider);
 
         List<SlideModel> sm=new ArrayList<>();
+
+
 
         sm.add(new SlideModel("https://picsum.photos/800"));
         sm.add(new SlideModel("https://picsum.photos/801"));

@@ -3290,6 +3290,7 @@ drawable ksw_md_thumb
 drawable language_border
 drawable layout_border_background
 drawable list_divider
+drawable loader
 drawable location_border
 drawable login_border
 drawable login_border_rtl
@@ -3989,6 +3990,7 @@ id businessProView
 id businessProfileArea
 id businessProfileHTxt
 id button
+id button2
 id button3
 id button4
 id buttonHorizontalDivider
@@ -4552,7 +4554,6 @@ id fPricePerKMTxt
 id fPricePerKMValueTxtView
 id fPricePerMinTxt
 id fPricePerMinValueTxtView
-id fab
 id fabMenuArea
 id fabMenuLayout
 id fab_expand_menu_button_prj
@@ -4745,6 +4746,7 @@ id imagePlace
 id imageShowArea
 id imageView
 id imageView2
+id imageView3
 id image_card_brand
 id image_grey
 id image_view

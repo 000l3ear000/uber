@@ -8,16 +8,16 @@
     tools:context=".DestinationsList">
 
 
-    <TextView
-        android:id="@+id/textView"
+    <LinearLayout
+        android:id="@+id/topArea"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:background="@color/Red"
-        android:gravity="center"
-        android:shadowColor="#FFFFFF"
-        android:text="Select A Destination"
-        android:textColor="#FBF7F7"
-        android:textSize="20sp" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include
+            android:id="@+id/toolbar_include"
+            layout="@layout/deliverall_design_toolbar_general" />
+    </LinearLayout>
 
     <ListView
         android:id="@+id/destinationsList"

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -27,7 +28,7 @@ public class BookRide extends AppCompatActivity implements OnMapReadyCallback {
 
     double Lat[]={-2.7992448859843875,-2.7992448859843875,-2.7859783607327406,-2.790414840611112,-2.7898040218712934,-2.786824936685647,-2.7844352333968607,-2.785753321455524};
     double Lng[]={-40.51990415190018,-40.51990415190018,-40.50223375894637,-40.517908588466334,-40.50518418891157,-40.50687934495541,-40.50079609495983,-40.49482013346353};
-    double zoom[]={15.2,15.2,14.8,13.5,15,15,14.8,14.6};
+    double zoom[]={15.2,15.2,14.8,15,15,15,14.8,14.6};
 
     Integer coord;
     String loc;
@@ -43,6 +44,13 @@ public class BookRide extends AppCompatActivity implements OnMapReadyCallback {
         Bundle extras = ex.getExtras();
         coord= extras.getInt("position");
         View start= findViewById(R.id.button4);
+        TextView txt= findViewById(R.id.titleTxt);
+        txt.setText("Trip Details");
+
+
+
+
+
 
         loc=extras.getString("name");
         SupportMapFragment mm= (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);

@@ -12,8 +12,8 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int progressBar_XenditActivity = 0x7f08078d;
-        public static final int webView_XenditActivity = 0x7f080ae1;
+        public static final int progressBar_XenditActivity = 0x7f08078e;
+        public static final int webView_XenditActivity = 0x7f080ae2;
     }
     public static final class layout {
         private layout() {}

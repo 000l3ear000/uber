@@ -13,7 +13,7 @@ public class CommonUtilities {
     public static final String SERVER_WEBSERVICE_PATH = SERVER_FOLDER_PATH + WEBSERVICE + "?";
 
 
-    public static final String SERVER_URL = SERVER + SERVER_FOLDER_PATH;
+        public static final String SERVER_URL = SERVER + SERVER_FOLDER_PATH;
     public static final String SERVER_URL_WEBSERVICE = SERVER + SERVER_WEBSERVICE_PATH + "?";
     public static final String SERVER_URL_PHOTOS = SERVER_URL + "webimages/";
 

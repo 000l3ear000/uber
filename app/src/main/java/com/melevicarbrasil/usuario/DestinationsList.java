@@ -32,6 +32,18 @@ public class DestinationsList extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter(this, detinationsTitles, detinationsDescriptions,arr1,timeSlots);
         listView.setAdapter(adapter);
 
+        TextView txt= findViewById(R.id.titleTxt);
+        txt.setText("Select A Destination");
+
+        View btn= findViewById(R.id.backImgView);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

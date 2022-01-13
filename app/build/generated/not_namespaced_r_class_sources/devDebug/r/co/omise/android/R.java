@@ -29,19 +29,19 @@ public final class R {
 
         public static final int activity_verfiy_3ds = 0x7f0800b2;
         public static final int authorizing_payment_webview = 0x7f08011e;
-        public static final int button_submit = 0x7f0801c2;
-        public static final int edit_card_name = 0x7f08039e;
-        public static final int edit_card_number = 0x7f08039f;
-        public static final int edit_security_code = 0x7f0803a1;
-        public static final int image_card_brand = 0x7f0804af;
-        public static final int menu_item_card_io = 0x7f0805c7;
-        public static final int spinner_expiry_month = 0x7f080908;
-        public static final int spinner_expiry_year = 0x7f080909;
-        public static final int text_card_name = 0x7f08097c;
-        public static final int text_card_number = 0x7f08097d;
-        public static final int text_error_message = 0x7f08097e;
-        public static final int text_expiry_date = 0x7f08097f;
-        public static final int text_security_code = 0x7f080981;
+        public static final int button_submit = 0x7f0801c3;
+        public static final int edit_card_name = 0x7f08039f;
+        public static final int edit_card_number = 0x7f0803a0;
+        public static final int edit_security_code = 0x7f0803a2;
+        public static final int image_card_brand = 0x7f0804b0;
+        public static final int menu_item_card_io = 0x7f0805c8;
+        public static final int spinner_expiry_month = 0x7f080909;
+        public static final int spinner_expiry_year = 0x7f08090a;
+        public static final int text_card_name = 0x7f08097d;
+        public static final int text_card_number = 0x7f08097e;
+        public static final int text_error_message = 0x7f08097f;
+        public static final int text_expiry_date = 0x7f080980;
+        public static final int text_security_code = 0x7f080982;
     }
     public static final class layout {
         private layout() {}

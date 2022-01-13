@@ -2324,6 +2324,10 @@
         "source": "C:\\Users\\Not You\\.gradle\\caches\\transforms-2\\files-2.1\\a2a7ab8b89e5a5ad3f8f318bc01dc5c6\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
+        "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\drawable_loader.gif.flat",
+        "source": "F:\\melevicar-user\\app\\src\\main\\res\\drawable\\loader.gif"
+    },
+    {
         "merged": "F:\\melevicar-user\\app\\build\\intermediates\\res\\merged\\dev\\debug\\raw_voip_notification_2.mp3.flat",
         "source": "F:\\melevicar-user\\app\\src\\main\\res\\raw\\voip_notification_2.mp3"
     },
